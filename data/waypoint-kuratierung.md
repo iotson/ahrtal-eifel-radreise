@@ -142,7 +142,7 @@ Nicht aufgenommen, weil weiter als rund 2 km von der Route entfernt oder ohne be
 
 Nicht aufgenommen, obwohl in Reichweite: das Benediktinerinnenkloster Niederprüm bei Kilometer 43,12 mit 495 Metern Abstand, das Denkmal zum Eisenbahnunglück bei Kilometer 10,89 mit 804 Metern, der Bleialfer Tunnel bei Kilometer 60,66 mit 403 Metern und das Besucherbergwerk Mühlenberger Stollen bei Kilometer 61,59 mit 566 Metern. In allen vier Fällen hätten sich die Geofence-Fenster mit einem benachbarten POI überschnitten; die Inhalte stecken deshalb in den Texten der Nachbar-POIs. Die größte verbliebene Lücke zwischen zwei POIs beträgt 5,30 Kilometer zwischen Kilometer 35,80 in Weinsheim und Kilometer 41,10 in Prüm, auf der langen Abfahrt über Dausfeld.
 
-Anmerkung zum Streckenende: Titel und `tour.json` nennen Pittenbach als Zielort, der Track führt aber über Pittenbach bei Kilometer 48 hinaus und endet nach 62,05 Kilometern in Bleialf. Die POIs folgen dem Track.
+Anmerkung zum Streckenende: Der GPX-Dateiname nennt Waldkönigen und Pittenbach, der Track beginnt aber bei Steinborn und führt über Pittenbach bei Kilometer 48 hinaus bis nach Bleialf, wo er nach 62,05 Kilometern endet. `data/tour.json` führt die Etappe inzwischen korrekt als „Steinborn nach Bleialf“. Die POIs folgen dem Track.
 
 ## Tag 4 — Ahrtal und Eifel - Tag 4 - von Pittenbach nach Bergweiler
 
