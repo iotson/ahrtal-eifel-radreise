@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ahrtal-tour
+  namespace: ahrtal-tour
+  labels:
+    app: ahrtal-tour
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ahrtal-tour
+  template:
+    metadata:
+      labels:
+        app: ahrtal-tour
+    spec:
+      containers:
+        - name: ahrtal-tour
+          image: ahrtal-tour:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ahrtal-tour
+  namespace: ahrtal-tour
+  labels:
+    app: ahrtal-tour
+spec:
+  selector:
+    app: ahrtal-tour
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: ClusterIP

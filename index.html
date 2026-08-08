@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#244b32" />
+  <title>Ahrtal & Eifel - Radreise</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">↯</div>
+        <div>
+          <div class="brand-kicker">Ahrtal & Eifel</div>
+          <h1 class="brand-title">Radreise</h1>
+        </div>
+      </div>
+
+      <nav class="navigation">
+        <div class="nav-label">Tour</div>
+        <ul id="day-list" class="day-list"></ul>
+      </nav>
+
+      <button id="play-whole-tour" class="btn btn-primary btn-full">
+        <span aria-hidden="true">▶</span>
+        Ganze Tour vorlesen
+      </button>
+    </aside>
+
+    <main class="main-content">
+      <section class="hero">
+        <div>
+          <div class="eyebrow" id="route-code">Tour 2026</div>
+          <h2 id="route-title">Ahrtal & Eifel</h2>
+          <p class="hero-text" id="route-summary">
+            Entlang der Ahr, der Mosel und der Eifel erleben wir Landschaft, Wein, Altstädte und historische Wege.
+          </p>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-value" id="stop-count">0</span>
+              <span class="stat-label">Stationen</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" id="distance-label">--</span>
+              <span class="stat-label">Strecke</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" id="day-number">Tag 1</span>
+              <span class="stat-label">Aktuell</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="map-card">
+            <div class="map-background">
+              <div class="map-lines"></div>
+              <div class="route-orbit"></div>
+            </div>
+            <div class="map-caption">
+              <span class="geo-dot"></span>
+              <span id="route-location">Rheintal / Ahr / Eifel</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <section class="panel panel-large">
+          <div class="section-header">
+            <div>
+              <div class="section-kicker">Reiseführer</div>
+              <h3 id="active-stop-title">Wegpunkte</h3>
+            </div>
+            <div class="listen-controls">
+              <button id="prev-stop" class="icon-button" aria-label="Vorheriger Wegpunkt">‹</button>
+              <button id="next-stop" class="icon-button" aria-label="Nächster Wegpunkt">›</button>
+              <button id="read-stop" class="btn btn-outline">
+                <span aria-hidden="true">🔊</span>
+                Vorlesen
+              </button>
+            </div>
+          </div>
+
+          <article id="poi-card" class="poi-card">
+            <div class="poi-card-head">
+              <span class="poi-type" id="poi-type">Historischer Ort</span>
+              <span class="poi-distance" id="poi-distance">Station 1</span>
+            </div>
+            <h4 id="poi-name">Deutsches Eck</h4>
+            <div class="poi-story" id="poi-story">
+              Die Ankunft in Koblenz ist der ideale Einstieg in die Reise: an der Rhein-Mosel-Mündung und dem Deutsche Eck.
+            </div>
+            <div class="tag-row" id="poi-tags"></div>
+          </article>
+        </section>
+
+        <aside class="panel panel-aside">
+          <div class="section-header compact">
+            <div>
+              <div class="section-kicker">Tourenplan</div>
+              <h3>Tag-Highlights</h3>
+            </div>
+          </div>
+          <div id="day-summary" class="summary-list"></div>
+        </aside>
+      </section>
+
+      <section class="panel">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Stationen entlang der Strecke</div>
+            <h3>Wegpunkte</h3>
+          </div>
+        </div>
+        <div id="stop-list" class="stop-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast">Vorlesen gestartet</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "Ahrtal & Eifel Radreise",
+  "short_name": "Ahrtal Eifel",
+  "description": "Reise-Guide für die Ahrtal und Eifel Fahrradtour",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#eef7ef",
+  "theme_color": "#244b32",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

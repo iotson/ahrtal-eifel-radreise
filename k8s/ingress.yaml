@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ahrtal-tour
+  namespace: ahrtal-tour
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+    - host: ahrtal-tour.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: ahrtal-tour
+                port:
+                  number: 80

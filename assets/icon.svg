@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#244b32"/>
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#e5e9cb" stroke-width="8"/>
+  <path d="M112 256C176 154 327 159 406 256" fill="none" stroke="#d6de8d" stroke-width="16" stroke-linecap="round"/>
+  <path d="M128 344C164 242 304 238 382 340" fill="none" stroke="#f3f1dd" stroke-width="10" stroke-linecap="round"/>
+  <text x="256" y="455" text-anchor="middle" font-family="Arial" font-size="54" font-weight="700" fill="#fff">Ahrtal</text>
+</svg>
