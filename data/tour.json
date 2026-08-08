@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-08T19:34:11.524Z",
+  "generatedAt": "2026-08-08T19:51:11.971Z",
   "days": [
     {
       "day": 1,
-      "title": "Koblenz nach Findling",
+      "title": "Braubach nach Bad Neuenahr-Ahrweiler",
       "file": "2026-08-08_2725810240_Ahrtal und Eifel - Tag 1 - von Koblenz nach Findling.gpx",
-      "startOrt": "Koblenz",
-      "zielOrt": "Findling",
+      "startOrt": "Braubach",
+      "zielOrt": "Bad Neuenahr-Ahrweiler",
       "lengthKm": 71.9,
       "elevationGainM": 113,
       "climbs": [],
@@ -1499,10 +1499,10 @@
     },
     {
       "day": 2,
-      "title": "Findling nach Waldkönigen",
+      "title": "Bad Neuenahr-Ahrweiler nach Steinborn",
       "file": "2026-08-08_2725810243_Ahrtal und Eifel - Tag 2 - von Findling nach Waldkönigen.gpx",
-      "startOrt": "Findling",
-      "zielOrt": "Waldkönigen",
+      "startOrt": "Bad Neuenahr-Ahrweiler",
+      "zielOrt": "Steinborn",
       "lengthKm": 74.5,
       "elevationGainM": 599,
       "climbs": [
@@ -2865,10 +2865,10 @@
     },
     {
       "day": 3,
-      "title": "Waldkönigen nach Pittenbach",
+      "title": "Steinborn nach Bleialf",
       "file": "2026-08-08_2725810245_Ahrtal und Eifel - Tag 3 - von Waldkönigen nach Pittenbach.gpx",
-      "startOrt": "Waldkönigen",
-      "zielOrt": "Pittenbach",
+      "startOrt": "Steinborn",
+      "zielOrt": "Bleialf",
       "lengthKm": 62,
       "elevationGainM": 578,
       "climbs": [
@@ -4479,10 +4479,10 @@
     },
     {
       "day": 4,
-      "title": "Pittenbach nach Bergweiler",
+      "title": "Bleialf nach Eisenschmitt",
       "file": "2026-08-08_2725810247_Ahrtal und Eifel - Tag 4 - von Pittenbach nach Bergweiler.gpx",
-      "startOrt": "Pittenbach",
-      "zielOrt": "Bergweiler",
+      "startOrt": "Bleialf",
+      "zielOrt": "Eisenschmitt",
       "lengthKm": 58.1,
       "elevationGainM": 646,
       "climbs": [
@@ -6019,10 +6019,10 @@
     },
     {
       "day": 5,
-      "title": "Bergweiler nach Nehren",
+      "title": "Eisenschmitt nach Sankt Aldegund",
       "file": "2026-08-08_2725810248_Ahrtal und Eifel - Tag 5 - von Bergweiler nach Nehren.gpx",
-      "startOrt": "Bergweiler",
-      "zielOrt": "Nehren",
+      "startOrt": "Eisenschmitt",
+      "zielOrt": "Sankt Aldegund",
       "lengthKm": 72.5,
       "elevationGainM": 314,
       "climbs": [
@@ -7405,10 +7405,10 @@
     },
     {
       "day": 6,
-      "title": "Nehren nach Koblenz",
+      "title": "Sankt Aldegund nach Braubach",
       "file": "2026-08-08_2725810250_Ahrtal und Eifel - Tag 6 - von Nehren nach Koblenz.gpx",
-      "startOrt": "Nehren",
-      "zielOrt": "Koblenz",
+      "startOrt": "Sankt Aldegund",
+      "zielOrt": "Braubach",
       "lengthKm": 89.2,
       "elevationGainM": 111,
       "climbs": [],

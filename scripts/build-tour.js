@@ -30,13 +30,40 @@ function startHinweisTag1(gpx, punkte, kmWerte) {
   );
 }
 
-/** Zieht "Tag 3 - von Waldkönigen nach Pittenbach" aus dem Dateinamen. */
+/**
+ * Die Ortsnamen in den GPX-Dateinamen stammen aus einer früheren Planung. Der Nutzer hat
+ * am 2026-08-08 bestätigt, dass die Routen danach angepasst wurden — „Findling“,
+ * „Pittenbach“ und „Nehren“ liegen nirgends am gefahrenen Track. Diese Tabelle wurde durch
+ * Rückwärtsgeokodierung des ersten und letzten Trackpunktes jeder Etappe ermittelt und vom
+ * Nutzer bestätigt. Sie ist damit die einzige Quelle für Start und Ziel; aus dem Dateinamen
+ * kommt nur noch die Tagesnummer.
+ *
+ * Die Tour ist eine Rundtour: Tag 6 endet dort, wo Tag 1 beginnt. Das Ende jeder Etappe ist
+ * zugleich der Start der nächsten — die Trackkoordinaten stimmen jeweils überein.
+ */
+const ETAPPENORTE = {
+  1: { startOrt: 'Braubach', zielOrt: 'Bad Neuenahr-Ahrweiler' },
+  2: { startOrt: 'Bad Neuenahr-Ahrweiler', zielOrt: 'Steinborn' },
+  3: { startOrt: 'Steinborn', zielOrt: 'Bleialf' },
+  4: { startOrt: 'Bleialf', zielOrt: 'Eisenschmitt' },
+  5: { startOrt: 'Eisenschmitt', zielOrt: 'Sankt Aldegund' },
+  6: { startOrt: 'Sankt Aldegund', zielOrt: 'Braubach' }
+};
+
+/** Aus dem Dateinamen kommt nur die Tagesnummer; die Orte stammen aus ETAPPENORTE. */
 function leseTagInfo(dateiname) {
-  const treffer = dateiname.match(/Tag (\d+) - von (.+?) nach (.+?)\.gpx$/);
+  const treffer = dateiname.match(/Tag (\d+)/);
   if (!treffer) {
-    throw new Error(`Dateiname folgt nicht dem erwarteten Muster: ${dateiname}`);
+    throw new Error(`Dateiname enthält keine Tagesnummer: ${dateiname}`);
   }
-  return { day: Number(treffer[1]), startOrt: treffer[2], zielOrt: treffer[3] };
+
+  const day = Number(treffer[1]);
+  const orte = ETAPPENORTE[day];
+  if (!orte) {
+    throw new Error(`Für Tag ${day} sind keine Etappenorte hinterlegt.`);
+  }
+
+  return { day, ...orte };
 }
 
 function fahrzeitMinuten(trackPoints) {
