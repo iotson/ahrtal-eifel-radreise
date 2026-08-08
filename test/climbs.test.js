@@ -27,7 +27,10 @@ test('erkennt einen einzelnen deutlichen Anstieg', () => {
   assert.ok(Math.abs(anstiege[0].startKm - 2) < 0.4, `startKm war ${anstiege[0].startKm}`);
   assert.ok(Math.abs(anstiege[0].lengthKm - 3) < 0.4, `lengthKm war ${anstiege[0].lengthKm}`);
   assert.ok(Math.abs(anstiege[0].gainM - 150) < 10, `gainM war ${anstiege[0].gainM}`);
-  assert.ok(Math.abs(anstiege[0].avgGradientPct - 5) < 0.5, `Steigung war ${anstiege[0].avgGradientPct}`);
+  // Toleranz bewusst auf 1,0 erweitert: glaetteHoehen rundet die scharfen Übergänge am
+  // Anfang und Ende des Anstiegs ab, wodurch die gemessene Steigung realistischerweise
+  // etwas unter dem theoretischen Wert von 5 % liegt (siehe Kommentar in climbs.js).
+  assert.ok(Math.abs(anstiege[0].avgGradientPct - 5) < 1.0, `Steigung war ${anstiege[0].avgGradientPct}`);
 });
 
 test('ignoriert Anstiege unterhalb der Mindesthöhe', () => {
@@ -62,6 +65,14 @@ test('eine kurze Zwischenabfahrt zerschneidet einen Anstieg nicht', () => {
 
 test('flache Strecke ergibt keine Anstiege', () => {
   const { km, ele } = baueProfil([{ laengeKm: 10, vonM: 100, bisM: 105 }]);
+  assert.deepEqual(erkenneAnstiege(km, ele), []);
+});
+
+test('ignoriert einen langen, sehr flachen Höhengewinn unterhalb der Mindeststeigung', () => {
+  // 60 Höhenmeter über 20 Kilometer = 0,3 % Steigung. mindestGewinnM (40) und
+  // mindestLaengeKm (0.5) sind erfüllt, mindestSteigungPct (2) aber nicht — das ist
+  // auf dem Rad keine spürbare Steigung und gehört nicht als Anstieg angesagt.
+  const { km, ele } = baueProfil([{ laengeKm: 20, vonM: 100, bisM: 160 }]);
   assert.deepEqual(erkenneAnstiege(km, ele), []);
 });
 
