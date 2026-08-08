@@ -1,6 +1,9 @@
 /** Ab dieser Entfernung zur nächsten Station gilt man als nicht auf der Etappe. */
 const AUF_DER_ETAPPE_KM = 5;
 
+/** 'station', 'tour' oder null — welcher Knopf gerade als Stoppknopf dient. */
+let aktiveAusgabe = null;
+
 let tourDays = [];
 let allStops = [];
 let currentDay = 0;
@@ -122,6 +125,9 @@ function loadDay(index) {
   currentStop = 0;
   allStops = day.stops;
 
+  // Sonst liefe der Text der vorigen Etappe weiter, während schon die neue zu sehen ist.
+  stoppeVorlesen();
+
   document.getElementById('route-code').textContent = `Tour 2026 · ${day.route}`;
   document.getElementById('route-title').textContent = day.title;
   document.getElementById('route-summary').textContent = day.briefing
@@ -208,18 +214,58 @@ function buildCurrentNarration(stop) {
   return text ? `${stop.name}. ${text}` : stop.name;
 }
 
-function speak(text) {
+function beschrifte(id, icon, text) {
+  const button = document.getElementById(id);
+  if (button) {
+    button.innerHTML = `<span aria-hidden="true">${icon}</span> ${text}`;
+  }
+}
+
+function beschriftungenZuruecksetzen() {
+  beschrifte('read-stop', '🔊', 'Vorlesen');
+  beschrifte('play-whole-tour', '▶', 'Ganze Tour vorlesen');
+}
+
+function stoppeVorlesen() {
   if ('speechSynthesis' in window) {
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'de-DE';
-    utterance.rate = 0.88;
-    utterance.pitch = 1;
-    window.speechSynthesis.speak(utterance);
-    showToast('Vorlesen gestartet');
-  } else {
-    showToast('Sprachsynthese nicht verfügbar');
   }
+  aktiveAusgabe = null;
+  beschriftungenZuruecksetzen();
+}
+
+/** `quelle` ist 'station' oder 'tour' — daran hängt, welcher Knopf zum Stoppknopf wird. */
+function speak(text, quelle) {
+  if (!('speechSynthesis' in window)) {
+    showToast('Sprachsynthese nicht verfügbar');
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'de-DE';
+  utterance.rate = 0.88;
+  utterance.pitch = 1;
+
+  const beenden = () => {
+    if (aktiveAusgabe === quelle) {
+      aktiveAusgabe = null;
+      beschriftungenZuruecksetzen();
+    }
+  };
+  utterance.onend = beenden;
+  utterance.onerror = beenden;
+
+  aktiveAusgabe = quelle;
+  if (quelle === 'tour') {
+    beschrifte('play-whole-tour', '⏹', 'Vorlesen stoppen');
+  } else {
+    beschrifte('read-stop', '⏹', 'Stopp');
+  }
+
+  window.speechSynthesis.speak(utterance);
+  showToast('Vorlesen gestartet');
 }
 
 function startWholeTour() {
@@ -229,7 +275,7 @@ function startWholeTour() {
   }
 
   const fullText = allStops.map((stop) => buildCurrentNarration(stop)).join(' ');
-  speak(fullText);
+  speak(fullText, 'tour');
 }
 
 function initControls() {
@@ -248,11 +294,21 @@ function initControls() {
   });
 
   document.getElementById('read-stop').addEventListener('click', () => {
+    if (aktiveAusgabe === 'station') {
+      stoppeVorlesen();
+      showToast('Vorlesen beendet');
+      return;
+    }
     if (!allStops.length) return;
-    speak(buildCurrentNarration(allStops[currentStop]));
+    speak(buildCurrentNarration(allStops[currentStop]), 'station');
   });
 
   document.getElementById('play-whole-tour').addEventListener('click', () => {
+    if (aktiveAusgabe === 'tour') {
+      stoppeVorlesen();
+      showToast('Vorlesen beendet');
+      return;
+    }
     startWholeTour();
   });
 }
