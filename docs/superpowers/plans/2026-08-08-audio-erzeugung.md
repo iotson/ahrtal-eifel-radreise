@@ -10,6 +10,8 @@
 
 **Grundlage:** [Audio-Erzeugung (Baustein 3) — Design](../specs/2026-08-08-audio-erzeugung-design.md)
 
+**Review-Stand:** Am 2026-08-08 gegen Architektur und Bedrohungsmodell geprüft, nachdem der Plan zunächst ungeprüft entstanden war. Eingearbeitet: die Existenzprüfung je Datei in Task 4 und 6 (ein Manifest-Hash allein belegte nicht, dass die Datei noch existiert), die ASCII-Abbildung und Zeichenprüfung der Dateinamen in Task 3, das plattformabhängige Überspringen der TTS-Tests und deren Kopplung an das gewählte Profil in Task 5, die verzeichnisbasierte Erkennung verwaister Dateien in Task 6 sowie der Entscheidungspunkt zu Repository-Größe und Sichtbarkeit in Task 8. Die Abweichung von der Spec: `dateiname` bildet Umlaute auf ASCII ab, die Spec zeigte sie in den Beispielpfaden noch unverändert. Die vier Umlaut-IDs an Tag 1, die den Befund ausgelöst hatten, wurden am selben Tag in der Datenpipeline normalisiert; die Abbildung bleibt als Absicherung für die Tage 2 bis 6, deren IDs erst entstehen.
+
 ## Global Constraints
 
 - Alle Texte, Feldwerte und Commit-Messages auf Deutsch, mit korrekten Umlauten (ä, ö, ü, ß). Niemals ASCII-Ersatz wie "ae" oder "ss".
@@ -22,7 +24,11 @@
 
 ## Parallelbetrieb mit der Datenpipeline
 
-Dieser Plan entsteht und läuft **parallel** zum Plan [Datenpipeline](2026-08-08-datenpipeline.md), möglicherweise in einer zweiten Claude-Session im selben Arbeitsverzeichnis. Daraus folgen drei Regeln, die in jedem Commit-Schritt gelten:
+Dieser Plan entsteht und läuft **parallel** zum Plan [Datenpipeline](2026-08-08-datenpipeline.md), möglicherweise in einer zweiten Claude-Session.
+
+Der bevorzugte Weg dafür ist ein eigener git-Worktree mit eigenem Branch statt eines geteilten Arbeitsverzeichnisses: Zwei Sessions, die im selben Verzeichnis committen, kollidieren über `index.lock`, und `npm test` läuft über beide Baustellen zugleich, sodass ein roter Lauf nichts mehr über den eigenen Stand aussagt. Am Ende steht ein Merge statt einer Reihe von Konfliktauflösungen.
+
+Wird doch im selben Verzeichnis gearbeitet, gelten drei Regeln in jedem Commit-Schritt:
 
 1. **Niemals `git add .` oder `git add -A`.** Immer die konkreten Pfade nennen, die der Schritt vorgibt. Sonst landen halbfertige Dateien der anderen Session im Commit.
 2. **`package.json` nur ergänzen, nie neu schreiben.** Der Eintrag `scripts` bekommt zwei zusätzliche Zeilen; alles andere bleibt unangetastet. Vor dem Commit `git diff package.json` prüfen — stehen dort fremde Änderungen, diese unangetastet lassen und nur die eigenen Zeilen committen.
@@ -350,10 +356,11 @@ Expected: PASS, 11 Tests
 ```json
 {
   "Cochem": "Kochem",
-  "1689": "sechzehnhundertneunundachtzig",
-  "1900": "neunzehnhundert"
+  "1689": "sechzehnhundertneunundachtzig"
 }
 ```
+
+Zahlen als Schlüssel verlangen Vorsicht: Die Ersetzung ist kontextblind und trifft jedes Vorkommen. `"1689"` ist unbedenklich, weil diese Zahl im gesamten Bestand nur als Jahr der Zerstörung vorkommt. Ein Eintrag wie `"1900": "neunzehnhundert"` wäre es nicht — in „1900 Einwohner" spräche er falsch. Solche Zahlen erst dann eintragen, wenn beim Abhören in Task 7 feststeht, dass sie im Bestand ausschließlich als Jahreszahl auftreten.
 
 - [ ] **Step 6: Commit**
 
@@ -374,12 +381,15 @@ git commit -m "feat: Aussprache-Modul mit wortgenauer Ersetzung"
 - Consumes: nichts
 - Produces:
   - `VARIANTEN` → `['kurz', 'lang', 'briefing']`
+  - `nachAscii(id)` → `string`, die ID ohne Umlaute und in Kleinschreibung
   - `dateiname(id, variante)` → `string`, ein Pfad relativ zur Projektwurzel
   - `id` ist bei POIs deren `id` aus `pois.json` (Muster `tag<N>-<name>`), bei Briefings `tag<N>`
 
 - [ ] **Step 1: Den fehlschlagenden Test schreiben**
 
 Hintergrund: Die Funktion ist trivial — genau deshalb gehört sie in ein eigenes Modul. Sie ist der einzige Ort, an dem der Zusammenhang zwischen POI-ID und Dateipfad festgelegt ist, und drei verschiedene Stellen verlassen sich darauf. Die Prüfungen fangen ab, dass ein Briefing und ein POI je auf denselben Pfad zeigen.
+
+Zwei Eigenschaften kommen aus dem Architektur-Review dazu. Erstens können die IDs der Datenpipeline Umlaute tragen. Tag 1 hatte vier davon — `tag1-urmitzer-eisenbahnbrücke`, `tag1-mündung-der-wied`, `tag1-rheinfähre-bad-hönningen`, `tag1-behelfsbrücke-heimersheim` —, die am 2026-08-08 in der Datenpipeline nachträglich normalisiert wurden. Die IDs der Tage 2 bis 6 entstehen erst in deren Recherche-Tasks; ob sie dieselbe Disziplin einhalten, entscheidet sich dort. `nachAscii` macht die Audio-Erzeugung davon unabhängig, statt auf eine Zusage zu bauen. Zweitens ist dies die einzige Stelle, an der aus einer ID ein Dateipfad wird; eine Positivliste erlaubter Zeichen gehört deshalb hierher und nirgendwo sonst.
 
 `test/audioNamen.test.js`:
 
@@ -430,6 +440,35 @@ test('erzeugt für verschiedene Eingaben verschiedene Pfade', () => {
   ];
   assert.equal(new Set(pfade).size, pfade.length);
 });
+
+test('bildet Umlaute auf ASCII ab', () => {
+  assert.equal(
+    dateiname('tag1-urmitzer-eisenbahnbrücke', 'kurz'),
+    'audio/tag1-urmitzer-eisenbahnbruecke-kurz.mp3'
+  );
+  assert.equal(dateiname('tag1-mündung-der-wied', 'lang'), 'audio/tag1-muendung-der-wied-lang.mp3');
+});
+
+test('behandelt eine dekomponierte ID wie eine zusammengesetzte', () => {
+  // Dieselbe ID einmal als ein Codepoint, einmal als u + Trema. Beide müssen
+  // auf denselben Dateinamen führen, sonst entstünden zwei Dateien für einen POI.
+  const zusammengesetzt = 'tag1-mündung-der-wied'.normalize('NFC');
+  const zerlegt = 'tag1-mündung-der-wied'.normalize('NFD');
+  assert.notEqual(zusammengesetzt, zerlegt, 'Testvoraussetzung: die Formen unterscheiden sich');
+  assert.equal(dateiname(zerlegt, 'kurz'), dateiname(zusammengesetzt, 'kurz'));
+});
+
+test('weist eine ID mit Schrägstrich zurück', () => {
+  assert.throws(() => dateiname('tag1-a/b', 'kurz'), /außerhalb/);
+});
+
+test('weist eine ID zurück, die aus dem Verzeichnis herausführt', () => {
+  assert.throws(() => dateiname('../../etc/passwd', 'kurz'), /außerhalb/);
+});
+
+test('weist eine ID mit Leerzeichen zurück', () => {
+  assert.throws(() => dateiname('tag1 deutsches eck', 'kurz'), /außerhalb/);
+});
 ```
 
 - [ ] **Step 2: Test ausführen und Fehlschlag bestätigen**
@@ -446,6 +485,32 @@ export const VARIANTEN = ['kurz', 'lang', 'briefing'];
 
 const TAGES_ID = /^tag\d+$/;
 
+// Was als Dateiname durchgeht: nur Zeichen, die ohne Encoding durch Dateisystem,
+// Git und URL gehen.
+const ERLAUBT = /^[a-z0-9-]+$/;
+
+const UMLAUTE = { ä: 'ae', ö: 'oe', ü: 'ue', ß: 'ss' };
+
+/**
+ * Bildet eine POI-ID auf reines ASCII ab.
+ *
+ * IDs aus der Datenpipeline können Umlaute tragen, etwa
+ * "tag1-urmitzer-eisenbahnbrücke". Als Dateiname überstehen die diesen Rechner
+ * zwar unbeschadet — APFS erhält die Normalform, und Git legt dank
+ * `core.precomposeunicode` NFC ab. Sie müssten aber in jedem weiteren Glied
+ * richtig behandelt werden: beim URL-Encoding im Audio-Element, beim
+ * Cache-Schlüssel im Service Worker, auf einem Linux-Runner beim Ausliefern.
+ * Diese Abbildung macht die ganze Frage gegenstandslos.
+ *
+ * `data/pois.json` bleibt unberührt — dort stehen weiterhin die Umlaute.
+ * Das `normalize('NFC')` ist nicht optional: Läge die ID dekomponiert vor
+ * (u + Trema als zwei Codepoints), träfe die Zeichenklasse unten nicht zu und
+ * das Trema fiele stillschweigend aus dem Dateinamen.
+ */
+export function nachAscii(id) {
+  return id.normalize('NFC').toLowerCase().replace(/[äöüß]/g, (zeichen) => UMLAUTE[zeichen]);
+}
+
 /**
  * Bildet den Dateipfad aus ID und Variante. Einziger Ort, an dem diese Regel steht.
  *
@@ -460,7 +525,21 @@ export function dateiname(id, variante) {
     throw new Error(`Unbekannte Variante "${variante}". Erlaubt: ${VARIANTEN.join(', ')}`);
   }
 
-  const istTagesId = TAGES_ID.test(id);
+  const basis = nachAscii(id);
+
+  // Ohne diese Prüfung erzeugt eine ID mit Schrägstrich oder Punktpaar klaglos
+  // einen Pfad außerhalb von audio/. Die IDs stammen zwar aus der eigenen
+  // Pipeline — aber dies ist die einzige Stelle, an der aus einer ID ein Pfad
+  // wird, also gehört die Prüfung hierher.
+  if (!ERLAUBT.test(basis)) {
+    throw new Error(
+      `Die ID "${id}" ergibt den Dateinamensteil "${basis}" mit Zeichen außerhalb ` +
+        `von a–z, 0–9 und Bindestrich. Erlaubt ist nur, was ohne Encoding durch ` +
+        `Dateisystem und URL geht.`
+    );
+  }
+
+  const istTagesId = TAGES_ID.test(basis);
   if (variante === 'briefing' && !istTagesId) {
     throw new Error(`Briefing verlangt eine Tages-ID wie "tag3", war "${id}".`);
   }
@@ -468,14 +547,14 @@ export function dateiname(id, variante) {
     throw new Error(`Die ID "${id}" ist für Briefings reserviert und darf keinem POI gehören.`);
   }
 
-  return `audio/${id}-${variante}.mp3`;
+  return `audio/${basis}-${variante}.mp3`;
 }
 ```
 
 - [ ] **Step 4: Tests ausführen**
 
 Run: `node --test test/audioNamen.test.js`
-Expected: PASS, 9 Tests
+Expected: PASS, 14 Tests
 
 - [ ] **Step 5: Commit**
 
@@ -496,14 +575,17 @@ git commit -m "feat: Dateinamen-Modul mit Kollisionsprüfung"
 - Consumes: `wendeAusspracheAn` aus `scripts/lib/aussprache.js`, `dateiname` aus `scripts/lib/audioNamen.js`
 - Produces:
   - `textHash(text, profil)` → `string` (SHA-256, hexadezimal)
-  - `berechneAufgaben(pois, manifest, profil, tabelle)` → `{ zuRendern, unveraendert, verwaist }`
+  - `berechneAufgaben(pois, manifest, profil, tabelle, istVorhanden)` → `{ zuRendern, unveraendert, verwaist }`
     - `zuRendern`: `Array<{ id, variante, pfad, text, hash }>` — `text` ist bereits aussprachekorrigiert
     - `unveraendert`: `Array<{ pfad, poiId, variante, hash, dauerSek, groesseBytes }>` (Einträge aus dem alten Manifest)
     - `verwaist`: `string[]` (Pfade)
     - `manifest` darf `null` sein (Erstlauf)
+    - `istVorhanden(pfad)` → `boolean`, voreingestellt `() => true`; das CLI reicht hier die Prüfung auf die tatsächliche Datei herein
   - `baueManifest(profil, eintraege)` → das vollständige Manifest-Objekt
 
 Dies ist das Herzstück: Hier fällt jede Entscheidung darüber, was gerendert wird — und zwar ohne einen einzigen `say`-Aufruf, also in Millisekunden testbar.
+
+`istVorhanden` stammt aus dem Architektur-Review. Ohne diesen Parameter beweist ein passender Hash im Manifest nur, dass die Datei einmal erzeugt wurde — nicht, dass es sie noch gibt. Beide laufen regulär auseinander: Task 7 checkt das Manifest ein, die MP3-Dateien folgen erst in Task 8. Wer dazwischen klont, bekäme „0 zu rendern" und ein Manifest, das einen Bestand behauptet, den niemand hat. Die Prüfung als hereingereichte Funktion statt als `fs`-Aufruf hält das Modul seiteneffektfrei und in Millisekunden testbar.
 
 - [ ] **Step 1: Den fehlschlagenden Test schreiben**
 
@@ -560,6 +642,21 @@ test('unveränderte Texte werden nicht erneut gerendert', () => {
   const ergebnis = berechneAufgaben(daten, manifest, PROFIL, {});
   assert.deepEqual(ergebnis.zuRendern, []);
   assert.equal(ergebnis.unveraendert.length, 3);
+});
+
+test('eine fehlende Datei wird trotz passendem Hash neu gerendert', () => {
+  const daten = poiDaten([storyPoi()]);
+  const manifest = manifestAus(berechneAufgaben(daten, null, PROFIL, {}));
+
+  // Das Manifest kennt alle drei Dateien, auf der Platte fehlt die Kurzfassung.
+  // Genau dieser Zustand entsteht zwischen Task 7 und Task 8, solange das
+  // Manifest eingecheckt ist und audio/ noch nicht.
+  const fehlt = 'audio/tag1-deutsches-eck-kurz.mp3';
+  const ergebnis = berechneAufgaben(daten, manifest, PROFIL, {}, (pfad) => pfad !== fehlt);
+
+  assert.equal(ergebnis.zuRendern.length, 1);
+  assert.equal(ergebnis.zuRendern[0].pfad, fehlt);
+  assert.equal(ergebnis.unveraendert.length, 2);
 });
 
 test('ein geänderter Text rendert genau eine Datei neu', () => {
@@ -751,7 +848,7 @@ function sollBestand(pois, tabelle, profil) {
   return aufgaben;
 }
 
-export function berechneAufgaben(pois, manifest, profil, tabelle = {}) {
+export function berechneAufgaben(pois, manifest, profil, tabelle = {}, istVorhanden = () => true) {
   const soll = sollBestand(pois, tabelle, profil);
   const ist = new Map((manifest?.dateien ?? []).map((eintrag) => [eintrag.pfad, eintrag]));
 
@@ -759,9 +856,12 @@ export function berechneAufgaben(pois, manifest, profil, tabelle = {}) {
   const unveraendert = [];
 
   for (const aufgabe of soll) {
-    const vorhanden = ist.get(aufgabe.pfad);
-    if (vorhanden && vorhanden.hash === aufgabe.hash) {
-      unveraendert.push(vorhanden);
+    const eintrag = ist.get(aufgabe.pfad);
+    // Drei Bedingungen, nicht zwei: Der Eintrag muss existieren, sein Hash muss
+    // passen — und die Datei muss tatsächlich noch dort liegen. Fehlt sie, ist
+    // ein passender Hash wertlos und die Datei gehört neu gerendert.
+    if (eintrag && eintrag.hash === aufgabe.hash && istVorhanden(aufgabe.pfad)) {
+      unveraendert.push(eintrag);
     } else {
       zuRendern.push(aufgabe);
     }
@@ -793,7 +893,7 @@ export function baueManifest(profil, eintraege) {
 - [ ] **Step 4: Tests ausführen**
 
 Run: `node --test test/audioPlan.test.js`
-Expected: PASS, 18 Tests
+Expected: PASS, 20 Tests
 
 - [ ] **Step 5: Commit**
 
@@ -834,29 +934,41 @@ import os from 'node:os';
 import path from 'node:path';
 import { verfuegbareStimmen, pruefeWerkzeuge, rendereSprache } from '../scripts/lib/tts.js';
 
-test('findet deutsche Stimmen', () => {
+// Diese Tests starten echte Prozesse, und `say` gibt es nur auf macOS. Ohne
+// diese Bedingung scheiterte `npm test` auf jeder anderen Plattform — etwa auf
+// einem Linux-Runner, der die Seite ausliefert — obwohl nichts kaputt ist.
+const NUR_MAC = { skip: process.platform === 'darwin' ? false : 'benötigt macOS mit say' };
+
+// Geprüft wird die Stimme, mit der auch gerendert wird, nicht eine fest
+// verdrahtete. Sonst prüfte die Suite nach einem Stimmenwechsel in Task 1
+// dauerhaft etwas, das im Produktivpfad nicht mehr vorkommt.
+const PROFIL = JSON.parse(
+  fs.readFileSync(new URL('../data/audio-profil.json', import.meta.url), 'utf8')
+);
+
+test('findet deutsche Stimmen', NUR_MAC, () => {
   const stimmen = verfuegbareStimmen();
   assert.ok(stimmen.length > 0, 'keine deutsche Stimme gefunden');
-  assert.ok(stimmen.includes('Anna'), `Anna fehlt, gefunden: ${stimmen.join(', ')}`);
+  assert.ok(
+    stimmen.includes(PROFIL.stimme),
+    `die gewählte Stimme "${PROFIL.stimme}" fehlt, gefunden: ${stimmen.join(', ')}`
+  );
 });
 
-test('weist eine nicht installierte Stimme zurück', () => {
+test('weist eine nicht installierte Stimme zurück', NUR_MAC, () => {
   assert.throws(
     () => pruefeWerkzeuge({ stimme: 'Rumpelstilzchen' }),
     /Rumpelstilzchen/
   );
 });
 
-test('rendert einen kurzen Satz in eine abspielbare Datei', () => {
+test('rendert einen kurzen Satz in eine abspielbare Datei', NUR_MAC, () => {
   const verzeichnis = fs.mkdtempSync(path.join(os.tmpdir(), 'ahrtal-test-'));
   const ziel = path.join(verzeichnis, 'probe.mp3');
 
   try {
     const ergebnis = rendereSprache('Guten Morgen. Heute geht es nach Cochem.', {
-      stimme: 'Anna',
-      rate: 180,
-      bitrate: 32,
-      abtastrate: 22050,
+      ...PROFIL,
       ziel
     });
 
@@ -870,17 +982,15 @@ test('rendert einen kurzen Satz in eine abspielbare Datei', () => {
   }
 });
 
-test('hinterlässt bei einem Fehlschlag keine halbe Datei', () => {
+test('hinterlässt bei einem Fehlschlag keine halbe Datei', NUR_MAC, () => {
   const verzeichnis = fs.mkdtempSync(path.join(os.tmpdir(), 'ahrtal-test-'));
   const ziel = path.join(verzeichnis, 'probe.mp3');
 
   try {
     assert.throws(() =>
       rendereSprache('Text', {
+        ...PROFIL,
         stimme: 'Rumpelstilzchen',
-        rate: 180,
-        bitrate: 32,
-        abtastrate: 22050,
         ziel
       })
     );
@@ -1014,7 +1124,7 @@ export function rendereSprache(text, { stimme, rate, bitrate, abtastrate, ziel }
 - [ ] **Step 4: Tests ausführen**
 
 Run: `node --test test/tts.test.js`
-Expected: PASS, 4 Tests. Der Lauf dauert ein bis zwei Sekunden — das ist der eine Test, der wirklich rendert.
+Expected: PASS, 4 Tests. Der Lauf dauert ein bis zwei Sekunden — das ist der eine Test, der wirklich rendert. Auf einer anderen Plattform als macOS meldet Node stattdessen vier übersprungene Tests; auch das ist ein bestandener Lauf.
 
 - [ ] **Step 5: Gesamten Testlauf prüfen**
 
@@ -1094,14 +1204,48 @@ const altesManifest = leseJson(PFADE.manifest, null);
 // vierzig Minuten auffallen.
 pruefeWerkzeuge(profil);
 
-const { zuRendern, unveraendert, verwaist } = berechneAufgaben(pois, altesManifest, profil, tabelle);
+// Das Dateisystem wird dem seiteneffektfreien Planungsmodul hereingereicht: Ein
+// passender Hash im Manifest belegt nur, dass die Datei einmal erzeugt wurde,
+// nicht dass sie noch existiert.
+const istVorhanden = (pfad) => fs.existsSync(path.join(WURZEL, pfad));
+
+const { zuRendern, unveraendert, verwaist } = berechneAufgaben(
+  pois,
+  altesManifest,
+  profil,
+  tabelle,
+  istVorhanden
+);
+
+/**
+ * Dateien im Verzeichnis, die zu keiner geplanten Aufgabe gehören.
+ *
+ * Das Planungsmodul kennt nur, was im Manifest steht. Eine Datei, die ein
+ * abgebrochener oder älterer Lauf hinterlassen hat, ohne sie zu verzeichnen,
+ * bliebe rein manifestbasiert für immer unsichtbar — und würde am Ende
+ * mit eingecheckt.
+ */
+function verwaisteImVerzeichnis(bekanntePfade) {
+  const verzeichnis = path.join(WURZEL, 'audio');
+  if (!fs.existsSync(verzeichnis)) return [];
+  return fs
+    .readdirSync(verzeichnis)
+    .filter((name) => name.endsWith('.mp3'))
+    .map((name) => `audio/${name}`)
+    .filter((pfad) => !bekanntePfade.has(pfad));
+}
+
+const bekannt = new Set([...zuRendern, ...unveraendert].map((e) => e.pfad));
+const verwaisteGesamt = [...new Set([...verwaist, ...verwaisteImVerzeichnis(bekannt)])].sort();
 
 console.log(`Stimme ${profil.stimme}, Rate ${profil.rate}, ${profil.bitrate} kbit/s`);
-console.log(`${zuRendern.length} zu rendern, ${unveraendert.length} unverändert, ${verwaist.length} verwaist\n`);
+console.log(
+  `${zuRendern.length} zu rendern, ${unveraendert.length} unverändert, ${verwaisteGesamt.length} verwaist\n`
+);
 
 if (nurPlanen) {
   for (const aufgabe of zuRendern) console.log(`  neu:      ${aufgabe.pfad}`);
-  for (const pfad of verwaist) console.log(`  verwaist: ${pfad}`);
+  for (const pfad of verwaisteGesamt) console.log(`  verwaist: ${pfad}`);
   process.exit(0);
 }
 
@@ -1133,9 +1277,9 @@ for (const aufgabe of zuRendern) {
   console.log(`${dauerSek} s, ${(groesseBytes / 1024).toFixed(0)} kB`);
 }
 
-if (verwaist.length > 0) {
+if (verwaisteGesamt.length > 0) {
   console.log('');
-  for (const pfad of verwaist) {
+  for (const pfad of verwaisteGesamt) {
     const vollerPfad = path.join(WURZEL, pfad);
     if (aufraeumen) {
       fs.rmSync(vollerPfad, { force: true });
@@ -1302,22 +1446,32 @@ import('node:fs').then((fs) => {
 "
 ```
 
-Expected: Die Dateizahl auf der Platte stimmt mit `summe.anzahl` überein. Weichen sie ab, liegen verwaiste Dateien herum — dann `npm run build:audio -- --aufraeumen` und erneut prüfen.
+Expected: Die Dateizahl auf der Platte stimmt mit `summe.anzahl` überein. Weichen sie ab, entscheidet die Richtung über die Behandlung: Liegen **mehr** Dateien als im Manifest, sind es verwaiste — `npm run build:audio -- --aufraeumen` räumt sie weg. Liegen **weniger**, fehlen Dateien; dann rendert ein schlichtes `npm run build:audio` sie nach, weil das CLI die Existenz jeder Datei prüft und nicht dem Manifest allein glaubt.
 
 Liegt die Größe über 60 MB, vor dem Einchecken innehalten: Das ist mehr, als die Spec vorsieht, und Binärdaten lassen sich aus der Git-Historie nicht mehr entfernen.
 
-- [ ] **Step 2: `.gitignore` anpassen**
+- [ ] **Step 2: Vor dem Einchecken zu klärende Entscheidung**
+
+Diese Task legt rund 34 MB Binärdaten unwiderruflich in die Git-Historie, und jeder spätere Korrekturlauf legt neue Blobs daneben. Bevor `git add audio/` läuft, müssen drei Fragen beantwortet sein — sie stehen in `.superpowers/sdd/2026-08-08-datenpipeline/plan2-notizen.md` und hängen am Deployment über GitHub Pages:
+
+- **Wird das Repository öffentlich?** Pages für private Repositories setzt ein bezahltes Konto voraus. Bei einem öffentlichen Repository sind nicht nur die recherchierten Texte für jeden einsehbar, sondern auch die sechs GPX-Dateien — also die konkreten Übernachtungsorte der Reisegruppe.
+- **git-lfs oder direkt?** Nachträglich umzustellen bedeutet, die Historie neu zu schreiben. Die Entscheidung fällt hier oder gar nicht.
+- **Trägt die gewählte Bitrate?** Bei 32 kbit/s rund 34 MB, bei 64 kbit/s rund 67 MB. Fällt die Wahl auf git-lfs, verliert die Größe an Gewicht.
+
+Ist eine der Fragen offen, hier anhalten und klären, statt einzuchecken.
+
+- [ ] **Step 3: `.gitignore` anpassen**
 
 Die Zeile `audio/` entfernen. `audio-proben/` bleibt stehen — Hörproben gehören nicht ins Repository.
 
-- [ ] **Step 3: Audio einchecken**
+- [ ] **Step 4: Audio einchecken**
 
 ```bash
 git add audio/
 git commit -m "feat: erzeugte Sprachdateien für alle sechs Etappen"
 ```
 
-- [ ] **Step 4: README ergänzen**
+- [ ] **Step 5: README ergänzen**
 
 An das bestehende `README.md` anfügen — es entsteht in Task 17 der Datenpipeline, deshalb hier anfügen statt neu schreiben:
 
@@ -1345,7 +1499,7 @@ Die Erzeugung setzt macOS voraus (`say`) sowie `ffmpeg` und `ffprobe`. Die ferti
 sind eingecheckt, damit ein Build auch ohne diese Werkzeuge auskommt.
 ````
 
-- [ ] **Step 5: Abschlussprüfung**
+- [ ] **Step 6: Abschlussprüfung**
 
 ```bash
 npm test
@@ -1355,7 +1509,7 @@ git status --short
 
 Expected: alle Tests grün; null zu rendern, null verwaist; ein sauberes Arbeitsverzeichnis.
 
-- [ ] **Step 6: Commit**
+- [ ] **Step 7: Commit**
 
 ```bash
 git add README.md
