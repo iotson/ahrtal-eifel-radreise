@@ -97,32 +97,52 @@ Nicht aufgenommen, weil weiter als rund 2 km von der Route entfernt oder ohne be
 
 | km | Name | Symbol | Vorschlag | Entscheidung | Begründung |
 |---|---|---|---|---|---|
-| 4.7 | Windräder bei Hinterweiler | Flag, Blue | story | | |
-| 4.9 | Ernstberg-Wanderhütte mit Außensitzgelegenheiten | Fishing Hot Spot Facility | story | | |
-| 8.0 | Naturschutzgebiet Kirchweiler Rohr | Flag, Blue | story | | |
-| 8.1 | Naturschutzgebiet zwischen Berlingen und Kirchweiler | Flag, Blue | story | | |
-| 9.8 | Kalkhöhlen zwischen Pelm und Berlingen | Flag, Blue | story | | |
-| 10.7 | Eifel-Ardennen-Radweg | Flag, Blue | story | | |
-| 11.2 | Ausblick auf die Kasselburg | Flag, Blue | story | | |
-| 12.1 | Pelmer Brücke über die Kyll und die Eisenbahn | Bridge | story | | |
-| 13.2 | Lokschuppen Gerolstein – Eisenbahnmuseum | Flag, Blue | story | | |
-| 13.5 | Bahnbetriebswerk Gerolstein | Flag, Blue | story | | |
-| 14.8 | Brunnenplatz Gerolstein | Flag, Blue | story | | |
-| 15.8 | Kyllbrücke in Gerolstein | Bridge | story | | |
-| 16.2 | Gedenkstätte für die verstorbenen Frauen der Pioniere | Flag, Blue | story | | |
-| 16.9 | Burg Lissingen | Flag, Blue | story | | |
-| 17.8 | Aussichtspunkt Lissingen mit Blick auf Gerolstein | Flag, Blue | story | | |
-| 19.2 | Blick auf das Lava-Steinwerk Bettendorf | Flag, Blue | story | | |
-| 20.2 | Eifel-Ardennen-Radweg | Flag, Blue | story | | |
-| 22.1 | Müllenborner Weiher | Flag, Blue | story | | |
-| 34.5 | Blick auf die Eifellandschaft | Flag, Blue | story | | |
-| 42.3 | Fluss Prüm | Flag, Blue | story | | |
-| 43.4 | Ehemaliger Prüm-Bahnrad- und Wanderweg | Flag, Blue | story | | |
-| 43.7 | Obere Prüm | Flag, Blue | story | | |
-| 47.2 | Brücke über die Prüm bei Watzerath | Bridge | story | | |
-| 47.7 | Spielplatz Pittenbach | Picnic Area | service | | |
-| 52.7 | Alfbachtal | Flag, Blue | story | | |
-| 59.8 | Bleialfer Radweg | Flag, Blue | story | | |
+| 4.7 | Windräder bei Hinterweiler | Flag, Blue | story | verworfen | Zu den Windrädern selbst fand sich keine belastbare Quelle. Der Punkt liegt zudem nur 190 Meter vor der Ernstberg-Hütte, deren POI den höchsten Punkt der Etappe abdeckt. |
+| 4.9 | Ernstberg-Wanderhütte mit Außensitzgelegenheiten | Fishing Hot Spot Facility | story | story | Höchster der Westeifelvulkane und nach der Hohen Acht zweithöchster Berg der Eifel. Mühlsteinbrüche am Bergfuß bis etwa 1930, Höhle unter dem Gipfel und Schutzstatus seit 1938 sind belegt. |
+| 8.0 | Naturschutzgebiet Kirchweiler Rohr | Flag, Blue | story | story | Der geplante Freizeitsee, der Flächenkauf des Naturschutzbundes und die Ausweisung 1990 sind über den NABU Daun und Wikipedia belegt. |
+| 8.1 | Naturschutzgebiet zwischen Berlingen und Kirchweiler | Flag, Blue | story | verworfen | Dublette zu Kilometer 7,96. Dasselbe Schutzgebiet, 130 Meter entfernt. |
+| 9.8 | Kalkhöhlen zwischen Pelm und Berlingen | Flag, Blue | story | verworfen | Zu Kalkhöhlen an dieser Stelle fand sich keine belastbare Quelle, auch OpenStreetMap führt dort nichts. Der Abschnitt ist durch das Kirchweiler Rohr und den Kasselburg-Blick abgedeckt. |
+| 10.7 | Eifel-Ardennen-Radweg | Flag, Blue | story | verworfen | Der Radweg ist kein Ziel, sondern die Strecke selbst. Seine Geschichte steckt in den POIs Bahntrassenradweg bei Kilometer 43,36 und Bleialfer Radweg bei Kilometer 59,83. |
+| 11.2 | Ausblick auf die Kasselburg | Flag, Blue | story | story | Die Burg liegt 672 Meter nordwestlich, deshalb bleibt der POI am Aussichtspunkt und trägt `accessNote` „nur Blickkontakt“. Doppelturm, die Spende der Eisenbahngesellschaft von tausend Talern und der Adler- und Wolfspark sind belegt. |
+| 12.1 | Pelmer Brücke über die Kyll und die Eisenbahn | Bridge | story | story | Trägt den Eisenbahnunfall von Pelm vom 18. Mai 1897, bei dem ein Zug auf sich selbst auffuhr. Über Wikipedia vollständig belegt. Das Denkmal steht gut einen Kilometer nördlich an der Bahnstrecke. |
+| 13.2 | Lokschuppen Gerolstein – Eisenbahnmuseum | Flag, Blue | story | story | Ringlokschuppen von 1912 mit fünfzehn Ständen und Drehscheibe, Betriebsende 1977, Denkmalschutz und Sanierung ab 2004 sind über den Betreiber belegt. |
+| 13.5 | Bahnbetriebswerk Gerolstein | Flag, Blue | story | verworfen | Dublette zu Kilometer 13,21. Lokschuppen und Bahnbetriebswerk sind dasselbe Ensemble, 340 Meter auseinander. |
+| 14.8 | Brunnenplatz Gerolstein | Flag, Blue | story | story | Gründung des Gerolsteiner Sprudels 1888, Versand in Tonkrügen, Export in die Vereinigten Staaten 1890 und nach Sydney 1895, Zerstörung des Werks an Weihnachten 1944. `triggerRadius` 80 wegen der engen Ortsdurchfahrt. |
+| 15.8 | Kyllbrücke in Gerolstein | Bridge | story | service | Kein eigener Erzählstoff, aber praktisch wichtig. Kurz dahinter liegt der tiefste Punkt des Tages, danach sind rund einhundert Höhenmeter nach Müllenborn zu überwinden. |
+| 16.2 | Gedenkstätte für die verstorbenen Frauen der Pioniere | Flag, Blue | story | verworfen | Zu dieser Gedenkstätte fand sich nichts Belastbares. An der Koordinate liegen laut OpenStreetMap nur ein Ortsschild und ein Wegweiser. Ohne Beleg kein Text. |
+| 16.9 | Burg Lissingen | Flag, Blue | story | story | Doppelburg seit der Teilung von 1559, nie zerstört, eigenes Elektrizitätswerk ab 1906 für Burg, Dorf und Bahnstation, Flutschaden im Juli 2021. POI auf die Burgkoordinate gesetzt, daher `routeKm` 16,85. |
+| 17.8 | Aussichtspunkt Lissingen mit Blick auf Gerolstein | Flag, Blue | story | story | Trägt die Gerolsteiner Dolomiten mit dem devonischen Riff, der Dolomitisierung und dem Buchenloch. `triggerRadius` 300 als weiträumiger Landschaftspunkt. |
+| 19.2 | Blick auf das Lava-Steinwerk Bettendorf | Flag, Blue | story | story | Die Lavagrube Wöllersberg liegt 192 Meter südöstlich, daher `accessNote` „nur Blickkontakt“. Betreiberwechsel, Abbaufläche und geschätztes Volumen sind über den Grubensteckbrief belegt. |
+| 20.2 | Eifel-Ardennen-Radweg | Flag, Blue | story | verworfen | Dublette zu Kilometer 10,75, siehe dort. |
+| 22.1 | Müllenborner Weiher | Flag, Blue | story | story | Fünf Mühlen seit dem Frühmittelalter, Eisenhammer und Eisenindustrie bis in die 1870er Jahre, dazu die Karstquelle Großer Müllenborn als heutiger Hauptwasserlieferant des Gerolsteiner Landes. |
+| 34.5 | Blick auf die Eifellandschaft | Flag, Blue | story | story | Höchster Punkt zwischen Gerolstein und Prüm. Prümer Kalkmulde, Naturschutzgebiet Niesenberg und die im Kalk versickernden Quellbäche der Nims sind belegt. `triggerRadius` 300. |
+| 42.3 | Fluss Prüm | Flag, Blue | story | story | Länge, Quelle am Schneifelrücken, Mündung auf etwa demselben Längengrad wie die Quelle und die Namensdeutung sind belegt. |
+| 43.4 | Ehemaliger Prüm-Bahnrad- und Wanderweg | Flag, Blue | story | story | Trägt die Westeifelbahn. Bau ab 1883, militärische Begründung über den Schlieffen-Plan, zweites Gleis und dessen Abbau nach dem Vertrag von Versailles, Radweg seit 2006. |
+| 43.7 | Obere Prüm | Flag, Blue | story | verworfen | Dublette zum Waypoint Fluss Prüm bei Kilometer 42,32, gut einen Kilometer entfernt am selben Fluss. |
+| 47.2 | Brücke über die Prüm bei Watzerath | Bridge | story | story | Trägt Watzerath und das Kondominium Hof Pronsfeld mit zweiundzwanzig Dörfern unter zwei Landesherren. Der Ortswaypoint fehlt in Komoot, deshalb steht die Ortsgeschichte an der Brücke. |
+| 47.7 | Spielplatz Pittenbach | Picnic Area | service | service | Rastplatz am Radweg, praktisch nützlich, ohne Erzählstoff. Weist auf die Nahversorgung in Pronsfeld gut zwei Kilometer weiter hin. |
+| 52.7 | Alfbachtal | Flag, Blue | story | story | Naturnahes Tal mit Biberrevier, dazu die sanfte Steigung der alten Bahntrasse über rund zehn Kilometer bis Bleialf. Belegt über den Eifel-Ardennen-Radweg. |
+| 59.8 | Bleialfer Radweg | Flag, Blue | story | story | Höchster Punkt der alten Bahnstrecke. Der vierhundert Meter lange Bleialfer Tunnel liegt 403 Meter abseits der Route und ist von November bis März für die überwinternden Fledermäuse gesperrt. |
+
+### Neu aufgenommene POIs für Tag 3 (Schritt D)
+
+| km | Name | Abstand zur Route | Begründung |
+|---|---|---|---|
+| 0.0 | Etappenstart oberhalb von Steinborn | 0 m | Service-POI. Der Track beginnt am Fuß eines Anstiegs über 4,67 Kilometer mit 184 Höhenmetern. Waldkönigen und der Steinborner Drees sind bereits in Tag 2 abgedeckt. |
+| 15.19 | Erlöserkirche und Villa Sarabodis | 80 m | Beim Ausschachten der Kaiserkirche kam 1907 ein römischer Gutshof zutage. Beide Objekte liegen 25 Meter auseinander und sind zu einem POI zusammengefasst, damit sich die Ansagen nicht überlagern. |
+| 24.19 | Oos und die Römerstation Ausava | 61 m | Römische Pferdewechselstation an der Straße von Trier nach Köln, 275 und 276 zerstört und nie wieder aufgebaut. Bis heute nicht lokalisiert. |
+| 27.91 | Büdesheim | 197 m | Ersterwähnung 778 in einer Schenkung an die Abtei Prüm, römische Funde unter der Pfarrkirche, rund sechsundzwanzig Wegekreuze in der Gemarkung. |
+| 31.6 | Schwirzheim | 8 m | Unter der 1936 abgerissenen Kapelle kam 1958 ein gallorömischer Umgangstempel zum Vorschein. Chor und Sakristei standen auf seinen Mauern. |
+| 33.4 | Sankt Fides in Gondelsheim | 66 m | Ehemalige Wallfahrtskirche mit erhaltener Ausbauform des 16. Jahrhunderts und Ehrenfriedhof mit rund 460 Gefallenen des Zweiten Weltkriegs. |
+| 35.8 | Weinsheim | 12 m | Der Gemeindename wurde 1971 per Losentscheid bestimmt und 1980 wieder geändert. Dazu ein regional bedeutender Industriestandort mitten in der Eifel. |
+| 41.1 | Salvatorbasilika in Prüm | 61 m | Der wichtigste Ort der Etappe fehlte in Komoot vollständig. Sandalen Christi, Namensgebung Sankt Salvator und das Grab Kaiser Lothars des Ersten sind belegt. |
+| 50.13 | Pronsfeld und sein Eisenbahndenkmal | 18 m | Eisenbahnknoten ab 1907, Umschlagplatz beim Westwallbau, rund achtzig Prozent des Dorfes im Zweiten Weltkrieg zerstört, Rangierlok als Denkmal seit 2006. |
+| 55.12 | Westwallbunker über dem Alfbachtal | 763 m | Schließt die 7,1 Kilometer lange Lücke zwischen Alfbachtal und Bleialfer Radweg. Zwei Bunker im Wald südlich der Strecke, dazu der Beginn der Ardennenoffensive am 16. Dezember 1944. |
+| 62.03 | Bleialf | 94 m | Endpunkt des Tracks. Name aus Blei und Alf, Besucherbergwerk Mühlenberger Stollen, Ersterwähnung 893 im Prümer Urbar. Schließt den Bogen zur Abtei Prüm. |
+
+Nicht aufgenommen, obwohl in Reichweite: das Benediktinerinnenkloster Niederprüm bei Kilometer 43,12 mit 495 Metern Abstand, das Denkmal zum Eisenbahnunglück bei Kilometer 10,89 mit 804 Metern, der Bleialfer Tunnel bei Kilometer 60,66 mit 403 Metern und das Besucherbergwerk Mühlenberger Stollen bei Kilometer 61,59 mit 566 Metern. In allen vier Fällen hätten sich die Geofence-Fenster mit einem benachbarten POI überschnitten; die Inhalte stecken deshalb in den Texten der Nachbar-POIs. Die größte verbliebene Lücke zwischen zwei POIs beträgt 5,30 Kilometer zwischen Kilometer 35,80 in Weinsheim und Kilometer 41,10 in Prüm, auf der langen Abfahrt über Dausfeld.
+
+Anmerkung zum Streckenende: Titel und `tour.json` nennen Pittenbach als Zielort, der Track führt aber über Pittenbach bei Kilometer 48 hinaus und endet nach 62,05 Kilometern in Bleialf. Die POIs folgen dem Track.
 
 ## Tag 4 — Ahrtal und Eifel - Tag 4 - von Pittenbach nach Bergweiler
 

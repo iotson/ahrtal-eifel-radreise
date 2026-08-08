@@ -1047,6 +1047,512 @@
           "sources": []
         }
       ]
+    },
+    {
+      "day": 3,
+      "briefing": {
+        "text": ""
+      },
+      "pois": [
+        {
+          "id": "tag3-etappenstart-steinborn",
+          "day": 3,
+          "name": "Etappenstart oberhalb von Steinborn",
+          "lat": 50.20841,
+          "lon": 6.7911,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 0,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der Tag fängt mit dem Anstieg an. Vom Start weg geht es viereinhalb Kilometer bergauf, rund einhundertachtzig Höhenmeter. Danach ist das Schlimmste geschafft. Der höchste Punkt der ganzen Etappe liegt schon bei Kilometer viereinhalb. Von dort rollst du gut zwölf Kilometer hinunter nach Gerolstein. Also ruhig antreten.",
+          "sources": []
+        },
+        {
+          "id": "tag3-ernstberg",
+          "day": 3,
+          "name": "Ernstberg mit Wanderhütte",
+          "lat": 50.235414,
+          "lon": 6.767951,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 4.91,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du hast den Anstieg hinter dir. Hier oben liegt der Ernstberg. Mit gut siebenhundert Metern ist er der höchste Vulkan der Westeifel und nach der Hohen Acht der zweithöchste Berg der ganzen Eifel. An seinem Fuß wurden jahrhundertelang Mühlsteine gebrochen. Die Hütte hier ist eine gute Stelle für eine Pause.",
+          "textLong": "Der Ernstberg ist ein alter Schichtvulkan, und man sieht ihm das noch an. Sein Gipfel besteht aus Schweißschlacken und bildet einen Kraterwall, der nach Osten offen ist. Dort ist die Lava ausgeflossen. Sie liegt heute als weiter Halbkreis am Osthang. Genau das machte den Berg für die Menschen wertvoll. An seinem Fuß wurden Mühlsteine gebrochen, vom Mittelalter bis etwa 1930. Wo Mühlen mahlen, braucht es Mühlsteine. Der Berg war also lange auch ein Steinbruch. Mit gut siebenhundert Metern ist er der höchste der Westeifelvulkane. Nur die Hohe Acht im Osten der Eifel überragt ihn. Unter dem Gipfel liegt eine Höhle, die von einer Bergseite zur anderen führt. Hinein kommt man nicht, die Eingänge sind versperrt. Der Gipfel steht seit 1938 als Naturdenkmal unter Schutz, die Hänge ringsum seit 1978 als Naturschutzgebiet. Im Wald wachsen Mondviolen. Und im Winter wird der Berg zum kleinen Skigebiet. Es gibt gespurte Loipen, einen Rodelhang und eine Hütte mit Skiverleih. Das klingt nach Alpen und ist doch nur die Eifel.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ernstberg"
+          ]
+        },
+        {
+          "id": "tag3-kirchweiler-rohr",
+          "day": 3,
+          "name": "Naturschutzgebiet Kirchweiler Rohr",
+          "lat": 50.238563,
+          "lon": 6.734538,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 7.96,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben dem Weg liegt eine feuchte Mulde voller Schilf und Seggen. Das Naturschutzgebiet Kirchweiler Rohr wäre um ein Haar ein Freizeitsee geworden. Geplant waren ein großer Badesee und Hotels an den Hängen. Stattdessen steht hier im Frühjahr ein Blütenmeer aus Sumpfdotterblumen. Mitten hindurch fließt der Berlinger Bach.",
+          "textLong": "In den siebziger und achtziger Jahren hatte diese Mulde eine große Zukunft vor sich. Die Verbandsgemeinde Daun und die Dörfer Berlingen, Hinterweiler und Kirchweiler wollten hier einen Freizeitsee von bis zu fünfzig Hektar anlegen. Auf die Hänge sollten Hotels kommen. Unter Wasser verschwunden wäre dabei nicht nur ein bedeutender Lebensraum, sondern auch die Blumenwiesen, die im Frühjahr das ganze Tal färben. Dagegen wehrte sich der Naturschutzbund. Er kaufte in jenen Jahren knapp zwei Hektar mitten im Kerngebiet auf, begann eine große Informationskampagne und stellte einen Antrag auf Unterschutzstellung. Der Kauf war der entscheidende Zug. Wer den Kern besitzt, bekommt keinen See darübergelegt. 1990 wurde das Kirchweiler Rohr Naturschutzgebiet, gut vierzig Hektar groß. Die Seepläne waren da längst begraben. Geschützt sind heute Schilfröhrichte, Seggenriede, Sumpfdotterblumenwiesen und der naturnahe Bachlauf. Nebenbei tut das Gebiet noch etwas, an das damals niemand dachte. Die nasse Mulde hält Wasser zurück und wirkt damit gegen Hochwasser.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kirchweiler_Rohr",
+            "https://www.nabu-daun.de/wir-sichern-fl%C3%A4chen/nsg-kirchweiler-rohr/"
+          ]
+        },
+        {
+          "id": "tag3-kasselburg",
+          "day": 3,
+          "name": "Ausblick auf die Kasselburg",
+          "lat": 50.235287,
+          "lon": 6.693128,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 11.24,
+          "triggerRadius": 150,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Rechts über dem Tal steht die Kasselburg auf einem Basaltkegel. Ihr Wahrzeichen ist ein siebenunddreißig Meter hoher Doppelturm. Der ist trotz seiner Größe nicht der Bergfried. Der echte Bergfried steht kleiner daneben. Heute leben Wölfe und Greifvögel in der Ruine. Der Adler- und Wolfspark hat seine Volieren in die Kernburg gebaut.",
+          "textLong": "Die Kasselburg ist im zwölften Jahrhundert entstanden und wurde im Spätmittelalter zum Mittelpunkt einer reichsunmittelbaren Herrschaft. Danach ging es bergab. Nachdem das Reichskammergericht die Burg den Herzögen von Arenberg zugesprochen hatte, quartierten diese ihre Artillerie darin ein. Wenig später galt die Anlage als verfallen. Gerettet hat sie ausgerechnet der Fremdenverkehr. 1838 kam der Anstoß von Friedrich Wilhelm dem Vierten. Nach einem Besuch regte er Instandsetzungsarbeiten an. Als kurz darauf die Eisenbahnlinie von Köln nach Trier fertig wurde, spendete die Eisenbahngesellschaft tausend Taler für die Erschließung des damals schon berühmten Doppelturms. Der Grund stand offen in den Akten. Man wollte den Fahrgästen etwas bieten. So wurde aus einer verfallenen Ruine ein Ausflugsziel für Bahnreisende. Der Doppelturm steht Besuchern bis heute offen und bietet einen guten Blick über die Umgebung. Merkwürdig bleibt, dass dieser mächtige Turm nie der Bergfried war. Der steht kleiner und älter im östlichen Teil der Kernburg. Heute umgibt und durchdringt der Adler- und Wolfspark die Anlage. Die Volieren der Greifvögel sind in die alten Mauern eingepasst. Täglich außer montags werden hier Wölfe gefüttert und Greifvögel geflogen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kasselburg"
+          ]
+        },
+        {
+          "id": "tag3-pelmer-bruecke",
+          "day": 3,
+          "name": "Pelmer Brücke über Kyll und Eifelstrecke",
+          "lat": 50.233085,
+          "lon": 6.68679,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 12.08,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du überquerst die Kyll und darunter die Eifelstrecke. Auf diesen Gleisen passierte 1897 ein sehr seltener Unfall. Ein Zug fuhr auf sich selbst auf. Ein Sonderzug mit über tausend Reservisten riss auseinander. Der vordere Teil blieb stehen, der hintere rollte weiter und traf ihn. Zehn Menschen starben.",
+          "textLong": "Es war der achtzehnte Mai 1897, ein Abend mit dichtem Nebel. Ein Sonderzug brachte rund elfhundert Reservisten von Barmen nach Metz. Die durchgehende Druckluftbremse war nur an die vorderen Wagen angeschlossen. Alle übrigen hatten Handbremsen, die von Bremsern bedient werden mussten. Hinter Hillesheim beginnt ein Gefälle. Dort riss eine Kupplung, und der Zug teilte sich. Vorne merkte es zunächst niemand. Die Vorschrift war eindeutig. Der hintere Zugteil muss halten, der vordere darf auf keinen Fall anhalten. Genau das geschah dann aber. Der vordere Teil kam bei Pelm zum Stehen, und keine spätere Untersuchung konnte klären, warum. Der abgerissene Teil rollte im Gefälle immer schneller heran und prallte in der Nacht auf die stehenden Wagen. Zehn Menschen starben, vierzig wurden verletzt. Um überhaupt Licht für die Bergung zu haben, wurde ein zerstörter Waggon angezündet. Vor Gericht wurden später alle Angeklagten freigesprochen. Geändert wurde trotzdem etwas. Die durchgehende selbsttätige Bremse wurde danach auch für Güter- und Militärzüge Pflicht. Gut einen Kilometer nördlich von hier steht ein fünf Meter hohes Denkmal an der Bahnstrecke. Der Pelmer Kriegerverein ließ es ein Jahr nach dem Unglück errichten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eisenbahnunfall_von_Pelm"
+          ]
+        },
+        {
+          "id": "tag3-lokschuppen-gerolstein",
+          "day": 3,
+          "name": "Lokschuppen Gerolstein",
+          "lat": 50.226276,
+          "lon": 6.676729,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 13.21,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier steht der alte Lokschuppen von Gerolstein. Am Bahnhof war kein Platz mehr, also baute man 1912 draußen an der Pelmer Gemarkungsgrenze neu. Fünfzehn Stände im Halbkreis, davor eine Drehscheibe von zwanzig Metern. 1977 endete der Betrieb. Heute ist die Anlage Museum, und die Drehscheibe dreht sich wieder.",
+          "textLong": "Mit der Eisenbahn kam alles andere. Lokomotiven konnten damals nur wenig Kohle und Wasser mitführen, also brauchte jede größere Station eine Stelle zum Nachfassen und Ausbessern. In Gerolstein wuchs das schnell über den Bahnhof hinaus. 1912 entstand deshalb hier draußen, kurz vor der Pelmer Gemarkungsgrenze, ein neuer Ringlokschuppen mit fünfzehn Ständen. Erreichbar waren sie über eine Drehscheibe von zwanzig Metern Durchmesser. Dazu kamen eine Kohlenladeanlage mit Kränen, ein Verwaltungstrakt und mehrere Nebengebäude. Ein kleines Dorf für Maschinen. Ende Mai 1977 war Schluss mit der eigenständigen Lokunterhaltung in Gerolstein. Danach wurde das Gelände Stück für Stück aufgegeben, und es verfiel. Später kam es als bauliche Gesamtanlage unter Denkmalschutz, und ab 2004 machte sich eine gemeinnützige Gesellschaft daran, es zurückzuholen. Sechs Jahre dauerte die Instandsetzung von Schuppen und altem Kraftwerk. Heute gilt der Lokschuppen als eines der größten technischen Denkmäler in Rheinland-Pfalz. Es gibt ein Eisenbahnmuseum, eine Lokwerkstatt und Veranstaltungen im ehemaligen Kraftwerk. Die Drehscheibe ist voll funktionsfähig. Wer Glück hat, sieht sie sich drehen.",
+          "sources": [
+            "https://www.lokschuppen-gerolstein.de/historie/"
+          ]
+        },
+        {
+          "id": "tag3-brunnenplatz-gerolstein",
+          "day": 3,
+          "name": "Brunnenplatz Gerolstein",
+          "lat": 50.222683,
+          "lon": 6.659233,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 14.8,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du bist mitten in Gerolstein, und der Ort lebt vom Wasser. Zum Jahresbeginn 1888 gründete der Bergwerksdirektor Wilhelm Castendyck hier den Gerolsteiner Sprudel. Abgefüllt wurde zuerst in Tonkrüge. Schon zwei Jahre später ging das Wasser in die Vereinigten Staaten, wenig später sogar bis nach Sydney.",
+          "textLong": "Ein Bergwerksdirektor, der Wasser verkauft. So fing es an. Wilhelm Castendyck gründete zum Jahresbeginn 1888 den Gerolsteiner Sprudel, und der Chemiker Carl Remigius Fresenius empfahl das Wasser wegen seines hohen Gehalts an natürlicher Kohlensäure. Bald darauf ließ Castendyck ein Zeichen schützen, das es heute noch gibt. Ein achteckiger roter Stern und daneben der Löwe aus dem Gerolsteiner Stadtwappen. Der Rest ist Fleißarbeit und Bahnanschluss. 1890 ging das erste Wasser in die Vereinigten Staaten, fünf Jahre später lieferte Gerolstein bis nach Sydney. Um die Jahrhundertwende stellte man vom Tonkrug auf Glasflaschen um, und der Absatz lag da schon bei Millionen Füllungen im Jahr. Dann kam der Krieg. An Weihnachten 1944 zerstörten Luftangriffe das Werk vollständig. Zwei Jahre später standen die Gebäude wieder, bald darauf liefen die ersten Flaschen. In den fünfziger Jahren erklärte das Land die Quellen zu staatlich anerkannten Heilquellen. Wenn du heute irgendwo in Deutschland eine Flasche mit dem roten Stern aufmachst, kommt sie aus dem Tal, durch das du gerade fährst.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Gerolsteiner_Brunnen"
+          ]
+        },
+        {
+          "id": "tag3-erloeserkirche-villa-sarabodis",
+          "day": 3,
+          "name": "Erlöserkirche und Villa Sarabodis",
+          "lat": 50.2231049,
+          "lon": 6.654348,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 15.19,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Rechts steht die evangelische Erlöserkirche, ein Geschenk an Kaiser Wilhelm den Zweiten. Als 1907 die Baugruben ausgehoben wurden, stieß man auf die Grundmauern eines römischen Gutshofs. Heute stehen Kirche und Römervilla direkt nebeneinander. Das kleine Museum daneben heißt nach einer Urkunde von 762 Villa Sarabodis.",
+          "textLong": "Der Evangelische Kirchenbauverein aus Berlin ließ die Kirche bauen und schenkte sie dem Kaiser. Einen Teil des Geldes gab Wilhelm der Zweite aus seinem Privatvermögen dazu. Den Entwurf lieferte Franz Schwechten, der auch die Kaiser-Wilhelm-Gedächtniskirche in Berlin gebaut hat. Zur Einweihung im Oktober 1913 kam der Kaiser persönlich. Bis zum Ende des Zweiten Weltkriegs gehörte das Haus den Hohenzollern, die Gemeinde hatte darin nur Gastrecht. Innen ist die Kirche mit großflächigen Goldmosaiken ausgestattet, was für eine Kirche in der Diaspora sehr ungewöhnlich ist. Der Kronleuchter unter der Kuppel hat die Form eines Reichsapfels. Der eigentliche Fund kam aber vorher. Beim Ausschachten stieß man 1907 auf die Grundmauern eines römischen Gutshofs samt gut erhaltener Fußbodenheizung. Der Hof war seit dem ersten Jahrhundert bewohnt und wurde in der Völkerwanderungszeit zerstört. Im Brandschutt lagen die Gräber von siebenundzwanzig fränkischen Kriegern, deren Verletzungen bis heute nicht erklärt sind. Den Namen bekam die Anlage aus einer Schenkungsurkunde. Darin übergaben die Eltern Karls des Großen im Jahr 762 eine Villa Sarabodis der Abtei Prüm. Woher dieser Name stammt, ist bis heute umstritten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Erl%C3%B6serkirche_(Gerolstein)",
+            "https://de.wikipedia.org/wiki/Villa_Sarabodis"
+          ]
+        },
+        {
+          "id": "tag3-kyllbruecke-gerolstein",
+          "day": 3,
+          "name": "Kyllbrücke in Gerolstein",
+          "lat": 50.221534,
+          "lon": 6.645296,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 15.82,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier überquerst du die Kyll und verlässt Gerolstein. Kurz dahinter liegt der tiefste Punkt des Tages. Danach geht es wieder hinauf. Zwischen Lissingen und Müllenborn sind rund einhundert Höhenmeter zu überwinden. Fülle deine Flaschen lieber noch in der Stadt.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eifel-Ardennen-Radweg"
+          ]
+        },
+        {
+          "id": "tag3-burg-lissingen",
+          "day": 3,
+          "name": "Burg Lissingen",
+          "lat": 50.21655111,
+          "lon": 6.63978194,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 16.85,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Ortsrand von Lissingen liegt eine Wasserburg aus dem dreizehnten Jahrhundert. Von außen wirkt sie wie ein einziges Bauwerk, tatsächlich sind es zwei. 1559 wurde die Anlage geteilt, seither gibt es eine Oberburg und eine Unterburg mit getrennten Besitzern. Zerstört wurde die Burg nie.",
+          "textLong": "Burg Lissingen gehört zu den ganz wenigen Eifelburgen, die nie zerstört worden sind. In dieser Liga spielen sonst nur die Burg Eltz und Schloss Bürresheim. Erstmals genannt wird sie 1212 als Besitz der Ritter von Liezingen. Die Kyll und ein Grabensystem umgaben sie, und auf der Seite zur Kyll erkennt man das heute noch. Dann kam die Teilung von 1559, und aus einer Burg wurden zwei. Bemerkenswert ist, was danach geschah. Die Burg wurde ein Wirtschaftsbetrieb. 1906 nahm ein eigenes kleines Elektrizitätswerk den Betrieb auf. Es versorgte die Burg, etwa fünfzig Häuser im Dorf und die kleine Bahnstation mit Strom. Bis in die dreißiger Jahre lieferte also eine Burg dem Dorf das Licht. Später kam die Milchwirtschaft dazu, mit einer der ersten Abfüllanlagen für Flaschenmilch in der Eifel. Heute gehören Oberburg und Unterburg wieder verschiedenen Besitzern, und beide werden Stück für Stück saniert. Im Juli 2021 stand die Kyll in den Innenräumen. Das Hochwasser beschädigte auch die Kutschensammlung schwer.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Lissingen"
+          ]
+        },
+        {
+          "id": "tag3-gerolsteiner-dolomiten",
+          "day": 3,
+          "name": "Aussichtspunkt Lissingen mit Blick auf Gerolstein",
+          "lat": 50.218492,
+          "lon": 6.629243,
+          "category": "Aussicht",
+          "kind": "story",
+          "routeKm": 17.79,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Rechts hinter dir liegt Gerolstein, darüber helle Felswände. Auberg, Munterley und Hustley heißen sie. Vor sehr langer Zeit war das hier ein Korallenriff in einem warmen, flachen Meer. Riffkante, Steilabfall und Blockhalde darunter sind noch heute zu erkennen, ganz wie bei einem tropischen Riff.",
+          "textLong": "Die Felsen über Gerolstein sind der Rest eines Riffs. Korallen und Stromatoporen bauten es in einem tropischen Flachmeer auf, vor mehreren hundert Millionen Jahren. Was man an den Gerolsteiner Dolomiten von außen sieht, ist deshalb kein zufälliger Felsklotz, sondern ein Riffprofil. Oben die alte Riffkante, darunter der Steilabfall, davor die Halde aus abgebrochenen Blöcken. Genau so sieht ein Korallenriff im tropischen Meer aus, nur eben unter Wasser. Und jetzt die Pointe. In diesen mächtigen Felswänden findet man keine Fossilien. Aus den Skeletten der Meerestiere wurde Kalk ausgewaschen und Magnesium angereichert. Dabei kristallisierte das Gestein zu Dolomit um, und die Formen von Muscheln und Korallen gingen dabei verloren. Wer in der Eifel Versteinerungen suchte, ging deshalb auf frisch gepflügte Äcker. Heute bleiben vor allem Baustellen und Straßenbauprojekte. An der Nordwestseite der Munterley liegt eine sechsunddreißig Meter lange Karsthöhle, das Buchenloch. In der Altsteinzeit haben dort Menschen gewohnt. Später kamen Kelten und Römer und errichteten hier oben Tempel und Heiligtümer. Ein Riff, eine Höhle, ein Heiligtum. Alles am selben Felsen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Munterley",
+            "https://de.wikipedia.org/wiki/Gerolsteiner_Dolomiten"
+          ]
+        },
+        {
+          "id": "tag3-lava-steinwerk",
+          "day": 3,
+          "name": "Blick auf das Lava-Steinwerk",
+          "lat": 50.225491,
+          "lon": 6.616807,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 19.2,
+          "triggerRadius": 150,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Südöstlich der Strecke liegt eine große Grube. Hier wird kein Stein gebrochen, sondern Lavasand abgebaut. Rund zwanzig Hektar sind genehmigt, gut acht davon sind in Betrieb. Der Vulkanismus, der diese Landschaft gemacht hat, wird hier verladen und verkauft. Betrieben wird die Grube heute von einer Firma aus Kastellaun.",
+          "textLong": "Die Lavagrube Wöllersberg liegt rund anderthalb Kilometer westlich von Lissingen, mit der Zufahrt von der Bundesstraße. Abgebaut wird hier kein Kies aus dem Fluss, sondern Lavasand. Er stammt aus einem der vielen Vulkane, die diese Gegend geformt haben, und er ist ein gefragtes Baumaterial. Karten und Volksmund nennen die Anlage bis heute nach einem früheren Betreiber Lava-Steinwerk Bettendorf. Nachdem die Firma Bettendorf aus Trier ausgestiegen war, übernahm ein Unternehmen aus Kastellaun. Genehmigt ist eine Abbaufläche von rund zwanzig Hektar, in Betrieb sind davon etwa acht. Das Gesamtvolumen wird auf etwa fünf Millionen Tonnen Lavasand geschätzt, die verbleibende Reserve auf etwa drei Millionen. Zu den Beschlüssen gehören Auflagen zur Renaturierung und Flächen, auf denen nicht abgebaut werden darf. Das ist die andere Seite der Vulkaneifel. Maare und Kegel sind hübsch anzusehen und stehen unter Schutz. Zugleich ist der Untergrund ein Rohstoff, mit dem in dieser Gegend Geld verdient wird. Die Mühlsteine vom Ernstberg vorhin, jetzt der Lavasand. Die Eifel verkauft auch das, worauf sie steht.",
+          "sources": [
+            "https://eifelvulkane.wordpress.com/2020/04/26/grubensteckbrief-lavagrube-woellersberg-lissingen-6-rpf-2344/"
+          ]
+        },
+        {
+          "id": "tag3-muellenborner-weiher",
+          "day": 3,
+          "name": "Müllenborner Weiher",
+          "lat": 50.24136,
+          "lon": 6.609307,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 22.05,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Weiher von Müllenborn steckt die Ortsgeschichte im Namen. Mühlen standen hier, schon im Frühmittelalter fünf Stück. Angetrieben wurden sie von Karstquellen, die bis heute erstaunlich viel Wasser liefern. Später trieb dasselbe Wasser einen Eisenhammer an. Von der Eisenindustrie ist nichts mehr übrig.",
+          "textLong": "Müllenborn heißt Müllenborn, weil hier Mühlen an einem Born standen. Die Gegend ist voller Karstquellen und deshalb seit jeher wasserreich. Schon im Frühmittelalter arbeiteten fünf Mühlen, und sie mahlten nicht nur Korn. Vor allem Holz und Eisen wurden hier verarbeitet. Aus der Wasserkraft wurde ein Eisenhammer, aus dem Eisenhammer eine kleine Industrie. Ihren Höhepunkt erlebte sie zu Beginn des neunzehnten Jahrhunderts. In den siebziger Jahren desselben Jahrhunderts ging es mit der Eisenverarbeitung in der Eifel insgesamt bergab, und Müllenborn ging mit unter. Heute findet man im Ort kaum noch Spuren dieser Zeit. Das Wasser aber ist geblieben und macht weiter Karriere. Die größte Karstquelle des Ortes heißt Großer Müllenborn. Sie schüttet zweitausend bis dreitausend Kubikmeter am Tag. Seit den achtziger Jahren ist sie in die öffentliche Wasserversorgung eingebunden und heute der Hauptlieferant für das gesamte Gerolsteiner Land. Was einst Hammerwerke antrieb, kommt jetzt in der ganzen Umgebung aus dem Hahn. Genannt wird der Ort erstmals in einem Kommentar zum Prümer Urbar, als alter Mühlenbesitz der Abtei Prüm.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/M%C3%BCllenborn_(Gerolstein)"
+          ]
+        },
+        {
+          "id": "tag3-oos-ausava",
+          "day": 3,
+          "name": "Oos und die Römerstation Ausava",
+          "lat": 50.2410595,
+          "lon": 6.5843604,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 24.19,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du fährst durch Oos. Der Name ist womöglich der letzte Rest von Ausava. So hieß eine römische Pferdewechselstation an der Straße von Trier nach Köln. Sie steht im antiken Reisehandbuch und auf der Tabula Peutingeriana. Gefunden hat man sie bis heute nicht.",
+          "textLong": "Zwischen Trier und Köln lief eine der wichtigsten Straßen des römischen Nordwestens. Wer sie benutzte, wechselte unterwegs die Pferde. Eine dieser Stationen hieß Ausava und lag im weiteren Bereich der heutigen Orte Oos und Büdesheim. Sie ist gut bezeugt. Das Itinerarium Antonini führt sie auf, und auf der Tabula Peutingeriana, der berühmten römischen Straßenkarte, ist sie eingezeichnet. Nur finden kann man sie nicht. Der genaue Platz ist bis heute nicht lokalisiert. Das hat einen Grund. Bei den Germaneneinfällen der Jahre zweihundertfünfundsiebzig und zweihundertsechsundsiebzig wurde Ausava zerstört und danach nicht wieder aufgebaut. Die Nachbarstationen an derselben Straße hatten mehr Glück. Beda wurde wieder etwas, das heutige Bitburg. Icorigium ebenso, das heutige Jünkerath. Ausava blieb liegen. Geblieben ist vielleicht der Name. Der Ortsname Oos könnte sich von Ausava herleiten, sicher ist auch das nicht. Urkundlich fassbar wird das Dorf erst wieder im Jahr 831, bei einem Gütertausch, den sich der Abt von Prüm von Kaiser Ludwig dem Frommen bestätigen ließ.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ausava",
+            "https://de.wikipedia.org/wiki/Oos_(Gerolstein)"
+          ]
+        },
+        {
+          "id": "tag3-buedesheim",
+          "day": 3,
+          "name": "Büdesheim",
+          "lat": 50.2162619,
+          "lon": 6.5528273,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 27.91,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Links der Strecke liegt Büdesheim. Erstmals genannt wird der Ort 778 in einer Schenkungsurkunde an die Abtei Prüm. Bei Prüm blieb er bis zum Ende des achtzehnten Jahrhunderts. Rund sechsundzwanzig Wegekreuze stehen im Gemeindegebiet. Eines davon nennen sie hier das Blutkreuz.",
+          "textLong": "Im Jahr 778 taucht Büdesheim zum ersten Mal in einer Urkunde auf, damals geschrieben als Buodenisheim. Der Anlass war eine Schenkung an die Abtei Prüm, und damit war der Ton für die nächsten tausend Jahre gesetzt. Das Kloster unterhielt hier bald einen eigenen Hof, und bis zum Ende des achtzehnten Jahrhunderts blieb Büdesheim prümisch. Zuletzt war der Ort Sitz einer Schultheißerei. Älter ist er trotzdem. Beim Umbau der Pfarrkirche kamen römische Funde zutage, darunter Reste einer Wasserleitung und ein Viergötterstein. Auch römische Gräber liegen im Boden. Wer über die Feldwege ringsum fährt, dem fällt aber etwas anderes auf. Überall stehen Kreuze. Rund sechsundzwanzig Wegekreuze zählt die Gemarkung. Das älteste soll bis ins dreizehnte oder vierzehnte Jahrhundert zurückgehen. Ein anderes trägt die Jahreszahl 1542 und heißt im Dorf das Blutkreuz. Diese Dichte ist selbst für die Eifel bemerkenswert. Man fährt hier durch eine Landschaft, die ihre Wegmarken aus Stein gemacht hat.",
+          "sources": [
+            "https://www.eifeldorf-buedesheim.de/die-ortsgeschichte.html"
+          ]
+        },
+        {
+          "id": "tag3-schwirzheim",
+          "day": 3,
+          "name": "Schwirzheim",
+          "lat": 50.2320094,
+          "lon": 6.5262892,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 31.6,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du fährst durch Schwirzheim. 1936 riss man hier eine alte Kapelle ab. Als zweiundzwanzig Jahre später gegraben wurde, kamen darunter römische Mauern zum Vorschein. Es waren die Fundamente eines gallorömischen Tempels. Chor und Sakristei der Kapelle hatten jahrhundertelang auf einem römischen Heiligtum gestanden.",
+          "textLong": "Der Fund von Schwirzheim ist eine dieser Geschichten, die man nur durch Zufall bekommt. 1958 wurde im Bereich der Kapelle gegraben, die zweiundzwanzig Jahre zuvor abgerissen worden war. Dabei stieß man auf schlecht erhaltene Fundamente. Es handelte sich um einen gallorömischen Umgangstempel, also einen Tempel mit einem Innenraum und einem Umgang ringsherum. Dokumentieren ließ sich nur die Nordseite. Der Innenraum maß neun Meter, der Umgang sechzehn. Entscheidend war die Lage. Chor und Sakristei der alten Kapelle waren auf den Mauern des römischen Tempels errichtet worden. Ein heiliger Ort war einfach weiterbenutzt worden, über einen Religionswechsel hinweg. Wann der Tempel gebaut wurde, weiß man nicht, denn es fehlt jedes datierbare Fundmaterial. Im Osten des Dorfes wurde außerdem eine römische Villa rustica ergraben, deren früheste Spuren ins zweite Jahrhundert deuten. Dazu kommen ein Brandgrab, ein Hügelgrab und ein Bestattungsplatz südlich des Ortes. Und noch etwas steht hier. Ein Wohnhaus von 1677, das einzige nahezu vollständig erhaltene Haus des siebzehnten Jahrhunderts im Gebiet des alten Kreises Prüm.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Schwirzheim"
+          ]
+        },
+        {
+          "id": "tag3-gondelsheim-sankt-fides",
+          "day": 3,
+          "name": "Sankt Fides in Gondelsheim",
+          "lat": 50.23466,
+          "lon": 6.502697,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 33.4,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Rechts vom Weg steht die alte Wallfahrtskirche Sankt Fides. Ihre Gestalt aus dem sechzehnten Jahrhundert ist weitgehend erhalten. Das spätgotische Netzgewölbe wurde im Krieg zerstört und danach nur vereinfacht wiederhergestellt. Im Ort liegt außerdem ein Ehrenfriedhof mit rund vierhundertsechzig gefallenen Soldaten des Zweiten Weltkriegs.",
+          "textLong": "Gondelsheim ist heute ein Ortsteil von Weinsheim. Trotzdem steht hier eine Wallfahrtskirche. Sankt Fides war einmal ein Ziel, zu dem Menschen eigens aufbrachen. Ihre Ausbauform aus dem sechzehnten Jahrhundert ist weitgehend erhalten, und sie ist als spätgotisches Baudenkmal geschützt. Das Netzgewölbe im Inneren aber ist nicht mehr das alte. Es wurde im Krieg zerstört und danach in vereinfachter Form wiederhergestellt. An solchen Stellen sieht man, was dieser Landstrich in den letzten Kriegsmonaten abbekommen hat. Der zweite Ort in Gondelsheim führt es noch deutlicher vor. Auf dem Ehrenfriedhof liegen rund vierhundertsechzig gefallene Soldaten des Zweiten Weltkriegs. Als die Gemeinde 1971 mit ihren Nachbardörfern zusammengelegt wurde, hatte Gondelsheim einhundertvierzig Einwohner. Auf dem Friedhof liegen also mehr als dreimal so viele Tote, wie das Dorf Lebende hatte. Zwei Bauwerke, wenige hundert Meter auseinander. Das eine erzählt von einer Zeit, in der Menschen zu Fuß hierher pilgerten. Das andere davon, wie viele hier geblieben sind.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Weinsheim_(Eifel)"
+          ]
+        },
+        {
+          "id": "tag3-pruemer-kalkmulde",
+          "day": 3,
+          "name": "Blick über die Prümer Kalkmulde",
+          "lat": 50.234703,
+          "lon": 6.488003,
+          "category": "Aussicht",
+          "kind": "story",
+          "routeKm": 34.47,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du bist auf der Höhe. Hier oben liegt die Prümer Kalkmulde, und der Untergrund besteht aus dem Kalk verschwundener Meere. Deshalb ist die Gegend fossilreich. Hier entspringen auch die Quellbäche der Nims. Sie verschwinden immer wieder im Boden, in Hohlräumen, die das Wasser selbst aus dem Kalk gelöst hat.",
+          "textLong": "Der höchste Punkt zwischen Gerolstein und Prüm liegt hier oben bei Weinsheim, auf gut fünfhundert Metern. Die Landschaft wird jetzt weit. Die tief eingeschnittenen Täler der Vulkaneifel bleiben zurück, und was folgt, sind Hochflächen mit flachen Mulden. Der Boden hier heißt Prümer Kalkmulde, und der Name ist Programm. Unter dem Acker liegt Kalk, abgelagert von Meeren, die es längst nicht mehr gibt. Die Kalkeifel gilt als trockener und wärmer als ihre Nachbarlandschaften, und das schlägt sich in der Vegetation nieder. Magerrasen, trockene Hänge, seltene Pflanzen. Im Naturschutzgebiet Niesenberg unweit von hier kommt beides zusammen, ökologisch wertvolle Lebensräume und ein großer Fossilienreichtum. Und der Kalk macht noch etwas. Er löst sich im Wasser. In dieser Gegend entspringen die Quellbäche der Nims, und sie verhalten sich eigenwillig. Immer wieder verschwinden sie in Hohlräumen im Untergrund und kommen später wieder heraus. Ein Bach, der auf halber Strecke aufhört zu existieren, ist anderswo eine Merkwürdigkeit. Hier oben ist er normal.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eifel-Ardennen-Radweg"
+          ]
+        },
+        {
+          "id": "tag3-weinsheim",
+          "day": 3,
+          "name": "Weinsheim",
+          "lat": 50.2307505,
+          "lon": 6.4716189,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 35.8,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Weinsheim verdankt seinen Namen einem zweiten Anlauf. 1971 wurden vier Dörfer zu einer neuen Gemeinde zusammengelegt. Welchen Namen sie tragen sollte, entschied ein Los. Gezogen wurde Gondelsheim. Neun Jahre später benannte sich die Gemeinde dann doch in Weinsheim um.",
+          "textLong": "Vier Dörfer, ein Name, kein Ergebnis. Zum ersten Januar 1971 wurden Gondelsheim, Hermespand, Weinsheim und Willwerath zu einer neuen Gemeinde zusammengeschlossen. Welchen Namen die tragen sollte, wurde per Losentscheid bestimmt. Gondelsheim gewann, obwohl es mit rund einhundertvierzig Einwohnern das zweitkleinste der vier war. Weinsheim, das größte, hatte das Nachsehen. Neun Jahre hielt die Gemeinde durch, dann benannte sie sich um. Seit 1980 heißt sie Weinsheim. Das Los ist einkassiert, die Reihenfolge wiederhergestellt. Die ältere Geschichte des Ortes ist unspektakulärer. Genannt wird Weinsheim erstmals 1335, als ein Hartart von Schönecken seinen Hof zu Winzheim dem Trierer Kurfürsten Balduin zu Lehen auftrug. Nordöstlich des Dorfes liegt auf einer Anhöhe ein Ringwall, wahrscheinlich vorgeschichtlich. Überraschend ist aber etwas anderes. Weinsheim ist ein regional bedeutender Industriestandort. Im Gewerbegebiet stehen ein Fertighauswerk, ein Türenwerk und ein Magnesium-Druckgusswerk der Firma Stihl mit rund siebenhundertfünfzig Beschäftigten. Mitten in der Eifel, auf einer Hochfläche, auf der man das nicht erwartet.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Weinsheim_(Eifel)"
+          ]
+        },
+        {
+          "id": "tag3-salvatorbasilika-pruem",
+          "day": 3,
+          "name": "Salvatorbasilika in Prüm",
+          "lat": 50.2065676,
+          "lon": 6.4256582,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 41.1,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "In der Basilika von Prüm liegen Teile der Sandalen Christi. König Pippin bekam sie vom Papst und schenkte sie dem Kloster. Deshalb heißt die Kirche Sankt Salvator, zum allerheiligsten Erlöser. Damals war Prüm die bedeutendste Abtei des Reiches. In der Kirche liegt außerdem ein Kaiser begraben.",
+          "textLong": "Die Abtei Prüm wurde im Jahr 721 gestiftet, von Bertrada der Älteren, der Urgroßmutter Karls des Großen. Richtig groß wurde sie erst unter Karls Eltern. Pippin der Jüngere besetzte das Kloster neu mit Benediktinern und stattete es reich aus. Vor allem aber gab er ihm ein Geschenk, das alles andere überstrahlte. Papst Zacharias hatte ihm Teile der Sandalen Christi überlassen, als Dank für Hilfe bei der Gründung des Kirchenstaats. Pippin reichte sie weiter nach Prüm. Abtei und Kirche bekamen daraufhin den Namen Sankt Salvator, zum allerheiligsten Erlöser. Diese Auszeichnung war außergewöhnlich und dokumentierte, dass Prüm damals die bedeutendste Abtei des Reiches war. Die Reliquie wird bis heute in einem kostbaren Schrein in der Basilika aufbewahrt. Der zweite große Name hier ist Lothar der Erste. Der Kaiser dankte ab, trat 855 in das Kloster ein und starb kurz darauf. Begraben wurde er in der Klosterkirche. Über die Jahrhunderte geriet das Grab in Vergessenheit. Erst 1860, beim Abbau des alten Hochaltars, fand man seine Gebeine wieder. Kaiser Wilhelm der Erste gab Geld für ein neues Grabmal. So liegt in dieser kleinen Eifelstadt ein Karolingerkaiser, und im Schrein daneben liegt ein Paar Sandalen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kloster_Pr%C3%BCm"
+          ]
+        },
+        {
+          "id": "tag3-fluss-pruem",
+          "day": 3,
+          "name": "Die Prüm",
+          "lat": 50.20021,
+          "lon": 6.413748,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 42.32,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du fährst an der Prüm entlang. Der Fluss ist fünfundneunzig Kilometer lang und entspringt oben am Schneifelrücken. Er mündet weit im Süden in die Sauer, fast genau auf demselben Längengrad wie seine Quelle. Der Fluss macht also einen großen Bogen und kommt am Ende unter sich selbst heraus.",
+          "textLong": "Die Prüm ist fünfundneunzig Kilometer lang und der größte Zufluss der Sauer. Ihre Quelle liegt im Arenberger Forst, am nordöstlichen Ende des Schneifelrückens, auf gut sechshundert Metern. Von dort läuft sie erst nach Norden und Westen, dreht dann nach Süden und zieht durch Prüm, Niederprüm, Watzerath, Pittenbach und Pronsfeld. Am Ende mündet sie bei Minden in die Sauer, und die Mündung liegt etwa auf demselben Längengrad wie die Quelle. Der Fluss läuft also einen weiten Bogen und kommt am Schluss fast senkrecht unter seinem eigenen Anfang heraus. Der Name ist alt. Schon im vierten Jahrhundert steht er als Pronee in den Quellen, und im Jahr 762 steht in einer Urkunde die lateinische Form Prumiam. Woher der Name kommt, ist umstritten. Eine Deutung führt ihn auf ein sehr altes Wort für anblasen und ausspritzen zurück. Die Prüm wäre dann das spritzende Gewässer. Wer sie hier oben sieht, ruhig und schmal zwischen Wiesen, hält das für reichlich übertrieben. Weiter unten, zwischen Prümzurlay und Irrel, hat sie Stromschnellen, auf denen regelmäßig Kajakwettkämpfe ausgetragen werden.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Pr%C3%BCm_(Fluss)"
+          ]
+        },
+        {
+          "id": "tag3-bahntrassenradweg-westeifelbahn",
+          "day": 3,
+          "name": "Bahntrassenradweg auf der Westeifelbahn",
+          "lat": 50.194411,
+          "lon": 6.40239,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 43.36,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Ab Prüm rollst du auf einer alten Bahnstrecke. Die Westeifelbahn wurde 1883 eröffnet und 2001 endgültig stillgelegt. Gebaut wurde sie mit einem freundlichen und einem unfreundlichen Argument. Offiziell ging es um die trostlose Lage der Region. Tatsächlich ging es auch um einen Angriff auf Belgien.",
+          "textLong": "Als die preußische Regierung 1881 vom Landtag die Erlaubnis zum Bau erbat, begründete sie das mit der wahrhaft trostlosen Lage der Gegend und warnte vor Zuständen wie in Oberschlesien. Das war nicht gelogen und auch nicht vollständig. Die Strecke lief von Gerolstein über Prüm bis nach Lommersweiler, kurz hinter der heutigen belgischen Grenze, und sie wurde ausdrücklich auch nach militärischen Erwägungen gebaut. Der Schlieffen-Plan sah einen Angriff durch Belgien vor, und dafür brauchte es Gleise. Aus demselben Grund bekam die Strecke bis Sankt Vith ein zweites Gleis. Nach dem verlorenen Krieg musste genau dieses zweite Gleis wieder abgebaut werden, so stand es im Vertrag von Versailles. Bleialf wurde Grenzbahnhof mit Zollstation und Passkontrolle. Danach ging es abwärts, Jahrzehnt für Jahrzehnt. Erst verschwand der Personenverkehr, dann der Güterverkehr, 2001 wurde die Strecke stillgelegt. Seit 2006 ist der Abschnitt von Prüm nach Pronsfeld asphaltiert. Heute nutzen ihn der Eifel-Ardennen-Radweg und der Prümtal-Radweg. Eine Bahn, die für einen Angriffskrieg mitgeplant wurde, trägt jetzt Familien mit Kindern nach Belgien.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Westeifelbahn"
+          ]
+        },
+        {
+          "id": "tag3-watzerath",
+          "day": 3,
+          "name": "Brücke über die Prüm bei Watzerath",
+          "lat": 50.182195,
+          "lon": 6.35376,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 47.16,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du überquerst die Prüm bei Watzerath. Der Ort gehörte zum Hof Pronsfeld, einem Kondominium. Zwei Landesherren regierten dort gemeinsam, das Kurfürstentum Trier und das Herzogtum Luxemburg, und zwar über zweiundzwanzig Dörfer. Wer hier lebte, hatte zwei Obrigkeiten. Erstmals genannt wird Watzerath 1445.",
+          "textLong": "Ein Kondominium ist ein Gebiet mit zwei Herren. Der Hof Pronsfeld war so ein Fall. Zweiundzwanzig Ortschaften standen unter der gemeinsamen Landeshoheit des Kurfürstentums Trier und des Herzogtums Luxemburg, darunter Watzerath, Pittenbach, Habscheid und Pronsfeld selbst. Der Hof war Verwaltungsbezirk und Gerichtsbezirk zugleich, und die Landeshoheit teilten sich zwei Herren. Erst die französischen Revolutionstruppen machten dem Ganzen ein Ende. Watzerath selbst ist eine mittelalterliche Rodungsgründung, das verrät schon die Endung im Namen. Erstmals urkundlich erwähnt wird es 1445 als Watzenrode. Später brachte die Eisenbahn einen bescheidenen Aufschwung. Um neunzehnhundert bekam der Ort eine eigene Fahrkartenstelle und danach einen richtigen Bahnhof. Der Personenverkehr endete 1973, und heute ist Watzerath wieder das, was es vorher war, ein Bauerndorf. Im Ort steht eine spätgotische Kapelle mit angebautem Frühmessehaus. Oberhalb liegt am Mönbach die Lutzmühle, die bis 1968 in Betrieb war. Und der Jahresniederschlag beträgt neunhundertsiebenundzwanzig Millimeter, was ungefähr erklärt, warum hier alles so grün ist.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Watzerath",
+            "https://de.wikipedia.org/wiki/Pronsfeld"
+          ]
+        },
+        {
+          "id": "tag3-rastplatz-pittenbach",
+          "day": 3,
+          "name": "Spielplatz und Rastplatz Pittenbach",
+          "lat": 50.179394,
+          "lon": 6.348412,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 47.67,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der Radweg läuft hier durch Pittenbach. Am Weg liegen ein Spielplatz und ein Rastplatz. Eine ruhige Pausenstelle kurz vor Pronsfeld. Dort gibt es nach gut zwei Kilometern eine Bäckerei, eine Bank und Läden des täglichen Bedarfs. Wer noch Vorrat braucht, plant das besser dort ein.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Pronsfeld"
+          ]
+        },
+        {
+          "id": "tag3-pronsfeld",
+          "day": 3,
+          "name": "Pronsfeld und sein Eisenbahndenkmal",
+          "lat": 50.1602715,
+          "lon": 6.3331939,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 50.13,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Pronsfeld war ein Eisenbahnknoten. Ab 1907 zweigten hier gleich mehrere Strecken ab, und viele Familien lebten von der Bahn. Genau das wurde dem Ort zum Verhängnis. Im Zweiten Weltkrieg zielten die Bomber auf die Gleisanlagen. Rund achtzig Prozent des Dorfes wurden dabei zerstört.",
+          "textLong": "1886 bekam Pronsfeld die Westeifelbahn, 1907 kamen die Stichstrecken nach Waxweiler und nach Neuerburg dazu. Damit war das Bauerndorf ein Knotenpunkt. Die Gleisanlagen waren großzügig, mit langen Verladerampen und Warte- und Verschiebegleisen, die nach den Normen der Militärzüge angelegt waren. Der Ort veränderte sich. Aus einem Dorf von Schmied, Müller und Schuster wurde ein Dorf von Eisenbahnern, die nebenher noch Landwirtschaft betrieben. Im Ersten Weltkrieg diente der Bahnhof dem Aufmarsch gegen Belgien. Beim Bau des Westwalls war er einer der größten Umschlagplätze für Baumaterial, mit Wohnbaracken für die Arbeiter. Und dann kam die Rechnung. Im Zweiten Weltkrieg war der Knotenpunkt ein militärisches Ziel, und die Bomben trafen nicht nur die Gleise. Rund achtzig Prozent des Dorfes wurden zerstört. Heute ist von der Bahn nichts mehr da außer den Trassen. Seit 2006 steht am ehemaligen Bahnhof eine alte Rangierlok als Denkmal. Die vier Strecken, die einmal von hier ausgingen, sind zu vier asphaltierten Radwegen geworden. Pronsfeld ist damit wieder ein Knotenpunkt, nur langsamer.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Pronsfeld"
+          ]
+        },
+        {
+          "id": "tag3-alfbachtal",
+          "day": 3,
+          "name": "Alfbachtal",
+          "lat": 50.175713,
+          "lon": 6.316544,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 52.69,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Ab hier folgt der Radweg dem Alfbach bergauf, immer noch auf der alten Bahntrasse. Das Tal gilt als naturnah, und hier haben sich Biber angesiedelt. Am Weg steht eine Tafel, die das Tier erklärt. Bis Bleialf steigt der Weg jetzt zehn Kilometer lang sanft an.",
+          "textLong": "Der Alfbach fließt bei Pronsfeld in die Prüm, und die alte Bahnstrecke nutzte sein Tal als bequeme Steigung nach Westen. Genau das macht heute den Radweg so angenehm. Bahnen mögen keine steilen Rampen, also steigt der Weg auf rund zehn Kilometern nur sanft an, bis zum höchsten Punkt bei Bleialf. Wer bis hierher gekommen ist, hat den Rest geschenkt. Das Tal selbst ist naturnah geblieben, und dort haben sich Biber angesiedelt. Die Gemeinde weist eigens auf sie hin. Am Weg steht eine Tafel, die den Biber erklärt, und von Pronsfeld aus führen Rundwanderwege zum Bieberrevier im Alfbachtal. Zu sehen bekommt man das Tier fast nie. Zu sehen bekommt man seine Arbeit. Biber nagen Stämme an, fällen Bäume und stauen Bäche, und sie tun das gründlich. Weiter westlich, im Ihrenbachtal jenseits von Bleialf, sitzt noch eine zweite Kolonie. Ein Bauwerk, das kein Mensch genehmigt hat, mitten in einem Land voller Genehmigungen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eifel-Ardennen-Radweg",
+            "https://de.wikipedia.org/wiki/Pronsfeld"
+          ]
+        },
+        {
+          "id": "tag3-westwall-schnee-eifel",
+          "day": 3,
+          "name": "Westwallbunker über dem Alfbachtal",
+          "lat": 50.1838959,
+          "lon": 6.2903094,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 55.12,
+          "triggerRadius": 900,
+          "accessNote": "800 m Abstecher",
+          "textShort": "Südlich der Strecke stehen im Wald Betonbunker. Sie gehören zum Westwall, der von 1936 bis 1940 an der deutschen Westgrenze gebaut wurde. Über sechshundert Kilometer lang, mehr als siebzehntausend Bunker. Am sechzehnten Dezember 1944 begann an dieser Linie die Ardennenoffensive.",
+          "textLong": "Der Westwall war ein Bauwerk von absurdem Ausmaß. Über sechshundert Kilometer entlang der Westgrenze, mehr als siebzehntausend Betonbunker, dazu hunderte Kilometer Panzersperren, die wegen ihrer Form Höckerlinie oder Drachenzähne heißen. Gebaut wurde das in den Jahren vor dem Krieg. Zu sehen ist davon heute wenig, weil vieles gesprengt und überwachsen ist. Auch hier im Wald südlich der Strecke stehen noch welche. Der Bau hat diese Gegend zuerst wirtschaftlich geprägt. Der Bahnhof Pronsfeld, an dem du vorhin vorbeigekommen bist, war einer der größten Umschlagplätze für das Baumaterial, mit Wohnbaracken für die Westwallarbeiter. Für eine arme Region war das erst einmal Arbeit und Geld. Was daraus wurde, kam im Dezember 1944. Am sechzehnten begann zwischen Monschau und Echternach die Ardennenoffensive, der letzte große deutsche Angriff im Westen. Diese Linie lief mitten hier durch. Wenige Tage später überrannten deutsche Truppen bei Bleialf die amerikanischen Stellungen und nahmen mehrere hundert Soldaten gefangen. Wenige Wochen darauf war der Angriff gescheitert. Geblieben ist Beton im Wald.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Westwall",
+            "https://de.wikipedia.org/wiki/Bleialf",
+            "https://www.openstreetmap.org/node/4910703225"
+          ]
+        },
+        {
+          "id": "tag3-bleialfer-radweg",
+          "day": 3,
+          "name": "Bleialfer Radweg und der Tunnel",
+          "lat": 50.225426,
+          "lon": 6.269514,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 59.83,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Voraus liegt Bleialf, und hier ist der höchste Punkt der alten Bahnstrecke. Kurz hinter dem ehemaligen Bahnhof verschwindet der Radweg nach Sankt Vith in einem vierhundert Meter langen Tunnel. Der ist beleuchtet, aber von November bis März gesperrt. Dann gehört er den Fledermäusen.",
+          "textLong": "Die alte Westeifelbahn kletterte von Pronsfeld durch das Alfbachtal herauf und erreichte bei Bleialf ihren höchsten Punkt, auf rund vierhundertsechzig Metern. Danach ging es wieder abwärts bis zur Grenze im Ourtal. Damit die Bahn nicht über den Höhenrücken musste, wurde ein Tunnel gebaut, vierhundert Meter lang. Heute fährt dort kein Zug mehr, sondern der Eifel-Ardennen-Radweg. Der Tunnel ist beleuchtet und asphaltiert. Nur eben nicht das ganze Jahr befahrbar. Von November bis Ende März ist er gesperrt, denn Fledermäuse überwintern darin und dürfen dabei nicht gestört werden. Wer im Winter unterwegs ist, nimmt die Umfahrung über den Höhenrücken, und die hat es in sich. Rund fünfhundert Meter Höhe und eine kräftige Steigung, also genau das, was die Bahnbauer damals vermeiden wollten. Bleialf hatte übrigens einmal einen Grenzbahnhof mit Zoll und Passkontrolle. Nach dem Vertrag von Versailles wurde die deutsch-belgische Grenze verschoben, und im Fahrplan standen ab Steinebrück plötzlich westeuropäische Zeiten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eifel-Ardennen-Radweg",
+            "https://de.wikipedia.org/wiki/Westeifelbahn"
+          ]
+        },
+        {
+          "id": "tag3-bleialf",
+          "day": 3,
+          "name": "Bleialf",
+          "lat": 50.2393713,
+          "lon": 6.2873665,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 62.03,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Bleialf heißt, wie es klingt. Blei und Alf, das Erz und der Bach. Hier liegt der Zugang zu einer der drei Bleierzlagerstätten der Eifel, und man kann in den Mühlenberger Stollen einfahren. Erstmals genannt wird der Ort im Jahr 893, im Prümer Urbar.",
+          "textLong": "Am Ende des Tages schließt sich ein Kreis. Bleialf wird erstmals im Jahr 893 genannt, und zwar im Prümer Urbar. Das ist das Güterverzeichnis der Abtei Prüm, deren Basilika du heute unterwegs gesehen hast. In diesem einen Buch stehen hunderte Orte zwischen Ijssel, Maas, Lahn und Oberrhein zum ersten Mal, denn dem Kloster gehörten damals rund fünfzehnhundert Höfe. Für viele Eifeldörfer ist der Urbar die Geburtsurkunde. Der Name Bleialf sagt, wovon der Ort später lebte. Alf ist der Bach, der hier durchfließt. Blei ist das, was im Berg steckt. In Bleialf liegt der Zugang zu einer der drei Bleierzlagerstätten der Eifel. Der Mühlenberger Stollen ist heute ein Besucherbergwerk, in das man einfahren kann. Dann kam die Bahn, und nach dem Ersten Weltkrieg wurde Bleialf Grenzbahnhof. Seit 1966 hält hier kein Personenzug mehr. Und im Dezember 1944 lag das Dorf mitten in der Ardennenoffensive. Ein kleiner Ort mit sehr viel Geschichte, und das Ende der heutigen Strecke.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Bleialf",
+            "https://de.wikipedia.org/wiki/Kloster_Pr%C3%BCm"
+          ]
+        }
+      ]
     }
   ]
 }
