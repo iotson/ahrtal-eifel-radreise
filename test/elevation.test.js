@@ -48,3 +48,32 @@ test('Anstieg gefolgt von Abstieg gefolgt von Anstieg wird korrekt summiert', ()
   const anstieg = gesamtAnstiegM(roh, 3);
   assert.ok(Math.abs(anstieg - 100) < 5, `erwartet ~100, war ${anstieg}`);
 });
+
+test('Glättung mit default fensterGroesse glättet einen einzelnen Ausreißer deutlich', () => {
+  const roh = [];
+  for (let i = 0; i < 25; i += 1) {
+    roh.push(200);
+  }
+  roh[12] = 260; // Ausreißer in der Mitte
+  const geglaettet = glaetteHoehen(roh);
+  // Mit fensterGroesse=9 und halb=4: der Ausreißer wird zu einem Durchschnitt
+  // seiner ±4 Nachbarn (8x 200 + 1x 260) / 9 = 242.2, aber möglicherweise weiter gedämpft
+  assert.ok(geglaettet[12] < 245, `Ausreißer nicht gedämpft mit default: ${geglaettet[12]}`);
+  assert.ok(geglaettet[12] > 200, `zu stark gedämpft: ${geglaettet[12]}`);
+});
+
+test('lange Reihe mit überlagerten Rauschschwingungen wird korrekt summiert', () => {
+  const roh = [];
+  // Gleichmäßiger Anstieg von 100 auf 400 Metern über 300 Punkte
+  const steigung = 300 / 300; // 1m pro Punkt
+  for (let i = 0; i < 300; i += 1) {
+    const basisWert = 100 + i * steigung;
+    // Überlagert mit ±4m Sägezahn-Rauschen (wie GPS-Schwankungen)
+    const rauschen = (i % 6 < 3 ? 4 : -4);
+    roh.push(basisWert + rauschen);
+  }
+  const anstieg = gesamtAnstiegM(roh, 3);
+  // Ohne Glättung würden alle Rauschschwingungen mitgezählt → über 400m
+  // Mit Glättung sollte es nahe bei 300m sein (der echte Anstieg)
+  assert.ok(Math.abs(anstieg - 300) < 40, `Rauschen nicht richtig gefiltert: ${anstieg}m (erwartet ~300)`);
+});
