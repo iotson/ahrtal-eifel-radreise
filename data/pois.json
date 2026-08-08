@@ -432,6 +432,621 @@
           ]
         }
       ]
+    },
+    {
+      "day": 2,
+      "briefing": {
+        "text": ""
+      },
+      "pois": [
+        {
+          "id": "tag2-kurhaus-bad-neuenahr",
+          "day": 2,
+          "name": "Kurhaus Bad Neuenahr",
+          "lat": 50.542594,
+          "lon": 7.138552,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 0,
+          "triggerRadius": 450,
+          "accessNote": "300 m Abstecher",
+          "textShort": "Die Etappe beginnt in Bad Neuenahr. Nahe am Weg steht das Kurhaus an der Ahr. Es wurde 1905 fertig und ist im Neubarock gebaut. Der Bau misst 170 Meter. Bei der Flut im Juli 2021 wurde er schwer beschädigt. Die Spielbank, die früher darin saß, ist heute im Bahnhof Bad Neuenahr.",
+          "textLong": "Das Kurhaus steht unmittelbar an der Ahr, an der Felix-Rütten-Straße. Gebaut wurde es zwischen 1903 und 1905 nach Plänen des Kölner Architekten Oscar Schütz. Die Aktiengesellschaft Bad Neuenahr zahlte dafür eine Million Goldmark. Der Stil ist Neubarock. Mit einer Länge von 170 Metern war das Haus ein Repräsentationsbau. Neuenahr wollte damit mit anderen Kurorten wie Baden-Baden mithalten. Der Haupteingang liegt an der Südseite. Er trägt eine Zweiturmfassade, wie sie in Deutschland bei einem weltlichen Gebäude sehr selten ist. Mittelpunkt des Hauses ist der große Fest- und Theatersaal. Er hat siebenhundert Plätze im Parkett und dreihundert auf dem Balkon. Um ihn gruppieren sich die übrigen Räume. Von 1951 bis 1958 fand der Bundespresseball hier statt. Erst als in Bonn die Beethovenhalle fertig war, wechselte der Ball an den damaligen Regierungssitz. Im Kurhaus saß außerdem lange die Spielbank Bad Neuenahr. Bei der Flutkatastrophe im Ahrtal im Jahr 2021 wurde das Gebäude massiv beschädigt. Die Spielbank wurde danach im Bahnhof Bad Neuenahr wieder eröffnet. Das Kurhaus ist ein geschütztes Baudenkmal.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kurhaus_Bad_Neuenahr"
+          ]
+        },
+        {
+          "id": "tag2-ahrtor-ahrweiler",
+          "day": 2,
+          "name": "Ahrtor und Stadtmauer von Ahrweiler",
+          "lat": 50.540658,
+          "lon": 7.097063,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 2.9,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du fährst durch das Ahrtor in die Altstadt von Ahrweiler. Es ist eines von vier Stadttoren. Die Stadtmauer umschließt den alten Kern noch fast vollständig. Sie ist 1800 Meter lang. Dazu sind drei Wehrtürme erhalten. Die Tore sind erstmals im Jahr 1297 belegt, die Mauer ein Jahr später.",
+          "textLong": "Die Stadtbefestigung von Ahrweiler ist seit der Mitte des dreizehnten Jahrhunderts belegt. Der Graben erscheint erstmals im Jahr 1261 in den Quellen, die Stadttore 1297 und die Mauer 1298. Die Altstadt wird bis heute fast vollständig von der Mauer umschlossen. Sie ist 1800 Meter lang. Das ummauerte Gebiet umfasst rund achtzehn Hektar. Vier Tore führen hinein: das Obertor, das Adenbachtor, das Niedertor und das Ahrtor. Dazu sind drei Wehrtürme erhalten. Bemerkenswert ist die Bauweise der Mauer. Sie steht nicht auf einem durchgehenden Fundament, sondern auf Bögen und Pfeilern. Das spart Material und hat vor allem statische Gründe. Die Mauer wird dadurch elastisch und kann Erschütterungen leichter abfangen. Die Pfeiler reichen nur 75 bis 80 Zentimeter tief in den Boden. Die Mauer ist sechs bis acht Meter hoch. Unten misst sie 1,20 Meter in der Stärke, oben nur noch 0,90 Meter. Der Stadtgraben war nicht dauerhaft gefüllt. Wasser stand nur in Kriegszeiten darin. In Friedenszeiten dienten die Grabenteile als Heuwiesen und sogar als Weingärten. Die Stadtbefestigung ist als Kulturdenkmal geschützt.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Stadtbefestigung_Ahrweiler"
+          ]
+        },
+        {
+          "id": "tag2-sankt-laurentius-ahrweiler",
+          "day": 2,
+          "name": "Pfarrkirche Sankt Laurentius in Ahrweiler",
+          "lat": 50.542419,
+          "lon": 7.094309,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 3.08,
+          "triggerRadius": 400,
+          "accessNote": "250 m Abstecher",
+          "textShort": "Im Kern von Ahrweiler steht die Pfarrkirche Sankt Laurentius. Sie gilt als die älteste Hallenkirche des Rheinlandes. Der Grundstein wurde im Jahr 1269 gelegt. Bei der Flut im Juli 2021 stand das Wasser eineinhalb Meter hoch im Inneren. Nach der Sanierung wurde die Kirche im August 2025 wieder eröffnet.",
+          "textLong": "Ahrweiler gehörte einst der Abtei Prüm. Sie ließ die Kirche im dreizehnten Jahrhundert errichten. Der Grundstein wurde im Jahr 1269 gelegt. Als Pfarrer schickte die Abtei Benediktinermönche aus Prüm nach Ahrweiler. Nach der Säkularisation berief nicht mehr der Prümer Abt die Pfarrer, sondern der Bischof. Seit 1824 gehört die Pfarrei zum Bistum Trier. Sankt Laurentius ist eine dreischiffige gotische Hallenkirche und gilt als die älteste Hallenkirche des Rheinlandes. Strebepfeiler gliedern die Fassaden. Der Turm ist achteckig und in den Bau eingestellt. Innen ist die Kirche 44,20 Meter lang und 20,80 Meter breit. Das Kreuzrippengewölbe reicht bis in 14,40 Meter Höhe. Zur Ausstattung gehören ein spätgotischer Taufstein, eine Monstranz aus der Zeit um 1400 und ein gotischer Sakramentsschrein von 1481. Anfang März 1945 beschädigte Artilleriefeuer das Dach und den Turm. Beim Hochwasser im Juli 2021 stand das Wasser eineinhalb Meter hoch in der Kirche. Die Sanierung dauerte bis zum Sommer 2025. Am 10. August 2025 wurde die Kirche wieder eröffnet und vom Trierer Bischof Stephan Ackermann neu eingesegnet.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/St._Laurentius_(Ahrweiler)"
+          ]
+        },
+        {
+          "id": "tag2-regierungsbunker-marienthal",
+          "day": 2,
+          "name": "Dokumentationsstätte Regierungsbunker",
+          "lat": 50.541204,
+          "lon": 7.080099,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 3.66,
+          "triggerRadius": 750,
+          "accessNote": "600 m Abstecher",
+          "textShort": "Rechts über dir liegt im bewaldeten Hang der Eingang zur Dokumentationsstätte Regierungsbunker. Hier begann die 17,3 Kilometer lange Anlage, in die sich die Verfassungsorgane des Bundes im Verteidigungsfall zurückziehen sollten. Gebaut wurde sie von 1960 bis 1972 in alten Eisenbahntunneln. Erhalten ist heute noch ein Stück von 203 Metern.",
+          "textLong": "Der Ausweichsitz der Verfassungsorgane des Bundes lag im Tal der Ahr zwischen Bad Neuenahr-Ahrweiler und Dernau. Umgangssprachlich hieß er Regierungsbunker. Er sollte der Bundesregierung im Verteidigungsfall als unterirdische Führungsanlage dienen. Gebaut wurde die Anlage unter großer Geheimhaltung zwischen 1960 und 1972. Genutzt wurden dafür zwei von fünf Tunneln einer Eisenbahnstrecke, die Anfang des zwanzigsten Jahrhunderts begonnen und nie fertiggestellt worden war. Insgesamt war der Bunker 17,3 Kilometer lang. Nach dem Ende des Kalten Krieges wurde er aus Kostengründen stillgelegt und danach fast vollständig entkernt. Erhalten blieb ein Stück von 203 Metern. Darin ist heute die Dokumentationsstätte Regierungsbunker untergebracht. Im Jahr 2009 erklärte die Europäische Kommission den Regierungsbunker zum Europäischen Kulturerbe. Die Tunnel haben eine ältere Geschichte. Im Frühjahr 1935 richtete man darin eine Champignonzucht ein, um vom Import aus Frankreich unabhängig zu werden. Ab Herbst 1943 zogen Rüstungsfirmen ein. In den letzten Kriegsjahren zimmerten die Bewohner von Ahrweiler hölzerne Hütten in den Silberbergtunnel. Es entstand eine Stadt im Berg, die zeitweise 2500 Menschen Schutz vor Luftangriffen bot. Der Eingang zum Museum liegt heute in der Nähe des gesprengten Westportals dieses Tunnels.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Regierungsbunker_(Deutschland)",
+            "https://de.wikipedia.org/wiki/Silberbergtunnel"
+          ]
+        },
+        {
+          "id": "tag2-roemervilla-ahrweiler",
+          "day": 2,
+          "name": "Museum Römervilla",
+          "lat": 50.538846,
+          "lon": 7.085094,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 3.71,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Nur wenige Schritte neben dem Weg liegt das Museum Römervilla. Es schützt das Hauptgebäude eines römischen Gutshofs am Fuß des Silberbergs. Gefunden wurde die Anlage im März 1980 beim Ausbau einer Bundesstraße. Erhalten sind Mauern bis in eineinhalb Meter Höhe und selten gut erhaltene Wandmalereien.",
+          "textLong": "Der Gutshof entstand am Nordhang des Ahrtals in der Mitte des ersten Jahrhunderts nach Christus. Er gehörte einer wohlhabenden Familie. Das zeigen vor allem die hochwertigen Wandmalereien im Erdgeschoss und im Obergeschoss. Das Haupthaus stand dicht am Fuß des steilen Hangs und war so vor Wetter aus Norden geschützt. Die Schauseite mit dem Säulengang blickte nach Süden über die Ahr. Gegen 259 oder 260 nach Christus wurde die Anlage planmäßig geräumt. In der Spätantike diente das Hauptgebäude als Herberge. Danach zog eine Eisenschmelze ein. Später verfiel alles und wurde von Schutt und Geröll des Silberbergs bedeckt. Auf dem Platz entstand ein frühmittelalterlicher christlicher Friedhof. Entdeckt wurde die Villa im März 1980 beim Ausbau der Bundesstraße 267. Bagger griffen bereits in römisches Mauerwerk, als ein ehrenamtlicher Mitarbeiter des Denkmalamtes Koblenz eingriff. Einen Tag später wurden die Bauarbeiten eingestellt und das Gelände gesichert. Die geplante Fahrbahn wurde verlegt und ein aufwendiger Schutzbau errichtet. In elf Grabungskampagnen legten Archäologen das Haupthaus zwischen 1980 und 1990 frei. Seit dem Frühjahr 1993 sind die Ergebnisse zu besichtigen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/R%C3%B6mervilla_von_Bad_Neuenahr-Ahrweiler"
+          ]
+        },
+        {
+          "id": "tag2-bunte-kuh",
+          "day": 2,
+          "name": "Bunte Kuh bei Walporzheim",
+          "lat": 50.530264,
+          "lon": 7.069635,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 6.13,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Über Walporzheim ragt die Bunte Kuh aus dem Schiefer. Etwa fünfzehn Meter über der Straße steht eine schmale Felsplatte vor. Ihre Form erinnert an einen Tierkopf. Der Felsen gilt als Wahrzeichen des Ahrtals und ist als Naturdenkmal geschützt. Hier liegt flussabwärts die letzte enge Stelle des Tals.",
+          "textLong": "Die Bunte Kuh steht direkt oberhalb der Ortslage Walporzheim. An dieser Stelle zieht sich die Bundesstraße in einer Kurve um eine fast senkrechte Felswand. Aus dem Schiefer ragt rund fünfzehn Meter über der Straße eine einige Meter lange Felsplatte heraus. Sie steht senkrecht und ist unregelmäßig geformt. Von unten erinnert die Form an einen länglichen Tierkopf, der schräg nach oben gestreckt ist. Obwohl der Felsen offiziell ein Naturdenkmal ist, entstand er durch Menschenhand. Im neunzehnten Jahrhundert sprengte man an den engen Stellen des Ahrtals Platz für eine Straße. Bei dieser Sprengung blieb der Vorsprung stehen. Der Name selbst ist älter. Bunte Kuh war schon vorher der Flurname des Felsens. Woher er stammt, ist ungeklärt. Erzählt wird die Sage von Raubrittern, die hier ein Glöckchen hörten und niederknieten, weil sie eine Gotteserscheinung erwarteten. Als sich nur eine bunte Kuh zeigte, gerieten sie in Wut und töteten das Tier. Eine andere Erklärung führt den Namen auf durchziehende französische Soldaten zurück, die den Ahrwein lobten. Die Felsmasse arbeitet bis heute. Sie wird auf Risse überwacht und ist mit Stahlankern gesichert. Im Jahr 2002 rutschten einige Tonnen Gestein ab.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Bunte_Kuh_(Felsen)"
+          ]
+        },
+        {
+          "id": "tag2-lager-rebstock",
+          "day": 2,
+          "name": "Erinnerungsstätte Lager Rebstock",
+          "lat": 50.539917,
+          "lon": 7.060567,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 7.03,
+          "triggerRadius": 900,
+          "accessNote": "750 m Abstecher",
+          "textShort": "Oberhalb von Marienthal erinnert eine Erinnerungsstätte an das Lager Rebstock. Es war ein Außenlager des Konzentrationslagers Buchenwald. Die Häftlinge mussten in den Eisenbahntunneln am Hang Bodenanlagen für die Vergeltungswaffe zwei fertigen. Das Lager bestand nur wenige Monate im Jahr 1944.",
+          "textLong": "Das Außenlager Rebstock lag bei Marienthal zwischen Dernau und Ahrweiler. Es war ein Außenlager des Konzentrationslagers Buchenwald und wurde am 21. August 1944 eingerichtet. Am 13. Dezember 1944 wurde es wieder aufgelöst. Die verbliebenen Häftlinge kamen danach in ein Lager gleichen Namens bei Artern. Rebstock war ein Deckname. Er stand für den Silberbergtunnel und den Kuxbergtunnel. Ein zweiter Deckname, Spatz, stand für drei weitere Tunnel bei Dernau. Diese Tunnel gehörten zu einer strategischen Bahnstrecke, die 1904 begonnen und nie fertiggestellt wurde. Im Lager Rebstock fertigte die Stettiner Firma Gollnow und Sohn Bodenanlagen für die Vergeltungswaffe zwei. Dafür wurden die Häftlinge als Zwangsarbeiter eingesetzt. Zunächst standen elf massive Unterkunftsbaracken nördlich des Bahndamms. Später wurde die Unterbringung ganz in den Tunnel verlegt. Damit lebten die Gefangenen unmittelbar neben den Bewohnern von Marienthal, die denselben Tunnel als Luftschutzbunker nutzten. Über die Zahl der Häftlinge gibt es unterschiedliche Angaben. Der Bericht eines Gefangenen aus den Niederlanden spricht von fast dreihundert Menschen. Die für die Firma abgerechneten Monatszahlen liegen bei bis zu 184 Häftlingen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/KZ-Au%C3%9Fenlager_Rebstock"
+          ]
+        },
+        {
+          "id": "tag2-klosterruine-marienthal",
+          "day": 2,
+          "name": "Klosterruine Marienthal",
+          "lat": 50.53721,
+          "lon": 7.05785,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 7.08,
+          "triggerRadius": 550,
+          "accessNote": "400 m Abstecher",
+          "textShort": "Links im Hang liegt die Ruine des Klosters Marienthal. Es wurde 1137 gegründet und ist das älteste Kloster des Ahrtals. Hier lebten Augustinerinnen. Nach der Säkularisation wurden die Gebäude 1811 auf Abbruch verkauft. Erhalten sind die Ruine der Klosterkirche, Teile des Kreuzgangs und das Haus der Äbtissin.",
+          "textLong": "Als Gründer gilt Adolf der Erste von Saffenberg, der auf der Saffenburg bei Mayschoß residierte. Im Jahr 1136 ermächtigte er die Augustinermönche der Abtei Klosterrath, im Hubachtal an der Ahr ein Kloster zu errichten. Das Tal war damals noch bewaldet und unbewohnt. Nach der Rodung entstand der Bau. Ein Jahr später kamen 37 Augustinerinnen aus dem Mutterhaus und bezogen das Kloster. 1138 wurde die erste Messe gefeiert. Drei Jahre danach weihte der Kölner Erzbischof Arnold der Erste die Klosterkirche. Die Nonnen stammten aus dem niederen Dienstadel der Grafen von Are und von Saffenberg. Geleitet wurde das Haus von einer Äbtissin. Im vierzehnten Jahrhundert beschränkte der Kölner Erzbischof die Zahl der Nonnen auf vierzig. Im Dreißigjährigen Krieg plünderten schwedische Truppen das Kloster. Dabei ging das Klosterarchiv verloren. Gegen Ende des Krieges folgten französische Truppen. Der Wiederaufbau begann kurz vor der Jahrhundertwende. Nach der Besetzung des linken Rheinufers flohen die Nonnen 1794 auf die andere Rheinseite. 1802 wurde das Kloster säkularisiert und im Jahr darauf versteigert. 1811 verkaufte man die Gebäude auf Abbruch und trug sie zum Teil ab. Erhalten blieben die Ruine der Klosterkirche, Teile des Kreuzgangs und das Haus der Äbtissin aus der Zeit des Rokoko.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kloster_Marienthal_(Ahr)"
+          ]
+        },
+        {
+          "id": "tag2-ahrbruecke-rech",
+          "day": 2,
+          "name": "Alte Ahrbrücke in Rech",
+          "lat": 50.514125,
+          "lon": 7.036256,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 10.49,
+          "triggerRadius": 300,
+          "accessNote": "150 m Abstecher",
+          "textShort": "In Rech stand die alte Ahrbrücke, nach der Figur des heiligen Nepomuk auch Nepomukbrücke genannt. Sie war die älteste noch erhaltene Brücke über die Ahr. Die große Flut von 1910 überstand sie als eine von zweien. Die Flut vom Juli 2021 beschädigte sie schwer. 2023 wurde sie abgebrochen.",
+          "textLong": "Die Gemeinde Rech baute von 1723 bis 1724 an einer Engstelle der Ahr zwei steinerne Flusspfeiler und legte eine Holzbalkenbrücke darauf. Wenige Jahrzehnte später ersetzte man die Holzkonstruktion durch zwei Bögen aus Bruchstein. Ein Hochwasser im Juli 1804 zerstörte einen Bogen, weil sich Treibholz davor staute. Danach kamen zwei weitere Bögen hinzu. So entstand die vierbogige Steinbrücke aus Grauwacke, rund 43 Meter lang und bis zu fünf Meter hoch. Beim großen Hochwasser im Juni 1910 wurden alle kleineren und acht große Ahrbrücken zerstört. Nur die Brücken bei Dernau und bei Rech blieben erhalten. Eine Steinfigur des heiligen Nepomuk stand seit dem achtzehnten Jahrhundert auf der Brüstung. Sie wurde 1919 von amerikanischen Besatzungstruppen in die Ahr gestürzt. Der Eifelverein stiftete kurz darauf eine neue Figur aus Basalt. Seit 1981 war die Brücke ein geschütztes Kulturdenkmal. Gut ein Jahrzehnt vor der Flut wurde sie noch aufwendig saniert. Beim Hochwasser am 14. und 15. Juli 2021 riss es den vierten Bogen mit einem großen Teil des Ufers fort. Der Verkehr lief danach über Boote und über Behelfsbrücken. Der Gemeinderat beschloss den Abriss, um das Risiko neuer Überschwemmungen zu senken. Dagegen gab es öffentlichen Protest und Initiativen für den Erhalt. Im Juli 2023 begannen die Abbrucharbeiten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ahrbr%C3%BCcke_(Rech)",
+            "https://de.wikipedia.org/wiki/Rech"
+          ]
+        },
+        {
+          "id": "tag2-saffenburg",
+          "day": 2,
+          "name": "Saffenburg über Mayschoß",
+          "lat": 50.520173,
+          "lon": 7.023566,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 11.46,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Über Mayschoß liegt die Saffenburg auf einem langen Felsrücken. Die Ahr umfließt ihn auf drei Seiten. Zwei Tunnelröhren der Ahrtalbahn durchstoßen den Fels. Die Burg ist die älteste Burgruine des Ahrtals. Erhalten sind vor allem Grundmauern. Seit 2007 ist die Ruine wieder öffentlich begehbar.",
+          "textLong": "Die Saffenburg steht auf 253 Metern über dem Meer auf einem langgestreckten Felsmassiv über Mayschoß. Die Ahr umspült den Fels auf drei Seiten. Zwei Tunnelröhren der Ahrtalbahn führen hindurch. Die stillgelegte Röhre diente bis zum Hochwasser von 2021 dem Ahr-Radweg als Trasse. Die Anlage ist rund 260 Meter lang und 80 Meter breit. Sie bestand aus zwei Vorburgen und der Kernburg. Tiefe Halsgräben trennten die Teile voneinander. Das Material aus den Gräben wurde gleich als Baustoff verwendet. Heute sind vor allem Grundmauern erhalten, die scheinbar nahtlos in den Felsen übergehen. Im Jahr 2004 begann eine grundlegende Sanierung. Seit 2007 ist die Ruine wieder öffentlich begehbar. Erbaut wurde die Burg im elften Jahrhundert von den Grafen Adolf von Nörvenich und Adalbert von Saffenburg. Urkundlich fassbar ist sie erstmals im Jahr 1074. Zur Herrschaft Saffenburg gehörten neben der Burg das Kloster Marienthal und die vier Dörfer Mayschoß, Laach, Rech und Dernau. Die Herrschaft hatte ein eigenes Gericht mit Schöffen, die in den Dörfern gewählt wurden. Es tagte in der Rentmeisterei zu Mayschoß. Fremde durften sich nur gegen Zahlung in der Herrschaft niederlassen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Saffenburg"
+          ]
+        },
+        {
+          "id": "tag2-burg-are",
+          "day": 2,
+          "name": "Burg Are über Altenahr",
+          "lat": 50.517361,
+          "lon": 6.994722,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 15.8,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Über Altenahr steht die Ruine der Burg Are. Sie liegt 240 Meter über dem Meer auf einem Felsen und wurde zwischen 1095 und 1105 erbaut. Erhalten sind der alte Torturm, Reste der Wehrmauer und die Wand des Palas. Nördlich davon stehen noch Mauern der romanischen Burgkapelle.",
+          "textLong": "Graf Dietrich der Erste von Are ließ die Burg zwischen 1095 und 1105 errichten. Urkundlich erwähnt wird sie erstmals im Jahr 1121. Der Grundriss ist ein Viereck. Erhalten sind Teile der Vorburg, Reste der Wehrmauer und an der Südseite ein alter Torturm, auch Schellenturm genannt. Daneben steht die Ruine des Palas. Darin gab es einst eine beheizbare Bischofskammer. Auf der spitzen Felskuppe in der Nordecke stand vermutlich der erste Bergfried. Nördlich davon sind umfangreiche Reste der romanischen Burgkapelle aus dem zwölften Jahrhundert erhalten. Unterhalb der Burg liegen die Reste der Gymnicher Porz. Porz steht für Pforte. Es war eine untere Toranlage am Zuweg, die den Burgberg zusammen mit einer Mauer abriegelte. Im Jahr 1246 schenkte Graf Friedrich von Hochstaden die Grafschaft mit den Burgen Are, Hardt und Hochstaden dem Erzstift Köln. Von 1997 bis 1999 wurde die Ruine mit hohem Aufwand gesichert. Dabei stürzte im April 1997 ein Hubschrauber ab, der Baumaterial heraufbrachte. Der Pilot kam ums Leben. Von 2005 bis 2012 wurde der Burgbrunnen freigelegt. Er war 1713 mit dem Schutt der zerstörten Burg verfüllt worden. Heute reicht er wieder 29 Meter in die Tiefe.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Are"
+          ]
+        },
+        {
+          "id": "tag2-winzergenossenschaft-mayschoss-altenahr",
+          "day": 2,
+          "name": "Winzergenossenschaft Mayschoß-Altenahr",
+          "lat": 50.516839,
+          "lon": 6.994225,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 15.8,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Weg liegt ein Betrieb der Winzergenossenschaft Mayschoß-Altenahr. Achtzehn Winzer gründeten sie im Jahr 1868, weil sie ihren Wein nicht mehr mit Gewinn verkaufen konnten. Das Unternehmen bezeichnet sich als älteste Winzergenossenschaft der Welt. Genau genommen ist sie die älteste noch bestehende. Heute gehören ihr rund 430 Mitglieder an.",
+          "textLong": "Im neunzehnten Jahrhundert ging es den Winzern an der Ahr schlecht. Mit der Säkularisation verloren sie die Klöster und die Adelshöfe als Abnehmer. Steuern und Abgaben mussten nun in Geld bezahlt werden, und Missernten häuften sich. Der Weinhandel kaufte zu abgesprochenen Preisen ein, die nicht mehr kostendeckend waren. Ein Winzer beschrieb die Lage mit den Worten: Wir hatten Wein genug, aber kein Brot und auch kein Geld, solches zu kaufen. Im Jahr 1868 gründeten achtzehn Winzer in Mayschoß einen Winzerverein. Ein Jahr später wurde daraus eine Genossenschaft. Der erste größere Erfolg kam 1871, nachdem ein Vorstandsmitglied die wichtigsten Absatzgebiete bereist hatte. 1881 zählte die Genossenschaft bereits 141 Mitglieder. Im Jahr 1873 entstand eine Kellerei mit einem Gewölbekeller. Heute gehören der Genossenschaft rund 430 Mitglieder mit zusammen 150 Hektar Rebfläche. Das ist etwa ein Viertel des Anbaugebiets Ahr. Rund achtzig Prozent der Fläche tragen rote Sorten. Wichtigste Sorte ist der Spätburgunder, danach folgt der Riesling. Beim Hochwasser von 2021 wurden die Gebäude in Mayschoß und in Altenahr stark in Mitleidenschaft gezogen. Flaschen, die man aus den gefluteten Räumen barg, wurden später als Flutwein verkauft.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Winzergenossenschaft_Mayscho%C3%9F-Altenahr"
+          ]
+        },
+        {
+          "id": "tag2-altenahr",
+          "day": 2,
+          "name": "Altenahr",
+          "lat": 50.517151,
+          "lon": 6.991086,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 16.03,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Altenahr liegt im Ahrtal am Nordostrand des Ahrgebirges, etwa 35 Kilometer südwestlich von Bonn. Der Ort ist Verwaltungssitz der Verbandsgemeinde. Erstmals erwähnt wurde er im Jahr 893. Zu ihm gehören auch Altenburg, Kreuzberg und Reimerzhoven. Wer heute durchfährt, sieht überall Spuren der Flut vom Juli 2021.",
+          "textLong": "Altenahr wurde im Jahr 893 im Prümer Urbar erstmals urkundlich erwähnt. Heute besteht die Ortsgemeinde aus vier Ortsteilen: Altenahr, Altenburg, Kreuzberg und Reimerzhoven. Sie ist der Verwaltungssitz der gleichnamigen Verbandsgemeinde. Der Ort war immer wieder von Hochwasser betroffen. Besonders schwer trafen ihn die Fluten vom 21. Juli 1804 und vom 13. Juni 1910. Im Juni 2016 erreichte die Ahr am Pegel Altenahr einen Stand von 371 Zentimetern. Im Juli 2021 brachte das Unwettertief Bernd Dauerregen und Starkregen in den Kreis Ahrweiler. Der Pegel in Altenahr stand am Mittag des 14. Juli bei ungefähr hundert Zentimetern. Am Abend zeigte er 575 Zentimeter an. Dann fiel das Messgerät aus. Später vermaß ein ortsansässiges Ingenieurbüro die Flutmarken im Pegelbereich. Daraus ergab sich ein höchster Wasserstand von 984 Zentimetern. Mehrere Ortsteile wurden durch die Überschwemmungen verwüstet. Auch der Ahr-Radweg war nach der Flut zunächst nicht befahrbar. Wer heute durch Altenahr fährt, sieht den Wiederaufbau an vielen Stellen. Manche Häuser sind wieder hergerichtet, andere stehen noch offen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Altenahr",
+            "https://de.wikipedia.org/wiki/Ahr-Radweg"
+          ]
+        },
+        {
+          "id": "tag2-cloossche-falte",
+          "day": 2,
+          "name": "Cloos'sche Falte in Altenburg",
+          "lat": 50.51104,
+          "lon": 6.987076,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 17.1,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "An der Straße in Altenburg steht ein Felsaufschluss, in dem sich die Gesteinsschichten deutlich sichtbar biegen. Das ist die Cloos'sche Falte. Sie ist seit 1981 als Naturdenkmal geschützt. Benannt ist sie nach dem Bonner Geologen Hans Cloos, der hier nach dem Krieg gefaltete Schichten untersucht hat.",
+          "textLong": "Der Aufschluss liegt in Altenburg an der Kreuzberger Straße, unmittelbar neben der Fahrbahn. Zu sehen ist ein Faltensattel in den mittleren Siegen-Schichten. Das sind Gesteine aus dem Unterdevon. Die Schichten wurden nicht zerbrochen, sondern gebogen. Man erkennt den Bogen mit bloßem Auge. Entstanden ist diese Faltung vor rund 325 Millionen Jahren. Damals stieß der Kontinent Gondwana weiter im Süden mit Laurussia zusammen. Die Ablagerungen dazwischen wurden zusammengeschoben und zum Variszischen Gebirge aufgefaltet. Der Name geht auf Hans Cloos zurück. Er war von 1926 bis 1951 Professor für Geologie an der Universität Bonn. Nach dem Krieg untersuchte er die gefalteten Schichtfolgen in der Gegend um Altenahr und Schuld. Besonders interessierte ihn dieser Aufschluss. Seine Ergebnisse veröffentlichte er im Jahr 1950 unter dem Titel Gang und Gehwerk einer Falte. Die Arbeit gilt als Grundlage für das Verständnis der Faltenmechanik. Cloos hat die Aufschlüsse nicht nur genau vermessen und gezeichnet. Er hat aus leicht zugänglichen Stellen auch auf den Bau des ganzen Gebirges geschlossen. Seit dem 27. Juli 1981 steht die Falte als Naturdenkmal unter Schutz.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Liste_der_Naturdenkmale_in_Altenahr",
+            "https://digitalgeology.de/die-cloossche-falte"
+          ]
+        },
+        {
+          "id": "tag2-burg-kreuzberg",
+          "day": 2,
+          "name": "Burg Kreuzberg",
+          "lat": 50.509487,
+          "lon": 6.975475,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 18.21,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Über dem Ort steht die Burg Kreuzberg auf einem dreieckigen Felsplateau. Sie ist die einzige bewohnte Burg im Ahrtal. Seit 1820 lebt hier die Familie von Boeselager. Der weiß verputzte runde Bergfried ist von weitem zu sehen. Die Burg ist Privatbesitz und bis auf die Kapelle nicht zugänglich.",
+          "textLong": "Die Burg steht auf einem kleinen, fast dreieckigen Felsplateau über dem Altenahrer Ortsteil Kreuzberg. Kreuzberg selbst wird 893 im Prümer Urbar erstmals genannt, damals als Cruceberg. Um 1100 kam die Siedlung an die Grafen von Are. Sie ließen auf dem Kreuzberg ein erstes Wohnhaus für einen ihrer Verwalter errichten. Die heutige Anlage besteht aus der Kernburg, einer Kapelle und Wirtschaftsgebäuden aus dem achtzehnten Jahrhundert. Eine Ringmauer umschließt die Burg und eine Gartenanlage. An der Ostseite steht der runde, weiß verputzte Bergfried mit einem stumpfen Kegelhelm. Seine Wetterfahne trägt die Jahreszahl 1781. Der Turm schützte das benachbarte Eingangstor zum Innenhof. An der Nordseite schließt ein barocker zweigeschossiger Wohnbau aus Bruchstein an. Seine Fassade weist zwei Knicke auf, weil die mittelalterliche Ringmauer die äußere Form vorgab. Die Burgkapelle ist im Stil des Spätbarocks gebaut und dem heiligen Antonius gewidmet. An der Westempore findet sich ein Wappen mit der Jahreszahl 1783. Seit 1820 ist die Burg Wohnsitz der Familie von Boeselager. Sie ist damit die einzige bewohnte Burg im Ahrtal. Als Privatbesitz ist sie bis auf die Kapelle nicht für die Öffentlichkeit zugänglich.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Kreuzberg_(Rheinland-Pfalz)"
+          ]
+        },
+        {
+          "id": "tag2-nahversorgung-ahrbrueck",
+          "day": 2,
+          "name": "Einkaufsmöglichkeit in Ahrbrück",
+          "lat": 50.492078,
+          "lon": 6.980301,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 20.43,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Wenige Meter neben dem Radweg liegen in Ahrbrück ein Supermarkt, eine Bäckerei und ein Getränkemarkt beieinander. Weiter ahraufwärts wird das Angebot deutlich dünner. Wer Proviant für den langen Weg in die Eifel braucht, deckt sich hier ein.",
+          "sources": []
+        },
+        {
+          "id": "tag2-ahrbrueck",
+          "day": 2,
+          "name": "Ahrbrück",
+          "lat": 50.486399,
+          "lon": 6.973064,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 21.42,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Die Gemeinde Ahrbrück besteht aus drei Ortsteilen: Ahrbrück, Brück und Pützfeld. Du fährst durch Brück. Am Weg steht die Katharinenkapelle. Die große Pfarrkirche Sankt Andreas gibt es nicht mehr. Sie wurde bei der Flut von 2021 stark beschädigt und im Sommer 2025 abgerissen.",
+          "textLong": "Die Ortsgemeinde Ahrbrück entstand im Juni 1969 aus drei bis dahin selbständigen Gemeinden. Pützfeld wird schon 893 als Besitz der Abtei Prüm genannt. Brück und der damalige Ort Denn erscheinen erstmals im dreizehnten Jahrhundert. Alle drei gehörten zur Grafschaft Are und kamen 1246 unter kölnische Hoheit ins Amt Altenahr. Der Ortsteil Ahrbrück hieß bis 1938 Denn. In jenem Jahr wurde er für den Luftwaffenübungsplatz Ahrbrück zwangsgeräumt. Erst nach dem Krieg gab man das Gelände zur Wiederbesiedlung frei. Angesiedelt wurden heimatvertriebene Bauern aus dem ostpreußischen Ermland. Den Namen Ahrbrück behielt man bei. An die Hexenverfolgung erinnert ein Gedenkstein. Im Jahr 1649 wurde Else Simons aus Pützfeld als Hexe angezeigt und gefoltert. Bei ihrer Hinrichtung mussten zur Abschreckung alle Leute des Ortes zusehen. Zur Erinnerung an sie wurde an der ehemaligen Richtstätte ein Stein aufgestellt. Das größte Kirchengebäude der Gemeinde war die Sankt-Andreas-Kirche. Beim Ahrhochwasser 2021 wurde sie stark beschädigt. Im September 2022 fand der letzte Gottesdienst darin statt. Im Sommer 2025 wurde sie abgerissen. Erhalten sind die Dorfkapellen Sankt Rochus in Ahrbrück und Sankt Katharina in Brück.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ahrbr%C3%BCck"
+          ]
+        },
+        {
+          "id": "tag2-hoenningen",
+          "day": 2,
+          "name": "Hönningen an der Ahr",
+          "lat": 50.471593,
+          "lon": 6.950128,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 24.66,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Hönningen liegt in einer Flussschleife der Ahr, die nach Nordwesten verläuft. Über dem Ort steht die Pfarrkirche Sankt Kunibert. Der Name des Patrons erklärt sich aus dem Jahr 1084. Damals trat die Metzer Abtei Sankt Arnulf ihren Besitz hier an das Kölner Stift Sankt Kunibert ab.",
+          "textLong": "Der Ortsname weist auf eine fränkische Siedlung hin. Früher hieß der Ort Hunighofen. Schon seit der Mitte des siebten Jahrhunderts war die Metzer Abtei Sankt Arnulf hier begütert. Im Jahr 1084 trat die Abtei ihren Besitz in Hönningen an das Stift Sankt Kunibert in Köln ab. Deshalb ist der heilige Kunibert bis heute der Patron der Pfarrei. Im Jahr 1316 nennt der Liber valoris Hönningen als eigene Pfarrei. 1494 gingen die Rechte an die Johanniter-Kommende in Adenau. Begütert war der Orden hier schon seit 1291. Über dreihundert Jahre lang gehörte Hönningen mit seinen Filialen Dümpelfeld, Niederadenau und Liers zum Johanniterorden. Der Erweiterungsbau der Kirche wurde 1896 eingeweiht. Auf dem Schlussstein sind das Johanniterkreuz und das Wappen derer von Orsbeck zu sehen. Diese Familie war als Herren von der Wensburg auch Grundherren von Hönningen. Herrschaftlich gehörte der Ort bis 1246 zur Grafschaft Are. Danach kam er zum kurkölnischen Amt Altenahr und bildete dort eine eigene Vogtei. Aus Hönningen stammt außerdem das später weit verzweigte Adelsgeschlecht Hoyningen-Huene. Es wird erstmals im Jahr 1176 urkundlich erwähnt. Zur Gemeinde gehört auch der Ortsteil Liers.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/H%C3%B6nningen"
+          ]
+        },
+        {
+          "id": "tag2-insul",
+          "day": 2,
+          "name": "Insul",
+          "lat": 50.441392,
+          "lon": 6.91528,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 29.35,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Insul liegt auf beiden Seiten der Ahr. Der Name geht auf das lateinische Wort für Insel zurück, denn der Fluss hatte früher auch einen südlichen Arm. Bei der Flut von 2021 stürzte die Brücke zwischen den beiden Ortsteilen ein. Schon am 21. Juli wurde eine Behelfsbrücke verlegt.",
+          "textLong": "Insul liegt sieben Kilometer nördlich von Adenau, auf beiden Seiten der Ahr. Mundartlich heißt der Ort Äsel. Der Name wird auf das lateinische Wort für Insel zurückgeführt. An der Ortslage ist bis heute zu erkennen, dass die Ahr früher auch einen südlichen Flussarm hatte. Der Ort war damit ganz vom Wasser umflossen. Urkundlich erscheint Insul erstmals im Jahr 1269. Die Gemarkung gehörte im zwölften Jahrhundert zur Grafschaft Are. Mitte des dreizehnten Jahrhunderts fiel sie mit allem Besitz an Kurköln. Insul war danach eine Honnschaft im kurkölnischen Amt Nürburg. Kirchlich gehörte der Ort zur Pfarrei Schuld. Eine Kapelle wird 1631 erwähnt. Sie wurde 1882 abgebrochen und 1884 durch einen Neubau ersetzt, der dem heiligen Rochus geweiht ist. Sehenswert ist auch das Naturdenkmal Prümer Tor, eine zwölf Meter hohe durchschnittene Felspartie am Ort. Beim Hochwasser im Juli 2021 wurde Insul schwer getroffen. Die Ahrbrücke zwischen den beiden Ortsteilen stürzte ein. Am 21. Juli 2021 wurde eine Behelfsbrücke über den Fluss verlegt. Die Entwicklung nach der Flut wurde im Fernsehen begleitet. Dadurch wurde der Ort in ganz Deutschland bekannt.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Insul"
+          ]
+        },
+        {
+          "id": "tag2-tunnel-ahr-radweg-insul",
+          "day": 2,
+          "name": "Tunnel am Ahr-Radweg bei Insul",
+          "lat": 50.444203,
+          "lon": 6.905364,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 30.39,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der Radweg führt hier durch einen Tunnel. Zwischen Insul und Schuld nutzt der Ahr-Radweg die Trasse der stillgelegten Bahnstrecke von Dümpelfeld nach Jünkerath. Im Tunnel ist es dunkel und kühl. Licht einschalten und die Sonnenbrille absetzen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Bahnstrecke_D%C3%BCmpelfeld%E2%80%93J%C3%BCnkerath"
+          ]
+        },
+        {
+          "id": "tag2-schuld",
+          "day": 2,
+          "name": "Schuld an der Ahr",
+          "lat": 50.44682,
+          "lon": 6.889131,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 32.06,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Schuld liegt auf einem Felsen, den die Ahr in einer engen Schleife umfließt. Der Ort war früher Verwaltungs- und Gerichtssitz für vier Honschaften. Bei der Flut am 15. Juli 2021 wurden die tief liegenden Teile schwer beschädigt. Sechs Häuser stürzten ein. Etwa fünfzig Menschen wurden von Hausdächern gerettet.",
+          "textLong": "Der Ortskern von Schuld steht auf einem steil aufragenden Fels. Die Ahr umfließt ihn in einer engen Schleife. Dass hier schon Römer siedelten, war den Bewohnern lange bekannt. Im Jahr 1962 kamen bei einer Flurbereinigung römische Baureste zutage. Archäologen legten daraufhin den Gutshof Im Weiler frei. 1975 feierte Schuld sein tausendjähriges Bestehen. Grundlage war eine Urkunde von 975, in der eine Grenzbeschreibung der Pfarrei Reifferscheid den Ort nennt. Ein Weistum von 1368 spricht von den vier Honschaften von Schuld. Dazu gehörten Dümpelfeld, Insul und Niederadenau. Schuld war ihr Verwaltungs- und Gerichtssitz. Landesherr war der Kölner Erzbischof. Die Pfarrkirche Sankt Gertrud geht in ihren Anfängen auf das dreizehnte Jahrhundert zurück. 1923 und 1924 wurden große Teile durch einen Neubau ersetzt. Bei einem Luftangriff am 29. Oktober 1944 wurde sie fast völlig zerstört und nach dem Krieg wieder aufgebaut. Am 15. Juli 2021 traf das Hochwasser der Ahr die tief liegenden Teile des Ortes schwer. Sechs Häuser stürzten ein. Etwa fünfzig Menschen wurden von Hausdächern gerettet. Strom und Trinkwasser fielen aus. Am 18. Juli 2021 besuchte Bundeskanzlerin Angela Merkel den Ort.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Schuld_(Ahr)"
+          ]
+        },
+        {
+          "id": "tag2-landesstrasse-nach-fuchshofen",
+          "day": 2,
+          "name": "Abschnitt auf der Landesstraße nach Fuchshofen",
+          "lat": 50.441667,
+          "lon": 6.874212,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 33.8,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hinter Schuld endet der eigene Radweg für ein Stück. Nach der Beschreibung des Ahr-Radwegs sind zwischen Schuld und Fuchshofen rund fünf Kilometer auf der Landesstraße zurückzulegen. Fahre auf diesem Abschnitt vorausschauend. Am Weg liegt außerdem ein Campingplatz an der Ahr.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ahr-Radweg"
+          ]
+        },
+        {
+          "id": "tag2-burg-aremberg",
+          "day": 2,
+          "name": "Aremberg und die Burgruine",
+          "lat": 50.417194,
+          "lon": 6.814222,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 40.15,
+          "triggerRadius": 1750,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Rechts über dem Tal erhebt sich der Aremberg. Der Berg ist rund 624 Meter hoch und gilt als einer der größten tertiären Vulkane der Eifel. Oben im Wald liegt die Ruine der Burg Aremberg. Sie war der Mittelpunkt der Herrschaft Arenberg. Das Dorf Aremberg liegt am Westhang darunter.",
+          "textLong": "Die Burg Aremberg stand auf der Kuppe des Arembergs, rund 624 Meter über dem Meer. Der Berg ist dicht bewaldet und gilt als einer der größten tertiären Vulkane der Eifel. Erstmals erwähnt wird die Burg im Jahr 1166, damals unter dem Namen Arberg. Errichtet wurde sie im zwölften Jahrhundert, weil die Lage strategisch günstig war. Sie war der Mittelpunkt der reichsunmittelbaren Herrschaft Arenberg. Diese Herrschaft war flächenmäßig sehr klein. Trotzdem gelang es zahlreichen Familienmitgliedern, am Wiener Hof großen Einfluss auszuüben. 1549 wurden die Arenberger Reichsgrafen, 1644 erhielten sie die Herzogswürde. Ab 1564 baute der Jülicher Festungsbaumeister Pasqualini die Burg grundlegend um. 1642 belagerten hessische Truppen die Anlage. Spanische Truppen verhinderten die Einnahme. Danach begann ein neuzeitlicher Festungsbau. Entworfen und geleitet hat ihn ein Kapuzinerpater aus der Familie Arenberg. 1674 galt der Ausbau als abgeschlossen. Fünf Jahre später entließ der Herzog nach dem Frieden von Nimwegen seine Garnisonstruppen. Das erwies sich als fatal. 1682 nahmen französische Truppen die nun fast schutzlose Burg ein. Heute zeugen nur noch spärliche Reste von dem früheren Glanz. Der Berg selbst steht seit 1977 unter Naturschutz.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Aremberg",
+            "https://de.wikipedia.org/wiki/Aremberg"
+          ]
+        },
+        {
+          "id": "tag2-antweiler",
+          "day": 2,
+          "name": "Antweiler",
+          "lat": 50.403379,
+          "lon": 6.831469,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 41.3,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Antweiler liegt im oberen Ahrtal unterhalb des Arembergs. Die Ahr fließt mitten durch den Ort. Erstmals genannt wird er im Jahr 975. Vom zwölften Jahrhundert bis zum Ende des achtzehnten gehörte Antweiler zur Herrschaft und später zum Herzogtum Arenberg. Viele alte Häuser stehen noch.",
+          "textLong": "Antweiler liegt am Südrand des Ahrgebirges im oberen Ahrtal. Der Messpunkt an der Kirche liegt 286 Meter über dem Meer. Über dem Ort erhebt sich der Aremberg. Schon in der Zeit der Merowinger stand hier eine Siedlung. Die erste urkundliche Erwähnung stammt aus dem Jahr 975. Damals sprach der Trierer Archidiakon Wicfried der Abtei Sankt Maximin in Trier verschiedene Ländereien zu. Diese grenzten an Amentwilere und an Musche, also an Antweiler und an Müsch. Vom zwölften Jahrhundert bis zum Ende des achtzehnten gehörte der Ort zur Herrschaft und zuletzt zum Herzogtum Arenberg. Die Ortsentwicklung der vergangenen dreihundert Jahre spiegelt sich in zahlreichen gut erhaltenen Gebäuden. 1794 besetzten französische Revolutionstruppen das linke Rheinufer. Antweiler kam zum Kanton Adenau. Nach dem Wiener Kongress fiel die Region 1815 an das Königreich Preußen. Ab 1816 gehörte Antweiler zur Bürgermeisterei Aremberg im Kreis Adenau. Weil der Ort größer war und verkehrsgünstiger lag, verlegte man den Sitz des Amtes schon 1820 hierher. Den Namen Bürgermeisterei Aremberg behielt man trotzdem noch lange bei. Erst Ende der zwanziger Jahre wurde daraus das Amt Antweiler.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Antweiler"
+          ]
+        },
+        {
+          "id": "tag2-stahlhuette-dorsel",
+          "day": 2,
+          "name": "Stahlhütte bei Dorsel",
+          "lat": 50.381019,
+          "lon": 6.802232,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 46.4,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Der Wohnplatz Stahlhütte liegt im Ahrtal unterhalb von Dorsel. Der Name kommt von einer Eisenhütte. Sie war vom siebzehnten Jahrhundert an in Betrieb. Im Jahr 1870 wurde der Hochofen zum letzten Mal ausgeblasen. Damit endete die Eisenverhüttung an dieser Stelle im oberen Ahrtal.",
+          "textLong": "Dorsel liegt in der Hocheifel im oberen Tal der Ahr. Die westliche Gemeindegrenze ist zugleich die Landesgrenze nach Nordrhein-Westfalen. Zur Gemeinde gehören mehrere Wohnplätze. Dazu zählen die Dorselermühle, die Heidehöfe, die Jagdhäuser und die Stahlhütte. Der Ort selbst wird um 1149 zum ersten Mal erwähnt, und zwar im Namen eines Heinrich von Dorsel. Vom dreizehnten Jahrhundert bis zum Ende des achtzehnten war Dorsel Teil des Herzogtums Arenberg. 1794 besetzten französische Revolutionstruppen das linke Rheinufer. Nach dem Wiener Kongress kam die Region 1815 an das Königreich Preußen. Ab 1816 gehörte Dorsel zur Bürgermeisterei Aremberg im Kreis Adenau. 1932 wurde dieser Kreis aufgelöst und die Gemeinde dem Kreis Ahrweiler zugeordnet. Der Wohnplatz Stahlhütte trägt seinen Namen von einer Eisenhütte. Sie arbeitete im Ahrtal unterhalb von Dorsel und war vom siebzehnten Jahrhundert an in Betrieb. Im Jahr 1870 wurde der Hochofen zum letzten Mal ausgeblasen. Damit endete die Eisenverhüttung an dieser Stelle. Zwischen Dorsel und Fuchshofen folgt der Ahr-Radweg heute der Trasse einer stillgelegten Bahnstrecke. Sie war 1912 eröffnet worden. 1973 endete der Verkehr, danach wurde sie abgebaut.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Dorsel",
+            "https://de.wikipedia.org/wiki/Bahnstrecke_D%C3%BCmpelfeld%E2%80%93J%C3%BCnkerath"
+          ]
+        },
+        {
+          "id": "tag2-burgruine-neublankenheim",
+          "day": 2,
+          "name": "Burgruine Neublankenheim",
+          "lat": 50.357398,
+          "lon": 6.774065,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 50.44,
+          "triggerRadius": 400,
+          "accessNote": "250 m Abstecher",
+          "textShort": "Links über dem Ahbach liegt die Ruine der Burg Neublankenheim. Sie steht auf einer Kuppe, gut zwanzig Meter über dem Talgrund. Die Landesgrenze nach Nordrhein-Westfalen verläuft nur etwa 150 Meter weiter nördlich. Seit dem sechzehnten Jahrhundert ist die Burg zerstört und wurde nie wieder aufgebaut.",
+          "textLong": "Die Burg liegt in der Kalkeifel auf einer Erhebung von rund 355 Metern über dem Meer. Der Ahbach fließt wenige Meter östlich vorbei. Über die Anfänge ist wenig bekannt. Grabungen hat es bisher nicht gegeben. Eine Erwähnung von 1272 gilt als umstritten, weil sie sich auch auf die Burg Blankenheim beziehen könnte. Als älteste sichere Quelle gilt eine Urkunde aus dem Jahr 1341. Darin übertrug Markgraf Wilhelm der Erste von Jülich dem Gerhard dem Fünften von Blankenheim seine neue Burg Blankenheim als Erblehen. Danach blieb die Anlage überwiegend als Lehen im Besitz der Herren von Blankenheim. 1470 ging die Grafschaft Blankenheim an Graf Dietrich den Dritten von Manderscheid über. Die Burg selbst war zwischenzeitlich an die Herren von Mirbach gekommen. Im Jahr 1521 beschrieb Dietrich von Mirbach sie als zerstört und bat seinen Lehnsherrn um Hilfe für den Wiederaufbau. Dazu kam es nicht. Die Lage war abgeschieden und strategisch bedeutungslos geworden. Um 1770 erwarb der Herzog von Arenberg die Ruine mit umliegenden Ländereien. Nach 1794 fiel sie an den französischen Staat und wurde versteigert. Heute gehört sie dem Landkreis Vulkaneifel.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Neublankenheim"
+          ]
+        },
+        {
+          "id": "tag2-museumsbahnhof-ahuette",
+          "day": 2,
+          "name": "Museumsbahnhof Ahütte",
+          "lat": 50.339218,
+          "lon": 6.771489,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 53.16,
+          "triggerRadius": 300,
+          "accessNote": "150 m Abstecher",
+          "textShort": "In Ahütte liegt der alte Bahnhof am Weg. Anfang 2023 wurde dort ein Museumsbahnhof eröffnet. Das Gleis wurde wieder aufgebaut und eine Schienenbus-Garnitur vor Ort stationiert. Die Bahnstrecke selbst war 1912 eröffnet und 1973 für den Verkehr aufgegeben worden.",
+          "textLong": "Die Bahnstrecke von Dümpelfeld nach Jünkerath wurde um 1900 als strategische Verbindung geplant. Sie sollte die beiden Rheinstrecken über das Ahrtal mit der Eifelstrecke nahe der Staatsgrenze verbinden. Die Bauarbeiten begannen im April 1909. Am 30. Juni 1912 wurde die 44 Kilometer lange Strecke feierlich eröffnet. Sie kostete 13,2 Millionen Mark. Der Hauptteil war zweigleisig, obwohl es in der dünn besiedelten Eifel gar keinen zivilen Bedarf in dieser Größenordnung gab. Militärische Überlegungen bestimmten die Planung. Außer während der beiden Weltkriege erlangte die Strecke nie überregionale Bedeutung. Am Ende des Zweiten Weltkriegs sprengte die Wehrmacht zahlreiche Brücken. Erst 1948 konnte man wieder durchgehend fahren. Das zweite Gleis war da schon als Reparationsleistung abgebaut. Der Personenverkehr endete am 3. Juni 1973, der Güterverkehr wenige Monate später. Danach wurde die Strecke abgebaut. Rund fünfzig Jahre später kehrte ein Stück Bahn zurück. Anfang 2023 eröffnete im ehemaligen Bahnhof Ahütte ein Museumsbahnhof. Das Gleis wurde wieder aufgebaut und eine Schienenbus-Garnitur vor Ort stationiert. An einigen Tagen im Jahr fährt von hier ein Oldtimerbus aus den fünfziger Jahren die alte Strecke ab. Ein Referent erklärt unterwegs die Geschichte der Bahn.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Bahnstrecke_D%C3%BCmpelfeld%E2%80%93J%C3%BCnkerath",
+            "https://de.wikipedia.org/wiki/Ah%C3%BCtte"
+          ]
+        },
+        {
+          "id": "tag2-ruine-dreimuehlen",
+          "day": 2,
+          "name": "Ruine Dreimühlen",
+          "lat": 50.326269,
+          "lon": 6.769448,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 54.81,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Auf einer Kuppe aus Tuffstein über dem Ahbach steht die Ruine Dreimühlen. Die Burg war klein und ist heute nur noch als Mauerrest erkennbar. Schriftliche Quellen gibt es kaum, gegraben wurde hier nie. Im Jahr 1473 ließ ihr Besitzer sie in einer Fehde selbst verwüsten.",
+          "textLong": "Die Burg liegt auf 380 Metern über dem Meer, auf einer Anhöhe aus Tuffstein westlich des Ahbachs. Über ihre Geschichte ist wenig überliefert. Grabungen hat es nicht gegeben, und wie die Anlage aussah, ist unbekannt. Das Geschlecht der Herren von Dreimühlen tritt erstmals 1218 in Erscheinung. Damals wird eine Oda von Drimollen in einer Urkunde des Kölner Erzbischofs Engelbert genannt, im Zusammenhang mit einer Schenkung an das Kloster Niederehe. Im Jahr 1282 wurde die Burg an Gerhard den Vierten von Blankenheim verkauft. Der Preis betrug sechzig Kölnische Mark. Das entsprach damals gut vierzehn Kilogramm Silber. Daran lässt sich ablesen, dass die Burg weder groß noch besonders bedeutend war. Der Käufer gab sie den Verkäufern gleich wieder als Lehen zurück. In den folgenden Jahrhunderten wechselte sie mehrfach den Besitzer. 1468 gelangte sie durch ein Erbe an Graf Dietrich den Dritten von Manderscheid. Fünf Jahre später ließ er sie in einer Fehde selbst verwüsten, damit sein Lehnsherr sie nicht in die Hand bekam. Noch im selben Jahr wird das Haus Dreimühlen als verbrannt und verwüstet beschrieben. Wieder aufgebaut wurde es nicht.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ruine_Dreim%C3%BChlen"
+          ]
+        },
+        {
+          "id": "tag2-dreimuehlen-wasserfall",
+          "day": 2,
+          "name": "Dreimühlen-Wasserfall",
+          "lat": 50.324827,
+          "lon": 6.768963,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 55.04,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Weg fällt der Dreimühlen-Wasserfall über eine Breite von etwa zwölf Metern in den Ahbach. Die Fallhöhe beträgt vier bis sechs Meter. Das Wasser ist stark kalkhaltig. Der Sinter wächst deshalb jedes Jahr um etwa zehn Zentimeter. Seit 1938 ist der Wasserfall ein Naturdenkmal.",
+          "textLong": "Drei kleine Karstquellen führen hier sehr kalkhaltiges Wasser. In den zehntausend Jahren seit der letzten Eiszeit haben sie ein Kalksinterplateau aufgebaut. Es ist etwa 300 Meter breit und 100 Meter tief. Den Wasserfall selbst gibt es erst seit gut hundert Jahren. Beim Bau der Bahnstrecke von Dümpelfeld nach Lissendorf fasste man die Quellbäche zum Mühlenbach zusammen und leitete sie unter dem Bahnkörper hindurch. Seit der künstliche Bach an dieser Stelle über die Stufe fällt, wächst dort ein Vorsprung. Der Wasserfall entstand also als Nebenwirkung eines Eisenbahnbaus. Wichtig für das Wachstum sind Laubmoose und Kieselalgen. Sie vergrößern die Oberfläche und binden den ausfallenden Kalk. Pro Stunde lagert sich etwa ein halbes Kilogramm ab. Im Jahr sind das rund viertausendfünfhundert Kilogramm. Der Sinter wächst dadurch jährlich um etwa zehn Zentimeter. Das Moos stirbt an der Anwachsstelle ab, wird überkrustet und bildet so fortlaufend neues poröses Gestein. 1938 wurde der Wasserfall zum Naturdenkmal erklärt. 1986 musste die Sintermauer mit Betonfundamenten gesichert werden, weil der Untergrund dem Gewicht nicht mehr standhielt. Der obere Teil wurde gesprengt. Daher der Absatz in der Mitte.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Dreim%C3%BChlen-Wasserfall"
+          ]
+        },
+        {
+          "id": "tag2-kloster-niederehe",
+          "day": 2,
+          "name": "Kloster Niederehe",
+          "lat": 50.312262,
+          "lon": 6.754453,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 56.95,
+          "triggerRadius": 1500,
+          "accessNote": "1350 m Abstecher",
+          "textShort": "Westlich der Strecke liegt Niederehe mit seinem ehemaligen Kloster. Das älteste Stück der Kirche entstand zwischen 1162 und 1175. Im Ort heißt es bis heute die alte Kirche. Um 1200 kam die größere Kirche daneben hinzu. Heute ist der Bau Pfarrkirche und tagsüber geöffnet.",
+          "textLong": "Im Jahr 1162 gaben drei Herren von Kerpen die Planung eines Klosters in Auftrag. Der Kölner Erzbischof Rainald von Dassel hatte ihnen die Zusage dafür erteilt. Die drei Brüder und ihre Schwestern wollten auf eigenem Grund ein Kloster für adelige Jungfrauen errichten. Zwischen 1162 und 1175 entstand zuerst das südliche Nebenschiff der Kirche. Im Volksmund heißt es bis heute die alte Kirche. Vermutlich diente es als Grablege der Familie von Kerpen. Ab 1175 begann der Bau des eigentlichen Klosters. Um 1200 setzten Handwerker nördlich davon eine Saalkirche aus Bruchsteinen im Stil der Spätromanik an. Geführt wurde das Haus nicht von einer Äbtissin, sondern von einer Magistra. Zur Begründung hieß es, damit sie nicht stolz werde. 1223 wurde der Konvent auf 25 Klosterfrauen festgelegt. Um 1225 ordnete der Kölner Erzbischof das Kloster der Abtei Steinfeld zu. Es unterstand fortan den Regeln der Prämonstratenser. 1803 wurde es im Zuge der Säkularisation aufgelöst. Der Besitz fiel an den französischen Staat und wurde 1804 versteigert. Kirche und Teile der Gebäude gingen an die Pfarrei. Heute ist die ehemalige Klosterkirche Pfarrkirche, dem heiligen Leodegar geweiht und tagsüber geöffnet.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kloster_Niederehe"
+          ]
+        },
+        {
+          "id": "tag2-schloss-oberehe",
+          "day": 2,
+          "name": "Schloss Oberehe",
+          "lat": 50.278862,
+          "lon": 6.771484,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 62.32,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "In Oberehe steht am Weg das Schloss Oberehe. Es ist ein schlichtes Landschloss und ging aus einem befestigten Gutshof hervor. Die heutigen Gebäude entstanden von 1696 bis 1698 im Stil des Barocks. Das Anwesen gilt als gutes Beispiel für einen befestigten Wirtschaftshof und steht unter Denkmalschutz.",
+          "textLong": "Die Ursprünge des Adelssitzes sind bislang ungeklärt. Wahrscheinlich wurde er Ende des zwölften Jahrhunderts gegründet. Im Jahr 1333 wird ein Herr von Ober E als Burgmann des Gerhard von Blankenheim urkundlich erwähnt. Seine Familie besaß einen befestigten Gutshof im Ahbachtal. Über eine Urenkelin gelangte dieser an deren Ehemann. In den folgenden Jahrhunderten wechselten die Besitzer häufig, und zeitweise war das Anwesen geteilt. 1694 gelang es Johann Christoph von Veyder, alle Teile wieder in einer Hand zu vereinen. Er war zugleich Schlossherr von Malberg und arenbergischer Oberamtmann in Kerpen. Ein Baugutachten beurteilte die Anlage als baufällig. Von Veyder ließ große Teile niederlegen und errichtete von 1696 bis 1698 die heutigen Gebäude im Stil des Barocks. Einige Wirtschaftsgebäude aus dem Jahr 1667 wurden dabei einbezogen. Im achtzehnten Jahrhundert verkaufte die Familie das Schloss an den Freiherrn Johann Hugo von Metternich. In dessen Familie blieb es bis zur französischen Besetzung. Das Anwesen gilt als gutes Beispiel für einen befestigten ländlichen Wirtschaftshof, der in der Barockzeit durch seinen adeligen Besitzer ein neues Aussehen erhielt. Es steht unter Denkmalschutz und ist seit 1988 zusätzlich als schutzwürdiges Kulturgut eingestuft.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Schloss_Oberehe"
+          ]
+        },
+        {
+          "id": "tag2-vulkania-heilquelle",
+          "day": 2,
+          "name": "Vulkania-Heilquelle",
+          "lat": 50.268311,
+          "lon": 6.772851,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 63.94,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Direkt am Weg sprudelt die Vulkania-Heilquelle aus einem großen Steinmonolithen. Das Wasser ist staatlich anerkanntes Heilwasser und kommt mit gut dreizehn Grad aus dem Boden. Es fließt mit 1,4 Litern in der Minute. Die Quelle liegt am Rand des Dreiser Weihers, rund 458 Meter über dem Meer.",
+          "sources": [
+            "https://www.geopark-vulkaneifel.de/eifel/landschaft/mineralwasserquellen/vulkania-heilquelle.html"
+          ]
+        },
+        {
+          "id": "tag2-dreiser-weiher",
+          "day": 2,
+          "name": "Dreiser Weiher",
+          "lat": 50.264333,
+          "lon": 6.777333,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 66,
+          "triggerRadius": 600,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Rechts liegt der Dreiser Weiher. Trotz des Namens gibt es hier kein offenes Wasser mehr. Es ist ein Trockenmaar, also ein alter Vulkankessel ohne See. Mit bis zu 1360 Metern Länge ist er das zweitgrößte Maar der Eifel. Den Maarsee legte man Anfang des neunzehnten Jahrhunderts trocken.",
+          "textLong": "Der Dreiser Weiher ist ein wannenförmiger Kessel bei Dreis-Brück. Er misst bis zu 1360 Meter in der Länge und 1160 Meter in der Breite. Damit ist er das zweitgrößte Maar der Eifel. Ein Wall von 36 bis 120 Metern Höhe umgibt ihn. Das Maar gehört zu den Quartärvulkanen der Westeifel. Wie es genau entstand, ist nicht restlos geklärt. Am Rand des Kessels haben Forscher fünf Tuff-Fächer und vier vulkanische Zentren nachgewiesen. Im Zentrum selbst ließ sich keine Ausbruchsstelle finden. Deshalb gilt der Kessel vermutlich als Einbruchstrichter. Die ausgeworfenen Tuffe liegen über den Ablagerungen der umgebenden Vulkane. Das Maar ist also jünger als diese. Berühmt wurde der Ort früh bei Geologen. In der Umgebung finden sich Olivinbomben aus der Zeit der Entstehung. Viele der Minerale und Gesteine kommen sonst selten vor. Ob es sich dabei um Material aus dem Erdmantel handelt, wird bis heute diskutiert. Den früheren Maarsee legte man Anfang des neunzehnten Jahrhunderts trocken. Heute entwässern künstlich angelegte Gräben den Kessel zum Ahbach. Wegen der guten Thermik ist der Weiher ein beliebtes Fluggebiet für Gleitschirmflieger.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Dreiser_Weiher"
+          ]
+        },
+        {
+          "id": "tag2-einkehr-dockweiler",
+          "day": 2,
+          "name": "Einkehr bei Dockweiler",
+          "lat": 50.248175,
+          "lon": 6.792113,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 69.34,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am oberen Ende des letzten Anstiegs liegt bei Dockweiler ein Café einer Bäckerei unmittelbar am Weg. Bis Waldkönigen sind es von hier noch rund zweieinhalb Kilometer, und die gehen bergab. Eine gute Stelle für eine letzte Pause.",
+          "sources": []
+        },
+        {
+          "id": "tag2-waldkoenigen",
+          "day": 2,
+          "name": "Waldkönigen",
+          "lat": 50.230412,
+          "lon": 6.795714,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 71.79,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Waldkönigen gibt dieser Etappe ihren Namen. Der Ort liegt im Pützbachtal in der zentralen Vulkaneifel und gehört seit 1970 zur Stadt Daun. Im Dorf steht die Filialkirche Sankt Lucia. Sie wurde 1871 aus Bruchsteinen gebaut und ersetzte eine ältere Kirche.",
+          "textLong": "Waldkönigen liegt im Pützbachtal, mitten in der Vulkaneifel. Der Pützborner Bach fließt durch den Ort. Nachbarorte sind Dockweiler im Norden, Rengen im Osten, Steinborn im Süden und Hinterweiler im Westen. Urkundlich erwähnt wird Waldkönigen zum ersten Mal im Jahr 1368. Bis zum Ende des achtzehnten Jahrhunderts gehörte der Ort landesherrlich zur Reichsherrschaft Winneburg und Beilstein. Zuletzt waren die Grafen von Metternich deren Besitzer. Kirchlich gehörte Waldkönigen dagegen zum Erzbistum Köln. 1794 besetzten französische Revolutionstruppen das linke Rheinufer. Von 1798 bis 1814 zählte der Ort zum Kanton Daun im Saardepartement. Auf dem Wiener Kongress kam die Region 1815 an das Königreich Preußen. 1816 wurde Waldkönigen dem neu errichteten Kreis Daun im Regierungsbezirk Trier zugeordnet und von der Bürgermeisterei Dockweiler verwaltet. Nach dem Zweiten Weltkrieg gehörte die Gemeinde zum neu gebildeten Land Rheinland-Pfalz. Am 7. November 1970 wurde sie mit damals 384 Einwohnern in die Stadt Daun eingemeindet. Seither ist Waldkönigen einer von acht Ortsbezirken der Stadt. Im Dorf steht die katholische Filialkirche Sankt Lucia. Sie wurde 1871 aus Bruchsteinen errichtet und ersetzte einen älteren Bau.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Waldk%C3%B6nigen"
+          ]
+        },
+        {
+          "id": "tag2-steinborner-drees",
+          "day": 2,
+          "name": "Steinborner Drees",
+          "lat": 50.21013,
+          "lon": 6.788546,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 74.3,
+          "triggerRadius": 300,
+          "accessNote": "150 m Abstecher",
+          "textShort": "Kurz vor dem Ende der Etappe liegt am Ortsrand von Steinborn der Steinborner Drees, rund 120 Meter neben der Strecke. Dort ist eine Quelle gefasst. Eine gute Gelegenheit, die Flaschen noch einmal zu füllen.",
+          "sources": []
+        }
+      ]
     }
   ]
 }

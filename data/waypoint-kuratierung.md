@@ -46,12 +46,52 @@ Nicht aufgenommen, weil weiter als rund 2 km von der Route entfernt: Schloss und
 
 | km | Name | Symbol | Vorschlag | Entscheidung | Begründung |
 |---|---|---|---|---|---|
-| 29.4 | Mohn- und Kamillenfeld in Insul | Flag, Blue | story | | |
-| 30.2 | Insul‑Tunnel am Ahr‑Radweg | Flag, Blue | story | | |
-| 31.5 | Eifelpanorama | Flag, Blue | story | | |
-| 31.8 | Ahr in Schuld | Flag, Blue | story | | |
-| 63.9 | Vulkania Heilquelle | Flag, Blue | story | | |
-| 65.0 | Dreiser Weiher | Flag, Blue | story | | |
+| 29.4 | Mohn- und Kamillenfeld in Insul | Flag, Blue | story | verworfen | Ein Feldbewuchs wechselt mit der Fruchtfolge und ist nicht belegbar. Der Abschnitt wird durch den neuen POI Insul bei Kilometer 29,35 abgedeckt, der auch die eingestürzte Ahrbrücke und die Behelfsbrücke vom 21. Juli 2021 behandelt. |
+| 30.2 | Insul‑Tunnel am Ahr‑Radweg | Flag, Blue | story | service | Der Tunnel trägt keinen eigenen Erzählstoff, ist aber praktisch wichtig: dunkel, kühl, Licht einschalten. Belegt ist über die Bahnstrecke Dümpelfeld–Jünkerath, dass der Ahr-Radweg zwischen Insul und Schuld auf der alten Bahntrasse verläuft. Als POI bei Kilometer 30,39 geführt. |
+| 31.5 | Eifelpanorama | Flag, Blue | story | verworfen | Reiner Blickpunkt ohne belegbaren Inhalt und ohne eigenen Erzählwert. Der Abschnitt ist durch den neuen POI Schuld an der Ahr bei Kilometer 32,06 abgedeckt. |
+| 31.8 | Ahr in Schuld | Flag, Blue | story | story | Übernommen als POI „Schuld an der Ahr“ bei Kilometer 32,06, an der Pfarrkirche Sankt Gertrud. Ortskern auf dem Fels in der engen Ahrschleife, römischer Gutshof, Ersterwähnung 975 und die Flut vom 15. Juli 2021 sind belegt. |
+| 63.9 | Vulkania Heilquelle | Flag, Blue | story | service | Staatlich anerkanntes Heilwasser unmittelbar am Weg. Schüttung, Temperatur und Wassertyp sind über den Natur- und Geopark Vulkaneifel belegt, für einen Langtext reicht die Quellenlage aber nicht. Bleibt als Trinkwasserstelle ein Service-POI. |
+| 65.0 | Dreiser Weiher | Flag, Blue | story | story | Zweitgrößtes Eifelmaar und Trockenmaar, wissenschaftlich seit langem bekannt. Die Koordinate liegt auf dem Maar selbst, daher `routeKm` 66,0 und `accessNote` „nur Blickkontakt“. |
+
+### Neu aufgenommene POIs für Tag 2 (Schritt D)
+
+| km | Name | Abstand zur Route | Begründung |
+|---|---|---|---|
+| 0.0 | Kurhaus Bad Neuenahr | 292 m | Startpunkt der Etappe. Neubarocker Repräsentationsbau von 1905, bei der Flut 2021 massiv beschädigt. |
+| 2.9 | Ahrtor und Stadtmauer von Ahrweiler | 12 m | Die Strecke fährt durch das Stadttor. Die 1800 Meter lange Stadtmauer ist fast vollständig erhalten. |
+| 3.08 | Pfarrkirche Sankt Laurentius in Ahrweiler | 210 m | Älteste Hallenkirche des Rheinlandes, Grundstein 1269. Flutschäden und Wiedereröffnung am 10. August 2025 sind belegt. |
+| 3.66 | Dokumentationsstätte Regierungsbunker | 596 m | Der Ausweichsitz der Verfassungsorgane lag unmittelbar über der Strecke. Dazu die „Stadt im Berg“ im Silberbergtunnel. |
+| 3.71 | Museum Römervilla | 164 m | Römischer Gutshof mit außergewöhnlich gut erhaltenen Wandmalereien, 1980 beim Straßenbau entdeckt. |
+| 6.13 | Bunte Kuh bei Walporzheim | 54 m | Wahrzeichen des Ahrtals, Naturdenkmal, direkt über dem Radweg. |
+| 7.03 | Erinnerungsstätte Lager Rebstock | 730 m | Außenlager des Konzentrationslagers Buchenwald in denselben Tunneln. Gehört zur Geschichte des Abschnitts. |
+| 7.08 | Klosterruine Marienthal | 397 m | Ältestes Kloster des Ahrtals, 1137 gegründet. |
+| 10.49 | Alte Ahrbrücke in Rech | 129 m | Älteste erhaltene Ahrbrücke, überstand 1910, 2021 schwer beschädigt, 2023 abgebrochen. Zentrales Flutthema. |
+| 11.46 | Saffenburg über Mayschoß | 187 m | Älteste Burgruine des Ahrtals, unmittelbar über der Strecke. |
+| 15.8 | Burg Are über Altenahr | 81 m | Vom Brief ausdrücklich verlangt. Erbaut 1095 bis 1105, steht direkt über dem Weg. |
+| 15.8 | Winzergenossenschaft Mayschoß-Altenahr | 22 m | 1868 gegründet, älteste noch bestehende Winzergenossenschaft. Der Betrieb liegt am Weg. |
+| 16.03 | Altenahr | 32 m | Trägt die belegten Pegelstände der Flut vom 14. Juli 2021 und den Wiederaufbau. |
+| 17.1 | Cloos'sche Falte in Altenburg | 8 m | Geologisches Naturdenkmal seit 1981, unmittelbar an der Fahrbahn. Grundlage der Arbeit von Hans Cloos. |
+| 18.21 | Burg Kreuzberg | 50 m | Einzige bewohnte Burg im Ahrtal, direkt über der Strecke. |
+| 20.43 | Einkaufsmöglichkeit in Ahrbrück | 61 m | Letzte dichte Nahversorgung vor dem oberen Ahrtal. Service-POI. |
+| 21.42 | Ahrbrück | 87 m | Zwangsräumung von Denn 1938, Wiederbesiedlung 1950, Abriss der Sankt-Andreas-Kirche im Sommer 2025. |
+| 24.66 | Hönningen an der Ahr | 156 m | Schließt die Lücke zwischen Ahrbrück und Insul. Johanniterorden über dreihundert Jahre. |
+| 32.06 | Schuld an der Ahr | 32 m | Siehe Bestandswaypoint Kilometer 31,8. |
+| 33.8 | Abschnitt auf der Landesstraße nach Fuchshofen | 7 m | Service-Hinweis: laut Beschreibung des Ahr-Radwegs rund fünf Kilometer auf der Landesstraße. |
+| 40.15 | Aremberg und die Burgruine | 1552 m | Größte Lücke des Tages. Der Berg ist einer der größten tertiären Vulkane der Eifel und weithin sichtbar, die Burgruine liegt oben im Wald. |
+| 41.3 | Antweiler | 52 m | Ersterwähnung 975, gut erhaltenes Ortsbild, Sitz des früheren Amtes. |
+| 46.4 | Stahlhütte bei Dorsel | 194 m | Eisenhütte vom siebzehnten Jahrhundert bis 1870. Schließt die Lücke im oberen Ahrtal. |
+| 50.44 | Burgruine Neublankenheim | 218 m | Höhenburg über dem Ahbach, seit dem sechzehnten Jahrhundert Ruine. |
+| 53.16 | Museumsbahnhof Ahütte | 121 m | Seit Anfang 2023 wieder Gleis und Schienenbus im alten Bahnhof. Trägt die Geschichte der Bahnstrecke. |
+| 54.81 | Ruine Dreimühlen | 65 m | Kleine Höhenburg am Weg, 1473 vom eigenen Besitzer verwüstet. |
+| 55.04 | Dreimühlen-Wasserfall | 40 m | Naturdenkmal seit 1938, entstanden als Nebenwirkung des Eisenbahnbaus. |
+| 56.95 | Kloster Niederehe | 1353 m | Schließt die Lücke zwischen Wasserfall und Oberehe. Ältester Kirchenteil zwischen 1162 und 1175. |
+| 62.32 | Schloss Oberehe | 89 m | Barocker Neubau von 1696 bis 1698 aus einem befestigten Gutshof, unmittelbar am Weg. |
+| 66.0 | Dreiser Weiher | 435 m | Siehe Bestandswaypoint Kilometer 65,0. |
+| 69.34 | Einkehr bei Dockweiler | 32 m | Café am oberen Ende des letzten Anstiegs. Service-POI. |
+| 71.79 | Waldkönigen | 23 m | Namensgeber der Etappe, Filialkirche Sankt Lucia von 1871. |
+| 74.3 | Steinborner Drees | 123 m | Gefasste Quelle kurz vor dem Ende der Strecke. Service-POI. |
+
+Nicht aufgenommen, weil weiter als rund 2 km von der Route entfernt oder ohne belastbare Quelle: das Naturschutzgebiet Teufelsley bei Liers, die Kalkbrennöfen im Ahbachtal bei Kilometer 56,6 und die Heyer Kapelle bei Kilometer 58,8. Die größte verbliebene Lücke zwischen zwei POIs beträgt 6,35 km zwischen Kilometer 33,8 und Kilometer 40,15 im dünn besiedelten oberen Ahrtal.
 
 ## Tag 3 — Ahrtal und Eifel - Tag 3 - von Waldkönigen nach Pittenbach
 
