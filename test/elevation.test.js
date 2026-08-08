@@ -62,18 +62,32 @@ test('Glättung mit default fensterGroesse glättet einen einzelnen Ausreißer d
   assert.ok(geglaettet[12] > 200, `zu stark gedämpft: ${geglaettet[12]}`);
 });
 
-test('lange Reihe mit überlagerten Rauschschwingungen wird korrekt summiert', () => {
+/** Reihe mit echtem Anstieg von 300 Metern, überlagert von ±4 m Sägezahn-Rauschen. */
+function verrauschteReihe() {
   const roh = [];
-  // Gleichmäßiger Anstieg von 100 auf 400 Metern über 300 Punkte
-  const steigung = 300 / 300; // 1m pro Punkt
   for (let i = 0; i < 300; i += 1) {
-    const basisWert = 100 + i * steigung;
-    // Überlagert mit ±4m Sägezahn-Rauschen (wie GPS-Schwankungen)
-    const rauschen = (i % 6 < 3 ? 4 : -4);
-    roh.push(basisWert + rauschen);
+    roh.push(100 + i + (i % 6 < 3 ? 4 : -4));
   }
-  const anstieg = gesamtAnstiegM(roh, 3);
-  // Ohne Glättung würden alle Rauschschwingungen mitgezählt → über 400m
-  // Mit Glättung sollte es nahe bei 300m sein (der echte Anstieg)
-  assert.ok(Math.abs(anstieg - 300) < 40, `Rauschen nicht richtig gefiltert: ${anstieg}m (erwartet ~300)`);
+  return roh;
+}
+
+test('die Voreinstellung zählt jede positive Differenz, ohne zu filtern', () => {
+  const roh = [100, 101, 100, 102, 101, 103];
+  // Anstiege: 1 + 2 + 2 = 5. Nichts wird weggeglättet oder verschluckt.
+  assert.equal(gesamtAnstiegM(roh), 5);
+});
+
+test('die Voreinstellung zählt Rauschschwingungen mit', () => {
+  // Bewusst so: die sechs Tourdateien sind Planungsrouten, deren Höhen aus einem
+  // Geländemodell stammen und kein GPS-Rauschen enthalten. Die frühere Filterung zog
+  // die Werte um rund ein Drittel zu tief, gemessen gegen ein unabhängiges Höhenmodell
+  // und gegen die Anstiegsangabe von bikerouter.de.
+  const anstieg = gesamtAnstiegM(verrauschteReihe());
+  assert.ok(anstieg > 400, `erwartet über 400, war ${anstieg}`);
+});
+
+test('mit Glättung und Schwelle bleibt die Rauschunterdrückung verfügbar', () => {
+  // Für eine echte, aufgezeichnete GPS-Fahrt ruft man die Funktion mit Parametern auf.
+  const anstieg = gesamtAnstiegM(verrauschteReihe(), 3, 9);
+  assert.ok(Math.abs(anstieg - 300) < 40, `Rauschen nicht gefiltert: ${anstieg} m, erwartet ~300`);
 });
