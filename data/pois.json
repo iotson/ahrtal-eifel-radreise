@@ -482,7 +482,7 @@
           "category": "Kirche",
           "kind": "story",
           "routeKm": 3.08,
-          "triggerRadius": 400,
+          "triggerRadius": 350,
           "accessNote": "250 m Abstecher",
           "textShort": "Im Kern von Ahrweiler steht die Pfarrkirche Sankt Laurentius. Sie gilt als die älteste Hallenkirche des Rheinlandes. Der Grundstein wurde im Jahr 1269 gelegt. Bei der Flut im Juli 2021 stand das Wasser eineinhalb Meter hoch im Inneren. Nach der Sanierung wurde die Kirche im August 2025 wieder eröffnet.",
           "textLong": "Ahrweiler gehörte einst der Abtei Prüm. Sie ließ die Kirche im dreizehnten Jahrhundert errichten. Der Grundstein wurde im Jahr 1269 gelegt. Als Pfarrer schickte die Abtei Benediktinermönche aus Prüm nach Ahrweiler. Nach der Säkularisation berief nicht mehr der Prümer Abt die Pfarrer, sondern der Bischof. Seit 1824 gehört die Pfarrei zum Bistum Trier. Sankt Laurentius ist eine dreischiffige gotische Hallenkirche und gilt als die älteste Hallenkirche des Rheinlandes. Strebepfeiler gliedern die Fassaden. Der Turm ist achteckig und in den Bau eingestellt. Innen ist die Kirche 44,20 Meter lang und 20,80 Meter breit. Das Kreuzrippengewölbe reicht bis in 14,40 Meter Höhe. Zur Ausstattung gehören ein spätgotischer Taufstein, eine Monstranz aus der Zeit um 1400 und ein gotischer Sakramentsschrein von 1481. Anfang März 1945 beschädigte Artilleriefeuer das Dach und den Turm. Beim Hochwasser im Juli 2021 stand das Wasser eineinhalb Meter hoch in der Kirche. Die Sanierung dauerte bis zum Sommer 2025. Am 10. August 2025 wurde die Kirche wieder eröffnet und vom Trierer Bischof Stephan Ackermann neu eingesegnet.",
@@ -517,9 +517,9 @@
           "category": "Historie",
           "kind": "story",
           "routeKm": 3.71,
-          "triggerRadius": 350,
+          "triggerRadius": 300,
           "accessNote": "200 m Abstecher",
-          "textShort": "Nur wenige Schritte neben dem Weg liegt das Museum Römervilla. Es schützt das Hauptgebäude eines römischen Gutshofs am Fuß des Silberbergs. Gefunden wurde die Anlage im März 1980 beim Ausbau einer Bundesstraße. Erhalten sind Mauern bis in eineinhalb Meter Höhe und selten gut erhaltene Wandmalereien.",
+          "textShort": "Rund zweihundert Meter neben dem Weg liegt das Museum Römervilla. Es schützt das Hauptgebäude eines römischen Gutshofs am Fuß des Silberbergs. Gefunden wurde die Anlage im März 1980 beim Ausbau einer Bundesstraße. Erhalten sind Mauern bis in eineinhalb Meter Höhe und selten gut erhaltene Wandmalereien.",
           "textLong": "Der Gutshof entstand am Nordhang des Ahrtals in der Mitte des ersten Jahrhunderts nach Christus. Er gehörte einer wohlhabenden Familie. Das zeigen vor allem die hochwertigen Wandmalereien im Erdgeschoss und im Obergeschoss. Das Haupthaus stand dicht am Fuß des steilen Hangs und war so vor Wetter aus Norden geschützt. Die Schauseite mit dem Säulengang blickte nach Süden über die Ahr. Gegen 259 oder 260 nach Christus wurde die Anlage planmäßig geräumt. In der Spätantike diente das Hauptgebäude als Herberge. Danach zog eine Eisenschmelze ein. Später verfiel alles und wurde von Schutt und Geröll des Silberbergs bedeckt. Auf dem Platz entstand ein frühmittelalterlicher christlicher Friedhof. Entdeckt wurde die Villa im März 1980 beim Ausbau der Bundesstraße 267. Bagger griffen bereits in römisches Mauerwerk, als ein ehrenamtlicher Mitarbeiter des Denkmalamtes Koblenz eingriff. Einen Tag später wurden die Bauarbeiten eingestellt und das Gelände gesichert. Die geplante Fahrbahn wurde verlegt und ein aufwendiger Schutzbau errichtet. In elf Grabungskampagnen legten Archäologen das Haupthaus zwischen 1980 und 1990 frei. Seit dem Frühjahr 1993 sind die Ergebnisse zu besichtigen.",
           "sources": [
             "https://de.wikipedia.org/wiki/R%C3%B6mervilla_von_Bad_Neuenahr-Ahrweiler"
@@ -543,23 +543,6 @@
           ]
         },
         {
-          "id": "tag2-lager-rebstock",
-          "day": 2,
-          "name": "Erinnerungsstätte Lager Rebstock",
-          "lat": 50.539917,
-          "lon": 7.060567,
-          "category": "Historie",
-          "kind": "story",
-          "routeKm": 7.03,
-          "triggerRadius": 900,
-          "accessNote": "750 m Abstecher",
-          "textShort": "Oberhalb von Marienthal erinnert eine Erinnerungsstätte an das Lager Rebstock. Es war ein Außenlager des Konzentrationslagers Buchenwald. Die Häftlinge mussten in den Eisenbahntunneln am Hang Bodenanlagen für die Vergeltungswaffe zwei fertigen. Das Lager bestand nur wenige Monate im Jahr 1944.",
-          "textLong": "Das Außenlager Rebstock lag bei Marienthal zwischen Dernau und Ahrweiler. Es war ein Außenlager des Konzentrationslagers Buchenwald und wurde am 21. August 1944 eingerichtet. Am 13. Dezember 1944 wurde es wieder aufgelöst. Die verbliebenen Häftlinge kamen danach in ein Lager gleichen Namens bei Artern. Rebstock war ein Deckname. Er stand für den Silberbergtunnel und den Kuxbergtunnel. Ein zweiter Deckname, Spatz, stand für drei weitere Tunnel bei Dernau. Diese Tunnel gehörten zu einer strategischen Bahnstrecke, die 1904 begonnen und nie fertiggestellt wurde. Im Lager Rebstock fertigte die Stettiner Firma Gollnow und Sohn Bodenanlagen für die Vergeltungswaffe zwei. Dafür wurden die Häftlinge als Zwangsarbeiter eingesetzt. Zunächst standen elf massive Unterkunftsbaracken nördlich des Bahndamms. Später wurde die Unterbringung ganz in den Tunnel verlegt. Damit lebten die Gefangenen unmittelbar neben den Bewohnern von Marienthal, die denselben Tunnel als Luftschutzbunker nutzten. Über die Zahl der Häftlinge gibt es unterschiedliche Angaben. Der Bericht eines Gefangenen aus den Niederlanden spricht von fast dreihundert Menschen. Die für die Firma abgerechneten Monatszahlen liegen bei bis zu 184 Häftlingen.",
-          "sources": [
-            "https://de.wikipedia.org/wiki/KZ-Au%C3%9Fenlager_Rebstock"
-          ]
-        },
-        {
           "id": "tag2-klosterruine-marienthal",
           "day": 2,
           "name": "Klosterruine Marienthal",
@@ -570,10 +553,27 @@
           "routeKm": 7.08,
           "triggerRadius": 550,
           "accessNote": "400 m Abstecher",
-          "textShort": "Links im Hang liegt die Ruine des Klosters Marienthal. Es wurde 1137 gegründet und ist das älteste Kloster des Ahrtals. Hier lebten Augustinerinnen. Nach der Säkularisation wurden die Gebäude 1811 auf Abbruch verkauft. Erhalten sind die Ruine der Klosterkirche, Teile des Kreuzgangs und das Haus der Äbtissin.",
+          "textShort": "Rechts im Hang liegt die Ruine des Klosters Marienthal. Es wurde 1137 gegründet und ist das älteste Kloster des Ahrtals. Hier lebten Augustinerinnen. Nach der Säkularisation wurden die Gebäude 1811 auf Abbruch verkauft. Erhalten sind die Ruine der Klosterkirche, Teile des Kreuzgangs und das Haus der Äbtissin.",
           "textLong": "Als Gründer gilt Adolf der Erste von Saffenberg, der auf der Saffenburg bei Mayschoß residierte. Im Jahr 1136 ermächtigte er die Augustinermönche der Abtei Klosterrath, im Hubachtal an der Ahr ein Kloster zu errichten. Das Tal war damals noch bewaldet und unbewohnt. Nach der Rodung entstand der Bau. Ein Jahr später kamen 37 Augustinerinnen aus dem Mutterhaus und bezogen das Kloster. 1138 wurde die erste Messe gefeiert. Drei Jahre danach weihte der Kölner Erzbischof Arnold der Erste die Klosterkirche. Die Nonnen stammten aus dem niederen Dienstadel der Grafen von Are und von Saffenberg. Geleitet wurde das Haus von einer Äbtissin. Im vierzehnten Jahrhundert beschränkte der Kölner Erzbischof die Zahl der Nonnen auf vierzig. Im Dreißigjährigen Krieg plünderten schwedische Truppen das Kloster. Dabei ging das Klosterarchiv verloren. Gegen Ende des Krieges folgten französische Truppen. Der Wiederaufbau begann kurz vor der Jahrhundertwende. Nach der Besetzung des linken Rheinufers flohen die Nonnen 1794 auf die andere Rheinseite. 1802 wurde das Kloster säkularisiert und im Jahr darauf versteigert. 1811 verkaufte man die Gebäude auf Abbruch und trug sie zum Teil ab. Erhalten blieben die Ruine der Klosterkirche, Teile des Kreuzgangs und das Haus der Äbtissin aus der Zeit des Rokoko.",
           "sources": [
             "https://de.wikipedia.org/wiki/Kloster_Marienthal_(Ahr)"
+          ]
+        },
+        {
+          "id": "tag2-lager-rebstock",
+          "day": 2,
+          "name": "Gedenktafel für das Lager Rebstock",
+          "lat": 50.528143,
+          "lon": 7.037142,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 8.99,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Radweg steht eine Gedenktafel für das Lager Rebstock. Es war ein Außenlager des Konzentrationslagers Buchenwald bei Marienthal. Die Häftlinge mussten in den Eisenbahntunneln am Hang Bodenanlagen für die Vergeltungswaffe zwei fertigen. Das Lager bestand nur wenige Monate im Jahr 1944.",
+          "textLong": "Das Außenlager Rebstock lag bei Marienthal zwischen Dernau und Ahrweiler. Es war ein Außenlager des Konzentrationslagers Buchenwald und wurde am 21. August 1944 eingerichtet. Am 13. Dezember 1944 wurde es wieder aufgelöst. Die verbliebenen Häftlinge kamen danach in ein Lager gleichen Namens bei Artern. Rebstock war ein Deckname. Er stand für den Silberbergtunnel und den Kuxbergtunnel. Ein zweiter Deckname, Spatz, stand für drei weitere Tunnel bei Dernau. Diese Tunnel gehörten zu einer strategischen Bahnstrecke, die 1904 begonnen und nie fertiggestellt wurde. Im Lager Rebstock fertigte die Stettiner Firma Gollnow und Sohn Bodenanlagen für die Vergeltungswaffe zwei. Dafür wurden die Häftlinge als Zwangsarbeiter eingesetzt. Zunächst standen elf massive Unterkunftsbaracken nördlich des Bahndamms. Später wurde die Unterbringung ganz in den Tunnel verlegt. Damit lebten die Gefangenen unmittelbar neben den Bewohnern von Marienthal, die denselben Tunnel als Luftschutzbunker nutzten. Über die Zahl der Häftlinge gibt es unterschiedliche Angaben. Der Bericht eines Gefangenen aus den Niederlanden spricht von fast dreihundert Menschen. Die für die Firma abgerechneten Monatszahlen liegen bei bis zu 184 Häftlingen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/KZ-Au%C3%9Fenlager_Rebstock"
           ]
         },
         {
@@ -606,7 +606,7 @@
           "triggerRadius": 350,
           "accessNote": "200 m Abstecher",
           "textShort": "Über Mayschoß liegt die Saffenburg auf einem langen Felsrücken. Die Ahr umfließt ihn auf drei Seiten. Zwei Tunnelröhren der Ahrtalbahn durchstoßen den Fels. Die Burg ist die älteste Burgruine des Ahrtals. Erhalten sind vor allem Grundmauern. Seit 2007 ist die Ruine wieder öffentlich begehbar.",
-          "textLong": "Die Saffenburg steht auf 253 Metern über dem Meer auf einem langgestreckten Felsmassiv über Mayschoß. Die Ahr umspült den Fels auf drei Seiten. Zwei Tunnelröhren der Ahrtalbahn führen hindurch. Die stillgelegte Röhre diente bis zum Hochwasser von 2021 dem Ahr-Radweg als Trasse. Die Anlage ist rund 260 Meter lang und 80 Meter breit. Sie bestand aus zwei Vorburgen und der Kernburg. Tiefe Halsgräben trennten die Teile voneinander. Das Material aus den Gräben wurde gleich als Baustoff verwendet. Heute sind vor allem Grundmauern erhalten, die scheinbar nahtlos in den Felsen übergehen. Im Jahr 2004 begann eine grundlegende Sanierung. Seit 2007 ist die Ruine wieder öffentlich begehbar. Erbaut wurde die Burg im elften Jahrhundert von den Grafen Adolf von Nörvenich und Adalbert von Saffenburg. Urkundlich fassbar ist sie erstmals im Jahr 1074. Zur Herrschaft Saffenburg gehörten neben der Burg das Kloster Marienthal und die vier Dörfer Mayschoß, Laach, Rech und Dernau. Die Herrschaft hatte ein eigenes Gericht mit Schöffen, die in den Dörfern gewählt wurden. Es tagte in der Rentmeisterei zu Mayschoß. Fremde durften sich nur gegen Zahlung in der Herrschaft niederlassen.",
+          "textLong": "Die Saffenburg steht auf 253 Metern über dem Meer auf einem langgestreckten Felsmassiv über Mayschoß. Die Ahr umspült den Fels auf drei Seiten. Zwei Tunnelröhren der Ahrtalbahn führen hindurch. Die stillgelegte Röhre diente bis zum Hochwasser von 2021 dem Ahr-Radweg als Trasse. Die Anlage ist rund 260 Meter lang und 80 Meter breit. Sie bestand aus zwei Vorburgen und der Kernburg. Tiefe Halsgräben trennten die Teile voneinander. Das Material aus den Gräben wurde gleich als Baustoff verwendet. Heute sind vor allem Grundmauern erhalten, die scheinbar nahtlos in den Felsen übergehen. Im Jahr 2004 begann eine grundlegende Sanierung. Seit 2007 ist die Ruine wieder öffentlich begehbar. Erbaut wurde die Burg im elften Jahrhundert von den Grafen Adolf von Nörvenich und Adalbert von Saffenburg. Die früheste Nennung stammt aus dem Jahr 1074. Sie steht allerdings in einer Fälschung, die vermutlich auf einer Urkunde des Jahres 1090 beruht. Zur Herrschaft Saffenburg gehörten neben der Burg das Kloster Marienthal und die vier Dörfer Mayschoß, Laach, Rech und Dernau. Die Herrschaft hatte ein eigenes Gericht mit Schöffen, die in den Dörfern gewählt wurden. Es tagte in der Rentmeisterei zu Mayschoß. Fremde durften sich nur gegen Zahlung in der Herrschaft niederlassen.",
           "sources": [
             "https://de.wikipedia.org/wiki/Saffenburg"
           ]
@@ -738,9 +738,9 @@
           "category": "Ort",
           "kind": "story",
           "routeKm": 24.66,
-          "triggerRadius": 350,
+          "triggerRadius": 300,
           "accessNote": "200 m Abstecher",
-          "textShort": "Hönningen liegt in einer Flussschleife der Ahr, die nach Nordwesten verläuft. Über dem Ort steht die Pfarrkirche Sankt Kunibert. Der Name des Patrons erklärt sich aus dem Jahr 1084. Damals trat die Metzer Abtei Sankt Arnulf ihren Besitz hier an das Kölner Stift Sankt Kunibert ab.",
+          "textShort": "Hönningen liegt in einer Flussschleife der Ahr, die nach Nordwesten verläuft. Im Ort steht die Pfarrkirche Sankt Kunibert. Der Name des Patrons erklärt sich aus dem Jahr 1084. Damals trat die Metzer Abtei Sankt Arnulf ihren Besitz hier an das Kölner Stift Sankt Kunibert ab.",
           "textLong": "Der Ortsname weist auf eine fränkische Siedlung hin. Früher hieß der Ort Hunighofen. Schon seit der Mitte des siebten Jahrhunderts war die Metzer Abtei Sankt Arnulf hier begütert. Im Jahr 1084 trat die Abtei ihren Besitz in Hönningen an das Stift Sankt Kunibert in Köln ab. Deshalb ist der heilige Kunibert bis heute der Patron der Pfarrei. Im Jahr 1316 nennt der Liber valoris Hönningen als eigene Pfarrei. 1494 gingen die Rechte an die Johanniter-Kommende in Adenau. Begütert war der Orden hier schon seit 1291. Über dreihundert Jahre lang gehörte Hönningen mit seinen Filialen Dümpelfeld, Niederadenau und Liers zum Johanniterorden. Der Erweiterungsbau der Kirche wurde 1896 eingeweiht. Auf dem Schlussstein sind das Johanniterkreuz und das Wappen derer von Orsbeck zu sehen. Diese Familie war als Herren von der Wensburg auch Grundherren von Hönningen. Herrschaftlich gehörte der Ort bis 1246 zur Grafschaft Are. Danach kam er zum kurkölnischen Amt Altenahr und bildete dort eine eigene Vogtei. Aus Hönningen stammt außerdem das später weit verzweigte Adelsgeschlecht Hoyningen-Huene. Es wird erstmals im Jahr 1176 urkundlich erwähnt. Zur Gemeinde gehört auch der Ortsteil Liers.",
           "sources": [
             "https://de.wikipedia.org/wiki/H%C3%B6nningen"
@@ -821,7 +821,7 @@
           "category": "Burg",
           "kind": "story",
           "routeKm": 40.15,
-          "triggerRadius": 1750,
+          "triggerRadius": 1700,
           "accessNote": "nur Blickkontakt",
           "textShort": "Rechts über dem Tal erhebt sich der Aremberg. Der Berg ist rund 624 Meter hoch und gilt als einer der größten tertiären Vulkane der Eifel. Oben im Wald liegt die Ruine der Burg Aremberg. Sie war der Mittelpunkt der Herrschaft Arenberg. Das Dorf Aremberg liegt am Westhang darunter.",
           "textLong": "Die Burg Aremberg stand auf der Kuppe des Arembergs, rund 624 Meter über dem Meer. Der Berg ist dicht bewaldet und gilt als einer der größten tertiären Vulkane der Eifel. Erstmals erwähnt wird die Burg im Jahr 1166, damals unter dem Namen Arberg. Errichtet wurde sie im zwölften Jahrhundert, weil die Lage strategisch günstig war. Sie war der Mittelpunkt der reichsunmittelbaren Herrschaft Arenberg. Diese Herrschaft war flächenmäßig sehr klein. Trotzdem gelang es zahlreichen Familienmitgliedern, am Wiener Hof großen Einfluss auszuüben. 1549 wurden die Arenberger Reichsgrafen, 1644 erhielten sie die Herzogswürde. Ab 1564 baute der Jülicher Festungsbaumeister Pasqualini die Burg grundlegend um. 1642 belagerten hessische Truppen die Anlage. Spanische Truppen verhinderten die Einnahme. Danach begann ein neuzeitlicher Festungsbau. Entworfen und geleitet hat ihn ein Kapuzinerpater aus der Familie Arenberg. 1674 galt der Ausbau als abgeschlossen. Fünf Jahre später entließ der Herzog nach dem Frieden von Nimwegen seine Garnisonstruppen. Das erwies sich als fatal. 1682 nahmen französische Truppen die nun fast schutzlose Burg ein. Heute zeugen nur noch spärliche Reste von dem früheren Glanz. Der Berg selbst steht seit 1977 unter Naturschutz.",
@@ -874,9 +874,9 @@
           "category": "Burg",
           "kind": "story",
           "routeKm": 50.44,
-          "triggerRadius": 400,
+          "triggerRadius": 350,
           "accessNote": "250 m Abstecher",
-          "textShort": "Links über dem Ahbach liegt die Ruine der Burg Neublankenheim. Sie steht auf einer Kuppe, gut zwanzig Meter über dem Talgrund. Die Landesgrenze nach Nordrhein-Westfalen verläuft nur etwa 150 Meter weiter nördlich. Seit dem sechzehnten Jahrhundert ist die Burg zerstört und wurde nie wieder aufgebaut.",
+          "textShort": "Rechts über dem Ahbach liegt die Ruine der Burg Neublankenheim. Sie steht auf einer Kuppe, gut zwanzig Meter über dem Talgrund. Die Landesgrenze nach Nordrhein-Westfalen verläuft nur etwa 150 Meter weiter nördlich. Seit dem sechzehnten Jahrhundert ist die Burg zerstört und wurde nie wieder aufgebaut.",
           "textLong": "Die Burg liegt in der Kalkeifel auf einer Erhebung von rund 355 Metern über dem Meer. Der Ahbach fließt wenige Meter östlich vorbei. Über die Anfänge ist wenig bekannt. Grabungen hat es bisher nicht gegeben. Eine Erwähnung von 1272 gilt als umstritten, weil sie sich auch auf die Burg Blankenheim beziehen könnte. Als älteste sichere Quelle gilt eine Urkunde aus dem Jahr 1341. Darin übertrug Markgraf Wilhelm der Erste von Jülich dem Gerhard dem Fünften von Blankenheim seine neue Burg Blankenheim als Erblehen. Danach blieb die Anlage überwiegend als Lehen im Besitz der Herren von Blankenheim. 1470 ging die Grafschaft Blankenheim an Graf Dietrich den Dritten von Manderscheid über. Die Burg selbst war zwischenzeitlich an die Herren von Mirbach gekommen. Im Jahr 1521 beschrieb Dietrich von Mirbach sie als zerstört und bat seinen Lehnsherrn um Hilfe für den Wiederaufbau. Dazu kam es nicht. Die Lage war abgeschieden und strategisch bedeutungslos geworden. Um 1770 erwarb der Herzog von Arenberg die Ruine mit umliegenden Ländereien. Nach 1794 fiel sie an den französischen Staat und wurde versteigert. Heute gehört sie dem Landkreis Vulkaneifel.",
           "sources": [
             "https://de.wikipedia.org/wiki/Burg_Neublankenheim"
@@ -891,7 +891,7 @@
           "category": "Technik",
           "kind": "story",
           "routeKm": 53.16,
-          "triggerRadius": 300,
+          "triggerRadius": 250,
           "accessNote": "150 m Abstecher",
           "textShort": "In Ahütte liegt der alte Bahnhof am Weg. Anfang 2023 wurde dort ein Museumsbahnhof eröffnet. Das Gleis wurde wieder aufgebaut und eine Schienenbus-Garnitur vor Ort stationiert. Die Bahnstrecke selbst war 1912 eröffnet und 1973 für den Verkehr aufgegeben worden.",
           "textLong": "Die Bahnstrecke von Dümpelfeld nach Jünkerath wurde um 1900 als strategische Verbindung geplant. Sie sollte die beiden Rheinstrecken über das Ahrtal mit der Eifelstrecke nahe der Staatsgrenze verbinden. Die Bauarbeiten begannen im April 1909. Am 30. Juni 1912 wurde die 44 Kilometer lange Strecke feierlich eröffnet. Sie kostete 13,2 Millionen Mark. Der Hauptteil war zweigleisig, obwohl es in der dünn besiedelten Eifel gar keinen zivilen Bedarf in dieser Größenordnung gab. Militärische Überlegungen bestimmten die Planung. Außer während der beiden Weltkriege erlangte die Strecke nie überregionale Bedeutung. Am Ende des Zweiten Weltkriegs sprengte die Wehrmacht zahlreiche Brücken. Erst 1948 konnte man wieder durchgehend fahren. Das zweite Gleis war da schon als Reparationsleistung abgebaut. Der Personenverkehr endete am 3. Juni 1973, der Güterverkehr wenige Monate später. Danach wurde die Strecke abgebaut. Rund fünfzig Jahre später kehrte ein Stück Bahn zurück. Anfang 2023 eröffnete im ehemaligen Bahnhof Ahütte ein Museumsbahnhof. Das Gleis wurde wieder aufgebaut und eine Schienenbus-Garnitur vor Ort stationiert. An einigen Tagen im Jahr fährt von hier ein Oldtimerbus aus den fünfziger Jahren die alte Strecke ab. Ein Referent erklärt unterwegs die Geschichte der Bahn.",
@@ -995,7 +995,7 @@
           "routeKm": 66,
           "triggerRadius": 600,
           "accessNote": "nur Blickkontakt",
-          "textShort": "Rechts liegt der Dreiser Weiher. Trotz des Namens gibt es hier kein offenes Wasser mehr. Es ist ein Trockenmaar, also ein alter Vulkankessel ohne See. Mit bis zu 1360 Metern Länge ist er das zweitgrößte Maar der Eifel. Den Maarsee legte man Anfang des neunzehnten Jahrhunderts trocken.",
+          "textShort": "Neben der Strecke liegt der Dreiser Weiher. Trotz des Namens gibt es hier kein offenes Wasser mehr. Es ist ein Trockenmaar, also ein alter Vulkankessel ohne See. Mit bis zu 1360 Metern Länge ist er das zweitgrößte Maar der Eifel. Den Maarsee legte man Anfang des neunzehnten Jahrhunderts trocken.",
           "textLong": "Der Dreiser Weiher ist ein wannenförmiger Kessel bei Dreis-Brück. Er misst bis zu 1360 Meter in der Länge und 1160 Meter in der Breite. Damit ist er das zweitgrößte Maar der Eifel. Ein Wall von 36 bis 120 Metern Höhe umgibt ihn. Das Maar gehört zu den Quartärvulkanen der Westeifel. Wie es genau entstand, ist nicht restlos geklärt. Am Rand des Kessels haben Forscher fünf Tuff-Fächer und vier vulkanische Zentren nachgewiesen. Im Zentrum selbst ließ sich keine Ausbruchsstelle finden. Deshalb gilt der Kessel vermutlich als Einbruchstrichter. Die ausgeworfenen Tuffe liegen über den Ablagerungen der umgebenden Vulkane. Das Maar ist also jünger als diese. Berühmt wurde der Ort früh bei Geologen. In der Umgebung finden sich Olivinbomben aus der Zeit der Entstehung. Viele der Minerale und Gesteine kommen sonst selten vor. Ob es sich dabei um Material aus dem Erdmantel handelt, wird bis heute diskutiert. Den früheren Maarsee legte man Anfang des neunzehnten Jahrhunderts trocken. Heute entwässern künstlich angelegte Gräben den Kessel zum Ahbach. Wegen der guten Thermik ist der Weiher ein beliebtes Fluggebiet für Gleitschirmflieger.",
           "sources": [
             "https://de.wikipedia.org/wiki/Dreiser_Weiher"
@@ -1041,7 +1041,7 @@
           "category": "Service",
           "kind": "service",
           "routeKm": 74.3,
-          "triggerRadius": 300,
+          "triggerRadius": 250,
           "accessNote": "150 m Abstecher",
           "textShort": "Kurz vor dem Ende der Etappe liegt am Ortsrand von Steinborn der Steinborner Drees, rund 120 Meter neben der Strecke. Dort ist eine Quelle gefasst. Eine gute Gelegenheit, die Flaschen noch einmal zu füllen.",
           "sources": []

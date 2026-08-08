@@ -63,8 +63,8 @@ Nicht aufgenommen, weil weiter als rund 2 km von der Route entfernt: Schloss und
 | 3.66 | Dokumentationsstätte Regierungsbunker | 596 m | Der Ausweichsitz der Verfassungsorgane lag unmittelbar über der Strecke. Dazu die „Stadt im Berg“ im Silberbergtunnel. |
 | 3.71 | Museum Römervilla | 164 m | Römischer Gutshof mit außergewöhnlich gut erhaltenen Wandmalereien, 1980 beim Straßenbau entdeckt. |
 | 6.13 | Bunte Kuh bei Walporzheim | 54 m | Wahrzeichen des Ahrtals, Naturdenkmal, direkt über dem Radweg. |
-| 7.03 | Erinnerungsstätte Lager Rebstock | 730 m | Außenlager des Konzentrationslagers Buchenwald in denselben Tunneln. Gehört zur Geschichte des Abschnitts. |
 | 7.08 | Klosterruine Marienthal | 397 m | Ältestes Kloster des Ahrtals, 1137 gegründet. |
+| 8.99 | Gedenktafel für das Lager Rebstock | 68 m | Außenlager des Konzentrationslagers Buchenwald in denselben Eisenbahntunneln. Zunächst an der Erinnerungsstätte bei Marienthal geführt, nach dem Review auf die Gedenktafel am Radweg zwischen Dernau und Rech verlegt, damit die Ansage nicht gleichzeitig mit der Klosterruine Marienthal läuft. |
 | 10.49 | Alte Ahrbrücke in Rech | 129 m | Älteste erhaltene Ahrbrücke, überstand 1910, 2021 schwer beschädigt, 2023 abgebrochen. Zentrales Flutthema. |
 | 11.46 | Saffenburg über Mayschoß | 187 m | Älteste Burgruine des Ahrtals, unmittelbar über der Strecke. |
 | 15.8 | Burg Are über Altenahr | 81 m | Vom Brief ausdrücklich verlangt. Erbaut 1095 bis 1105, steht direkt über dem Weg. |
