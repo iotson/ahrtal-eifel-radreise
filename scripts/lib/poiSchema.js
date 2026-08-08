@@ -9,8 +9,20 @@ const GEBIET = { minLat: 49.5, maxLat: 51.0, minLon: 6.0, maxLon: 8.0 };
 const KURZTEXT_WOERTER = { min: 30, max: 70 };
 const LANGTEXT_WOERTER = { min: 120, max: 280 };
 
+// Mindestlänge einer Quellenangabe nach dem Trimmen. Verhindert, dass ein
+// einzelnes Zeichen (oder wenige) als "Beleg" durchgeht.
+const QUELLE_MIN_LAENGE = 8;
+
 function woerter(text) {
   return String(text ?? '').trim().split(/\s+/).filter(Boolean).length;
+}
+
+// Zählt nur Einträge, die tatsächlich als Beleg taugen: eine Zeichenkette,
+// die nach dem Trimmen nicht leer ist und eine Mindestlänge erreicht. Reines
+// Prüfen der Array-Länge reicht nicht — ['', '   '] hat Länge 2, belegt aber
+// nichts. So ließe sich die Belegpflicht mit leeren Platzhaltern aushebeln.
+function istGueltigeQuelle(eintrag) {
+  return typeof eintrag === 'string' && eintrag.trim().length >= QUELLE_MIN_LAENGE;
 }
 
 export function validierePois(daten, optionen = {}) {
@@ -71,7 +83,7 @@ export function validierePois(daten, optionen = {}) {
       if (typeof poi.routeKm !== 'number') fehler.push(`${wo}: routeKm fehlt oder ist keine Zahl.`);
 
       if (poi.kind === 'story') {
-        if (!Array.isArray(poi.sources) || poi.sources.length === 0) {
+        if (!Array.isArray(poi.sources) || !poi.sources.some(istGueltigeQuelle)) {
           fehler.push(`${wo}: story-POI ohne Quelle. Belegen oder auf kind "service" herabstufen.`);
         }
 

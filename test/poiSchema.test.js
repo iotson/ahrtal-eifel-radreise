@@ -38,6 +38,28 @@ test('ein story-POI ohne Quelle wird abgelehnt', () => {
   assert.ok(ergebnis.fehler.some((f) => f.includes('Quelle')), ergebnis.fehler.join(' | '));
 });
 
+test('ein story-POI mit nur leeren Quellen-Einträgen wird abgelehnt', () => {
+  const ergebnis = validierePois(daten([gueltigerStoryPoi({ sources: ['', '   '] })]));
+  assert.ok(ergebnis.fehler.some((f) => f.includes('Quelle')), ergebnis.fehler.join(' | '));
+});
+
+test('ein story-POI mit nicht-textuellen Quellen-Einträgen (null) wird abgelehnt', () => {
+  const ergebnis = validierePois(daten([gueltigerStoryPoi({ sources: [null] })]));
+  assert.ok(ergebnis.fehler.some((f) => f.includes('Quelle')), ergebnis.fehler.join(' | '));
+});
+
+test('ein story-POI mit nicht-textuellen Quellen-Einträgen (Zahl) wird abgelehnt', () => {
+  const ergebnis = validierePois(daten([gueltigerStoryPoi({ sources: [42] })]));
+  assert.ok(ergebnis.fehler.some((f) => f.includes('Quelle')), ergebnis.fehler.join(' | '));
+});
+
+test('ein story-POI mit mindestens einer gültigen Quelle neben leeren Einträgen wird akzeptiert', () => {
+  const ergebnis = validierePois(
+    daten([gueltigerStoryPoi({ sources: ['', 'https://de.wikipedia.org/wiki/Deutsches_Eck'] })])
+  );
+  assert.deepEqual(ergebnis.fehler, []);
+});
+
 test('ein service-POI braucht keine Quelle und keine Texte', () => {
   const service = {
     id: 'tag1-rastplatz',
