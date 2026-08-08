@@ -3,3 +3,4 @@ audio/
 *.aiff
 .DS_Store
 .superpowers/
+.claude/
