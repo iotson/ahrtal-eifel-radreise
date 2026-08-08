@@ -6,25 +6,41 @@ Vorschlag maschinell erzeugt — Entscheidung erfolgt bei der Recherche.
 
 | km | Name | Symbol | Vorschlag | Entscheidung | Begründung |
 |---|---|---|---|---|---|
-| 14.9 | Deutsches Eck | Flag, Blue | story | | |
-| 20.3 | Blick auf Neuendorf und den Rhein | Flag, Blue | story | | |
-| 29.8 | Schloss Engers | Flag, Blue | story | | |
-| 31.0 | Eisenbahnbrücke Urmitz | Bridge | story | | |
-| 32.8 | Silbersee | Flag, Blue | story | | |
-| 36.0 | Dyckerhoff Zement-Mahlwerk | Flag, Blue | story | | |
-| 37.8 | Neuwieder Rheinpromenaden-Biergarten | Restaurant | service | | |
-| 39.4 | Mündung der Wied in den Rhein | Flag, Blue | story | | |
-| 54.4 | Schloss Arenfels | Flag, Blue | story | | |
-| 54.5 | Hotel Anker | Restaurant | service | | |
-| 58.4 | Picknickplatz mit Blick auf den Rhein | Flag, Blue | service | | |
-| 59.6 | Gedenkstein für das Kriegsgefangenenlager „Goldene Meile“ | Flag, Blue | story | | |
-| 62.4 | Sinziger Mineralbrunnen | Flag, Blue | story | | |
-| 64.1 | Alte Kapelle am Ahr-Radweg | Flag, Blue | story | | |
-| 67.1 | Blick auf die Weinberge von Altenahr | Flag, Blue | story | | |
-| 69.3 | Behelfsbrücke Heimersheim und Reste der alten Brücke | Bridge | story | | |
-| 69.5 | Blick auf die Marienkapelle auf der Landskrone | Flag, Blue | story | | |
-| 70.4 | Kastanienallee | Flag, Blue | story | | |
-| 71.8 | Stadtzentrum Bad Neuenahr | Shopping Center | story | | |
+| 14.9 | Deutsches Eck | Flag, Blue | story | story | Zusammenfluss von Rhein und Mosel mit dem Kaiser-Wilhelm-Denkmal. Bau, Zerstörung 1945 und Wiederaufstellung 1993 sind über Wikipedia belegt. |
+| 20.3 | Blick auf Neuendorf und den Rhein | Flag, Blue | story | verworfen | Reiner Blickpunkt ohne eigenen Erzählwert. Dublette zum neu aufgenommenen POI Festung Ehrenbreitstein bei Kilometer 19,7, der denselben Rheinabschnitt abdeckt. |
+| 29.8 | Schloss Engers | Flag, Blue | story | story | Kurtrierisches Jagdschloss von 1759 bis 1764, Architekt und Ausstattung belegt, heute Villa Musica. |
+| 31.0 | Eisenbahnbrücke Urmitz | Bridge | story | story | Bau 1916 bis 1918, Sprengung am 9. März 1945, Wiederaufbau 1954. Alles über Wikipedia belegt. |
+| 32.8 | Silbersee | Flag, Blue | story | story | Baggersee im Engerser Feld. Trinkwasserschutz- und Vogelschutzgebiet, belegt über die Berichterstattung zum Nutzungskonzept. |
+| 36.0 | Dyckerhoff Zement-Mahlwerk | Flag, Blue | story | story | Werk seit 1930 in Betrieb, vom Hersteller als Mahlwerk geführt. Nur belegte Angaben zu Unternehmen und Standort verwendet, keine Kapazitätszahlen. |
+| 37.8 | Neuwieder Rheinpromenaden-Biergarten | Restaurant | service | service | Gastronomie am Radweg. Bleibt Service, die Stadtgeschichte trägt der neue POI Schloss Neuwied. |
+| 39.4 | Mündung der Wied in den Rhein | Flag, Blue | story | story | Länge, Quelle, Einzugsgebiet und Mündungsort der Wied sind belegt. |
+| 54.4 | Schloss Arenfels | Flag, Blue | story | story | Der Waypoint liegt an der Rheinpromenade in Bad Breisig, das Schloss selbst 1,2 km entfernt auf der rechten Rheinseite. Daher `accessNote` „nur Blickkontakt“. |
+| 54.5 | Hotel Anker | Restaurant | service | service | Der Name ließ sich vor Ort nicht bestätigen, an der Stelle liegt laut OpenStreetMap ein anderes Haus. Bleibt Service und wurde neutral als „Einkehr an der Rheinpromenade Bad Breisig“ benannt. |
+| 58.4 | Picknickplatz mit Blick auf den Rhein | Flag, Blue | service | service | Rastplatz am Leinpfad, praktisch nützlich, ohne Erzählstoff. |
+| 59.6 | Gedenkstein für das Kriegsgefangenenlager „Goldene Meile“ | Flag, Blue | story | story | Belegungszahlen, Todeszahl und Auflösungsdatum der Lager Remagen und Sinzig sind belegt. Text bewusst sachlich gehalten. |
+| 62.4 | Sinziger Mineralbrunnen | Flag, Blue | story | story | Firmengeschichte seit 1853 auf der Unternehmensseite und bei KuLaDig belegt. |
+| 64.1 | Alte Kapelle am Ahr-Radweg | Flag, Blue | story | verworfen | Die Kapelle ließ sich nicht belastbar identifizieren. In Bad Bodendorf stehen mehrere Kapellen, keine trägt diesen Namen, und die St.-Matthias-Kapelle liegt zwei Kilometer weiter westlich. Ohne Beleg kein story-POI. Der Abschnitt wird durch den neuen POI Burg Bodendorf bei Kilometer 64,5 abgedeckt. |
+| 67.1 | Blick auf die Weinberge von Altenahr | Flag, Blue | story | story | Der Komoot-Name ist falsch. Der Punkt liegt bei Lohrsdorf, Altenahr liegt weit weiter ahraufwärts. Als POI „Blick auf die Weinberge über Lohrsdorf“ übernommen, Inhalt über das Weinbaugebiet Ahr belegt. |
+| 69.3 | Behelfsbrücke Heimersheim und Reste der alten Brücke | Bridge | story | story | Über die konkrete alte Brücke fand sich nichts Belastbares. Der Text bleibt deshalb bei den belegten Zahlen zur Flut vom 14. und 15. Juli 2021 und zum Brückenwiederaufbau. |
+| 69.5 | Blick auf die Marienkapelle auf der Landskrone | Flag, Blue | story | story | Reichsburg Landskron und Maria-Hilf-Kapelle sind beide über Wikipedia belegt. Beide liegen rund 0,7 km entfernt, daher „nur Blickkontakt“. |
+| 70.4 | Kastanienallee | Flag, Blue | story | verworfen | Reiner Wegweiser ohne Erzählwert, wie vom Nutzer entschieden. |
+| 71.8 | Stadtzentrum Bad Neuenahr | Shopping Center | story | story | Etappenziel. Kurbadgeschichte, Zusammenschluss 1969 und Flutfolgen sind belegt. |
+
+### Neu aufgenommene POIs für Tag 1 (Schritt D)
+
+| km | Name | Abstand zur Route | Begründung |
+|---|---|---|---|
+| 0.1 | Marksburg über Braubach | 304 m | Der Track startet in Braubach. Die einzige nie zerstörte Höhenburg am Mittelrhein steht direkt darüber und fehlte in Komoot. |
+| 5.5 | Burg Lahneck über Oberlahnstein | 318 m | Burg über der Lahnmündung, Welterbe, direkt am Weg. |
+| 19.7 | Festung Ehrenbreitstein | 469 m | Preußische Zitadelle von 1817 bis 1828, Welterbe, liegt unmittelbar über der Strecke und fehlte in Komoot. Ersetzt den verworfenen Blickpunkt bei Kilometer 20,3. |
+| 37.8 | Schloss Neuwied | 80 m | Trägt die Geschichte der Planstadt Neuwied und ihres Toleranzprivilegs von 1662. |
+| 47.4 | Ruine Hammerstein | 174 m | Schließt die 13 Kilometer lange Lücke zwischen Wiedmündung und Rheinbrohl. Reichsburg mit den Reichskleinodien von 1105 bis 1125. |
+| 52.3 | Limes-Wachturm am Caput Limitis | 37 m | Anfang des Obergermanisch-Raetischen Limes, Welterbe, steht direkt an der Zufahrt zur Fähre. |
+| 52.7 | Rheinfähre Bad Hönningen nach Bad Breisig | 0 m | Die Route wechselt hier mit der Fähre die Rheinseite. Praktisch unverzichtbar, daher Service-POI. |
+| 61.3 | Sankt Peter in Sinzig | 304 m | Spätromanische Pfarrkirche, dazu die römische Vergangenheit und die Kaiserpfalz von Sinzig. |
+| 64.5 | Burg Bodendorf und der alte Ortskern | 469 m | Ersatz für die verworfene „Alte Kapelle“. Burg aus dem frühen 13. Jahrhundert, Thermalwasser, Ehrenfriedhof. |
+
+Nicht aufgenommen, weil weiter als rund 2 km von der Route entfernt: Schloss und Abtei Sayn bei Bendorf mit 2,1 km sowie die Brücke von Remagen mit 2,9 km. Die Brücke von Remagen wird im Text zum Gedenkstein „Goldene Meile“ erwähnt, weil das Lager unmittelbar auf ihre Einnahme folgte. Burg Are bei Altenahr liegt nicht auf dieser Etappe.
 
 ## Tag 2 — Ahrtal und Eifel - Tag 2 - von Findling nach Waldkönigen
 
