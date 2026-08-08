@@ -148,20 +148,45 @@ Anmerkung zum Streckenende: Der GPX-Dateiname nennt Waldkönigen und Pittenbach,
 
 | km | Name | Symbol | Vorschlag | Entscheidung | Begründung |
 |---|---|---|---|---|---|
-| 1.1 | Bahnhofstraße, Bleialf | Shopping Center | story | | |
-| 5.9 | Karl Friedrich Renner Skulpturengarten, Habscheid | Flag, Blue | story | | |
-| 8.2 | Picknickplatz im Naturpark Hohes Venn-Eifel | Picnic Area | service | | |
-| 9.4 | Alfbachtal | Flag, Blue | story | | |
-| 9.8 | Aussichtsreicher Radweg in der Eifel | Flag, Blue | story | | |
-| 15.6 | Schutzhütte mit Sitzbank und Mülleimer | Picnic Area | service | | |
-| 19.8 | Eifel-Ardennen und Prümtal-Radweg | Bridge | story | | |
-| 20.3 | Ehemaliger Bahnhof Waxweiler | Flag, Blue | story | | |
-| 22.0 | Blick auf Waxweiler | Flag, Blue | story | | |
-| 26.3 | Lascheid an der Pilgerroute Via Coloniensis | Shopping Center | story | | |
-| 31.4 | Blick auf die Eifellandschaft | Flag, Blue | story | | |
-| 35.8 | Wegkreuz | Flag, Blue | story | | |
-| 43.8 | Blick auf Schloss Malberg | Flag, Blue | story | | |
-| 44.3 | Schloss Malberg | Flag, Blue | story | | |
+| 1.1 | Bahnhofstraße, Bleialf | Shopping Center | story | story | Die Etappe führt tatsächlich von Bleialf nach Eisenschmitt, nicht von Pittenbach nach Bergweiler; die Überschrift stammt aus den GPX-Metadaten und bleibt bis zu einer Korrektur am Generator stehen. Der Waypoint trägt das Kriegsverbrechen vom 19. Dezember 1944 bei Bleialf. Über Wikipedia mit Namen, Daten und einer Skizze der Fundstellen belegt. Bergbau und Grenzbahnhof stecken bereits in den Tag-3-POIs. |
+| 5.9 | Karl Friedrich Renner Skulpturengarten, Habscheid | Flag, Blue | story | story | Werkstoff und Technik sind über einen Beitrag von Wirtschaft Eifel zur SWR-Sendung belegt. Dazu das Kondominium Pronsfeld, das im 18. Jahrhundert in Häusern abgerechnet wurde: sechs, vierzehn und vier. |
+| 8.2 | Picknickplatz im Naturpark Hohes Venn-Eifel | Picnic Area | service | story | Von service auf story hochgestuft. Der grenzüberschreitende Naturpark aus dem Regierungsabkommen vom Februar 1971 ist erzählenswert und gut belegt. `triggerRadius` 300 als weiträumiger Landschaftspunkt. |
+| 9.4 | Alfbachtal | Flag, Blue | story | verworfen | Dublette zu Tag 3. Identische Koordinate wie der POI `tag3-alfbachtal` bei Tag-3-Kilometer 52,69. Die ersten zwölf Kilometer von Tag 4 sind dieselbe Bahntrasse wie das Ende von Tag 3, nur in Gegenrichtung. |
+| 9.8 | Aussichtsreicher Radweg in der Eifel | Flag, Blue | story | verworfen | Der Radweg ist die Strecke, kein Ziel, und der Punkt liegt nur 390 Meter hinter dem Alfbachtal-Waypoint. Der Inhalt steht in den Tag-3-POIs Alfbachtal und Bleialfer Radweg. |
+| 15.6 | Schutzhütte mit Sitzbank und Mülleimer | Picnic Area | service | service | Letzte Rastgelegenheit vor dem längsten Anstieg des Tages. Praktisch nützlich, ohne Erzählstoff. |
+| 19.8 | Eifel-Ardennen und Prümtal-Radweg | Bridge | story | service | Von story auf service herabgestuft. Der Radweg ist Dublette zum Waypoint bei Kilometer 9,8; die Bahngeschichte steht 500 Meter weiter am Bahnhof Waxweiler. Als Service-POI trägt die Brücke die Ansage zum Anstieg ab Kilometer 20,03 mit 6,66 Kilometern und 207 Höhenmetern. |
+| 20.3 | Ehemaliger Bahnhof Waxweiler | Flag, Blue | story | story | Stichstrecke Pronsfeld–Waxweiler, Gesetzentwurf 1902, Eröffnung am 6. Juli 1907, Kaiser und Kronprinz eingeladen und beide nicht erschienen, Personenverkehr 1964 beendet, Stilllegung 1987. Über Wikipedia belegt. |
+| 22.0 | Blick auf Waxweiler | Flag, Blue | story | story | Trägt die Legende vom Ursprung der Echternacher Springprozession und das bis heute bestehende Vorrecht der Waxweiler, sie anzuführen. Als Legende gekennzeichnet. `triggerRadius` 300. |
+| 26.3 | Lascheid an der Pilgerroute Via Coloniensis | Shopping Center | story | story | Jakobsweg vom Kölner Dom nach Trier, rund 240 Kilometer in zehn bis elf Etappen, an der römischen Straße zwischen beiden Städten orientiert. Belegt über jakobsweg.de; dass der Jakobsweg Waxweiler durchquert, zusätzlich über Wikipedia. |
+| 31.4 | Blick auf die Eifellandschaft | Flag, Blue | story | story | Reiner Landschaftspunkt, deshalb an belegte Objekte gebunden: Kreuzigungsbildstock von 1738 rund 400 Meter westlich und Solarpark Plütscheid-Feuerscheid mit zehn Megawatt gut einen Kilometer westlich. Feuerscheid selbst liegt bei Kilometer 30,02 und ist zu diesem Zeitpunkt bereits durchfahren. `triggerRadius` 300. |
+| 35.8 | Wegkreuz | Flag, Blue | story | story | Einzelnes Kreuz ohne eigene Quelle, deshalb als Beispiel für eine Denkmalgattung erzählt. Die Wegekreuze von Seffern, Sefferweich, Malbergweich und Großlangenfeld sowie das Pestkreuz von 1634 in Waxweiler sind über die Denkmallisten in den Wikipedia-Artikeln belegt. |
+| 43.8 | Blick auf Schloss Malberg | Flag, Blue | story | verworfen | Dublette zu Kilometer 44,3. Beide Waypoints meinen dasselbe Bauwerk, 540 Meter auseinander. |
+| 44.3 | Schloss Malberg | Flag, Blue | story | story | Der Komoot-Waypoint liegt rund 380 Meter östlich des Schlosses. Der POI sitzt deshalb auf der tatsächlichen Schlosskoordinate und trägt `routeKm` 43,88 mit 46 Metern Abstand. Palladio-Rezeption nach Plänen von Matteo Alberti, dazu der Erbe, der ein Kloster kaufte und verschenkte. |
+
+### Neu aufgenommene POIs für Tag 4 (Schritt D)
+
+| km | Name | Abstand zur Route | Begründung |
+|---|---|---|---|
+| 0.0 | Etappenstart in Bleialf | 0 m | Service-POI. 58,1 Kilometer, 646 Höhenmeter, sechs Anstiege — die anspruchsvollste Etappe der Tour. Weist darauf hin, dass die ersten zwölf Kilometer bergab auf der Bahntrasse von gestern verlaufen. |
+| 2.63 | Großlangenfeld | 1152 m | Ortsgemeinde mit 124 Einwohnern. Die Kapelle Sankt Laurentius wird in der Denkmalliste eigens für ihre außergewöhnliche Bauform genannt; Westturm und Schiff sind älter als der Bau des 16. Jahrhunderts. |
+| 11.52 | Pronsfeld, Abzweig ins Prümtal | 0 m | Service-POI. Hier wechselt die Route vom Eifel-Ardennen-Radweg auf den Prümtal-Radweg. Letzte Versorgung vor Waxweiler. Die Ortsgeschichte steckt bereits in `tag3-pronsfeld`. |
+| 12.70 | Eifel-Zoo bei Lünebach | 452 m | 1972 auf dem Gelände einer ehemaligen Fischzucht eröffnet, 30 Hektar, rund 400 Tiere. Dazu das Unwetter vom 1. Juni 2018 und die Pointe, dass die Großkatzen ihre Gehege nie verlassen hatten. |
+| 14.66 | Lünebach | 271 m | Ersterwähnung 1198 als Loynbach, in der Ardennenoffensive größtenteils zerstört, schiefer Kirchturm bis 2005. Heute größter Arbeitgeber eine Mühlenbäckerei mit über 100 Beschäftigten. |
+| 20.88 | Devonium in Waxweiler | 76 m | Geomuseum zum Devon. Waxweiler lag vor rund 400 Millionen Jahren in einem Flussdelta; die Pflanzenfossilien stammen aus dem Köppen-Steinbruch. `triggerRadius` 80 wegen der engen Ortsdurchfahrt. |
+| 37.10 | Seffern an der Nims | 109 m | Steinbrücke von 1823 mit Nepomuk-Figur, eine der wenigen erhaltenen Barockbrücken in Rheinland-Pfalz. Dazu der Flussname Nemesa bei Ausonius und die vorgermanische Wurzel. |
+| 38.90 | Sefferweich und der Stationenweg | 13 m | Ersterwähnung 777 als Wicus in pago Bedinse, 893 im Prümer Urbar. Der Name kommt vom lateinischen vicus und heißt schlicht bewohnter Ort. Dazu der Stationenweg von Seffern bis zur Schlusskapelle. |
+| 41.76 | Malbergweich | 21 m | Die Zahl der Feuerstellen erzählt den Dreißigjährigen Krieg: elf im Jahr 1475, vierzehn im Jahr 1636, fünf im Jahr 1656. Dazu sieben Grabhügel und ein Meilenstein, der vermutlich römisch ist. |
+| 45.06 | Kyllburg | 57 m | Der wichtigste Ort der zweiten Etappenhälfte fehlte in Komoot. Burgbau 1239 durch Erzbischof Theoderich, ausgelöst von den nach Trier geflüchteten Nonnen von Sankt Thomas. Nach Kaub die zweitkleinste Stadt in Rheinland-Pfalz. `triggerRadius` 80 wegen der engen Ortsdurchfahrt. |
+| 48.51 | Auf der Höhe über der Kyll | 0 m | Service-POI. Schließt die Lücke im langen Anstieg ab Kilometer 44,39 mit 5,72 Kilometern und 174 Höhenmetern. |
+| 52.06 | Oberkail | 88 m | Sitz der Grafschaft Manderscheid-Kail. Burgausbau ab 1339, um 1700 Erweiterung zum Wasserschloss, ab 1809 größtenteils abgerissen. Übrig sind Ecktürme und Teile der Umfassungsmauern. |
+| 55.08 | Schwarzenborn | 11 m | Herrschaft Oberkail im Herzogtum Luxemburg, Pfarrkirche im Nachbarort. Verweist auf die Abtei Himmerod rund drei Kilometer südöstlich, an der die Etappe von Tag 5 beginnt. |
+| 56.17 | Eisenschmitt, das Weiberdorf | 468 m | Vorlage für Clara Viebigs Roman „Das Weiberdorf“. Dazu das Clara-Viebig-Zentrum im ehemaligen Haus der jüdischen Familie Samuel und deren Geschichte bis 1939. |
+| 57.68 | Eichelhütte an der Salm | 13 m | Erz, Holzkohle und Wasserkraft der Salm trugen die Eisenhütten seit dem 14. Jahrhundert. 1835 lebten hier rund 1350 Menschen. Heute steht in Eisenschmitt die letzte produzierende Kokos-Weberei Deutschlands. |
+| 58.09 | Etappenziel an der Salm | 0 m | Service-POI. Endpunkt des Tracks, Übergabe an Tag 5 mit dem Hinweis auf die Abtei Himmerod knapp anderthalb Kilometer salmabwärts. |
+
+Nicht aufgenommen, obwohl in Reichweite: das ehemalige Zisterzienserinnenkloster Sankt Thomas an der Kyll mit 2659 Metern liegt außerhalb der Zwei-Kilometer-Grenze; seine Geschichte trägt der Kyllburg-POI. Heilenbach mit 1500 Metern bei Kilometer 35,04 und Orsfeld mit 1357 Metern bei Kilometer 47,61 wurden verworfen, weil der nach der Formel nötige `triggerRadius` von 1650 beziehungsweise 1500 die Geofence-Fenster der Nachbar-POIs verschluckt hätte. Die Stiftskirche Kyllburg mit 586 Metern und die Burg Kyllburg mit 405 Metern stecken im Kyllburg-POI, der Kreuzigungsbildstock von 1738 mit 391 Metern im POI bei Kilometer 31,43. Die Abtei Himmerod mit 1374 Metern gehört zu Tag 5. Die größte verbliebene Lücke zwischen zwei POIs beträgt 5,15 Kilometer zwischen Kilometer 26,28 bei Lascheid und Kilometer 31,43 auf der Höhe über Feuerscheid.
+
+Anmerkung zum Streckenverlauf: Die Abschnittsüberschrift stammt aus den GPX-Metadaten und nennt Pittenbach und Bergweiler. Beide Orte liegen nicht am Track. Die Etappe führt von Bleialf nach Eisenschmitt, so wie es `data/tour.json` inzwischen führt. Die ersten 12,07 Kilometer verlaufen auf derselben Bahntrasse wie die letzten Kilometer von Tag 3, nur in Gegenrichtung; die POIs dieses Abschnitts meiden deshalb die dort schon erzählten Themen.
 
 ## Tag 5 — Ahrtal und Eifel - Tag 5 - von Bergweiler nach Nehren
 

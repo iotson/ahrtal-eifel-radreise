@@ -1553,6 +1553,464 @@
           ]
         }
       ]
+    },
+    {
+      "day": 4,
+      "briefing": {
+        "text": ""
+      },
+      "pois": [
+        {
+          "id": "tag4-etappenstart-bleialf",
+          "day": 4,
+          "name": "Etappenstart in Bleialf",
+          "lat": 50.238939,
+          "lon": 6.286088,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 0,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Heute wird es ernst. Achtundfünfzig Kilometer und sechshundertsechsundvierzig Höhenmeter liegen vor dir, verteilt auf sechs Anstiege. Das ist die anspruchsvollste Etappe der ganzen Tour. Die ersten zwölf Kilometer sind allerdings geschenkt. Du rollst auf der alten Bahntrasse durch das Alfbachtal hinunter nach Pronsfeld, dieselbe Strecke wie gestern, nur andersherum. Danach fängt der Tag an.",
+          "sources": []
+        },
+        {
+          "id": "tag4-bleialf-dezember-1944",
+          "day": 4,
+          "name": "Bleialf im Dezember 1944",
+          "lat": 50.23362,
+          "lon": 6.27415,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 1.11,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hinter dir liegt Bleialf. Hier verlief im Dezember 1944 die Front. Am neunzehnten Dezember überrannten deutsche Truppen die amerikanischen Stellungen und nahmen mehrere hundert Soldaten gefangen. Zwei von ihnen wurden noch am selben Tag erschossen, weil sie Juden waren. Der Offizier, der den Befehl gab, wurde dafür später hingerichtet.",
+          "textLong": "Die Ardennenoffensive begann am sechzehnten Dezember 1944, und Bleialf lag mitten darin. Drei Tage später überrannten deutsche Truppen die amerikanischen Stellungen rund um den Ort. Sechshundert bis siebenhundert Soldaten gerieten in Gefangenschaft. Dabei kamen auch deutsche Soldaten frei, die zuvor in amerikanischer Gefangenschaft gewesen waren. Unter den amerikanischen Gefangenen waren zwei Männer, die als Juden vor der Verfolgung aus Deutschland in die Vereinigten Staaten geflohen waren. Beide sprachen Deutsch. Beide waren deshalb bei der amerikanischen Armee als Vernehmer eingesetzt. Einer der befreiten deutschen Soldaten erkannte sie und zeigte sie an. Noch am selben Tag wurden die beiden auf einem Hügel bei Bleialf erschossen. Nicht in einem Gefecht, sondern als Gefangene. Zwei Monate später fand eine amerikanische Einheit die Leichen nördlich des Ortes und identifizierte sie. Der deutsche Hauptmann, der den Befehl gegeben hatte, wurde von einem amerikanischen Militärgericht wegen Kriegsverbrechens zum Tode verurteilt und im Juni 1945 erschossen. Das ist der ganze Vorgang. Er ist aktenkundig, mit Namen, Daten und einer Skizze der Fundstellen. Und er hat sich hier abgespielt, auf einer Anhöhe, an der heute Radfahrer vorbeirollen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Bleialf"
+          ]
+        },
+        {
+          "id": "tag4-grosslangenfeld",
+          "day": 4,
+          "name": "Großlangenfeld",
+          "lat": 50.221183,
+          "lon": 6.25254,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 2.63,
+          "triggerRadius": 1300,
+          "accessNote": "1150 m Abstecher",
+          "textShort": "Gut einen Kilometer westlich liegt Großlangenfeld, oben auf einem Geländerücken. Der Ort hat einhundertvierundzwanzig Einwohner. Er hat aber eine Kapelle, für die eigens vermerkt ist, dass ihre Bauform außergewöhnlich sei. Sie stammt wohl aus dem sechzehnten Jahrhundert. Turm und Schiff sind sogar noch älter.",
+          "textLong": "Großlangenfeld sitzt auf einem Rücken zwischen zwei Bächen, dem Ihrenbach und dem Alfbach, die beide rund einhundert Meter tiefer fließen. Ein guter Platz für ein Dorf, trocken und übersichtlich. Genannt wird der Ort zum ersten Mal 1283, damals als Langievield. Heute leben hier einhundertvierundzwanzig Menschen. Das ist wenig, selbst für die Westeifel. Und trotzdem steht hier eine Kapelle, die es in die Denkmalliste des Landes geschafft hat, mit einer bemerkenswerten Begründung. Die Kapelle Sankt Laurentius habe eine außergewöhnliche Bauform, heißt es dort. Der Bau stammt wohl aus dem sechzehnten Jahrhundert, der Westturm und das Schiff sind älter. Innen gibt es ein Kreuzrippengewölbe, einen Schlussstein im Chor und Engelköpfe am Marienaltar. Dazu ein Backhaus aus dem achtzehnten Jahrhundert und mehrere Wegekreuze in der Gemarkung. So sieht das in der Eifel oft aus. Die Dörfer sind klein, die Kirchen sind es nicht. Wer hier baute, baute nicht für die Zahl der Bewohner, sondern für die Ewigkeit. Die Bewohner sind weniger geworden. Die Kapelle steht noch.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Gro%C3%9Flangenfeld"
+          ]
+        },
+        {
+          "id": "tag4-skulpturengarten-habscheid",
+          "day": 4,
+          "name": "Skulpturengarten in Habscheid",
+          "lat": 50.19672,
+          "lon": 6.28387,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 5.91,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Weg liegt der Skulpturengarten von Karl Friedrich Renner. Seine Figuren beginnen als Gras. Er dreht Halme zu Seilen, wickelt sie um Eisenstäbe und vollendet das Ganze mit Beton. Heraus kommen Fantasiegestalten, die zwischen den Wiesen stehen, als wären sie dort gewachsen.",
+          "textLong": "Der Werkstoff ist das Erstaunliche an dieser Sache. Karl Friedrich Renner nimmt Gras und Stroh, dreht daraus Seile, wickelt die Seile um Eisenstäbe und gibt dem Gebilde mit Beton seine endgültige Form. Aus dem weichsten Material der Eifel wird auf diesem Weg etwas, das Wind und Winter übersteht. Über ihn heißt es, er mache die Natur zum Teil seiner Kunst und die Kunst zum Teil der Natur, und genau so wirkt der Garten auch. Die Figuren stehen nicht auf Sockeln, sie stehen in der Wiese. Der Südwestrundfunk hat den Garten im November 2022 vorgestellt. Habscheid selbst liegt auf fünfhundert Metern Höhe und hat eine Vergangenheit, die genauso eigenwillig ist wie der Garten. Der Ort gehörte zum Kondominium Pronsfeld, einem Gebiet mit mehreren Landesherren gleichzeitig. Im achtzehnten Jahrhundert teilten sich hier drei Herrschaften den Ort, und man rechnete das in Häusern ab. Sechs Häuser gehörten zum Kurfürstentum Trier, vierzehn zur Herrschaft Hartelstein und zur Abtei Niederprüm, vier zum Haus Oranien. Wer in Habscheid wohnte, wusste also genau, wem er gehörte. Es kam darauf an, in welchem Haus er saß.",
+          "sources": [
+            "https://wirtschaft.eifel.info/2022/11/07/im-swr-fernseh-kunst-aus-gras-stroh-eisen-beton-und-liebe-renners-skulpturengarten-in-der-eifel/",
+            "https://de.wikipedia.org/wiki/Habscheid"
+          ]
+        },
+        {
+          "id": "tag4-naturpark-hohes-venn-eifel",
+          "day": 4,
+          "name": "Naturpark Hohes Venn-Eifel",
+          "lat": 50.18531,
+          "lon": 6.30956,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 8.22,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Ein Picknickplatz mitten im Naturpark Hohes Venn-Eifel. Der Park hat eine Besonderheit. Er liegt in zwei Staaten. Deutschland und Belgien haben ihre Schutzgebiete 1971 zu einem einzigen Naturpark zusammengelegt. Zweitausendsiebenhundertsechzig Quadratkilometer, drei Verwaltungen, ein Gebiet.",
+          "textLong": "Naturschutz endet normalerweise an der Grenze, weil Behörden dort enden. Hier nicht. Der deutsche Teil entstand 1960 als Naturpark Nordeifel, der rheinland-pfälzische Anteil kam im November 1970 dazu. Und im Februar 1971 einigten sich die Regierungen darauf, die deutschen Teile mit dem belgischen Parc Naturel Hautes Fagnes zusammenzulegen. Seither ist es ein Park, der über die Staatsgrenze hinweg funktioniert. Er reicht von Langerwehe und Eupen im Norden bis nach Bad Münstereifel, Prüm und Sankt Vith im Süden und umfasst zweitausendsiebenhundertsechzig Quadratkilometer. Sechs sehr verschiedene Landschaften stecken darin: die Rureifel, die westliche Hocheifel, die Kalkeifel, das Ourtal, das Vennvorland und das Hohe Venn selbst. Das Hohe Venn ist eine Hochmoor- und Heidelandschaft, die am Ende der letzten Eiszeit entstanden ist, vor rund siebentausendfünfhundert Jahren. Dort oben wächst Torf, dort oben regnet es viel, und dort oben ist es auch im Sommer selten warm. Das Wappentier des Naturparks ist das Birkhuhn. Du bist gerade am südlichen Rand dieses Gebildes unterwegs, im Tal des Alfbachs. Sehr viel unspektakulärer als das Hohe Venn, aber Teil derselben Verabredung zwischen zwei Staaten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Naturpark_Hohes_Venn-Eifel"
+          ]
+        },
+        {
+          "id": "tag4-pronsfeld-abzweig",
+          "day": 4,
+          "name": "Pronsfeld, Abzweig ins Prümtal",
+          "lat": 50.159892,
+          "lon": 6.32687,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 11.52,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du bist in Pronsfeld. Hier verlässt du den Eifel-Ardennen-Radweg und folgst dem Prümtal-Radweg nach Süden. Im Ort gibt es Läden und Gastwirtschaften. Bis Waxweiler sind es dann gut acht Kilometer ohne Versorgung, dafür aber auch ohne Steigung, denn der Weg liegt weiter auf der alten Bahntrasse.",
+          "sources": []
+        },
+        {
+          "id": "tag4-eifel-zoo",
+          "day": 4,
+          "name": "Eifel-Zoo bei Lünebach",
+          "lat": 50.152146,
+          "lon": 6.328286,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 12.7,
+          "triggerRadius": 600,
+          "accessNote": "450 m Abstecher",
+          "textShort": "Rechts im Bierbachtal liegt der Eifel-Zoo. Dreißig Hektar, ungefähr vierhundert Tiere, privat betrieben. Ein Kölner Unternehmer hat ihn 1972 auf dem Gelände einer ehemaligen Fischzucht eröffnet. Berühmt wurde der Zoo allerdings durch etwas anderes. Durch ein Unwetter und einen entlaufenen Bären.",
+          "textLong": "Hans Wallpott kaufte 1965 eine aufgegebene Fischzucht im Bierbachtal und machte daraus einen Tierpark. 1972 wurde er eröffnet. Heute leben auf dreißig Hektar ungefähr vierhundert Tiere, darunter Wallabys, Emus und Halsbandpekaris. Das Wasser, das den Ort einst nützlich machte, ist ihm mehrfach zum Verhängnis geworden. 2002 setzte der Bierbach den Zoo unter Wasser. Am ersten Juni 2018 tat er es erneut, nach einem Unwetter, und diesmal war der Schaden größer. Der tiefer gelegene Teil des Geländes wurde überflutet, und der letzte verbliebene Kragenbär entkam aus seinem Gehege. Er wurde erschossen. Weil im Durcheinander niemand genau sagen konnte, was noch alles offen stand, warnte man die Bevölkerung vorsichtshalber auch vor entlaufenen Großkatzen. Und jetzt die Pointe. Die Großkatzen hatten ihre Gehege nie verlassen. Sie saßen die ganze Zeit da, wo sie hingehörten, während halb Lünebach nach ihnen Ausschau hielt. Nach dem Unwetter zog sich die Tochter des Gründers aus der Leitung zurück. Seither führt seine Witwe den Zoo. Wer hineinwill, biegt hier ab. Es sind knapp fünfhundert Meter.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eifel-Zoo"
+          ]
+        },
+        {
+          "id": "tag4-luenebach",
+          "day": 4,
+          "name": "Lünebach",
+          "lat": 50.138066,
+          "lon": 6.34862,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 14.66,
+          "triggerRadius": 400,
+          "accessNote": "250 m Abstecher",
+          "textShort": "Links liegt Lünebach im Prümtal. Bis 2005 hatte der Ort einen schiefen Kirchturm. Dann wurde er erneuert und durch einen geraden ersetzt. Das ist die harmlose Geschichte des Dorfes. Die andere ist, dass Lünebach in der Ardennenoffensive zum größten Teil zerstört wurde.",
+          "textLong": "Lünebach wird 1198 zum ersten Mal genannt, damals als Loynbach. Der Name kommt vermutlich vom mittelniederdeutschen Wort Löne, und das heißt Ahorn. Ein Dorf am Ahornbach also, im Tal der Prüm, auf vierhundert Metern Höhe. Von dem, was vor 1945 hier stand, ist wenig übrig. Im Zweiten Weltkrieg, vor allem im Zuge der Ardennenoffensive, wurde Lünebach größtenteils zerstört. Es gibt eine Aufnahme vom März 1945, die zeigt, was davon blieb. Der Wiederaufbau brachte einen Kirchturm mit, der nicht ganz gerade stand. Er blieb so, jahrzehntelang, bis er im April 2005 erneuert und durch einen geraden ersetzt wurde. Das ist keine große Geschichte, aber eine, die man im Dorf noch erzählt. Wirtschaftlich ist Lünebach ein Sonderfall in dieser Gegend. Von der Landwirtschaft, die den Ort einmal trug, ist ein einziger Haupterwerbsbetrieb übrig. Der größte Arbeitgeber heute ist eine Mühlenbäckerei mit über einhundert Beschäftigten in Produktion und Vertrieb. Dazu sind mit dem Ausbau der Radwege Ferienwohnungen entstanden. Ein Dorf, das vom Brot und vom Fahrrad lebt.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/L%C3%BCnebach"
+          ]
+        },
+        {
+          "id": "tag4-schutzhuette-luenebach",
+          "day": 4,
+          "name": "Schutzhütte am Prümtal-Radweg",
+          "lat": 50.13062,
+          "lon": 6.34291,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 15.56,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Eine Schutzhütte mit Sitzbank und Mülleimer, unmittelbar am Weg. Bis Waxweiler sind es noch gut vier Kilometer, weiter leicht bergab auf der alten Bahntrasse. Kurz dahinter beginnt der längste Anstieg des Tages. Wer eine Pause einlegen möchte, macht das besser hier als danach.",
+          "sources": []
+        },
+        {
+          "id": "tag4-pruembruecke-waxweiler",
+          "day": 4,
+          "name": "Prümbrücke vor Waxweiler",
+          "lat": 50.09847,
+          "lon": 6.35244,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 19.81,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du überquerst die Prüm und rollst nach Waxweiler hinein. Genieße die letzten flachen Meter. Kurz hinter dem Ort beginnt der längste Anstieg des Tages. Gut sechseinhalb Kilometer, etwas über zweihundert Höhenmeter, im Schnitt drei Prozent. Er zieht sich aus dem Prümtal auf die Höhe von Lascheid hinauf.",
+          "sources": []
+        },
+        {
+          "id": "tag4-bahnhof-waxweiler",
+          "day": 4,
+          "name": "Ehemaliger Bahnhof Waxweiler",
+          "lat": 50.0948,
+          "lon": 6.35589,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 20.3,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier war der Bahnhof Waxweiler, Endpunkt einer Stichstrecke von Pronsfeld. Zur Eröffnung 1907 lud man Kaiser Wilhelm den Zweiten ein, weil das Ereignis so wichtig war. Er kam nicht. Ersatzweise lud man den Kronprinzen ein. Der kam auch nicht. Eröffnet wurde trotzdem.",
+          "textLong": "Im Mai 1902 stimmte der preußische Landtag einem Gesetzentwurf zu, und damit konnte der Bau von zwei Stichstrecken beginnen, von Pronsfeld nach Waxweiler und von Pronsfeld nach Neuerburg. Für die Westeifel war das ein Anschluss an die Welt. Für die Militärplaner in Berlin war es etwas anderes. Die Strecken wurden auch aus strategischen Gründen genehmigt, mit Blick auf einen Aufmarsch nach Westen. Beide wurden am sechsten Juli 1907 feierlich eröffnet. Man hatte Kaiser Wilhelm den Zweiten eingeladen, wegen der Wichtigkeit des Ereignisses, und ersatzweise den Kronprinzen. Keiner von beiden folgte der Einladung. Der Rest ist die übliche Geschichte einer Eifelbahn, nur schneller. Im Zweiten Weltkrieg wurde die Strecke stark beschädigt. 1950 fuhr wieder ein Zug. 1964 endete der Personenverkehr, 1987 wurde die Strecke stillgelegt, danach wurden die Gleise abgebaut. Fünfundachtzig Jahre Bahn, von der Genehmigung bis zum Ende. Geblieben ist der beste Teil. Weil eine Bahn keine steilen Rampen mag, liegt die Trasse mit gleichmäßig sanftem Gefälle im Tal, und genau darauf bist du gerade die letzten Kilometer heruntergerollt. Der Prümtal-Radweg fährt auf preußischer Militärlogik.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Waxweiler",
+            "https://de.wikipedia.org/wiki/Pr%C3%BCmtal-Radweg"
+          ]
+        },
+        {
+          "id": "tag4-devonium-waxweiler",
+          "day": 4,
+          "name": "Devonium in Waxweiler",
+          "lat": 50.092329,
+          "lon": 6.363122,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 20.88,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "An der Hauptstraße liegt das Devonium, ein Geomuseum. Es erzählt, was hier vor rund vierhundert Millionen Jahren passiert ist. Damals lag Waxweiler in einem Flussdelta, und in diesem Delta gingen Pflanzen zum ersten Mal an Land. Die Funde dazu stammen aus einem Steinbruch am Ort.",
+          "textLong": "Der Sprung vom Wasser aufs Land ist einer der größten Umbrüche der Erdgeschichte, und ein Teil der Belege dafür liegt in Waxweiler. Im Devon, vor ungefähr vierhundert Millionen Jahren, lag diese Gegend nicht in der Eifel, sondern in einem Flussdelta, etwa so wie heute das Delta des Orinoco in Venezuela. Warmes, flaches, träges Wasser, viel Schlamm, viele Ablagerungen. Genau solche Ablagerungen konservieren Pflanzen besonders gut. Im Köppen-Steinbruch bei Waxweiler sind deshalb Pflanzenfossilien aus jener Zeit gefunden worden, aus der Phase, in der Pflanzen das Wasser verließen und das Land eroberten. Das Museum an der Hauptstraße zeigt diese Funde und erklärt, in welchen Gesteinsschichten sie stecken. Das Besondere ist, dass man dabei nicht stehen bleiben muss. Rund um Waxweiler führt ein sechzehn Kilometer langer Devon-Pfad über die Felsen und durch die tief eingeschnittenen Bachtäler. Und wer selbst suchen möchte, kann sich bei der Tourist-Information einen Hammer ausleihen. Das ist die vermutlich beste Leihgabe der Westeifel. Man bekommt ein Werkzeug in die Hand und die Erlaubnis, damit vierhundert Millionen Jahre alte Schichten aufzuklopfen.",
+          "sources": [
+            "https://devonium.de/",
+            "https://www.eifel.de/go/sehenswertes-detail/devonium_waxweiler.html"
+          ]
+        },
+        {
+          "id": "tag4-blick-auf-waxweiler",
+          "day": 4,
+          "name": "Blick auf Waxweiler",
+          "lat": 50.09345,
+          "lon": 6.37109,
+          "category": "Aussicht",
+          "kind": "story",
+          "routeKm": 22.05,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der Anstieg hat begonnen, und Waxweiler liegt unter dir im Prümtal. Die Kirche dort unten stammt aus der Zeit um 1770. In ihr hängt eine Tafel, die an eine Strafe erinnert. Der Legende nach wurden die Waxweiler dazu verdammt, für immer weiterzutanzen.",
+          "textLong": "Die Geschichte geht so. Vor der Kirche von Waxweiler wurde gefeiert und getanzt, während drinnen gepredigt wurde. Der heilige Willibrord kam vorbei, sah das, und verdammte die Feiernden dazu, von nun an immerwährend weiterzuspringen und weiterzutanzen. Später ließ er mit sich reden. Er erlöste sie wieder, aber nur gegen ein Versprechen. Sie sollten nach Echternach pilgern, dorthin, wo Willibrord einst zu seiner Missionsarbeit aufgebrochen war. So erzählt es die Legende vom Ursprung der Echternacher Springprozession, und eine Gedenktafel in der Waxweiler Pfarrkirche erinnert daran. Aus der Strafe ist längst ein Vorrecht geworden. Es ist bis heute das Privileg der Waxweiler, die Springprozession anzuführen, die jedes Jahr am Pfingstdienstag stattfindet. Ein Dorf, das einmal verflucht wurde, geht der ganzen Prozession voran. Von hier oben siehst du den Ort so, wie er sich selbst gern beschreibt. Waxweiler nennt sich das Blumenstädtchen und ist staatlich anerkannter Erholungsort. Unten die Prüm, darum die Häuser, dazwischen der Kirchturm. Und im Hintergrund die Wälder, in denen vierhundert Millionen Jahre alte Pflanzen im Gestein liegen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Waxweiler"
+          ]
+        },
+        {
+          "id": "tag4-lascheid-via-coloniensis",
+          "day": 4,
+          "name": "Lascheid an der Via Coloniensis",
+          "lat": 50.10972,
+          "lon": 6.41074,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 26.28,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der schwerste Teil des Anstiegs liegt hinter dir. Hier oben bei Lascheid begleitet dich ein Pilgerweg, die Via Coloniensis. Sie führt vom Kölner Dom nach Trier, rund zweihundertvierzig Kilometer in zehn bis elf Etappen. Und sie folgt einer Straße, die schon die Römer benutzt haben.",
+          "textLong": "Zwischen Köln und Trier gab es lange vor den Pilgern eine Straße. Die Römer verbanden ihre beiden großen Städte im Norden miteinander, und diese Verbindung war Teil einer noch größeren Achse, die weiter nach Süden bis in die Provence lief. An dieser alten Linie orientiert sich der heutige Jakobsweg Via Coloniensis. Er beginnt am Kölner Dom und endet in Trier, ist rund zweihundertvierzig Kilometer lang und in zehn bis elf Etappen eingeteilt. Der Weg zieht sich von der Kölner Bucht über den Villerücken in die Zülpicher Börde, erreicht bei Euskirchen die Voreifel und steigt dann in die Kalkeifel hinauf. Danach kommen die Hocheifel, die Schneifel und der Islek, also genau die Gegend, in der du gerade fährst. Waxweiler, durch das du eben gerollt bist, wird vom Jakobsweg durchquert. Wer zu Fuß unterwegs ist, braucht für diese Strecke gut zehn Tage. Du machst sie in Teilen an einem Vormittag. Das ist kein Verdienst, das ist Übersetzung. Der Weg ist derselbe, der Antrieb ein anderer. Und der Untergrund ist deutlich älter als beide Ideen, die darauf unterwegs sind.",
+          "sources": [
+            "https://www.jakobsweg.de/via-coloniensis/",
+            "https://de.wikipedia.org/wiki/Waxweiler"
+          ]
+        },
+        {
+          "id": "tag4-feuerscheider-land",
+          "day": 4,
+          "name": "Blick über das Feuerscheider Land",
+          "lat": 50.09274,
+          "lon": 6.45321,
+          "category": "Aussicht",
+          "kind": "story",
+          "routeKm": 31.43,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du bist auf der Höhe, knapp fünfhundert Meter, und siehst weit über die Hochfläche. Hinter dir liegt Feuerscheid, durch das du gerade gefahren bist. In seiner Gemarkung steht ein Kreuzigungsbildstock aus Sandstein von 1738. Gut einen Kilometer weiter westlich steht ein Solarpark mit zehn Megawatt. Beides gehört zum selben Dorf.",
+          "textLong": "Feuerscheid ist ein kleines Dorf auf der Hochfläche, und es hat zwei Dinge, die weiter auseinanderliegen könnten. Das eine ist ein Kreuzigungsbildstock aus Sandstein, aufgestellt 1738. Das andere ist ein Solarpark mit zehn Megawatt Leistung, gebaut 2015 in einem Gewerbegebiet, das sich Feuerscheid mit dem Nachbarort Plütscheid teilt. Zwei Gemeinden, zwei Verbandsgemeinden, ein Gewerbegebiet. In der Eifel ist das keine Selbstverständlichkeit. Das schönste Detail steht aber weder auf einem Stein noch auf einem Dach. Neun mobile Versorger kommen ins Dorf und bringen, was gebraucht wird. Backwaren, Fleisch, Arzneien. Der Laden fährt hier zu den Leuten, nicht umgekehrt. Dazu gibt es seit 1997 eine eigene Dorfzeitung, die zweimal im Jahr erscheint und zwölf bis sechzehn Seiten stark ist. Man kann sich in einer Stadt schwer vorstellen, wie viel Organisation nötig ist, damit ein Dorf auf einer windigen Hochfläche gut lebt. Hier oben sieht man nur das Ergebnis. Es sieht aus wie Wiesen und ein paar Dächer.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Feuerscheid"
+          ]
+        },
+        {
+          "id": "tag4-wegekreuze-vor-seffern",
+          "day": 4,
+          "name": "Wegkreuz vor Seffern",
+          "lat": 50.06964,
+          "lon": 6.49149,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 35.81,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Weg steht ein Kreuz. Es ist keine Ausnahme, sondern die Regel. Fast jedes Dorf hier hat mehrere in seiner Gemarkung, aus dem sechzehnten bis neunzehnten Jahrhundert. In den Denkmallisten des Landes stehen sie oft nur als Sammelposten. Mehrere Wegekreuze im Ort und der Gemarkung.",
+          "textLong": "Wer in der Südeifel unterwegs ist, hört irgendwann auf, die Kreuze am Wegrand zu zählen. Man kann sich das an den amtlichen Denkmallisten ansehen. Für Seffern stehen dort mehrere Wegekreuze aus dem sechzehnten bis neunzehnten Jahrhundert, für Sefferweich ebenso. Für Malbergweich heißt es schlicht, über das Gemeindegebiet seien mehrere sehr alte Wegekreuze verteilt. In Großlangenfeld, an dem du heute früh vorbeigekommen bist, sind es Kreuze aus dem siebzehnten und achtzehnten Jahrhundert. Sie waren nicht alle aus demselben Anlass da. In Waxweiler steht ein Pestkreuz von 1634, aufgestellt in einer Zeit, in der ganze Dörfer verschwanden. Daneben gibt es dort mehrere Bußkreuze, und in Feuerscheid einen Kreuzigungsbildstock aus Sandstein von 1738. Jedes dieser Kreuze hat also einmal einen konkreten Grund gehabt. Eine Seuche, ein Unglück, ein Versprechen, eine Schuld. Die Gründe sind vergessen, die Steine sind geblieben. In den Listen stehen sie heute meist ohne Namen, ohne Datum, ohne Anlass. Man zählt sie zusammen und schreibt: mehrere. Es ist eine der wenigen Denkmalgattungen, bei denen die Menge die eigentliche Aussage ist.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Seffern",
+            "https://de.wikipedia.org/wiki/Sefferweich",
+            "https://de.wikipedia.org/wiki/Waxweiler"
+          ]
+        },
+        {
+          "id": "tag4-seffern-an-der-nims",
+          "day": 4,
+          "name": "Seffern an der Nims",
+          "lat": 50.0647222,
+          "lon": 6.5041667,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 37.1,
+          "triggerRadius": 250,
+          "accessNote": "100 m Abstecher",
+          "textShort": "Seffern liegt an der Nims, dort wo der Balesfelder Bach dazukommt. Im Ort steht eine Steinbrücke von 1823 mit Sandsteinkreuzen und einer Figur des Brückenheiligen Johannes von Nepomuk. Sie ist eine der wenigen erhaltenen Barockbrücken in Rheinland-Pfalz. Den Namen des Flusses kannten schon die Römer.",
+          "textLong": "Der Fluss ist hier das Ältere. Die Nims wird schon in römischer Zeit erwähnt, vom Dichter Ausonius, in seinem Gedicht über die Mosel, und zwar als Nemesa. Der Name ist noch älter als das. Er ist vorgermanischer Herkunft und leitet sich möglicherweise vom keltischen Wort für Hain ab. Demnach wäre nicht das Tal nach dem Fluss benannt, sondern der Fluss nach einem heiligen Hain im Tal. Die Nims ist gut einundsechzig Kilometer lang und mündet weit im Süden bei Irrel in die Prüm. Bekannt ist sie für die Eifeler Wildbachforelle, die im kalten, sauren Wasser besonders gut gedeiht. Seffern selbst wird 893 im Prümer Urbar erwähnt, damals als Seferne, und war später Sitz einer Schultheißerei mit zehn Dörfern. Vom Buntsandstein, den man hier seit der Römerzeit gebrochen hat, ist die Brücke gemacht. Sie stammt von 1823, trägt Sandsteinkreuze und eine Steinfigur des Johannes von Nepomuk, und sie gehört zu den wenigen Barockbrücken, die in Rheinland-Pfalz noch stehen. Zweihundert Jahre alt und immer noch das jüngste Stück an diesem Ort.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Seffern",
+            "https://de.wikipedia.org/wiki/Nims"
+          ]
+        },
+        {
+          "id": "tag4-sefferweich",
+          "day": 4,
+          "name": "Sefferweich und der Stationenweg",
+          "lat": 50.058931,
+          "lon": 6.521397,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 38.9,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Sefferweich wird 777 zum ersten Mal genannt, in Papieren der Reichsabtei Prüm. Der Name kommt vom lateinischen Wort vicus und heißt nichts weiter als bewohnter Ort. Von Seffern bis hierher führt ein Stationenweg aus dem achtzehnten Jahrhundert, der an einer Schlusskapelle westlich des Dorfes endet.",
+          "textLong": "Es gibt Ortsnamen, die etwas verraten, und es gibt solche, die nichts weiter sagen, als dass hier jemand wohnt. Sefferweich gehört zur zweiten Sorte. 777 taucht der Ort in Dokumenten der Reichsabtei Prüm auf, als Wicus in pago Bedinse, also Weich im Bitgau. Im Prümer Urbar von 893 heißt er Wihc iuxta Sefferne, das Weich neben Seffern. Wihc kommt vom lateinischen vicus, und das bedeutet bewohnter Ort. Seit zwölfhundert Jahren heißt dieses Dorf also ungefähr: hier wohnt jemand. Bis 1576 stand es unter der Landesherrschaft der Abtei Prüm, danach unter der von Kurtrier. Wesentlich älter ist die Besiedlung selbst. 1936 fand man auf einem Höhenrücken südwestlich römische Brandgräber. Bei Forstarbeiten wurden sie zerstört, doch dem Rheinischen Landesmuseum Trier gelang es noch, drei Steinplattengräber zu dokumentieren und ein paar Keramikbeigaben zu bergen. Aus dem achtzehnten Jahrhundert stammt der Stationenweg, der in Seffern beginnt und westlich von Sefferweich an einer Schlusskapelle endet. Ein Kreuzweg quer durch die Feldflur, gebaut für Leute, die zu Fuß gingen und dabei etwas vorhatten. Du fährst ein Stück davon ab, nur schneller und mit anderem Anlass.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Sefferweich",
+            "https://de.wikipedia.org/wiki/Seffern"
+          ]
+        },
+        {
+          "id": "tag4-malbergweich",
+          "day": 4,
+          "name": "Malbergweich",
+          "lat": 50.05508,
+          "lon": 6.554571,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 41.76,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Malbergweich wurde 893 im Prümer Urbar erstmals sicher genannt. Wie es dem Dorf seither erging, lässt sich an einer einzigen Größe ablesen: an der Zahl der Feuerstellen. Gemeint sind Häuser mit einer Kochstelle. Man zählte sie, weil man sie besteuerte. Und die Zahlen erzählen einen Krieg.",
+          "textLong": "Für ein Dorf wie dieses gibt es keine Chroniken, keine Briefe, keine Bilder. Es gibt Steuerlisten. Darin steht, wie viele Feuerstellen ein Ort hatte, also wie viele Häuser mit einer Kochstelle darin. Für Malbergweich sind vier solche Zählungen überliefert, und sie ergeben zusammen eine Geschichte, für die man sonst ein ganzes Buch bräuchte. 1475 waren es elf Feuerstellen. 1636, mitten im Dreißigjährigen Krieg, waren es vierzehn. Zwanzig Jahre später, 1656, waren es fünf. Was zwischen diesen beiden letzten Zahlen liegt, steht nirgends geschrieben. Man kann es nur vermuten. Der Ort gehörte im Mittelalter zur luxemburgischen Herrschaft Malberg, deren Schloss du gleich sehen wirst, und wechselte danach immer wieder die Herren. Besiedelt war die Gegend lange vorher. Nördlich des Dorfes fand man römische Steinplattengräber aus dem ersten Jahrhundert, südwestlich eine Gruppe von sieben Grabhügeln, von denen die größten dreißig Meter durchmessen. Und am Weg steht ein Meilenstein, der Staffelstein heißt und vermutlich aus der Römerzeit stammt. Alles da. Nur eben nicht aufgeschrieben.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Malbergweich"
+          ]
+        },
+        {
+          "id": "tag4-schloss-malberg",
+          "day": 4,
+          "name": "Schloss Malberg",
+          "lat": 50.046173,
+          "lon": 6.579219,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 43.88,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Über dem Ort, auf einer Landzunge in der großen Kyllschleife, steht Schloss Malberg. Es sieht aus, als hätte sich jemand in Italien etwas abgeschaut, und genau so ist es. Der Bau folgt einer Villa von Palladio. In Rheinland-Pfalz gibt es das kein zweites Mal.",
+          "textLong": "Ein Kölner Weihbischof namens Johann Werner von Veyder hatte ab 1707 Großes vor. Aus einem schlichten Renaissancebau auf dem Bergrücken über der Kyll sollte etwas Südländisches werden. Die Pläne lieferte Matteo Alberti, ein Architekt aus Venedig, der am Düsseldorfer Hof arbeitete. Was entstand, ist einer Villa des berühmten Andrea Palladio nachempfunden, und für Rheinland-Pfalz ist das einmalig. Dazu kamen eine Schlosskapelle, ein Arkadenbau, ein Eiserner Garten und später ein Runder Garten. Dann die andere Hälfte der Geschichte. Als die französischen Revolutionstruppen kamen, floh die Familie. Nur der älteste Sohn Karl blieb, um den Besitz zu verwalten, und er hatte dafür kein Händchen. Er wirtschaftete schlecht und lebte großzügig. 1803 kaufte er obendrein das gerade säkularisierte Kloster Sankt Thomas und verschenkte es an eine befreundete Familie. Daraufhin ließen seine erbosten Gläubiger die Güter nach und nach versteigern. Am Ende blieb der Familie nur noch das Schloss. Gerettet hat es 1823 eine Heirat, die als Mesalliance galt. Karls Tochter Ernestine nahm einen Trierer Oberförster, und mit ihm kam Geld für die Reparaturen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Schloss_Malberg"
+          ]
+        },
+        {
+          "id": "tag4-kyllburg",
+          "day": 4,
+          "name": "Kyllburg",
+          "lat": 50.042247,
+          "lon": 6.590757,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 45.06,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Kyllburg ist nach Kaub die zweitkleinste Stadt in Rheinland-Pfalz, mit gut neunhundert Einwohnern. Die Kyll fließt fast rundherum. Über der Stadt steht die Burg, die einem Erzbischof 1239 einfiel, weil Nonnen im Trierer Dom so lange sangen, bis er etwas unternahm.",
+          "textLong": "Die Vorgeschichte ist das Beste daran. Agnes von Malberg hatte dem Zisterzienserinnenkloster Sankt Thomas an der Kyll Güter vermacht. Nach ihrem Tod versuchte der Ritter Rudolf von Malberg, sich diese Güter mit Gewalt zu holen. Er befehdete das Kloster so nachdrücklich, dass sämtliche Nonnen nach Trier flüchteten. Dort zogen sie täglich in Prozession zum Dom und sangen während des Gottesdienstes mit lauter, kläglicher Stimme zwei Antiphonen. Das steht so in den Gesta Treverorum. Der Erzbischof Theoderich reagierte. Er bezwang Rudolf mit Waffengewalt und ließ 1239 hier oben eine größere Burg bauen, als Eck- und Grenzfeste gegen die Herren von Malberg. Sein Nachfolger Arnold umgab 1256 die Burg und die anliegenden Häuser mit einer festen Mauer. Aus der Wehranlage wurde eine Landstadt, mit Mauern, Markt, Toren, Wächtern und Pförtnern. Die Bürger übernahmen die Pflicht, die Mauer selbst zu verteidigen. Heute ist Kyllburg Luftkurort, hat gut neunhundert Einwohner und ist nach Kaub die zweitkleinste Stadt des Landes. Von der Burg steht noch ein Teil. Ein Schulhausbau von 1912 hat sich den Rest genommen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kyllburg",
+            "https://de.wikipedia.org/wiki/Sankt_Thomas_(Eifel)"
+          ]
+        },
+        {
+          "id": "tag4-hoehe-ueber-der-kyll",
+          "day": 4,
+          "name": "Auf der Höhe über der Kyll",
+          "lat": 50.040537,
+          "lon": 6.63355,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 48.51,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Fast oben. Noch gut anderthalb Kilometer, dann ist der letzte lange Anstieg des Tages geschafft. Insgesamt sind es aus dem Kylltal heraus knapp sechs Kilometer und rund einhundertsiebzig Höhenmeter gewesen. Danach rollt es überwiegend eben bis Oberkail, mit einer letzten kurzen Rampe kurz vor Schwarzenborn.",
+          "sources": []
+        },
+        {
+          "id": "tag4-oberkail",
+          "day": 4,
+          "name": "Oberkail",
+          "lat": 50.036539,
+          "lon": 6.678231,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 52.06,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Oberkail war einmal Sitz einer eigenen Grafschaft. Aus einem Hof wurde ab 1339 eine Burg, um 1700 wurde daraus ein Wasserschloss mit einem Neuen Schloss daneben. Zu sehen ist davon fast nichts mehr. Ein paar Ecktürme und Stücke der Umfassungsmauern, mehr nicht.",
+          "textLong": "Man muss sich das erst einmal vorstellen. Dieses Dorf war Markt- und Pfarrort, hatte eine Poststation und war Hauptsitz einer eigenen Grafschaft. Am Ende des fünfzehnten Jahrhunderts entstand die Grafschaft Manderscheid-Kail, und Oberkail wurde zu einem bedeutenden Ort der Eifel. Sogar die Ursprungsherrschaft Manderscheid kam irgendwann in Oberkailer Besitz. Angefangen hatte es mit einem Hof, der 1201 als Hof zu Keyle in den Urkunden auftaucht. Ab 1339 wurde er zur Burg ausgebaut, um 1700 zum Wasserschloss erweitert, dazu kam westlich ein Neues Schloss. Dann brach die Linie ab. Der letzte Oberkailer Graf und seine Gemahlin starben ohne Nachkommen, und 1762 fiel die Grafschaft an eine andere Linie des Hauses. 1794 machten die französischen Revolutionstruppen der Grafenherrschaft ein Ende, und die Grafen flohen nach Prag. Ab 1809 wurde die Anlage größtenteils abgerissen oder zu Wohnungen umgebaut. Übrig sind Teile der Ecktürme und der nördlichen und südlichen Umfassungsmauern. In den Wäldern ringsum saßen früher Köhler, später brannte man Kalk und schnitt Holz. Eine Grafschaft wird zu einem Dorf mit Sägewerken. So geht das manchmal.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Oberkail"
+          ]
+        },
+        {
+          "id": "tag4-schwarzenborn",
+          "day": 4,
+          "name": "Schwarzenborn",
+          "lat": 50.038854,
+          "lon": 6.71108,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 55.08,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Schwarzenborn hat eine kleine Kirche mit schlankem Turm und ein Gasthaus. Die Pfarrkirche stand allerdings jahrhundertelang woanders, nämlich in Oberkail. Geprägt hat die Gegend etwas Drittes. Drei Kilometer südöstlich liegt die Abtei Himmerod, und dort beginnt morgen deine Etappe.",
+          "textLong": "Schwarzenborn gehörte seit dem Spätmittelalter zur Herrschaft Oberkail im Herzogtum Luxemburg. Diese Herrschaft war ein Lehen der Grafen von Manderscheid-Kail, und als deren Linie 1762 ausstarb, fiel sie an das Haus Manderscheid-Blankenheim. Kirchlich hing der Ort ebenfalls an Oberkail. Die dortige Kirche diente den Schwarzenbornern als Pfarrkirche, im eigenen Dorf steht nur die kleine Sankt Martin mit ihrem schlanken Turm. Der dritte prägende Nachbar liegt rund drei Kilometer südöstlich, im Tal der Salm. Das Kloster Himmerod hat diese Gegend über Jahrhunderte mitbestimmt, wirtschaftlich und geistlich, und du wirst morgen früh daran vorbeifahren. Für ein Dorf dieser Größe hat Schwarzenborn erstaunlich viel hervorgebracht. Hier wurde 1839 der Bildhauer Mathias Zens geboren, und hier wurde 1910 Hans Richarts geboren, der später im Bundestag und im Europäischen Parlament saß. Ein Bildhauer und ein Europaabgeordneter aus einem Ort mit einem Gasthaus. Wer heute durchfährt, sieht davon nichts. Er sieht ein paar Häuser, einen Kirchturm und dahinter wieder Wald.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Schwarzenborn_(Eifel)"
+          ]
+        },
+        {
+          "id": "tag4-eisenschmitt-weiberdorf",
+          "day": 4,
+          "name": "Eisenschmitt, das Weiberdorf",
+          "lat": 50.0433333,
+          "lon": 6.7216667,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 56.17,
+          "triggerRadius": 600,
+          "accessNote": "450 m Abstecher",
+          "textShort": "Links im Salmtal liegt Eisenschmitt. Die Schriftstellerin Clara Viebig hat diesen Ort um neunzehnhundert zur Vorlage eines Romans gemacht und ihn Eifelschmitt genannt. Der Titel lautet Das Weiberdorf. Viele Zeitgenossen fanden das Buch skandalös, und zwar nicht wegen der Armut darin.",
+          "textLong": "Gegen Ende des neunzehnten Jahrhunderts ging das Eisenerz rund um Eisenschmitt zur Neige. Die Hütten schlossen, und die arbeitsfähigen Männer gingen als Gastarbeiter ins Ruhrgebiet, in die aufstrebenden Stahlwerke. Von dort schickten sie Geld. Zurück blieben die Frauen, monatelang, jahrelang, und sie erledigten in dieser Zeit sämtliche Arbeit in Haus und Feld allein. Genau das hat Clara Viebig in ihrem Roman Das Weiberdorf beschrieben. Der Skandal war nicht die Armut. Der Skandal war die Rolle, die diese Frauen übernahmen, denn sie war damals nicht vorgesehen. Szenen aus dem Buch sind heute auf dem Dorfbrunnen vor der Kirche dargestellt. Seit Juni 2005 erinnert außerdem ein Clara-Viebig-Zentrum an die Schriftstellerin. Es ist in einem Haus untergebracht, das eine eigene Geschichte hat. Es war Wohn- und Geschäftshaus der jüdischen Familie von Simon Samuel, der es 1902 mitsamt dem Gemischtwarengeschäft von einem anderen jüdischen Kaufmann übernommen hatte. Die Familie wohnte dort bis zur Pogromnacht 1938, in der alle Räume verwüstet und das Geschäftsinventar zerstört wurden. Samuel wurde gezwungen zu verkaufen. Im Februar 1939 zog er mit seiner Frau zu einer Tochter nach Berlin und starb dort zwei Jahre später.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eisenschmitt"
+          ]
+        },
+        {
+          "id": "tag4-eichelhuette",
+          "day": 4,
+          "name": "Eichelhütte an der Salm",
+          "lat": 50.038527,
+          "lon": 6.737185,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 57.68,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der Ortsteil heißt Eichelhütte, und der Name meint keine Schutzhütte, sondern eine Eisenhütte. Der Hauptort Eisenschmitt heißt aus demselben Grund so. Erz aus der Umgebung, Holzkohle aus den Wäldern, Wasserkraft aus der Salm. Mehr brauchte es nicht, um jahrhundertelang Eisen zu machen.",
+          "textLong": "Eisenschmitt wird 1372 zum ersten Mal genannt, als Yssensmyt uff der Salmen. In lateinischen Quellen taucht der Ort als Ferrifodina auf, in französischen als La Schmitt, und die Leute hier nennen sich bis heute Schmettner. Alles am Namen zeigt in dieselbe Richtung. Drei Dinge kamen an dieser Stelle zusammen. Im Boden lag Eisenerz, in den Wäldern ringsum ließ sich Holzkohle für die Öfen gewinnen, und die Salm lieferte die Wasserkraft für die Hämmer. Das reichte, um über Jahrhunderte Eisenhütten zu betreiben, und weil die Hütten Arbeiter brauchten, entstanden hier überhaupt erst Dörfer. 1835 lebten in Eisenschmitt rund eintausenddreihundert Menschen, so viele wie nie zuvor und nie danach. Dann war es vorbei. Neue Verfahren und größere Werke am Niederrhein und an der Ruhr arbeiteten mit Steinkohle statt Holzkohle, und die war billiger. Die Eisenindustrie im Salmtal verschwand im Lauf des neunzehnten Jahrhunderts. Eine Fabrik ist trotzdem geblieben, und zwar eine sehr eigenartige. In Eisenschmitt steht die letzte produzierende Kokos-Weberei Deutschlands. Ein Beitrag des Südwestrundfunks über sie trägt den Titel: Der rote Teppich, auf dem die Weltstars zu Hause sind, stammt aus der Eifel.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Eisenschmitt"
+          ]
+        },
+        {
+          "id": "tag4-etappenziel-salmtal",
+          "day": 4,
+          "name": "Etappenziel an der Salm",
+          "lat": 50.036977,
+          "lon": 6.737656,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 58.09,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Geschafft. Achtundfünfzig Kilometer, sechshundertsechsundvierzig Höhenmeter, sechs Anstiege. Das war die schwerste Etappe der Tour. Neben dir fließt die Salm nach Süden, und keine anderthalb Kilometer weiter salmabwärts liegt die Abtei Himmerod. Dort geht es morgen früh los. Heute reicht es.",
+          "sources": []
+        }
+      ]
     }
   ]
 }
