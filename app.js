@@ -94,16 +94,18 @@ function renderDayOverview(day) {
     return;
   }
 
-  const kopf = day.briefing
-    ? '<h4 class="today-title"></h4>'
-    : `<h4 class="today-title"></h4>
-       <p class="today-text">Der Briefing-Text für diese Etappe ist noch nicht geschrieben.</p>`;
+  // Das Briefing ist ein ganzer Absatz und gehört deshalb in den Fließtext, nicht in die
+  // Überschrift. Die Überschrift trägt die Etappe — die ist kurz genug, um eine zu sein.
+  const kopf = `<h4 class="today-title"></h4>
+       <p class="today-text today-briefing"></p>`;
 
   const anstiege = day.climbs.length
     ? `<ul>${day.climbs.map((c) => `<li>${anstiegText(c)}</li>`).join('')}</ul>`
     : '<p class="today-text">Keine nennenswerten Anstiege.</p>';
 
-  const hinweis = day.hinweis ? '<p class="today-text today-hinweis"></p>' : '';
+  // Der Hinweis steckt bereits im Briefing-Text. Doppelt gezeigt wirkt er wie ein Fehler,
+  // deshalb erscheint er nur, solange noch kein Briefing geschrieben ist.
+  const hinweis = day.hinweis && !day.briefing ? '<p class="today-text today-hinweis"></p>' : '';
 
   summary.innerHTML = `
     <article class="today-overview">
@@ -132,11 +134,13 @@ function renderDayOverview(day) {
   `;
 
   // Briefing und Hinweis kommen aus den JSON-Dateien und werden erst hier als Text gesetzt.
-  summary.querySelector('.today-title').textContent =
-    day.briefing || `${day.start} nach ${day.end}`;
+  summary.querySelector('.today-title').textContent = `${day.start} nach ${day.end}`;
+  summary.querySelector('.today-briefing').textContent =
+    day.briefing || 'Der Briefing-Text für diese Etappe ist noch nicht geschrieben.';
 
-  if (day.hinweis) {
-    summary.querySelector('.today-hinweis').textContent = day.hinweis;
+  const hinweisAbsatz = summary.querySelector('.today-hinweis');
+  if (hinweisAbsatz) {
+    hinweisAbsatz.textContent = day.hinweis;
   }
 }
 
