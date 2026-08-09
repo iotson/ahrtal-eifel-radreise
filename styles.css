@@ -200,51 +200,13 @@ body {
   padding: 14px;
   border: 1px solid rgba(31, 60, 34, 0.2);
   box-shadow: 0 12px 24px rgba(56, 95, 60, 0.12);
-  min-height: 250px;
   width: 100%;
 }
 
-.map-background {
-  min-height: 210px;
-  background-image:
-    radial-gradient(#acc9b5 1px, transparent 1px),
-    linear-gradient(40deg, transparent 0 10%, rgba(60, 116, 60, 0.1) 10% 12%, transparent 12%),
-    repeating-linear-gradient(35deg, transparent 0 3px, rgba(40, 90, 40, 0.05) 3px 4px),
-    linear-gradient(120deg, #ddeccd, #eaf0e2);
-  background-size: 25px 25px, auto, auto, auto;
+.route-map {
+  height: 260px;
   border-radius: 22px;
-  position: relative;
   overflow: hidden;
-}
-
-.map-background::before {
-  content: "";
-  position: absolute;
-  width: 180%;
-  height: 120%;
-  left: -30%;
-  top: -20%;
-  border-radius: 56% 44% 40% 60%;
-  border: 2px dashed rgba(31, 69, 35, 0.44);
-  transform: rotate(-12deg);
-}
-
-.route-orbit {
-  position: absolute;
-  inset: 14%;
-  border-radius: 50%;
-  border: 1px solid rgba(53, 98, 48, 0.8);
-}
-
-.map-lines {
-  position: absolute;
-  width: 160%;
-  height: 90px;
-  left: -18%;
-  top: 35%;
-  border-top: 4px solid #8b9670;
-  border-bottom: 4px solid #8b9670;
-  transform: rotate(-15deg);
 }
 
 .map-caption {

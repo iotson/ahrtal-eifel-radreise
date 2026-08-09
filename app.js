@@ -9,6 +9,10 @@ let allStops = [];
 let currentDay = 0;
 let currentStop = 0;
 
+let routeMap = null;
+let routeLayer = null;
+let stopMarkersLayer = null;
+
 function zahl(wert, stellen = 1) {
   return Number(wert).toFixed(stellen).replace('.', ',');
 }
@@ -55,6 +59,7 @@ function baueTourDays(tour, pois) {
       ridingTimeMin: tag.estimatedRidingTimeMin,
       hinweis: tag.hinweis ?? null,
       briefing: eintrag?.briefing?.text?.trim() || '',
+      gpxFile: tag.file,
       stops
     };
   });
@@ -162,6 +167,7 @@ function loadDay(index) {
   document.getElementById('stop-count').textContent = String(day.stops.length);
   document.getElementById('distance-label').textContent = `${zahl(day.lengthKm)} km`;
 
+  renderRouteMap(day);
   renderDayOverview(day);
   renderStops(day.stops);
 
@@ -421,6 +427,87 @@ function toRadians(value) {
   return value * Math.PI / 180;
 }
 
+function initRouteMap() {
+  if (typeof L === 'undefined') {
+    console.warn('Leaflet konnte nicht geladen werden');
+    return;
+  }
+
+  routeMap = L.map('route-map', { attributionControl: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(routeMap);
+  L.control.attribution({ prefix: false }).addTo(routeMap);
+  routeMap.setView([50.4, 7.2], 9);
+
+  window.addEventListener('resize', () => routeMap.invalidateSize());
+}
+
+/** Parst die trkpt-Punkte aus einer GPX-Datei zu Leaflet-LatLng-Paaren. */
+function parseGpxTrack(gpxText) {
+  const doc = new DOMParser().parseFromString(gpxText, 'application/xml');
+  return Array.from(doc.getElementsByTagName('trkpt')).map((punkt) => [
+    Number(punkt.getAttribute('lat')),
+    Number(punkt.getAttribute('lon'))
+  ]);
+}
+
+function renderRouteMap(day) {
+  if (!routeMap) return;
+
+  if (routeLayer) {
+    routeMap.removeLayer(routeLayer);
+    routeLayer = null;
+  }
+  if (stopMarkersLayer) {
+    routeMap.removeLayer(stopMarkersLayer);
+    stopMarkersLayer = null;
+  }
+
+  stopMarkersLayer = L.layerGroup(
+    day.stops.map((stop, index) =>
+      L.circleMarker([stop.lat, stop.lon], {
+        radius: 6,
+        color: '#1f4d24',
+        weight: 2,
+        fillColor: '#def1b4',
+        fillOpacity: 1
+      })
+        .bindTooltip(stop.name)
+        .on('click', () => {
+          currentStop = index;
+          renderStop(stop, index + 1);
+          updateStopListSelection();
+        })
+    )
+  ).addTo(routeMap);
+
+  const stopBounds = L.latLngBounds(day.stops.map((stop) => [stop.lat, stop.lon]));
+
+  if (!day.gpxFile) {
+    if (stopBounds.isValid()) routeMap.fitBounds(stopBounds, { padding: [20, 20] });
+    return;
+  }
+
+  fetch(encodeURI(day.gpxFile))
+    .then((response) => {
+      if (!response.ok) throw new Error(`${day.gpxFile} lieferte ${response.status}`);
+      return response.text();
+    })
+    .then((gpxText) => {
+      const punkte = parseGpxTrack(gpxText);
+      if (!punkte.length) throw new Error('Keine Trackpunkte in der GPX-Datei');
+
+      routeLayer = L.polyline(punkte, { color: '#2e6e41', weight: 4 }).addTo(routeMap);
+      routeMap.fitBounds(routeLayer.getBounds(), { padding: [20, 20] });
+    })
+    .catch((error) => {
+      console.warn('GPX-Route konnte nicht geladen werden:', error);
+      if (stopBounds.isValid()) routeMap.fitBounds(stopBounds, { padding: [20, 20] });
+    });
+}
+
 function initPwa() {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
@@ -434,6 +521,7 @@ function initPwa() {
 function init() {
   initControls();
   initPwa();
+  initRouteMap();
 
   Promise.all([ladeJson('data/tour.json'), ladeJson('data/pois.json')])
     .then(([tour, pois]) => {
