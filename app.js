@@ -50,14 +50,11 @@ function baueTourDays(tour, pois) {
       day: tag.day,
       route: `Tag ${tag.day}`,
       title: tag.title,
-      start: tag.startOrt,
-      end: tag.zielOrt,
       location: `${tag.startOrt} nach ${tag.zielOrt}`,
       lengthKm: tag.lengthKm,
       elevationGainM: tag.elevationGainM,
       climbs: tag.climbs ?? [],
       ridingTimeMin: tag.estimatedRidingTimeMin,
-      hinweis: tag.hinweis ?? null,
       briefing: eintrag?.briefing?.text?.trim() || '',
       gpxFile: tag.file,
       stops
@@ -93,60 +90,24 @@ function renderDayList() {
   });
 }
 
+/** Etappentitel, Briefing und Streckenwerte stehen bereits oben im Hero — hier nur, was dort fehlt. */
 function renderDayOverview(day) {
   const summary = document.getElementById('day-summary');
   if (!summary) {
     return;
   }
 
-  // Das Briefing ist ein ganzer Absatz und gehört deshalb in den Fließtext, nicht in die
-  // Überschrift. Die Überschrift trägt die Etappe — die ist kurz genug, um eine zu sein.
-  const kopf = `<h4 class="today-title"></h4>
-       <p class="today-text today-briefing"></p>`;
-
   const anstiege = day.climbs.length
     ? `<ul>${day.climbs.map((c) => `<li>${anstiegText(c)}</li>`).join('')}</ul>`
     : '<p class="today-text">Keine nennenswerten Anstiege.</p>';
 
-  // Der Hinweis steckt bereits im Briefing-Text. Doppelt gezeigt wirkt er wie ein Fehler,
-  // deshalb erscheint er nur, solange noch kein Briefing geschrieben ist.
-  const hinweis = day.hinweis && !day.briefing ? '<p class="today-text today-hinweis"></p>' : '';
-
   summary.innerHTML = `
     <article class="today-overview">
-      <div class="section-kicker">Heute erwartet dich</div>
-      ${kopf}
-      ${hinweis}
-      <div class="today-metrics">
-        <div class="metric-card">
-          <span class="metric-value">${zahl(day.lengthKm)} km</span>
-          <span class="metric-label">Strecke</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-value">${day.elevationGainM} m</span>
-          <span class="metric-label">Höhenmeter</span>
-        </div>
-        <div class="metric-card">
-          <span class="metric-value">${fahrzeitText(day.ridingTimeMin)}</span>
-          <span class="metric-label">Fahrzeit</span>
-        </div>
-      </div>
       <div class="ascent-list">
-        <span class="ascent-title">Anstiege</span>
         ${anstiege}
       </div>
     </article>
   `;
-
-  // Briefing und Hinweis kommen aus den JSON-Dateien und werden erst hier als Text gesetzt.
-  summary.querySelector('.today-title').textContent = `${day.start} nach ${day.end}`;
-  summary.querySelector('.today-briefing').textContent =
-    day.briefing || 'Der Briefing-Text für diese Etappe ist noch nicht geschrieben.';
-
-  const hinweisAbsatz = summary.querySelector('.today-hinweis');
-  if (hinweisAbsatz) {
-    hinweisAbsatz.textContent = day.hinweis;
-  }
 }
 
 function loadDay(index) {
@@ -166,6 +127,8 @@ function loadDay(index) {
   document.getElementById('day-number').textContent = `Tag ${day.day}`;
   document.getElementById('stop-count').textContent = String(day.stops.length);
   document.getElementById('distance-label').textContent = `${zahl(day.lengthKm)} km`;
+  document.getElementById('elevation-label').textContent = `${day.elevationGainM} m`;
+  document.getElementById('duration-label').textContent = fahrzeitText(day.ridingTimeMin);
 
   renderRouteMap(day);
   renderDayOverview(day);
