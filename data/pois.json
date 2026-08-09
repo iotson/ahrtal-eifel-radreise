@@ -155,7 +155,7 @@
           "routeKm": 37.79,
           "triggerRadius": 80,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Gastronomie mit Biergarten an der Neuwieder Rheinpromenade, unmittelbar am Radweg. Guter Platz für eine längere Pause, bevor die Strecke rheinabwärts weiterführt.",
+          "textShort": "An der Neuwieder Rheinpromenade ist Gastronomie mit Biergarten verzeichnet, unmittelbar am Radweg. Sofern geöffnet, ein guter Platz für eine längere Pause, bevor die Strecke rheinabwärts weiterführt.",
           "sources": []
         },
         {
@@ -271,7 +271,7 @@
           "routeKm": 54.53,
           "triggerRadius": 80,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Hotels und Gastronomie an der Rheinpromenade von Bad Breisig, wenige Meter neben dem Radweg. Bad Breisig ist Thermalbad, die Römer-Thermen liegen im Ort.",
+          "textShort": "An der Rheinpromenade von Bad Breisig sind Hotels und Gastronomie verzeichnet, wenige Meter neben dem Radweg. Was davon gerade geöffnet hat, siehst du im Vorbeifahren. Bad Breisig ist Thermalbad, die Römer-Thermen liegen im Ort.",
           "sources": [
             "https://de.wikipedia.org/wiki/Bad_Breisig"
           ]
@@ -353,7 +353,7 @@
           "routeKm": 64.54,
           "triggerRadius": 600,
           "accessNote": "500 m Abstecher",
-          "textShort": "Rechts liegt Bad Bodendorf. Im alten Ortskern steht die Burg Bodendorf, eine ehemalige Wasserburg aus dem frühen dreizehnten Jahrhundert. Bekannt wurde der Ort durch sein Thermalwasser. Seit etwa 1900 werden hier warme Quellen genutzt, und seit 1972 darf sich Bodendorf Bad nennen.",
+          "textShort": "Rechts liegt Bad Bodendorf. Im alten Ortskern steht die Burg Bodendorf, eine ehemalige Wasserburg aus dem frühen dreizehnten Jahrhundert. Bekannt wurde der Ort durch sein Thermalwasser. Seit etwa 1900 wurden hier warme Quellen genutzt, und seit 1972 darf sich Bodendorf Bad nennen.",
           "textLong": "Bad Bodendorf hat sein Bad spät bekommen und schnell wieder verloren. Der Ort selbst ist alt. Im Prümer Urbar von 893 erscheint er als budendorpht. Ob eine noch frühere Erwähnung denselben Platz meint, ist unter Fachleuten umstritten. Anfang des dreizehnten Jahrhunderts ließ Nicolo von Bodendorf hier eine Niederungsburg errichten, ursprünglich eine Wasserburg mit Graben. Heute ist es eine Vierflügelanlage mit Walmdach. Der Hof ist gepflastert, eine große Linde steht darin. Später wurde umgebaut und der Graben zugeschüttet. Die Burg steht als Kulturdenkmal unter Schutz. Das Warme kam viel später. Um 1900 hatte man das Thermalwasser erschlossen, Matthias Leisen nutzte die nahen Quellen zur Behandlung von Patienten, und schließlich entstand ein Thermalbad. Seit 1972 darf sich der Ort deshalb Bad nennen. Dann kam die Flut vom Juli 2021. Sie traf Bad Bodendorf schwer und zerstörte unter anderem das Thermalbad. Der Name blieb, das Bad nicht. Der alte Ortskern hat trotzdem viele Fachwerkhäuser bewahrt. Auf dem Ehrenfriedhof des Ortes liegen viele Tote aus dem Kriegsgefangenenlager der Goldenen Meile begraben.",
           "sources": [
             "https://de.wikipedia.org/wiki/Burg_Bodendorf",
@@ -709,7 +709,7 @@
           "routeKm": 20.43,
           "triggerRadius": 80,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Wenige Meter neben dem Radweg liegen in Ahrbrück ein Supermarkt, eine Bäckerei und ein Getränkemarkt beieinander. Weiter ahraufwärts wird das Angebot deutlich dünner. Wer Proviant für den langen Weg in die Eifel braucht, deckt sich hier ein.",
+          "textShort": "Nach der Karte liegen in Ahrbrück ein Supermarkt, eine Bäckerei und ein Getränkemarkt wenige Meter neben dem Radweg beieinander. Ob nach der Flut von 2021 wieder alle offen sind, siehst du erst vor Ort. Weiter ahraufwärts wird das Angebot dünner — wenn hier etwas geöffnet hat, ist das die Gelegenheit für Proviant.",
           "sources": []
         },
         {
@@ -807,7 +807,7 @@
           "routeKm": 33.8,
           "triggerRadius": 80,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Hinter Schuld endet der eigene Radweg für ein Stück. Nach der Beschreibung des Ahr-Radwegs sind zwischen Schuld und Fuchshofen rund fünf Kilometer auf der Landesstraße zurückzulegen. Fahre auf diesem Abschnitt vorausschauend. Am Weg liegt außerdem ein Campingplatz an der Ahr.",
+          "textShort": "Hinter Schuld endet der eigene Radweg für ein Stück. Nach der Beschreibung des Ahr-Radwegs sind zwischen Schuld und Fuchshofen rund fünf Kilometer auf der Landesstraße zurückzulegen. Fahre auf diesem Abschnitt vorausschauend. Nach der Karte liegt am Weg außerdem ein Campingplatz an der Ahr.",
           "sources": [
             "https://de.wikipedia.org/wiki/Ahr-Radweg"
           ]
@@ -1012,7 +1012,7 @@
           "routeKm": 69.34,
           "triggerRadius": 80,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Am oberen Ende des letzten Anstiegs liegt bei Dockweiler ein Café einer Bäckerei unmittelbar am Weg. Bis Waldkönigen sind es von hier noch rund zweieinhalb Kilometer, und die gehen bergab. Eine gute Stelle für eine letzte Pause.",
+          "textShort": "Am oberen Ende des letzten Anstiegs ist bei Dockweiler ein Café einer Bäckerei unmittelbar am Weg verzeichnet. Sofern geöffnet, die passende Stelle für eine letzte Pause. Bis Waldkönigen sind es von hier noch rund zweieinhalb Kilometer, und die gehen bergab.",
           "sources": []
         },
         {
@@ -1026,8 +1026,8 @@
           "routeKm": 71.79,
           "triggerRadius": 80,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Waldkönigen gibt dieser Etappe ihren Namen. Der Ort liegt im Pützbachtal in der zentralen Vulkaneifel und gehört seit 1970 zur Stadt Daun. Im Dorf steht die Filialkirche Sankt Lucia. Sie wurde 1871 aus Bruchsteinen gebaut und ersetzte eine ältere Kirche.",
-          "textLong": "Waldkönigen gibt dieser Etappe ihren Namen, und damit bekommt der Ort mehr Aufmerksamkeit als sonst. Er liegt im Pützbachtal mitten in der Vulkaneifel, der Pützborner Bach fließt hindurch. Nachbarorte sind Dockweiler im Norden, Rengen im Osten, Steinborn im Süden und Hinterweiler im Westen. Urkundlich erwähnt wird Waldkönigen zum ersten Mal im Jahr 1368. Danach wurde der Ort weitergereicht. Landesherrlich gehörte er zur Reichsherrschaft Winneburg und Beilstein, zuletzt waren die Grafen von Metternich deren Besitzer. Kirchlich gehörte er dagegen zum Erzbistum Köln. Dann kamen die französischen Revolutionstruppen, und Waldkönigen zählte zum Kanton Daun im Saardepartement. Nach dem Wiener Kongress kam die Region an das Königreich Preußen, der Ort wurde dem neuen Kreis Daun im Regierungsbezirk Trier zugeordnet und von der Bürgermeisterei Dockweiler verwaltet. Nach dem Krieg gehörte die Gemeinde zum neu gebildeten Land Rheinland-Pfalz. Im November 1970 wurde sie mit damals 384 Einwohnern in die Stadt Daun eingemeindet. Seither ist Waldkönigen einer von acht Ortsbezirken der Stadt. Eine eigene Gemeinde war der Ort damit zum letzten Mal. Im Dorf steht die katholische Filialkirche Sankt Lucia. Sie wurde 1871 aus Bruchsteinen errichtet und ersetzte einen älteren Bau.",
+          "textShort": "Waldkönigen gibt dieser Etappe ihren Namen. Der Ort liegt im Pützbachtal in der zentralen Vulkaneifel und gehört seit 1970 zur Stadt Daun. Im Dorf steht die Filialkirche Sankt Luzia. Sie wurde 1871 aus Bruchsteinen gebaut und ersetzte eine ältere Kirche.",
+          "textLong": "Waldkönigen gibt dieser Etappe ihren Namen, und damit bekommt der Ort mehr Aufmerksamkeit als sonst. Er liegt im Pützbachtal mitten in der Vulkaneifel, der Pützborner Bach fließt hindurch. Nachbarorte sind Dockweiler im Norden, Rengen im Osten, Steinborn im Süden und Hinterweiler im Westen. Urkundlich erwähnt wird Waldkönigen zum ersten Mal im Jahr 1368. Danach wurde der Ort weitergereicht. Landesherrlich gehörte er zur Reichsherrschaft Winneburg und Beilstein, zuletzt waren die Grafen von Metternich deren Besitzer. Kirchlich gehörte er dagegen zum Erzbistum Köln. Dann kamen die französischen Revolutionstruppen, und Waldkönigen zählte zum Kanton Daun im Saardepartement. Nach dem Wiener Kongress kam die Region an das Königreich Preußen, der Ort wurde dem neuen Kreis Daun im Regierungsbezirk Trier zugeordnet und von der Bürgermeisterei Dockweiler verwaltet. Nach dem Krieg gehörte die Gemeinde zum neu gebildeten Land Rheinland-Pfalz. Im November 1970 wurde sie mit damals 384 Einwohnern in die Stadt Daun eingemeindet. Seither ist Waldkönigen einer von acht Ortsbezirken der Stadt. Eine eigene Gemeinde war der Ort damit zum letzten Mal. Im Dorf steht die katholische Filialkirche Sankt Luzia. Sie wurde 1871 aus Bruchsteinen errichtet und ersetzte einen älteren Bau.",
           "sources": [
             "https://de.wikipedia.org/wiki/Waldk%C3%B6nigen"
           ]
@@ -1043,7 +1043,7 @@
           "routeKm": 74.3,
           "triggerRadius": 250,
           "accessNote": "150 m Abstecher",
-          "textShort": "Kurz vor dem Ende der Etappe liegt am Ortsrand von Steinborn der Steinborner Drees, rund 120 Meter neben der Strecke. Dort ist eine Quelle gefasst. Eine gute Gelegenheit, die Flaschen noch einmal zu füllen.",
+          "textShort": "Kurz vor dem Ende der Etappe liegt am Ortsrand von Steinborn der Steinborner Drees, rund 120 Meter neben der Strecke. Ein Drees ist in der Eifel eine gefasste Sauerbrunnenquelle. Ob sie schüttet und ob das Wasser als Trinkwasser ausgewiesen ist, steht am Brunnen — verlass dich für die Flaschen also nicht allein darauf.",
           "sources": []
         }
       ]
@@ -1457,7 +1457,7 @@
           "routeKm": 47.67,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Der Radweg läuft hier durch Pittenbach. Am Weg liegen ein Spielplatz und ein Rastplatz. Eine ruhige Pausenstelle kurz vor Pronsfeld. Dort gibt es nach gut zwei Kilometern eine Bäckerei, eine Bank und Läden des täglichen Bedarfs. Wer noch Vorrat braucht, plant das besser dort ein.",
+          "textShort": "Der Radweg läuft hier durch Pittenbach. Am Weg liegen ein Spielplatz und ein Rastplatz. Eine ruhige Pausenstelle kurz vor Pronsfeld. Für Pronsfeld, gut zwei Kilometer weiter, sind Bäckerei, Bank und Läden des täglichen Bedarfs verzeichnet. Wer noch Vorrat braucht, versucht es am besten dort.",
           "sources": [
             "https://de.wikipedia.org/wiki/Pronsfeld"
           ]
@@ -1654,7 +1654,7 @@
           "routeKm": 11.52,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Du bist in Pronsfeld. Hier verlässt du den Eifel-Ardennen-Radweg und folgst dem Prümtal-Radweg nach Süden. Im Ort gibt es Läden und Gastwirtschaften. Bis Waxweiler sind es dann gut acht Kilometer ohne Versorgung, dafür aber auch ohne Steigung, denn der Weg liegt weiter auf der alten Bahntrasse.",
+          "textShort": "Du bist in Pronsfeld. Hier verlässt du den Eifel-Ardennen-Radweg und folgst dem Prümtal-Radweg nach Süden. Für den Ort sind Läden und Gastwirtschaften verzeichnet — was davon offen hat, siehst du im Vorbeifahren. Bis Waxweiler sind es dann gut acht Kilometer, auf denen du besser nichts mehr erwartest, dafür aber auch ohne Steigung, denn der Weg liegt weiter auf der alten Bahntrasse.",
           "sources": []
         },
         {
@@ -2132,7 +2132,7 @@
           "routeKm": 18.59,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Links liegt der Sterenbachsee, ein stilles Gewässer am Rand von Lüxem. Bänke am Ufer, Schatten, kein Betrieb. Wenn du in Wittlich nicht angehalten hast, ist hier die bessere Gelegenheit. Am Ortsrand von Wittlich gibt es außerdem ein Café mit Ladestation für elektrische Räder.",
+          "textShort": "Links liegt der Sterenbachsee, ein stilles Gewässer am Rand von Lüxem. Bänke am Ufer, Schatten, kein Betrieb. Wenn du in Wittlich nicht angehalten hast, ist hier die bessere Gelegenheit. Am Ortsrand von Wittlich ist außerdem ein Café mit Ladestation für elektrische Räder verzeichnet.",
           "sources": []
         },
         {
@@ -2233,7 +2233,7 @@
           "routeKm": 34.18,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Hier liegt der Stellplatz von Lösnich. Trinkwasser gibt es, Bänke auch, und die Mosel fließt links an dir vorbei. Der Ort selbst zieht sich rechts den Hang hinauf. Wenn du die Flaschen füllen willst, ist jetzt der richtige Moment. Bis Traben-Trarbach sind es noch gut neun Kilometer.",
+          "textShort": "Hier liegt der Stellplatz von Lösnich. Bänke gibt es, die Mosel fließt links an dir vorbei, und für Wohnmobile ist eine Wasserstelle ausgewiesen. Ob sie läuft und als Trinkwasser gekennzeichnet ist, steht vor Ort. Wenn ja, ist jetzt der richtige Moment für die Flaschen. Der Ort selbst zieht sich rechts den Hang hinauf, bis Traben-Trarbach sind es noch gut neun Kilometer.",
           "sources": []
         },
         {
@@ -2504,7 +2504,7 @@
           "routeKm": 71.18,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Direkt an der Strecke liegt ein Gartencafé am Moselufer. Der letzte Halt vor dem Ziel, und wenn dir nach Kuchen ist, dann jetzt. Bis Sankt Aldegund sind es noch gut eineinhalb Kilometer, und die rollst du im Sitzen ab.",
+          "textShort": "Direkt an der Strecke ist ein Gartencafé am Moselufer verzeichnet. Wenn es offen hat und dir nach Kuchen ist, dann jetzt — es wäre der letzte Halt vor dem Ziel. Bis Sankt Aldegund sind es noch gut eineinhalb Kilometer, und die rollst du im Sitzen ab.",
           "sources": []
         },
         {
@@ -2611,7 +2611,7 @@
           "routeKm": 6.89,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Am Ufer liegt der Wohnmobilstellplatz von Ediger. Es gibt Trinkwasser, und das ist heute nicht selbstverständlich. Vor dir liegen noch gut achtzig Kilometer. Bis Cochem sind es zwanzig, und die Mosel macht dorthin einen ausgesprochen großzügigen Umweg. Füll die Flaschen auf.",
+          "textShort": "Am Ufer liegt der Wohnmobilstellplatz von Ediger. Für solche Plätze ist üblicherweise eine Wasserstelle ausgewiesen — ob sie läuft, siehst du dort. Vor dir liegen noch gut achtzig Kilometer. Bis Cochem sind es zwanzig, und die Mosel macht dorthin einen ausgesprochen großzügigen Umweg. Falls du füllen kannst, tu es hier.",
           "sources": []
         },
         {
@@ -2875,7 +2875,7 @@
           "routeKm": 52.98,
           "triggerRadius": 150,
           "accessNote": "direkt an der Strecke",
-          "textShort": "Löf ist der letzte größere Ort, bevor die Mosel städtisch wird. Einkaufen, einkehren, Wasser fassen. Ab hier rücken die Orte enger zusammen. Bis Braubach sind es noch gut sechsunddreißig Kilometer, und die laufen fast von allein. Den Rest macht der Fluss.",
+          "textShort": "Löf ist der letzte größere Ort, bevor die Mosel städtisch wird — falls du einkaufen, einkehren oder Wasser fassen willst, ist hier die naheliegende Gelegenheit dafür. Ab hier rücken die Orte enger zusammen. Bis Braubach sind es noch gut sechsunddreißig Kilometer, und die laufen fast von allein. Den Rest macht der Fluss.",
           "sources": []
         },
         {
