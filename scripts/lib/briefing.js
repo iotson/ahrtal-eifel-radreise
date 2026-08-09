@@ -132,10 +132,17 @@ function anstiegeText(climbs = []) {
 
   // Bei mehreren Anstiegen wird nur die Anzahl genannt. Jeden einzeln zu
   // beschreiben würde das Zahlenbudget sprengen und behält ohnehin niemand.
+  //
+  // Bewusst NICHT "Einer davon wird richtig steil.": "Einer" wird pronominal
+  // als echte Zahlangabe gebraucht, taucht aber nicht in ZAHLWORT_MUSTER auf
+  // (die Artikelformen "einer"/"eines"/"einem" sind dort ausgeschlossen, damit
+  // Genitive wie "das Ende einer Etappe" nicht mitzählen). Mit "Einer" würde
+  // zaehleZahlangaben also eine Zahlangabe verschlucken. Die Mehrdeutigkeit
+  // wird stattdessen durch die Formulierung vermieden.
   const steilste = Math.max(...climbs.map((c) => c.avgGradientPct));
   const bewertung =
     steilste >= STEIL_AB_PROZENT
-      ? 'Einer davon wird richtig steil.'
+      ? 'Der steilste zieht richtig an.'
       : 'Steil wird keiner davon, sie ziehen sich nur.';
   return `${grossGeschrieben(zahlwort(climbs.length))} Anstiege verteilen sich über den Tag. ${bewertung}`;
 }

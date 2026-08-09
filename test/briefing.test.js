@@ -180,6 +180,39 @@ test('zählt die Artikel ein, eine und einen nicht mit', () => {
   assert.equal(zaehleZahlangaben('Ein Anstieg, eine Kapelle und einen Tunnel gibt es auch.'), 0);
 });
 
+test('zählt Genitiv- und Dativformen von „ein" weiterhin nicht als Zahlangabe', () => {
+  assert.equal(
+    zaehleZahlangaben('Das Ende einer Etappe liegt in einem Tal, verbunden mit einem Pfad.'),
+    0
+  );
+});
+
+// Regression: Vor der Korrektur erzeugte anstiegeText() bei mehreren Anstiegen
+// mit einer steilen Rampe den Satz "Einer davon wird richtig steil." "Einer"
+// wird hier pronominal als Zahlangabe gebraucht, taucht aber bewusst nicht in
+// ZAHLWORT_MUSTER auf (sonst zählten auch Genitive wie "das Ende einer
+// Etappe" mit) — die Zählung verschluckte also eine Angabe. Behoben wurde das
+// durch Umformulieren, nicht durch Erweitern der Zahlwortliste.
+test('zählt „Einer" pronominal weiterhin nicht (dokumentiert die Lücke, die den Fehler auslöste)', () => {
+  assert.equal(zaehleZahlangaben('Einer davon wird richtig steil.'), 0);
+});
+
+test('regression: der Text zu einem steilen Mehrfachanstieg verwendet kein ungezähltes „Einer"', () => {
+  const steil = {
+    ...TAG_MIT_SECHS_ANSTIEGEN,
+    climbs: [
+      { startKm: 10, lengthKm: 2, gainM: 160, avgGradientPct: 8 },
+      { startKm: 30, lengthKm: 2, gainM: 60, avgGradientPct: 3 }
+    ]
+  };
+  const text = baueBriefingText(steil, []);
+  assert.ok(/steil/i.test(text), text);
+  assert.ok(
+    !/\bEiner\b/.test(text),
+    `Text verwendet weiterhin die mehrdeutige, nicht gezählte Zahlangabe "Einer": ${text}`
+  );
+});
+
 test('verwechselt Namen nicht mit Zahlwörtern', () => {
   assert.equal(zaehleZahlangaben('Dreimühlen-Wasserfall, Neuenahr und Eisenschmitt.'), 0);
 });
