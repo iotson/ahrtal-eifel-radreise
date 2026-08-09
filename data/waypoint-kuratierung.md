@@ -192,28 +192,36 @@ Anmerkung zum Streckenverlauf: Die Abschnittsüberschrift stammt aus den GPX-Met
 
 | km | Name | Symbol | Vorschlag | Entscheidung | Begründung |
 |---|---|---|---|---|---|
-| 1.8 | Abtei Himmerod | Flag, Blue | story | | |
-| 7.0 | Blick auf die Eifel | Flag, Blue | story | | |
-| 7.3 | Blick auf Großlittgen | Flag, Blue | story | | |
-| 15.7 | E-Bike-Ladestation bei Kaffeekultur, Eifel | Picnic Area | service | | |
-| 16.0 | Stadtzentrum Wittlich | Shopping Center | story | | |
-| 18.6 | Sterenbachsee | Flag, Blue | story | | |
-| 21.5 | Blick auf die Landschaft bei Wittlich | Flag, Blue | story | | |
-| 28.4 | Zeltinger Brücke | Bridge | story | | |
-| 31.5 | Hochmoselübergang - Wunderwerk der Technik | Bridge | story | | |
-| 34.2 | Wohnmobilstellplatz Lösnich | Drinking Water | service | | |
-| 43.4 | Blick auf Traben-Trarbach | Flag, Blue | story | | |
-| 43.8 | Traben-Trarbach | Shopping Center | story | | |
-| 44.3 | Stadtzentrum Traben-Trarbach | Shopping Center | story | | |
-| 47.5 | Blick auf die Mosel | Flag, Blue | story | | |
-| 49.2 | Lauschpunkt am Mosel-Radweg (Enkirch) | Picnic Area | story | | |
-| 50.6 | Rastplatz in der Nähe der Burg | Picnic Area | service | | |
-| 51.0 | 50. Breitengrad-Denkmal Burg an der Mosel | Flag, Blue | story | | |
-| 64.1 | Zell (Mosel) | Shopping Center | story | | |
-| 69.0 | Blick auf die Kanonenbahn-Doppelstockbrücke | Flag, Blue | story | | |
-| 70.2 | Blick auf die Mosel und die Weinberge | Flag, Blue | story | | |
-| 71.0 | Eisenbahnbrücke über die Mosel bei Neef | Bridge | story | | |
-| 71.2 | Rambo's Garten Café-Bistro | Restaurant | service | | |
+| 1.8 | Abtei Himmerod | Flag, Blue | story | story | Zisterzienserabtei, gegründet 1134 durch Bernhard von Clairvaux, und Ort der Himmeroder Denkschrift von 1950. Der POI steht bei Kilometer 1,64 auf den Koordinaten der Abtei, 82 Meter neben der Strecke. |
+| 7.0 | Blick auf die Eifel | Flag, Blue | story | verworfen | Dublette. Der Punkt liegt nur 270 Meter vor dem Waypoint bei Kilometer 7,3 und beschreibt dieselbe Hochfläche. |
+| 7.3 | Blick auf Großlittgen | Flag, Blue | story | story | Landschaftspunkt auf der Eifelhochfläche. Der Text nennt nur, was tatsächlich zu sehen ist, und stützt die geografischen Angaben auf Großlittgen und die Wittlicher Senke. |
+| 15.7 | E-Bike-Ladestation bei Kaffeekultur, Eifel | Picnic Area | service | verworfen | Geofence-Kollision. Der nach der Formel nötige triggerRadius des Synagogen-POI bei Kilometer 15,24 beträgt 450 Meter, das Fenster reicht bis 15,69. Ein Service-POI bei 15,73 würde hineinragen. Der Hinweis auf Café und Ladestation steht deshalb im Text des Sterenbachsee-POI bei Kilometer 18,59. |
+| 16.0 | Stadtzentrum Wittlich | Shopping Center | story | story | Die Säubrennersage und die Kirmes seit 1950. Enge Ortsdurchfahrt, deshalb triggerRadius 80. |
+| 18.6 | Sterenbachsee | Flag, Blue | story | service | Zu dem Weiher findet sich nichts Belastbares. Nach der Regel aus den Global Constraints auf kind service herabgestuft und als Rastgelegenheit geführt. |
+| 21.5 | Blick auf die Landschaft bei Wittlich | Flag, Blue | story | story | Trägt die Geologie der Wittlicher Senke, den Einbruchsgraben aus dem Perm und den früheren Tabakanbau. Weiträumiger Landschaftspunkt, deshalb triggerRadius 300. |
+| 28.4 | Zeltinger Brücke | Bridge | story | story | Ankunft an der Mosel. Brücke von 1929, Zeltingen-Rachtig und die Lage Zeltinger Sonnenuhr. |
+| 31.5 | Hochmoselübergang - Wunderwerk der Technik | Bridge | story | story | Umgesetzt, aber versetzt. Der Waypoint liegt 1,3 Kilometer hinter der Brücke; der POI steht bei Kilometer 30,23 auf den Koordinaten der Hochmoselbrücke, wo die Route direkt darunter hindurchführt. Auf dem Waypoint-Kilometer 31,54 steht stattdessen der Ürzig-POI aus Schritt D. |
+| 34.2 | Wohnmobilstellplatz Lösnich | Drinking Water | service | service | Trinkwasser und Bänke am Moselufer, direkt an der Strecke. |
+| 43.4 | Blick auf Traben-Trarbach | Flag, Blue | story | verworfen | Dublette. Reiner Blickpunkt 180 Meter vor dem Jugendstil-POI bei Kilometer 43,57; die Stadt wird dort und bei Kilometer 44,03 erzählt. |
+| 43.8 | Traben-Trarbach | Shopping Center | story | story | Jugendstil und Bruno Möhring, finanziert vom Weinhandel. Der POI steht bei Kilometer 43,57 am Bruno-Möhring-Platz, 44 Meter neben der Strecke. |
+| 44.3 | Stadtzentrum Traben-Trarbach | Shopping Center | story | story | Brückentor und Grevenburg. Der POI steht bei Kilometer 44,03 am Brückentor, weil der eigene Geofence der Grevenburg mit 350 Metern sonst in das Fenster des Nachbar-POI gefallen wäre. |
+| 47.5 | Blick auf die Mosel | Flag, Blue | story | story | Kein weiterer Moselblick, sondern das Thema Steillage und Devonschiefer, das die Etappe sonst nirgends trägt. Weiträumiger Landschaftspunkt, triggerRadius 300. |
+| 49.2 | Lauschpunkt am Mosel-Radweg (Enkirch) | Picnic Area | story | story | Enkirch mit seinem Fachwerkbestand. Der POI steht bei Kilometer 48,97 auf den Ortskoordinaten, 196 Meter neben der Strecke. |
+| 50.6 | Rastplatz in der Nähe der Burg | Picnic Area | service | service | Rastplatz kurz vor Burg an der Mosel, direkt an der Strecke. |
+| 51.0 | 50. Breitengrad-Denkmal Burg an der Mosel | Flag, Blue | story | story | Der Ort liegt genau auf dem fünfzigsten Breitengrad. Belegt über Wikipedia und die Seite der Verbandsgemeinde Traben-Trarbach. |
+| 64.1 | Zell (Mosel) | Shopping Center | story | story | Die Sage von der Schwarzen Katz von 1863. Der POI steht bei Kilometer 63,71 am Brunnen der Zeller Schwarzen Katz, enge Ortsdurchfahrt mit triggerRadius 80. |
+| 69.0 | Blick auf die Kanonenbahn-Doppelstockbrücke | Flag, Blue | story | story | Erste Doppelstockbrücke Deutschlands, gebaut 1875 bis 1878 für die Moselstrecke, 1945 zerstört und wieder aufgebaut. |
+| 70.2 | Blick auf die Mosel und die Weinberge | Flag, Blue | story | story | Keine Dublette, sondern der Blick auf den Neefer Frauenberg und den Calmont. Der Text bleibt bei dem, was zu sehen ist, und belegt die Angaben zur Steilheit. |
+| 71.0 | Eisenbahnbrücke über die Mosel bei Neef | Bridge | story | verworfen | Falsch benannt. An dieser Stelle gibt es keine Brücke über die Mosel. Eine Overpass-Abfrage über den Abschnitt zwischen Kilometer 68 und 72,5 findet als einzige Querung die Doppelstockbrücke bei Alf und Bullay, zwei Kilometer zurück und bereits bei Kilometer 69,0 erzählt. Die Bahnstrecke verläuft dort am gegenüberliegenden Ufer. |
+| 71.2 | Rambo's Garten Café-Bistro | Restaurant | service | service | Letzte Einkehr vor dem Etappenziel, direkt an der Strecke. |
+
+Zusätzlich aus Schritt D aufgenommen: Etappenstart Eisenschmitt bei Kilometer 0, Minderlittgen mit 187 Metern bei Kilometer 9,36, die Synagoge Wittlich mit 289 Metern bei Kilometer 15,24, Platten an der Lieser mit 94 Metern bei Kilometer 23,77, die Hochmoselbrücke mit 211 Metern bei Kilometer 30,23, Ürzig mit 403 Metern bei Kilometer 31,54, Kindel mit 70 Metern bei Kilometer 35,08, Kröv mit 333 Metern bei Kilometer 38,53, die Festung Mont Royal mit 663 Metern bei Kilometer 40,27, Reil mit 160 Metern bei Kilometer 53,50, die Marienburg mit 220 Metern bei Kilometer 57,03, Briedel mit 208 Metern bei Kilometer 59,08 und Sankt Aldegund mit 163 Metern bei Kilometer 72,51.
+
+Nicht aufgenommen, obwohl in Reichweite: Lösnich mit 94 Metern bei Kilometer 34,36 fällt in das Geofence-Fenster des Stellplatz-POI bei Kilometer 34,18; das Thema Weinbaugeschichte trägt stattdessen der Kindel-POI 900 Meter weiter. Der Pündericher Hangviadukt mit 310 Metern bei Kilometer 56,30 und der Ort Pünderich mit 344 Metern bei Kilometer 56,92 hätten mit 450 beziehungsweise 500 Metern triggerRadius das Fenster der Marienburg verschluckt; Pünderich wird im Marienburg-Text genannt. Der Prinzenkopfturm mit 234 Metern bei Kilometer 68,41 wurde verworfen, weil sein Thema, der Blick über die Moselschleife, schon beim Marienburg-POI steht und 600 Meter später die Doppelstockbrücke die Bahnstrecke erzählt. Ein eigener Service-POI Etappenziel entfällt, weil sein Fenster im Fenster des Sankt-Aldegund-POI läge; der Abschluss steht im Text dieses POI.
+
+Anmerkung zum Streckenverlauf: Die Abschnittsüberschrift stammt aus den GPX-Metadaten und nennt Bergweiler und Nehren. Beide Orte liegen nicht am Track. Die Etappe führt von Eisenschmitt nach Sankt Aldegund, so wie es `data/tour.json` führt. Sie beginnt in der Eifel, quert die Wittlicher Senke und erreicht die Mosel bei Kilometer 28,4. Die Route wechselt genau einmal das Ufer, bei Kilometer 64,07 über die Fußgängerbrücke in Zell; bis dahin liegt die Mosel links, danach rechts, bis die Route auf den letzten hundert Metern nach Sankt Aldegund hineinschwenkt. Alle Seitenangaben in den Texten sind gegen Kurs und Peilung auf den Trackpunkten nachgerechnet.
+
+Größte verbliebene Lücke zwischen zwei POIs: 5,88 Kilometer zwischen Kilometer 9,36 bei Minderlittgen und Kilometer 15,24 an der Synagoge in Wittlich. Der Abschnitt ist die Abfahrt von der Eifelhochfläche in die Wittlicher Senke und führt fast nur durch Wald und Feld.
 
 ## Tag 6 — Ahrtal und Eifel - Tag 6 - von Nehren nach Koblenz
 

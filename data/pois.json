@@ -2097,7 +2097,7 @@
           "triggerRadius": 450,
           "accessNote": "300 m Abstecher",
           "textShort": "Dreihundert Meter links steht die alte Synagoge von Wittlich, eingeweiht neunzehnhundertzehn. Sie steht überhaupt noch, und der Grund dafür ist bitter. Die Stadt kaufte das geschändete Gebäude und nutzte es im Krieg als Gefangenenlager. Ausgerechnet diese Zweckentfremdung hat es vor dem Abriss bewahrt.",
-          "textLong": "Dreihundert Meter links von der Strecke steht ein Haus, das es eigentlich nicht mehr geben dürfte. Die Synagoge von Wittlich wurde neunzehnhundertzehn eingeweiht, ein Bau mit Jugendstilformen und romanischen Anklängen, entworfen vom Kreisbaumeister. Rund zweihundertfünfzig Juden lebten damals in der Stadt. In der Pogromnacht im November neunzehnhundertachtunddreißig verwüsteten SA-Leute das Innere. In fast jeder anderen Stadt wäre die Sache damit erledigt gewesen. Hier nicht. Die Stadt kaufte das Gebäude im Jahr darauf und nutzte es im Krieg als Kriegsgefangenenlager. Genau diese nüchterne Zweckentfremdung hat es gerettet. Während anderswo Synagogen brannten und abgerissen wurden, stand die Wittlicher weiter, weil sie gebraucht wurde. Die Gemeinde selbst wurde vertrieben. Die letzte Deportation fand neunzehnhundertzweiundvierzig statt, und ein Drittel der Wittlicher Juden kam in den Lagern um. Nach dem Krieg kehrte niemand zurück. Das Haus blieb. Seit den siebziger Jahren ist es saniert und dient als Kultur- und Tagungsstätte, mit einer Dauerausstellung über das jüdische Leben in Wittlich. Ein Gebäude, das seine Gemeinde überlebt hat. Man kann daran vorbeifahren, ohne es zu bemerken. Man sollte es nicht.",
+          "textLong": "Dreihundert Meter links von der Strecke steht ein Haus, das es eigentlich nicht mehr geben dürfte. Die Synagoge von Wittlich wurde neunzehnhundertzehn eingeweiht, ein Bau mit Jugendstilformen und romanischen Anklängen, entworfen vom Kreisbaumeister. Rund zweihundertfünfzig Juden lebten damals in der Stadt. In der Pogromnacht im November neunzehnhundertachtunddreißig verwüsteten Männer der Sturmabteilung das Innere. In fast jeder anderen Stadt wäre die Sache damit erledigt gewesen. Hier nicht. Die Stadt kaufte das Gebäude im Jahr darauf und nutzte es im Krieg als Kriegsgefangenenlager. Genau diese nüchterne Zweckentfremdung hat es gerettet. Während anderswo Synagogen brannten und abgerissen wurden, stand die Wittlicher weiter, weil sie gebraucht wurde. Die Gemeinde selbst wurde vertrieben. Die letzte Deportation fand neunzehnhundertzweiundvierzig statt, und ein Drittel der Wittlicher Juden kam in den Lagern um. Nach dem Krieg kehrte niemand zurück. Das Haus blieb. Seit den siebziger Jahren ist es saniert und dient als Kultur- und Tagungsstätte, mit einer Dauerausstellung über das jüdische Leben in Wittlich. Ein Gebäude, das seine Gemeinde überlebt hat. Man kann daran vorbeifahren, ohne es zu bemerken. Man sollte es nicht.",
           "sources": [
             "https://de.wikipedia.org/wiki/Synagoge_Wittlich",
             "https://de.wikipedia.org/wiki/Wittlich"
@@ -2285,6 +2285,243 @@
           "textLong": "Da oben, auf dem Rücken in der Moselschleife, stand einmal eine französische Festung von gewaltigen Ausmaßen. Ludwig der Vierzehnte ließ sie anlegen, entworfen hat sie Vauban, der berühmte Festungsbaumeister. Der König gab ihr den Namen Mont-Royal, königlicher Berg, und ließ den Grundstein im Sommer sechzehnhundertsiebenundachtzig legen. Die Zahlen sind schwer zu glauben. Bis zu achttausend Fronarbeiter schufteten hier oben. Die Anlage bedeckte fünfzig Hektar, sie war eineinhalb Kilometer lang und stellenweise fast so breit wie lang. Sie konnte eine ganze Armee versorgen, samt Pferden und Zivilbevölkerung. Eine Stadt aus Mauern, mitten in einem Weinbaugebiet. Und dann kommt die Pointe. Fertig wurde sie nie. Im Frieden von Rijswijk musste Frankreich die Festung aufgeben, und der Abriss begann, bevor der Bau überhaupt abgeschlossen war. Die Truppen zogen ab, die Bewohner wurden umgesiedelt, und aus dem königlichen Berg wurde wieder ein Berg. Übrig sind Brunnen, Keller und Reste von Wehrgängen, die man später ausgegraben hat. Vauban bekam für seinen Entwurf zwölftausend Silbertaler. Für ein Bauwerk, das kaum jemand je vollendet gesehen hat.",
           "sources": [
             "https://de.wikipedia.org/wiki/Festung_Mont_Royal"
+          ]
+        },
+        {
+          "id": "tag5-traben-jugendstil",
+          "day": 5,
+          "name": "Jugendstil in Traben-Trarbach",
+          "lat": 49.949997,
+          "lon": 7.109726,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 43.57,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Traben-Trarbach hat einen eigenen Jugendstil, und der hat einen Namen. Bruno Möhring aus Berlin baute hier um die Jahrhundertwende die Brücke, das Brückentor, Hotels und Villen. Bezahlt hat das der Weinhandel. Achte auf die Fassaden. So etwas erwartet man nicht zwischen Weinbergen.",
+          "textLong": "Was hier steht, ist ungewöhnlich für einen Ort an der Mosel. Traben-Trarbach hat einen eigenen Jugendstil, und der hat einen Namen. Bruno Möhring, Architekt aus Berlin, hat diese Stadt um die Jahrhundertwende geprägt wie kaum jemand sonst einen Ort an diesem Fluss. Von ihm stammt die erste Brücke zwischen den Stadtteilen, achtzehnhundertachtundneunzig. Von ihm stammt das Brückentor, ein Jahr später. Von ihm stammen das Hotel Clauss-Feist, die Villa Huesgen und das große Gebäude, in dem heute ein Buddha-Museum untergebracht ist. Man fährt hier an Fassaden vorbei, die man in Berlin oder Darmstadt vermuten würde, nicht an einem Fluss zwischen Steilhängen. Bezahlt hat das der Wein. Traben-Trarbach war ein bedeutender Weinhandelsplatz an der Mittelmosel, und Weinhandel bringt Geld, und Geld baut Häuser. Wie selbstbewusst die Stadt war, zeigt eine Kleinigkeit am Rand. Traben und Trarbach hatten schon elektrische Straßenlaternen, als anderswo noch Gas brannte. Geliefert hat sie die Edison-Gesellschaft, aus der später einer der großen deutschen Elektrokonzerne wurde. Ein Weinstädtchen an der Mosel, elektrisch beleuchtet, mit Jugendstilvillen und einem eigenen Architekten. Das muss man sich leisten können, und offenbar konnte man es.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Traben-Trarbach"
+          ]
+        },
+        {
+          "id": "tag5-brueckentor-grevenburg",
+          "day": 5,
+          "name": "Brückentor und Grevenburg",
+          "lat": 49.94826,
+          "lon": 7.115115,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 44.03,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben dir steht das Brückentor, darüber auf dem Felsen die Ruine der Grevenburg. Die Burg wechselte so oft den Besitzer, dass man den Überblick verliert. Franzosen, Hessen, wieder Franzosen. Siebzehnhundertvierunddreißig schoss die Artillerie sie zusammen, und wieder aufgebaut hat sie niemand.",
+          "textLong": "Neben dir steht das Brückentor, ein Torbau von achtzehnhundertneunundneunzig, und darüber auf dem Felsen liegt die Ruine der Grevenburg. Die zwei gehören zusammen wie das neue und das alte Traben-Trarbach. Die Grevenburg entstand um dreizehnhundertfünfzig als Sitz der Grafen von Sponheim und löste die Starkenburg als Residenz ab. Was danach kam, ist eine Geschichte des dauernden Besitzerwechsels. Die Sponheimer starben aus, die Burg wurde Amtssitz. Ludwig der Vierzehnte nahm sie und baute sie zur Festung aus. Im Spanischen Erbfolgekrieg eroberten die Franzosen sie erneut, wenig später holte ein hessischer Erbprinz sie zurück. Dann kam der Polnische Erbfolgekrieg, und damit war Schluss. Im Mai siebzehnhundertvierunddreißig bot der Kommandant die Kapitulation an, die französische Artillerie zerstörte die Anlage, und aufgebaut hat sie danach niemand mehr. Stehen geblieben ist die Westwand des Kommandantenhauses. Mehr nicht. Das Unglück blieb der Stadt treu. Im Juli achtzehnhundertsiebenundfünfzig brannte fast ganz Trarbach ab. Von den Einwohnern verloren vierzehnhundert ihr Dach über dem Kopf. Was du hier siehst, ist also nicht die alte Stadt. Es ist das, was danach gebaut wurde.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Grevenburg",
+            "https://de.wikipedia.org/wiki/Traben-Trarbach"
+          ]
+        },
+        {
+          "id": "tag5-steillagen-und-schiefer",
+          "day": 5,
+          "name": "Steillagen und Schiefer",
+          "lat": 49.971052,
+          "lon": 7.13338,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 47.5,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Sieh dir die Hänge an. Vierzig Prozent der Moselweinberge stehen in Steillagen, viele davon jenseits von sechzig Prozent Neigung. Der Boden ist Devonschiefer. Er speichert die Wärme des Tages und gibt sie nachts an die Reben zurück. Deshalb wächst hier Riesling und sonst kaum etwas.",
+          "textLong": "Schau dir diese Hänge an. Das ist keine Landwirtschaft mehr, das ist Bergsteigen mit Rebschere. Rund vierzig Prozent der Weinberge an der Mosel stehen in Lagen mit dreißig bis sechzig Prozent Neigung, viele noch steiler. Damit ist die Mosel das größte Steillagengebiet der Welt. Der Boden darunter ist Devonschiefer. Er ist dunkel, er speichert Wärme, und er gibt sie nachts an die Reben zurück. Genau deshalb funktioniert Riesling hier so gut. Fast zwei Drittel der Rebfläche sind mit dieser Sorte bestockt. Was man von unten nicht sieht, ist die Arbeit. In den steilsten Parzellen wächst jeder Stock an seinem eigenen Pfahl, eine Erziehungsform, die schon die Römer benutzten. Maschinen kommen dort nicht hinauf. Wo es sich lohnt, haben die Winzer Monorackbahnen in den Hang gelegt, schmale Schienen, auf denen ein kleiner Wagen hochkriecht. Alles andere geht zu Fuß. Wenn du das nächste Mal eine Flasche Mosel im Regal stehen siehst und auf den Preis schaust, denk an diesen Hang. Da ist jemand hochgestiegen. Nicht einmal im Jahr, sondern immer wieder, mit Werkzeug am Gürtel.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Mosel_(Weinanbaugebiet)"
+          ]
+        },
+        {
+          "id": "tag5-enkirch",
+          "day": 5,
+          "name": "Enkirch",
+          "lat": 49.983039,
+          "lon": 7.125758,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 48.97,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Rechts liegt Enkirch, und hier lohnt das Absteigen. Der Ort gilt als Schatzkammer des rheinischen Fachwerkbaus, mit ganzen Gassenzügen voller Häuser aus dem fünfzehnten bis achtzehnten Jahrhundert. Genannt wird Enkirch schon im achten Jahrhundert. Die Stadtmauer hatte sieben Tore.",
+          "textLong": "Zweihundert Meter rechts liegt Enkirch, und Enkirch ist der Ort, an dem man das Rad abstellt. Das Dorf gilt als eine Schatzkammer des rheinischen Fachwerkbaus. Häuser aus dem fünfzehnten bis achtzehnten Jahrhundert stehen hier nicht als vereinzelte Denkmäler herum, sondern in ganzen Gassenzügen. Man biegt um eine Ecke und ist im Mittelalter. Der Ort ist noch älter als seine Häuser. Genannt wird er schon siebenhundertdreiunddreißig, als eine Adlige namens Adela Besitz hier an ein Kloster vermachte. Der Name geht auf Anchiriacum zurück. Zwölfhundertachtundvierzig bekam Enkirch Stadt- und Marktrecht und war damit ein Hauptort der Grafschaft Sponheim, umgeben von einer Mauer mit sieben Toren. Reste davon stehen noch. Gelebt hat der Ort vom Wein, und zwar üppig. In guten Jahren brachte allein die Lage Steffensberg rund tausendfünfhundert Fuder ein. Wer wissen will, wie ein Moseldorf aussah, bevor der Tourismus kam, findet hier die Antwort. Und wer hinüber ans andere Ufer will, kann das immer noch. Zwischen Enkirch und Kövenig verkehrt eine Fähre.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Enkirch"
+          ]
+        },
+        {
+          "id": "tag5-rastplatz-vor-burg",
+          "day": 5,
+          "name": "Rastplatz vor Burg an der Mosel",
+          "lat": 49.995719,
+          "lon": 7.116376,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 50.63,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Ein Rastplatz kurz vor Burg an der Mosel. Bänke, Schatten, Blick auf den Fluss. Wenn du eine Pause brauchst, nimm sie hier. Gleich dahinter kommt eine Stelle, an der du kurz anhalten solltest, obwohl dort nichts weiter steht als ein Stein am Wegrand.",
+          "sources": []
+        },
+        {
+          "id": "tag5-fuenfzigster-breitengrad",
+          "day": 5,
+          "name": "Der fünfzigste Breitengrad bei Burg",
+          "lat": 49.99908,
+          "lon": 7.11665,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 51,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier läuft der fünfzigste Breitengrad quer über den Radweg. Ein Stein hält es fest. Das Dorf dahinter heißt Burg an der Mosel und liegt genau auf dieser Linie. Keine vierhundert Einwohner, verwinkelte Gassen, Reben ringsum. Die bekannteste Lage heißt Burger Hahnenschrittchen.",
+          "textLong": "Hier verläuft der fünfzigste Breitengrad. Kein Zaun, keine Linie im Boden, aber ein Stein am Weg, der es festhält. Der Ort dahinter heißt Burg an der Mosel und liegt genau auf dieser Linie. Das ist die Art von Tatsache, die keinerlei praktischen Wert hat und die man trotzdem gern weitererzählt. Man steht auf einem Radweg zwischen Weinbergen und ist damit exakt so weit vom Äquator entfernt, wie diese Zahl es angibt. Burg ist ein kleines Dorf, keine vierhundert Einwohner, verwinkelte Gassen, eine alte Kirche und ringsum Reben. Gut hundertzehn Hektar Weinberge gehören dazu, überwiegend Riesling. Der Ortsname erinnert an ein römisches Kastell, das hier stand. Urkundlich fassbar wird Burg achthundertzweiundvierzig, als Kaiser Lothar einem Getreuen Güter an dieser Stelle überträgt. Den Zusatz an der Mosel trägt die Gemeinde erst seit neunzehnhundertsiebzig. Und weil ein Dorf, das auf einem Breitengrad sitzt, daraus etwas machen muss, heißt die bekannteste Weinlage hier Burger Hahnenschrittchen. Entsprechend steht im Ort überall ein Gockel herum. Schlechter kann man auf einem Radweg zwischen Weinbergen nicht empfangen werden.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_(Mosel)",
+            "https://www.vgtt.de/rathaus-politik/gemeinden/gemeinden/burg-mosel/"
+          ]
+        },
+        {
+          "id": "tag5-reil",
+          "day": 5,
+          "name": "Reil und die verschwundenen Weinberge",
+          "lat": 50.019736,
+          "lon": 7.118989,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 53.5,
+          "triggerRadius": 300,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Gegenüber liegt Reil. Der Ort steht seit dem elften Jahrhundert in den Urkunden. Spannender ist, was mit seinen Weinbergen geschah. Über zweihundert Hektar waren es früher, heute sind es noch etwa hundertzwanzig. Fast die Hälfte der Steillagen ist aufgegeben und verbuscht.",
+          "textLong": "Gegenüber liegt Reil. Der Ort wird tausendacht zum ersten Mal genannt, in einer Urkunde König Heinrichs, und er heißt dort Rigula. Interessanter als das Alter ist aber, was mit den Weinbergen passiert ist. Reil war im neunzehnten und im frühen zwanzigsten Jahrhundert eine der größten Weinbaugemeinden an der Mosel. Über zweihundert Hektar Reben standen an diesen Hängen. Heute sind es noch rund hundertzwanzig. Fast die Hälfte ist verschwunden, und das ist kein Reiler Sonderfall, sondern die Geschichte der ganzen Mosel. Steillagen sind teuer. Jede Rebe wird von Hand bearbeitet, und irgendwann rechnet sich das nicht mehr. Was aufgegeben wird, verbuscht innerhalb weniger Jahre. Wenn du an einem Hang Brombeeren und junge Birken zwischen alten Trockenmauern siehst, dann siehst du einen ehemaligen Weinberg. Achte im Lauf des Tages darauf, du wirst es öfter sehen, als dir lieb ist. Die Lagen, die geblieben sind, tragen hier schöne Namen. Goldlay, Falklay, Sorentberg. Sie gehören zur Großlage Vom heißen Stein. Über diesen Namen muss man an einem Julinachmittag nicht diskutieren.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Reil"
+          ]
+        },
+        {
+          "id": "tag5-marienburg",
+          "day": 5,
+          "name": "Marienburg über der Moselschleife",
+          "lat": 50.043826,
+          "lon": 7.132738,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 57.03,
+          "triggerRadius": 350,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Über dir liegt die Marienburg. Die Mosel macht hier eine Schleife von vierzehn Kilometern und kommt fast an derselben Stelle zurück. Auf dem schmalen Rücken dazwischen steht die Burg, von zwei Seiten von Wasser umspült. Erst Festung, dann Kloster, dann Wallfahrtsort, dann Jugendbildungshaus.",
+          "textLong": "Über dir liegt die Marienburg, und sie steht an einer der merkwürdigsten Stellen dieses Flusses. Die Mosel macht hier eine Schleife von rund vierzehn Kilometern und kommt danach beinahe an derselben Stelle wieder heraus. Auf dem schmalen Rücken dazwischen sitzt die Marienburg, von zwei Seiten von Wasser umspült. Wer da oben steht, sieht denselben Fluss links und rechts von sich in entgegengesetzte Richtungen ziehen. Angefangen hat die Sache als Festung des Erzstifts Trier. Elfhundertsechsundvierzig wurde daraus ein Kloster, die Kirche wurde wenige Jahre später geweiht. Augustinerinnen lebten hier, bis ein Papst den Konvent auflöste. Danach war die Marienburg Wallfahrtsort. Der Dreißigjährige Krieg und später die französischen Revolutionstruppen richteten schweren Schaden an, im neunzehnten Jahrhundert wechselte die Ruine mehrfach den privaten Besitzer. Neunzehnhundertfünfzig kaufte das Bistum Trier sie zurück, baute sie wieder auf und machte ein Jugendbildungshaus daraus. Und dann kündigte das Bistum vor wenigen Jahren die Schließung an. Seitdem kämpft eine Bürgerinitiative um das Haus. Sehr lange Geschichte, und noch immer ist nicht ausgemacht, wie es weitergeht. Unten am Ufer liegt Pünderich, ein Dorf voller alter Fachwerkhäuser.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Marienburg_(Mosel)",
+            "https://de.wikipedia.org/wiki/P%C3%BCnderich"
+          ]
+        },
+        {
+          "id": "tag5-briedel",
+          "day": 5,
+          "name": "Briedel und der Weinzehnte",
+          "lat": 50.028446,
+          "lon": 7.146469,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 59.08,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Rechts liegt Briedel. Der Ort besitzt eine Urkunde aus dem achten Jahrhundert, in der ein Bischof den Weinzehnten von Bredaculo verschenkt. Das ist einer der ältesten Belege für Weinbau an der Mosel. Die Weinlagen hier heißen Herzchen, Nonnengarten, Schäferlay, Schelm und Weißerberg.",
+          "textLong": "Rechts liegt Briedel, und Briedel besitzt eine Urkunde, um die es andere Orte beneiden. Im Jahr siebenhundertachtundvierzig überschrieb der Bischof von Metz den Weinzehnten von Briedel einem Kloster. Der Ort heißt darin Bredaculo. Das ist eines der ältesten Schriftstücke, die Weinbau an der Mosel bezeugen. Vorhin, bei Kindel, lag der älteste Fund noch im Boden. Hier liegt der Beleg auf Pergament. Beides an einem Tag, keine dreißig Kilometer voneinander entfernt. Stadtrecht bekam Briedel dreizehnhundertsechsundsiebzig, geblieben ist ein Dorf mit heute gut achthundert Einwohnern. Vom alten Mauerring steht noch der Eulenturm aus dem vierzehnten Jahrhundert. Die Pfarrkirche ist barock, mit einer Orgel aus der Werkstatt der Stumm, einer Orgelbauerfamilie aus dem Hunsrück, deren Instrumente in der ganzen Region stehen. Und dann sind da die Weinlagen. Herzchen, Nonnengarten, Schäferlay, Schelm und Weißerberg. Lies dir diese Namen in Ruhe durch. Herzchen und Schelm. So nennt niemand einen Acker, der ihm gleichgültig ist.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Briedel"
+          ]
+        },
+        {
+          "id": "tag5-zell-schwarze-katz",
+          "day": 5,
+          "name": "Zell und die Schwarze Katz",
+          "lat": 50.025417,
+          "lon": 7.181552,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 63.71,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier steht der Brunnen der Zeller Schwarzen Katz. Achtzehnhundertdreiundsechzig sprang eine schwarze Katze im Weinkeller auf eines von drei Fässern und verteidigte es fauchend gegen jeden. Die Händler kauften genau dieses Fass. Der Wein wurde ein Erfolg, und die Lage heißt seitdem nach der Katze.",
+          "textLong": "Achtzehnhundertdreiundsechzig kamen Weinhändler aus Aachen nach Zell. Sie stiegen in den Keller eines Winzers namens Mayntzers, probierten und konnten sich nicht entscheiden. Drei Fässer standen zur Wahl, alle gleich gut. Dann kam die Katze. Mori hieß sie, sie war schwarz, sie hatte sich in den Keller geschlichen, und sie sprang auf eines der Fässer. Dort blieb sie sitzen, fauchte, kratzte und ließ niemanden mehr heran. Die Händler nahmen das für ein Zeichen und kauften genau dieses Fass. Der Wein wurde ein Erfolg, und die Katze bekam ihren Platz in der Geschichte. Heute heißt die Großlage rings um Zell Schwarze Katz, und sie ist weit über die Region hinaus bekannt. Neunzehnhundertsechsunddreißig bekam die Katze einen Brunnen, seit einigen Jahren steht außerdem eine Skulptur am Ortseingang, entworfen von einem Karikaturisten. Zell selbst ist eine römische Gründung, hat seit zwölfhundertzweiundzwanzig Stadtrecht und liegt an einer großen Moselschleife, dem Zeller Hamm. Mit rund dreihundertdreißig Hektar Reben ist es nach Piesport die größte Weinbaugemeinde an der Mosel. Gemerkt hat sich die Welt trotzdem nur die Katze.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Zeller_Schwarze_Katz",
+            "https://de.wikipedia.org/wiki/Zell_(Mosel)"
+          ]
+        },
+        {
+          "id": "tag5-doppelstockbruecke-alf-bullay",
+          "day": 5,
+          "name": "Doppelstockbrücke Alf-Bullay",
+          "lat": 50.05271,
+          "lon": 7.128204,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 69.01,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Vor dir liegt die Doppelstockbrücke zwischen Alf und Bullay. Oben die Eisenbahn, unten die Straße. Sie war die erste Brücke dieser Bauart in Deutschland, gebaut für die sogenannte Kanonenbahn. Jagdbomber zerstörten sie neunzehnhundertfünfundvierzig. Heute fahren wieder Züge darüber.",
+          "textLong": "Vor dir liegt die Doppelstockbrücke zwischen Alf und Bullay, und sie ist genau das, wonach sie klingt. Oben fährt die Eisenbahn, unten fährt die Straße. Als sie gebaut wurde, war das eine Neuheit. Es war die erste Brücke dieser Bauart in Deutschland. Entstanden ist sie zwischen achtzehnhundertfünfundsiebzig und achtzehnhundertachtundsiebzig, als Teil der Moselstrecke. Diese Bahnlinie gehörte zu einem Vorhaben, das im Volksmund Kanonenbahn hieß, weil es dem Militär eine schnelle Verbindung nach Westen verschaffen sollte. Geplant war zunächst nur eine Eisenbahnbrücke. Die Gemeinden vor Ort wollten aber auch selbst hinüberfahren können, und am Ende bekamen sie ihre eigene Etage. Die Maße sind ordentlich. Dreihundertvierzehn Meter lang, die größte Stützweite über der Fahrrinne achtundachtzig Meter, dazu mehrere Flutöffnungen. Das Eisenfachwerk wog anfangs vierzehnhundert Tonnen und wurde später noch verstärkt. Im Februar neunzehnhundertfünfundvierzig zerstörten amerikanische Jagdbomber die Brücke, weil hier der Nachschub an die Westfront lief. Nach dem Krieg wurde sie wieder aufgebaut. Seitdem fahren die Züge wieder oben und die Autos unten, so wie es sich die Leute damals gewünscht hatten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Doppelstockbr%C3%BCcke_Alf-Bullay"
+          ]
+        },
+        {
+          "id": "tag5-neefer-frauenberg",
+          "day": 5,
+          "name": "Neef und der Frauenberg",
+          "lat": 50.06298,
+          "lon": 7.129641,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 70.22,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Rechts, jenseits des Flusses, liegt Neef. Der Hang darüber heißt Frauenberg und zählt zu den steilsten Weinbergen Europas. Sein Nachbar weiter flussabwärts, der Calmont, gilt mit rund fünfundsechzig Grad Neigung als einer der steilsten überhaupt. Unter den Reben führt ein Eisenbahntunnel durch den Berg.",
+          "textLong": "Jenseits des Flusses liegt Neef, und darüber steht ein Hang, der zu den steilsten Weinbergen Europas gehört. Er heißt Frauenberg. Sein Nachbar weiter flussabwärts heißt Calmont und ist noch bekannter. Der Calmont gilt mit rund fünfundsechzig Grad Neigung als einer der steilsten Weinberge der Welt. Was man von hier aus sieht, ist eine fast senkrechte Wand aus Schiefer, in die jemand Reben gesetzt hat. Es sieht aus wie ein Missverständnis. Es ist aber Absicht, und zwar eine sehr alte. Der Schiefer fängt die Sonne, er speichert die Wärme, und der Riesling dankt es. Wer dort oben arbeitet, hat es dafür schwer wie kaum jemand sonst im deutschen Weinbau. Durch den Berg unter den Reben führt außerdem eine Eisenbahn. Die Moselstrecke verschwindet drüben im Frauenberg und kommt weiter flussabwärts wieder heraus. Neef selbst wird schon achthundertfünfundsiebzig genannt, damals in einer Verfügung Ludwigs des Deutschen. Ein kleiner Ort, ein sehr großer Berg und ein Tunnel darunter. Mehr braucht ein Moseldorf offenbar nicht, um im Gedächtnis zu bleiben.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Neef",
+            "https://de.wikipedia.org/wiki/Mosel_(Weinanbaugebiet)"
+          ]
+        },
+        {
+          "id": "tag5-gartencafe-vor-sankt-aldegund",
+          "day": 5,
+          "name": "Gartencafé am Moselufer",
+          "lat": 50.071546,
+          "lon": 7.129672,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 71.18,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Direkt an der Strecke liegt ein Gartencafé am Moselufer. Der letzte Halt vor dem Ziel, und wenn dir nach Kuchen ist, dann jetzt. Bis Sankt Aldegund sind es noch gut eineinhalb Kilometer, und die rollst du im Sitzen ab.",
+          "sources": []
+        },
+        {
+          "id": "tag5-sankt-aldegund",
+          "day": 5,
+          "name": "Sankt Aldegund",
+          "lat": 50.082379,
+          "lon": 7.128854,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 72.51,
+          "triggerRadius": 300,
+          "accessNote": "150 m Abstecher",
+          "textShort": "Sankt Aldegund, Etappenziel. Der Ort ist nach einer merowingischen Königstochter benannt, die Äbtissin wurde und kurz nach ihrem Tod heiliggesprochen wurde. Hundertfünfzig Meter rechts steht ihre romanische Alte Kirche. Bei einer Renovierung fand man dort spätgotische Malereien unter dem Putz.",
+          "textLong": "Geschafft. Zweiundsiebzig Kilometer, und der Tag endet in Sankt Aldegund. Der Ort trägt den Namen einer Frau, und das ist an der Mosel selten genug. Aldegundis war eine merowingische Königstochter und Äbtissin im heutigen Nordfrankreich. Kurz nach ihrem Tod wurde sie heiliggesprochen, und irgendwann trug ein Dorf am Moselufer ihren Namen. Urkundlich fassbar ist der Ort im Juli tausendsiebenundneunzig. Die interessantere der beiden Kirchen hier ist die ältere. Die romanische Alte Kirche wird tausendeinhundertvierundvierzig genannt und war lange ein Wallfahrtsziel. Bei einer Renovierung in den sechziger Jahren kamen unter dem Putz spätgotische Malereien zum Vorschein, von denen niemand mehr gewusst hatte. Die neue Pfarrkirche daneben ist neugotisch und hat einen Turm von einundfünfzig Metern Höhe. Ringsum stehen Fachwerk- und Bürgerhäuser, die älteren davon aus dem fünfzehnten Jahrhundert. Der Weinbau hier ist überschaubar. Ein paar Betriebe auf wenigen Hektar, fast alles Weißwein. Das Ufer ist als Moselpark angelegt, und genau dort solltest du jetzt hin. Morgen geht es zurück nach Koblenz. Für heute reicht es. Stell das Rad weg.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Sankt_Aldegund"
           ]
         }
       ]
