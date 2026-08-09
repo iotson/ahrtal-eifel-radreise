@@ -60,6 +60,18 @@ function baueTourDays(tour, pois) {
   });
 }
 
+/**
+ * Werte aus den JSON-Dateien gehören über `textContent` in die Seite, nicht in einen
+ * Template-String: Der erste POI-Name mit einem Kaufmannsund oder einem spitzen Klammerzeichen
+ * würde als Markup gelesen und die Darstellung zerlegen.
+ */
+function spanMitText(klasse, text) {
+  const span = document.createElement('span');
+  span.className = klasse;
+  span.textContent = text;
+  return span;
+}
+
 function renderDayList() {
   const list = document.getElementById('day-list');
   list.innerHTML = '';
@@ -68,7 +80,8 @@ function renderDayList() {
     const li = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    button.innerHTML = `<span class="route-day">${day.route}</span><span class="route-title">${day.title}</span>`;
+    button.appendChild(spanMitText('route-day', day.route));
+    button.appendChild(spanMitText('route-title', day.title));
     button.addEventListener('click', () => loadDay(index));
     li.appendChild(button);
     list.appendChild(li);
@@ -82,15 +95,15 @@ function renderDayOverview(day) {
   }
 
   const kopf = day.briefing
-    ? `<h4 class="today-title">${day.briefing}</h4>`
-    : `<h4 class="today-title">${day.start} nach ${day.end}</h4>
+    ? '<h4 class="today-title"></h4>'
+    : `<h4 class="today-title"></h4>
        <p class="today-text">Der Briefing-Text für diese Etappe ist noch nicht geschrieben.</p>`;
 
   const anstiege = day.climbs.length
     ? `<ul>${day.climbs.map((c) => `<li>${anstiegText(c)}</li>`).join('')}</ul>`
     : '<p class="today-text">Keine nennenswerten Anstiege.</p>';
 
-  const hinweis = day.hinweis ? `<p class="today-text">${day.hinweis}</p>` : '';
+  const hinweis = day.hinweis ? '<p class="today-text today-hinweis"></p>' : '';
 
   summary.innerHTML = `
     <article class="today-overview">
@@ -117,6 +130,14 @@ function renderDayOverview(day) {
       </div>
     </article>
   `;
+
+  // Briefing und Hinweis kommen aus den JSON-Dateien und werden erst hier als Text gesetzt.
+  summary.querySelector('.today-title').textContent =
+    day.briefing || `${day.start} nach ${day.end}`;
+
+  if (day.hinweis) {
+    summary.querySelector('.today-hinweis').textContent = day.hinweis;
+  }
 }
 
 function loadDay(index) {
@@ -169,7 +190,8 @@ function renderStops(stops) {
     const item = document.createElement('button');
     item.type = 'button';
     item.className = 'stop-item';
-    item.innerHTML = `<span class="stop-name">${stop.name}</span><span class="stop-meta">Kilometer ${zahl(stop.routeKm)}</span>`;
+    item.appendChild(spanMitText('stop-name', stop.name));
+    item.appendChild(spanMitText('stop-meta', `Kilometer ${zahl(stop.routeKm)}`));
     item.addEventListener('click', () => {
       currentStop = index;
       renderStop(stop, index + 1);
@@ -226,12 +248,61 @@ function beschriftungenZuruecksetzen() {
   beschrifte('play-whole-tour', '▶', 'Ganze Tour vorlesen');
 }
 
-function stoppeVorlesen() {
+/**
+ * Zählt jeden Start und jeden Stopp hoch. Eine laufende Vorlese-Kette vergleicht ihren beim
+ * Start gemerkten Wert mit diesem hier und bricht ab, sobald er sich geändert hat. Nötig, weil
+ * `speechSynthesis.cancel()` je nach Browser noch ein `onend` nachwirft — ohne diese Marke
+ * würde der Stoppknopf die Kette anhalten und ihr eigenes `onend` sie sofort fortsetzen.
+ */
+let ausgabeLauf = 0;
+
+function neueAusgabe() {
+  ausgabeLauf += 1;
   if ('speechSynthesis' in window) {
     window.speechSynthesis.cancel();
   }
+  return ausgabeLauf;
+}
+
+function setzeStoppKnopf(quelle) {
+  if (quelle === 'tour') {
+    beschrifte('play-whole-tour', '⏹', 'Vorlesen stoppen');
+  } else {
+    beschrifte('read-stop', '⏹', 'Stopp');
+  }
+}
+
+function stoppeVorlesen() {
+  neueAusgabe();
   aktiveAusgabe = null;
   beschriftungenZuruecksetzen();
+}
+
+/**
+ * Spricht genau eine Äußerung. `lauf` ist die beim Start gemerkte Marke; `beiEnde` setzt die
+ * Kette fort. Ohne `beiEnde` ist nach dieser Äußerung Schluss.
+ */
+function sprichAus(text, lauf, beiEnde) {
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'de-DE';
+  utterance.rate = 0.88;
+  utterance.pitch = 1;
+
+  const beenden = () => {
+    if (lauf !== ausgabeLauf) {
+      return;
+    }
+    if (beiEnde) {
+      beiEnde();
+      return;
+    }
+    aktiveAusgabe = null;
+    beschriftungenZuruecksetzen();
+  };
+  utterance.onend = beenden;
+  utterance.onerror = beenden;
+
+  window.speechSynthesis.speak(utterance);
 }
 
 /** `quelle` ist 'station' oder 'tour' — daran hängt, welcher Knopf zum Stoppknopf wird. */
@@ -241,41 +312,55 @@ function speak(text, quelle) {
     return;
   }
 
-  window.speechSynthesis.cancel();
+  const lauf = neueAusgabe();
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'de-DE';
-  utterance.rate = 0.88;
-  utterance.pitch = 1;
-
-  const beenden = () => {
-    if (aktiveAusgabe === quelle) {
-      aktiveAusgabe = null;
-      beschriftungenZuruecksetzen();
-    }
-  };
-  utterance.onend = beenden;
-  utterance.onerror = beenden;
-
+  // Sonst behielte der Tour-Knopf sein „Vorlesen stoppen“, wenn man mitten in der Tour
+  // die Stationsausgabe startet.
+  beschriftungenZuruecksetzen();
   aktiveAusgabe = quelle;
-  if (quelle === 'tour') {
-    beschrifte('play-whole-tour', '⏹', 'Vorlesen stoppen');
-  } else {
-    beschrifte('read-stop', '⏹', 'Stopp');
-  }
+  setzeStoppKnopf(quelle);
 
-  window.speechSynthesis.speak(utterance);
+  sprichAus(text, lauf, null);
   showToast('Vorlesen gestartet');
 }
 
+/**
+ * Eine Äußerung je Station statt einer einzigen für den ganzen Tag. Chrome bricht lange
+ * Äußerungen nach rund fünfzehn Sekunden ab — Tag 2 wären elf Minuten am Stück gewesen. Die
+ * nächste Station startet im `onend` der vorigen; der Stoppknopf greift dadurch sofort.
+ */
 function startWholeTour() {
+  if (!('speechSynthesis' in window)) {
+    showToast('Sprachsynthese nicht verfügbar');
+    return;
+  }
+
   if (allStops.length === 0) {
     showToast('Für diesen Tag gibt es noch keine Stationen');
     return;
   }
 
-  const fullText = allStops.map((stop) => buildCurrentNarration(stop)).join(' ');
-  speak(fullText, 'tour');
+  const lauf = neueAusgabe();
+  const stationen = allStops;
+
+  beschriftungenZuruecksetzen();
+  aktiveAusgabe = 'tour';
+  setzeStoppKnopf('tour');
+
+  const naechste = (index) => {
+    if (lauf !== ausgabeLauf) {
+      return;
+    }
+    if (index >= stationen.length) {
+      aktiveAusgabe = null;
+      beschriftungenZuruecksetzen();
+      return;
+    }
+    sprichAus(buildCurrentNarration(stationen[index]), lauf, () => naechste(index + 1));
+  };
+
+  naechste(0);
+  showToast('Vorlesen gestartet');
 }
 
 function initControls() {
