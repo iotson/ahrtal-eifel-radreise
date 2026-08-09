@@ -17,8 +17,9 @@ dort nicht neu entdeckt werden müssen.
 2. **Gleichzeitig fällige Texte werden nacheinander abgespielt, nie überlagert.** Zwei
    Tonspuren übereinander sind unterwegs vollständig unverständlich.
 
-**Warum:** In `data/pois.json` überlappen sich die Auslöseradien von 14 POI-Paaren entlang der
-Route. Die vier engsten:
+**Warum:** In `data/pois.json` überlappen sich die Auslöseradien von 15 POI-Paaren entlang der
+Route, gezählt als `|routeKm_A − routeKm_B| < r_A + r_B` innerhalb desselben Tages. Die vier
+engsten:
 
 | Abstand entlang der Route | POI A (Radius) | POI B (Radius) |
 |---|---|---|
