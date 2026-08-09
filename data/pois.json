@@ -2011,6 +2011,283 @@
           "sources": []
         }
       ]
+    },
+    {
+      "day": 5,
+      "briefing": {
+        "text": ""
+      },
+      "pois": [
+        {
+          "id": "tag5-etappenstart-eisenschmitt",
+          "day": 5,
+          "name": "Etappenstart in Eisenschmitt",
+          "lat": 50.036977,
+          "lon": 6.737656,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 0,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Fünfter Tag. Zweiundsiebzig Kilometer liegen vor dir, dazu vierhunderteinunddreißig Höhenmeter. Das klingt nach mehr, als es ist. Nur ein Anstieg zählt wirklich, und der kommt erst nach dreiundzwanzig Kilometern. Dafür wechselt heute dreimal die Landschaft. Erst die Eifel, dann die Wittlicher Senke, und ab der Mitte des Tages gehört alles der Mosel.",
+          "sources": []
+        },
+        {
+          "id": "tag5-abtei-himmerod",
+          "day": 5,
+          "name": "Abtei Himmerod",
+          "lat": 50.029286,
+          "lon": 6.754262,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 1.64,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Rechts der Strecke steht die Abtei Himmerod. Bernhard von Clairvaux ließ sie im zwölften Jahrhundert gründen. Berühmt wurde sie aber durch etwas ganz anderes. In diesen Mauern entstand im Herbst neunzehnhundertfünfzig die Denkschrift, aus der wenig später die Bundeswehr hervorging. Ein Kloster als Geburtsort einer Armee.",
+          "textLong": "Bernhard von Clairvaux schickte im Jahr elfhundertvierunddreißig einen Gründungskonvent in die Eifel. Himmerod wurde damit das erste deutsche Kloster, das auf ihn zurückgeht. Die Mönche ließen sich zuerst an der Kyll nieder und zogen dann hierher ins Salmtal um. Und dann hat dieses stille Haus Weltgeschichte gemacht, auf eine Weise, die niemand erwartet hätte. Im Oktober neunzehnhundertfünfzig trafen sich hier ehemalige Offiziere der Wehrmacht. Sie kamen im Auftrag der Bundesregierung, und sie kamen im Stillen. Vier Tage lang saßen sie in einem Zisterzienserkloster und schrieben auf, wie eine neue deutsche Armee aussehen sollte. Das Ergebnis heißt Himmeroder Denkschrift und gilt als Grundstein der Wiederbewaffnung. Die Bundeswehr hat ihren Ursprung also nicht in einer Kaserne, sondern in einer Abtei in der Eifel. Davor lag ein langer Bruch. Napoleons Verwaltung hob das Kloster auf, die Kirche verfiel zur Ruine, und erst im zwanzigsten Jahrhundert kehrten Mönche zurück. Am Ende fehlte der Abtei genau das, was ein Kloster am dringendsten braucht. Zuletzt lebten hier sechs Mönche, dann löste die Kongregation Himmerod auf. Der Besitz ging an das Bistum Trier. Heute sind die Gebäude Gästehaus und Kulturzentrum, und die große Barockkirche steht offen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kloster_Himmerod"
+          ]
+        },
+        {
+          "id": "tag5-hochflaeche-grosslittgen",
+          "day": 5,
+          "name": "Hochfläche über Großlittgen",
+          "lat": 50.021142,
+          "lon": 6.817533,
+          "category": "Aussicht",
+          "kind": "story",
+          "routeKm": 7.32,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier oben liegt die Hochfläche der Eifel. Hinter dir bleibt Großlittgen zurück, ein Dorf mit einer Urkunde aus dem zehnten Jahrhundert und einer Zisterzienserabtei in der Gemarkung. Bald bricht das Gelände ab. Dann rollst du hinunter in die Wittlicher Senke, und unten wartet Wittlich.",
+          "textLong": "Hier oben liegt die Hochfläche der Eifel. Gut dreihundert Meter über dem Meer, Wald, Weiden, weite Kurven. Hinter dir liegt Großlittgen. Der Ort ist alt. Neunhundertzwölf steht er als Lutiaco in einer Urkunde, und das ist lange bevor die Zisterzienser ins Salmtal kamen. Heute leben dort etwas über tausend Menschen, und zur Gemeinde gehört die Abtei Himmerod, an der du vorhin vorbeigefahren bist. Das ist die Eifel im Kleinen. Ein unscheinbares Dorf und ein Kloster, das in den Geschichtsbüchern steht. Ein paar Kilometer bleibt es noch so. Dann bricht die Hochfläche ab, und das Gelände fällt in die Wittlicher Senke hinunter. Zwischen hier und Wittlich verlierst du gut zweihundert Höhenmeter, und du musst dafür so gut wie nichts tun. Es ist die längste geschenkte Abfahrt des Tages. Unten wird es sofort wärmer, und das sieht man an den Feldern. Die Senke ist ein eigener Klimaraum, mild wie das Moseltal und viel milder als alles, was ringsum liegt. Wer heute Morgen gefroren hat, zieht spätestens in Wittlich die Jacke aus.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Gro%C3%9Flittgen",
+            "https://de.wikipedia.org/wiki/Wittlicher_Senke"
+          ]
+        },
+        {
+          "id": "tag5-minderlittgen",
+          "day": 5,
+          "name": "Minderlittgen",
+          "lat": 50.008424,
+          "lon": 6.838091,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 9.36,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Links liegt Minderlittgen. Der Ort wird im selben Jahr zum ersten Mal genannt wie Großlittgen, und er trägt in der Urkunde denselben Namen, Lutiaco. Die Vorsilben kamen erst später dazu. In der Eifeler Mundart heißt das Dorf bis heute Mannerleehtchen.",
+          "textLong": "Zweihundert Meter links liegt Minderlittgen. Vorhin lag Großlittgen hinter dir. Das ist kein Zufall und keine Laune der Kartenzeichner. Beide Orte werden im selben Jahr zum ersten Mal genannt, neunhundertzwölf, und beide heißen in der Urkunde Lutiaco. Irgendwann musste man sie auseinanderhalten. Die Vorsilben, die man dafür wählte, sagen genau das, was sie sagen. Grundherr war lange die Reichsabtei Sankt Maximin in Trier, später übernahm Kurtrier. Das Dorf liegt fast dreihundertfünfzig Meter hoch, und es hat heute gut siebenhundert Einwohner. Damit ist Minderlittgen kleiner als sein Namensvetter, so wie vor mehr als tausend Jahren. Am schönsten ist aber der Name, den die Leute selbst benutzen. In der Eifeler Mundart heißt der Ort Mannerleehtchen. Sprich das laut aus, dann hörst du, wie lange dieser Name schon in Gebrauch ist. Kein Amt hat ihn erfunden, er ist gewachsen, im Mund von Generationen, die nie einen Grund hatten, ihn zu ändern. Von hier geht es noch ein Stück über die Hochfläche. Danach beginnt die lange Abfahrt nach Wittlich.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Minderlittgen",
+            "https://de.wikipedia.org/wiki/Gro%C3%9Flittgen"
+          ]
+        },
+        {
+          "id": "tag5-synagoge-wittlich",
+          "day": 5,
+          "name": "Synagoge Wittlich",
+          "lat": 49.988108,
+          "lon": 6.885696,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 15.24,
+          "triggerRadius": 450,
+          "accessNote": "300 m Abstecher",
+          "textShort": "Dreihundert Meter links steht die alte Synagoge von Wittlich, eingeweiht neunzehnhundertzehn. Sie steht überhaupt noch, und der Grund dafür ist bitter. Die Stadt kaufte das geschändete Gebäude und nutzte es im Krieg als Gefangenenlager. Ausgerechnet diese Zweckentfremdung hat es vor dem Abriss bewahrt.",
+          "textLong": "Dreihundert Meter links von der Strecke steht ein Haus, das es eigentlich nicht mehr geben dürfte. Die Synagoge von Wittlich wurde neunzehnhundertzehn eingeweiht, ein Bau mit Jugendstilformen und romanischen Anklängen, entworfen vom Kreisbaumeister. Rund zweihundertfünfzig Juden lebten damals in der Stadt. In der Pogromnacht im November neunzehnhundertachtunddreißig verwüsteten SA-Leute das Innere. In fast jeder anderen Stadt wäre die Sache damit erledigt gewesen. Hier nicht. Die Stadt kaufte das Gebäude im Jahr darauf und nutzte es im Krieg als Kriegsgefangenenlager. Genau diese nüchterne Zweckentfremdung hat es gerettet. Während anderswo Synagogen brannten und abgerissen wurden, stand die Wittlicher weiter, weil sie gebraucht wurde. Die Gemeinde selbst wurde vertrieben. Die letzte Deportation fand neunzehnhundertzweiundvierzig statt, und ein Drittel der Wittlicher Juden kam in den Lagern um. Nach dem Krieg kehrte niemand zurück. Das Haus blieb. Seit den siebziger Jahren ist es saniert und dient als Kultur- und Tagungsstätte, mit einer Dauerausstellung über das jüdische Leben in Wittlich. Ein Gebäude, das seine Gemeinde überlebt hat. Man kann daran vorbeifahren, ohne es zu bemerken. Man sollte es nicht.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Synagoge_Wittlich",
+            "https://de.wikipedia.org/wiki/Wittlich"
+          ]
+        },
+        {
+          "id": "tag5-wittlich-saeubrenner",
+          "day": 5,
+          "name": "Wittlich, Stadt der Säubrenner",
+          "lat": 49.98702,
+          "lon": 6.89069,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 16.02,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Wittlich nennt sich Säubrennerstadt. Der Name war einmal eine Beleidigung und ist heute ein Ehrentitel. Ein Torwächter verriegelte das Stadttor mit einer Rübe, ein Schwein fraß die Rübe, die Belagerer kamen herein. Zur Strafe brieten die Wittlicher ihre Schweine. Gefeiert wird das bis heute.",
+          "textLong": "Wittlich ist die Stadt der Säubrenner, und dahinter steckt eine Sage, die man kennen sollte. Um dreizehnhundertsiebenundneunzig belagerte der Raubritter Friedrich von Ehrenberg die Stadt. Wittlich hielt lange durch. Die Mauern standen, die Tore waren zu, und dem Ritter ging langsam die Geduld aus. Dann kam der Abend, an dem der Wächter am Himmeroder Tor den eisernen Riegel nicht fand. Statt zu suchen, nahm er, was gerade dalag, und das war eine Rübe. Damit verriegelte er das Stadttor. In der Nacht kam ein Schwein vorbei und fraß die Rübe. Das Tor sprang auf. Der Feind zog ein, plünderte die Stadt und brannte sie nieder. Die Wittlicher rächten sich anschließend, und zwar an den Schweinen. Sie trieben sie zu einem großen Feuer und brieten sie. Seitdem heißen sie die Säubrenner. Der Spott hat gehalten, und irgendwann haben sie ihn zu ihrem Fest gemacht. Seit neunzehnhundertfünfzig gibt es die Säubrennerkirmes, immer am dritten Augustwochenende, und sie gehört zu den größten Volksfesten in Rheinland-Pfalz. Gegessen wird wieder Schwein. Über hundert Tiere im Jahr, zwei davon am Spieß, damit auch jeder sieht, worum es geht.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/S%C3%A4ubrennersage",
+            "https://de.wikipedia.org/wiki/S%C3%A4ubrennerkirmes"
+          ]
+        },
+        {
+          "id": "tag5-sterenbachsee",
+          "day": 5,
+          "name": "Sterenbachsee bei Lüxem",
+          "lat": 49.978447,
+          "lon": 6.917073,
+          "category": "Natur",
+          "kind": "service",
+          "routeKm": 18.59,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Links liegt der Sterenbachsee, ein stilles Gewässer am Rand von Lüxem. Bänke am Ufer, Schatten, kein Betrieb. Wenn du in Wittlich nicht angehalten hast, ist hier die bessere Gelegenheit. Am Ortsrand von Wittlich gibt es außerdem ein Café mit Ladestation für elektrische Räder.",
+          "sources": []
+        },
+        {
+          "id": "tag5-wittlicher-senke",
+          "day": 5,
+          "name": "Die Wittlicher Senke",
+          "lat": 49.960431,
+          "lon": 6.940559,
+          "category": "Natur",
+          "kind": "story",
+          "routeKm": 21.54,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Um dich herum liegt die Wittlicher Senke. Sie ist ein Einbruchsgraben aus dem Erdaltertum, gefüllt mit rotem Gestein und geschützt vor dem Wind. Ihr Klima ähnelt dem des Moseltals. Deshalb wuchs hier etwas, das niemand in der Eifel vermutet. Tabak.",
+          "textLong": "Sieh dich einmal um. Der Horizont ist weit, das Gelände flach, und rechts wie links steigt es an. Du fährst in einem Graben, und dieser Graben ist älter als fast alles hier. Vor mehr als zweihundertfünfzig Millionen Jahren riss an dieser Stelle die Erdkruste auf. Zwei Schollen verschoben sich gegeneinander, und dazwischen sackte ein Streifen Land ab. Geologen nennen so etwas ein Pull-apart-Becken. In den Spalt fiel über Jahrmillionen Gestein, Sand und Geröll, das rot ist und deshalb Rotliegendes heißt. Die Füllung ist stellenweise fast kilometerdick. Die Senke zieht sich rund fünfundvierzig Kilometer von Schweich bis hinter Wittlich, bei einer Breite von etwa sieben Kilometern. Sie liegt tief, sie ist windgeschützt, und ihr Klima ähnelt dem des Moseltals. Das hat Folgen, die man sehen kann. In dieser Senke wurde Tabak angebaut. Nicht in Übersee, nicht in der Pfalz, sondern hier zwischen Eifel und Mosel. Wer das am Abend erzählt, erntet Widerspruch. Es stimmt trotzdem. Der Boden ist warm, die Luft steht, und der Unterschied zur Hochfläche von heute Morgen beträgt nur eine gute Stunde Fahrt.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Wittlicher_Senke"
+          ]
+        },
+        {
+          "id": "tag5-platten-an-der-lieser",
+          "day": 5,
+          "name": "Platten an der Lieser",
+          "lat": 49.952059,
+          "lon": 6.954621,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 23.77,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Links liegt Platten an der Lieser. Der Ort steht seit dem elften Jahrhundert in den Urkunden, damals als villa Platana. Wichtiger für dich ist der Boden unter den Rädern. Er steigt. Hier beginnt der einzige richtige Anstieg des Tages, und dahinter wartet die Mosel.",
+          "textLong": "Links liegt Platten. Das Dorf steht an der Lieser, und es taucht zum ersten Mal im Jahr tausendvierundachtzig in einer Urkunde auf, damals als villa Platana. Der lateinische Name klingt römischer, als er ist, aber er zeigt, dass hier früh jemand mitgeschrieben hat. Heute leben knapp neunhundert Menschen im Dorf, und es liegt nur hundertdreißig Meter über dem Meer. Tiefer bist du heute noch nicht gewesen. Genieß das, denn es hält nicht lange. Wenige hundert Meter zurück hat der einzige ernsthafte Anstieg des Tages begonnen. Er zieht sich über gut zweieinhalb Kilometer und kostet dich rund achtzig Höhenmeter. Das ist nichts, worüber man am Abend spricht. Es ist aber die Schwelle, hinter der die Landschaft kippt. Oben endet die Senke, dahinter beginnen die Moselberge, und danach geht es hinunter zum Fluss. Ab dort ändert sich alles. Keine Felder mehr, sondern Steilhänge voller Reben. Schiefer statt Sandstein. Dörfer, die sich an das Ufer klemmen. Die Eifel ist nach diesem Anstieg vorbei, und den ganzen Rest des Tages gehört dir die Mosel.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Platten_(bei_Wittlich)",
+            "https://de.wikipedia.org/wiki/Wittlicher_Senke"
+          ]
+        },
+        {
+          "id": "tag5-ankunft-an-der-mosel",
+          "day": 5,
+          "name": "Ankunft an der Mosel bei Zeltingen",
+          "lat": 49.954305,
+          "lon": 7.006954,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 28.42,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Die Mosel. Ab hier bleibt sie an deiner Seite. Neben dir liegt die Zeltinger Brücke, dahinter der Doppelort Zeltingen-Rachtig. An den Hängen wächst Riesling aus der Lage Zeltinger Sonnenuhr. Eine einzige Flasche daraus brachte bei einer Versteigerung fast viertausend Euro.",
+          "textLong": "Da ist sie. Nach der Eifel und nach der Senke liegt jetzt die Mosel vor dir, und sie bleibt bis zum Abend. Neben dir spannt sich die Zeltinger Brücke über den Fluss. Sie stammt aus dem Jahr neunzehnhundertneunundzwanzig und verbindet Zeltingen mit Wehlen. Der Doppelort heißt Zeltingen-Rachtig und ist so alt, wie er aussieht. Rachtig steht seit tausendsiebenundsechzig in den Urkunden, Zeltingen seit tausendeinhundertsechzehn. Beide gehörten jahrhundertelang zum Erzstift Köln, als Enklave mitten im Trierer Land. An den Hängen ringsum liegt die Zeltinger Sonnenuhr, eine Lage, die weit über die Mosel hinaus einen Namen hat. Wie weit, zeigt eine Versteigerung. Für eine Flasche Trockenbeerenauslese aus dem Jahrgang zweitausendzehn wurden dreitausendachthundertfünfundsiebzig Euro geboten. Das ist kein Getränk mehr, das ist ein Sammlerstück. Und weil man an der Mosel nichts verkommen lässt, was einen guten Namen hat, führen die Zeltinger regelmäßig eine Operette auf. Sie heißt Zeltinger Himmelreich, nach der Nachbarlage, und über hundert Leute aus dem Ort stehen dabei auf der Bühne. Ein Dorf spielt Theater über seinen eigenen Weinberg. Konsequenter geht es kaum.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Zeltingen-Rachtig"
+          ]
+        },
+        {
+          "id": "tag5-hochmoselbruecke",
+          "day": 5,
+          "name": "Unter der Hochmoselbrücke",
+          "lat": 49.96762,
+          "lon": 7.004674,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 30.23,
+          "triggerRadius": 350,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Über dir spannt sich die Hochmoselbrücke. Anderthalb Kilometer lang, hundertsechzig Meter über dem Tal, und darunter fährst du gerade hindurch. Der Bau war jahrzehntelang umstritten. Winzer und Weinkritiker fürchteten um die Steillagen, die Befürworter versprachen Entlastung für die Dörfer. Gebaut wurde am Ende doch.",
+          "textLong": "Über dir hängt die Hochmoselbrücke. Sie ist gut anderthalb Kilometer lang und steht hundertsechzig Meter über dem Tal. Von unten sieht man vor allem die Pfeiler, und die reichen völlig. Man legt den Kopf in den Nacken und schweigt kurz. Die Brücke trägt eine Bundesstraße von Wittlich hinüber in den Hunsrück. Geplant wurde daran seit den späten sechziger Jahren, gebaut wurde ab zweitausendneun, freigegeben wurde die Strecke zweitausendneunzehn. Kaum ein Bauwerk in Rheinland-Pfalz ist so lange bestritten worden. Die Gegner waren nicht irgendwer. Winzer von der Mittelmosel und international bekannte Weinkritiker warnten, der Eingriff könne den Wasserhaushalt der Steillagen stören und die Hänge in Bewegung bringen. Ein eigenes Gutachten dazu hätten sie gern gesehen. Die Befürworter rechneten mit Entlastung für die Dörfer an der alten Strecke und mit besseren Verbindungen für die ganze Region. Die Landespolitik war jahrelang gespalten, dann einigte man sich, und gebaut wurde schließlich doch. Seitdem steht zweierlei fest. Die Kosten stiegen weit über die ursprüngliche Schätzung, auf mehr als eine halbe Milliarde Euro. Und der Verkehr blieb deutlich unter dem, was die Prognosen versprochen hatten.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Hochmosel%C3%BCbergang"
+          ]
+        },
+        {
+          "id": "tag5-uerzig",
+          "day": 5,
+          "name": "Ürzig und der Würzgarten",
+          "lat": 49.979306,
+          "lon": 7.005638,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 31.54,
+          "triggerRadius": 550,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Drüben liegt Ürzig. Der alte Ortskern steht komplett unter Denkmalschutz, Fachwerk aus dem sechzehnten Jahrhundert, enge Gassen. Am Hang darüber wächst der Ürziger Würzgarten. Der Name ist Programm, und diese Lage ist die bekannteste des Ortes. Und über allem hängt die Brücke.",
+          "textLong": "Am anderen Ufer liegt Ürzig. Der ganze Ortskern steht unter Denkmalschutz, mit engen Gassen und Fachwerkhäusern aus dem sechzehnten und siebzehnten Jahrhundert. Wer Zeit hat, sollte hinüber. Wer keine hat, schaut auf den Hang darüber, denn der ist die eigentliche Sehenswürdigkeit. Die Lage heißt Ürziger Würzgarten, und der Name sagt ziemlich genau, was die Leute hier über ihren Wein denken. Kein Weinberg, kein Hang, kein Wirtschaftsgrundstück, sondern ein Garten voller Würze. Der Riesling aus diesem Steilhang ist die bekannteste Lage des Ortes. Und über allem hängt die Brücke, unter der du eben durchgefahren bist. In Ürzig wurde der Streit um den Hochmoselübergang besonders sichtbar. Hier entstand das größte Brückenprojekt, das Deutschland zu dieser Zeit hatte, direkt über den Weinbergen, von denen der Ort lebt. Beides ist heute da. Die Reben stehen, die Brücke steht, und der Anblick gehört jetzt zum Dorf. Man kann das schade finden oder beeindruckend. Ehrlich ist es, beides zugleich zu denken.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/%C3%9Crzig",
+            "https://de.wikipedia.org/wiki/Hochmosel%C3%BCbergang"
+          ]
+        },
+        {
+          "id": "tag5-stellplatz-loesnich",
+          "day": 5,
+          "name": "Stellplatz am Moselufer bei Lösnich",
+          "lat": 49.975733,
+          "lon": 7.042734,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 34.18,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier liegt der Stellplatz von Lösnich. Trinkwasser gibt es, Bänke auch, und die Mosel fließt links an dir vorbei. Der Ort selbst zieht sich rechts den Hang hinauf. Wenn du die Flaschen füllen willst, ist jetzt der richtige Moment. Bis Traben-Trarbach sind es noch gut neun Kilometer.",
+          "sources": []
+        },
+        {
+          "id": "tag5-kindel-sucellus",
+          "day": 5,
+          "name": "Kindel und der älteste Weinbeleg",
+          "lat": 49.970726,
+          "lon": 7.052302,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 35.08,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Rechts liegt Kindel. Klingt nach nichts, ist aber der Anfang von allem. Hier gruben Archäologen einen keltisch-römischen Gutshof aus, und darin lag ein Relief des Hammergottes Sucellus. Es gilt als das älteste Zeugnis für Weinbau an der Mosel. Alles, was heute an diesen Hängen wächst, fängt hier an.",
+          "textLong": "Der Ortsteil hier heißt Kindel, und unter deinen Rädern liegt der Anfang von allem, was diese Gegend ausmacht. Archäologen haben an dieser Stelle einen keltisch-römischen Gutshof aus dem dritten Jahrhundert ausgegraben. Zwischen den Funden lag ein Relief. Es zeigt Sucellus, einen Gott mit einem Hammer, den die Kelten verehrten und den die Römer übernahmen. Dieses Relief gilt als das älteste Zeugnis für Weinbau an der Mosel. Kein Dokument, keine Urkunde, kein Vertrag, sondern ein Stück Stein aus einem Bauernhof am Fluss. Es liegt heute im Landesmuseum in Trier. Denk kurz darüber nach, während du weiterfährst. Alles, was du rechts und links am Hang siehst, diese ganze Kultur aus Terrassen, Schiefer und Riesling, hat irgendwo einen Anfang, und dieser Anfang liegt hier. Kindel selbst wird tausendneunundsechzig zum ersten Mal genannt, damals als Kennelle. Der größere Nachbarort Kinheim folgt gut hundert Jahre später. Beide zusammen bewirtschaften heute rund hundertzwanzig Hektar Reben. Das ist bescheiden für einen Ort mit dieser Vorgeschichte, und vermutlich ist es den Leuten hier auch ziemlich egal.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kinheim"
+          ]
+        },
+        {
+          "id": "tag5-kroev-nacktarsch",
+          "day": 5,
+          "name": "Kröv und der Nacktarsch",
+          "lat": 49.978447,
+          "lon": 7.086691,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 38.53,
+          "triggerRadius": 500,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "In Sichtweite liegt Kröv. Der Ort hat einen Weinnamen, den man nicht mehr vergisst. Die Großlage ringsum heißt Kröver Nacktarsch, und die Festhalle im Dorf ist nach ihr benannt. Dahinter steckt ein ehrwürdiger Ort. Kröv gehörte zu einem Königsgut mit eigenen Vorrechten.",
+          "textLong": "In Sichtweite liegt Kröv, und Kröv hat einen Weinnamen, den man nicht mehr vergisst. Die Großlage rings um den Ort heißt Kröver Nacktarsch. Die Kröver stehen dazu, und zwar gründlich. Ihre Festhalle heißt danach. Man muss sich das vorstellen. Ein Dorf benennt seinen wichtigsten Versammlungsort nach einem nackten Hintern und findet nichts dabei. Genau das macht die Mosel so sympathisch. Ansonsten ist Kröv erstaunlich ehrwürdig. Der Ort wird achthundertzweiundsechzig unter König Lothar zum ersten Mal genannt. Der Name geht auf ein gallorömisches croviacum zurück, und daraus wurde später ein merowingisches Königsgut. Aus diesem Gut entstand das Kröver Reich, ein karolingischer Besitz mit eigenen Vorrechten, der sich bis zur Französischen Revolution hielt. Ein Dorf mit Sonderstatus, fast tausend Jahre lang. Heute stehen hier rund dreihundertfünfzig Hektar Reben, ein Teil davon im Steilhang, überwiegend Riesling. Das ist viel für einen Ort dieser Größe. Der Wein wird hier also durchaus ernst genommen. Nur der Name eben nicht, und das ist ganz offensichtlich Absicht.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kr%C3%B6v"
+          ]
+        },
+        {
+          "id": "tag5-mont-royal",
+          "day": 5,
+          "name": "Festung Mont Royal",
+          "lat": 49.97609,
+          "lon": 7.114754,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 40.27,
+          "triggerRadius": 800,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Auf dem Höhenrücken in der Moselschleife stand einmal eine gewaltige französische Festung. Ludwig der Vierzehnte ließ sie bauen, Vauban entwarf sie, bis zu achttausend Fronarbeiter schufteten daran. Fertig wurde sie nie. Ein Friedensvertrag zwang Frankreich zum Abriss, bevor der Bau abgeschlossen war.",
+          "textLong": "Da oben, auf dem Rücken in der Moselschleife, stand einmal eine französische Festung von gewaltigen Ausmaßen. Ludwig der Vierzehnte ließ sie anlegen, entworfen hat sie Vauban, der berühmte Festungsbaumeister. Der König gab ihr den Namen Mont-Royal, königlicher Berg, und ließ den Grundstein im Sommer sechzehnhundertsiebenundachtzig legen. Die Zahlen sind schwer zu glauben. Bis zu achttausend Fronarbeiter schufteten hier oben. Die Anlage bedeckte fünfzig Hektar, sie war eineinhalb Kilometer lang und stellenweise fast so breit wie lang. Sie konnte eine ganze Armee versorgen, samt Pferden und Zivilbevölkerung. Eine Stadt aus Mauern, mitten in einem Weinbaugebiet. Und dann kommt die Pointe. Fertig wurde sie nie. Im Frieden von Rijswijk musste Frankreich die Festung aufgeben, und der Abriss begann, bevor der Bau überhaupt abgeschlossen war. Die Truppen zogen ab, die Bewohner wurden umgesiedelt, und aus dem königlichen Berg wurde wieder ein Berg. Übrig sind Brunnen, Keller und Reste von Wehrgängen, die man später ausgegraben hat. Vauban bekam für seinen Entwurf zwölftausend Silbertaler. Für ein Bauwerk, das kaum jemand je vollendet gesehen hat.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Festung_Mont_Royal"
+          ]
+        }
+      ]
     }
   ]
 }
