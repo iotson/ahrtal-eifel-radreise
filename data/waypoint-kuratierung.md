@@ -234,19 +234,55 @@ Größte verbliebene Lücke zwischen zwei POIs: 5,88 Kilometer zwischen Kilomete
 | 25.6 | Blick auf die Reichsburg Cochem | Flag, Blue | story | verworfen | Dublette zum zweiten Waypoint desselben Namens 750 Meter weiter. Beide zeigen dieselbe Burg.
 | 26.3 | Blick auf die Reichsburg Cochem | Flag, Blue | story | story | Als POI an den Koordinaten der Burg geführt, Kilometer 26,65 und 112 Meter Abstand. Wiederaufbau durch Louis Ravené ab 1868 ist belegt.
 | 30.9 | Weindorf Klotten | Shopping Center | story | story | Die polnische Königin Richeza lebte hier um die Mitte des elften Jahrhunderts. Reliquie in Sankt Maximin seit 2002, Ersterwähnung 698, Burg Coraidelstein. Alles über Wikipedia belegt.
-| 53.0 | Löf an der Mosel | Shopping Center | story | | |
-| 56.0 | Moselradweg bei Alken | Flag, Blue | story | | |
-| 57.1 | Lehmer Razejunge Rastplatz | Picnic Area | service | | |
-| 57.1 | Lavendel- und Naturkräuterfelsterrassen der Lehmer Razejunge | Flag, Blue | story | | |
-| 61.8 | Historische Altstadt von Kobern-Gondorf | Flag, Blue | story | | |
-| 61.9 | Mosella-Tanzburg | Flag, Blue | story | | |
-| 62.9 | Weinberge entlang des Moselradwegs | Flag, Blue | story | | |
-| 63.7 | Ehemalige Bellthal-Moselsprudel Abfüllanlage | Flag, Blue | story | | |
-| 64.5 | Weinberg Winninger Uhlen und Moselradweg | Flag, Blue | story | | |
-| 65.7 | Winninger Hamm Weinberg | Flag, Blue | story | | |
-| 67.0 | Winningen – historische Altstadt | Shopping Center | story | | |
-| 68.8 | Weinberge in der Eifel | Flag, Blue | story | | |
-| 69.5 | Mosel-Uferweg | Flag, Blue | story | | |
-| 71.1 | Strand | Flag, Blue | story | | |
-| 81.2 | Blick auf die Koblenzer Brauerei | Flag, Blue | story | | |
+| 53.0 | Löf an der Mosel | Shopping Center | story | service | Zum Ort selbst fand sich nichts Erzählenswertes, das nicht schon anderswo steht. Bleibt als Versorgungshalt vor dem letzten Drittel.
+| 56.0 | Moselradweg bei Alken | Flag, Blue | story | verworfen | Dublette. Alken und Burg Thurant tragen den POI bei Kilometer 54,01; der Punkt hier liegt bereits knapp zwei Kilometer hinter der Burg.
+| 57.1 | Lehmer Razejunge Rastplatz | Picnic Area | service | verworfen | Deckungsgleich mit dem Lavendel-POI 40 Meter weiter. Beide Geofence-Fenster lägen übereinander. Der Rastplatz steht im Text des Lavendel-POI.
+| 57.1 | Lavendel- und Naturkräuterfelsterrassen der Lehmer Razejunge | Flag, Blue | story | story | Der Spitzname Razejunge und die Raze als Tragekorb für den Mist im Steilhang sind über Wikipedia belegt, ebenso Ersterwähnung, Glockenturm und Rebfläche von Lehmen.
+| 61.8 | Historische Altstadt von Kobern-Gondorf | Flag, Blue | story | verworfen | Das Fenster läge vollständig im Fenster der Matthiaskapelle bei Kilometer 62,03. Fachwerkaltstadt, Oberburg und Niederburg stehen im Text dieses POI, die Adelsgeschichte im POI Schloss von der Leyen bei Kilometer 59,57.
+| 61.9 | Mosella-Tanzburg | Flag, Blue | story | verworfen | Zu dem Namen fand sich nichts Belastbares. Ohne Beleg kein story-POI, und das Fenster läge ohnehin im Fenster der Matthiaskapelle.
+| 62.9 | Weinberge entlang des Moselradwegs | Flag, Blue | story | verworfen | Generischer Blickpunkt ohne eigenen Erzählwert. Das Thema Steillage trägt der Uhlen-POI 1,7 Kilometer weiter, wo die Terrassen tatsächlich beginnen.
+| 63.7 | Ehemalige Bellthal-Moselsprudel Abfüllanlage | Flag, Blue | story | story | Gründung 1870, Bau der Abfüllanlage 1912 und Schließung 1975 nach einem Streit der beiden Eigentümer sind über KuLaDig und Wikipedia belegt.
+| 64.5 | Weinberg Winninger Uhlen und Moselradweg | Flag, Blue | story | story | Größte zusammenhängende Terrassenlage Deutschlands, Hangneigung, Bodenaufbau und der Pariser Preis von 2005 sind belegt.
+| 65.7 | Winninger Hamm Weinberg | Flag, Blue | story | verworfen | Dublette zum Uhlen-POI 1,1 Kilometer vorher. Sein Fenster hätte außerdem mit dem der Moseltalbrücke kollidiert. Der Hamm wird im Uhlen-Text genannt.
+| 67.0 | Winningen – historische Altstadt | Shopping Center | story | story | Hexenverfolgungen im siebzehnten Jahrhundert, das Denkmal von 1925 auf dem Hexenhügel und das älteste Weinfest an der Mosel sind belegt. Enge Ortsdurchfahrt, triggerRadius 80.
+| 68.8 | Weinberge in der Eifel | Flag, Blue | story | verworfen | Der Name ist falsch. Die Eifel liegt an dieser Stelle nicht am Weg, die Hänge gehören zum Moseltal bei Winningen. Als Blickpunkt ohne eigenen Inhalt verworfen.
+| 69.5 | Mosel-Uferweg | Flag, Blue | story | verworfen | Wegbeschreibung, kein Ort. Ohne Erzählwert und ohne praktischen Nutzen.
+| 71.1 | Strand | Flag, Blue | story | service | Moselstrand am Gülser Bootshafen, letzte ruhige Stelle vor Koblenz. Praktisch nützlich, ohne Erzählstoff.
+| 81.2 | Blick auf die Koblenzer Brauerei | Flag, Blue | story | story | Der Waypoint liegt in Niederlahnstein, die Brauerei am Königsbach auf der anderen Rheinseite. Daher `accessNote` „nur Blickkontakt“. Braubeginn 1689, Umzug 1885 und Rückkauf 2012 sind belegt.
 
+### Neu aufgenommene POIs für Tag 6 (Schritt D)
+
+| km | Name | Abstand zur Route | Begründung |
+|---|---|---|---|
+| 0,00 | Etappenstart in Sankt Aldegund | 0 m | Auftakt der letzten Etappe mit den Kennzahlen des Tages. |
+| 3,77 | Klosterruine Stuben | 181 m | Augustinerinnenkloster von 1137 auf der Moselhalbinsel. Das Reliquiar aus Konstantinopel ist die stärkste Geschichte der ersten zehn Kilometer. `accessNote` „nur Blickkontakt“, weil die Ruine im Moselbogen liegt und nicht auf kurzem Weg erreichbar ist. |
+| 6,38 | Christus in der Kelter in Ediger | 320 m | Steinrelief des sechzehnten Jahrhunderts in einem Winzerdorf. Über KuLaDig belegt. |
+| 9,80 | Nehren mit den römischen Grabkammern | 51 m | Ein Dorf mit einhundertvierzehn Einwohnern und spätrömischen Grabkammern. Schließt die Lücke zwischen Ediger und Senheim. |
+| 10,33 | Senheim und Senhals | 222 m | Der Dorfbrand von 1839 und die Gründung von Moritzheim auf dem Hunsrück. |
+| 15,62 | Briedern im Cochemer Krampen | 175 m | Halbiert die 6,9 Kilometer lange Lücke zwischen Senheim und Beilstein. |
+| 22,24 | Sankt Salvator in Ernst | 54 m | Doppelturmkirche von Johann Claudius von Lassaulx in einem Dorf mit gut fünfhundert Einwohnern. |
+| 27,81 | Kaiser-Wilhelm-Tunnel am Bahnhof Cochem | 77 m | Bewusst hinter den Cochemer Krampen gesetzt, weil die Pointe erst wirkt, wenn man die Schleife gefahren ist. |
+| 36,35 | Pommern an der Mosel | 116 m | Schließt die Lücke zwischen Klotten und dem Martberg. Der römische Name Pomaria und der Stockturm sind belegt. |
+| 37,55 | Martberg über Pommern | 779 m | Keltisches Oppidum der Treverer und gallo-römischer Tempelbezirk, seit 2004 teilweise rekonstruiert. |
+| 39,08 | Sankt Castor in Karden | 90 m | Der Dom an der Mosel und das Stift, das die Untermosel beherrschte. |
+| 41,43 | Burg Eltz im Elzbachtal | 2214 m | Die bekannteste Burg der Region liegt weit ab. Der Abstand ist gemessen und wird in `accessNote` als 2200 m Abstecher offen genannt. |
+| 44,81 | Moselkern, Aufstieg zur Burg Eltz | 96 m | Der praktische Einstieg in das Elzbachtal, drei Kilometer hinter dem nächstgelegenen Punkt zur Burg. |
+| 47,10 | Burg Bischofstein | 120 m | Burg über der Mosel, seit 1954 Schullandheim eines Krefelder Gymnasiums. |
+| 51,56 | Brodenbach am Ehrbach | 313 m | Versorgungshalt, halbiert die Lücke zwischen Bischofstein und Löf. |
+| 54,01 | Burg Thurant über Alken | 624 m | Zwei Erzbischöfe teilten eine Burg mit einer Mauer. Die stärkste Geschichte dieses Abschnitts. |
+| 59,57 | Schloss von der Leyen in Gondorf | 31 m | Adelssitz, den zuerst die Eisenbahn und dann die Bundesstraße beschnitten haben. |
+| 62,03 | Matthiaskapelle über Kobern | 510 m | Sechseckiger Zentralbau mit Bezug auf die Grabeskirche, um 1220 bis 1240. |
+| 65,19 | Moseltalbrücke der Autobahn | 351 m | Zweithöchste Autobahnbrücke Deutschlands, 136 Meter über dem Grund. Ersetzt den verworfenen Waypoint bei Kilometer 65,7. |
+| 72,67 | Gülser Eisenbahnbrücke | 129 m | Die Route quert hier die Mosel auf dem Fußweg der Brücke. |
+| 76,87 | Kurfürstliches Schloss in Koblenz | 188 m | Koblenz ohne Wiederholung des Deutschen Ecks aus Tag 1. Der Bau des letzten Trierer Kurfürsten liegt unmittelbar an der Strecke. |
+| 82,75 | Blick auf Schloss Stolzenfels | 0 m | Das Schloss liegt 703 Meter entfernt auf der anderen Rheinseite. Wie bei Schloss Arenfels in Tag 1 steht der POI auf dem Blickpunkt an der Route, `accessNote` „nur Blickkontakt“, triggerRadius 300. So bleibt das Fenster frei für das Wirtshaus an der Lahn. |
+| 83,31 | Wirtshaus an der Lahn | 48 m | Das Wirtshaus aus dem Volkslied, mit Zollturm von 1348 und Goethe als belegtem Gast. |
+| 88,83 | Braubach und Schloss Philippsburg | 288 m | Etappen- und Tourabschluss. Erzählt Braubach über Wein, Bleibergbau und Philippsburg, nicht über die Marksburg, die in Tag 1 steht. |
+
+Nicht aufgenommen, obwohl in Reichweite: Burg Coraidelstein mit 338 Metern bei Kilometer 31,25 fällt in das Fenster des Klotten-POI und wird in dessen Text genannt. Der Wild- und Freizeitpark Klotten mit 580 Metern bei Kilometer 28,44 hätte mit 750 Metern triggerRadius das Fenster des Kaiser-Wilhelm-Tunnels berührt; er steht ebenfalls im Klotten-Text. Burg Lahneck mit 580 Metern bei Kilometer 83,50 und die Marksburg mit 283 Metern bei Kilometer 88,88 sind bereits in Tag 1 erzählt und werden hier nur erwähnt. Ein eigener Service-POI Etappenziel entfällt, weil sein Fenster im Fenster des Braubach-POI läge; der Abschluss der ganzen Tour steht im Text dieses POI. Das Deutsche Eck liegt mit 1277 Metern zu weit ab und ist ebenfalls Tag 1 vorbehalten; es wird im Koblenz-POI genannt, ohne dass die Geschichte des Denkmals wiederholt wird.
+
+Anmerkung zum Streckenverlauf: Die Abschnittsüberschrift stammt aus den GPX-Metadaten und nennt Nehren und Koblenz. Die Etappe führt tatsächlich von Sankt Aldegund nach Braubach, so wie es `data/tour.json` führt, und sie endet nicht in Koblenz. Nehren wird bei Kilometer 9,8 passiert, Koblenz zwischen Kilometer 73 und 78. Es ist eine Rundtour: Braubach ist der Startort von Tag 1. Die Route folgt der Mosel bis Koblenz, quert sie bei Kilometer 72,67 auf dem Fußweg der Gülser Eisenbahnbrücke und wechselt bei Kilometer 77,3 über die Pfaffendorfer Brücke auf die rechte Rheinseite. Von dort geht es rheinaufwärts über Horchheim und Lahnstein nach Braubach. Die letzten elf Kilometer laufen auf demselben Abschnitt wie die ersten Kilometer von Tag 1, nur in Gegenrichtung. Alle Seitenangaben in den Texten sind gegen Kurs und Peilung auf den Trackpunkten nachgerechnet; Ortslagen und Ufer wurden zusätzlich über Rückwärtsgeokodierung geprüft.
+
+Abgrenzung gegen Tag 1: Auf dem gemeinsamen Rheinabschnitt stehen in Tag 6 nur POIs, die Tag 1 nicht abdeckt. Das Kurfürstliche Schloss, die Koblenzer Brauerei, Schloss Stolzenfels, das Wirtshaus an der Lahn und Braubach selbst kommen in Tag 1 nicht vor. Deutsches Eck, Festung Ehrenbreitstein, Burg Lahneck und Marksburg werden bewusst nicht noch einmal erzählt, sondern nur als Wegmarken genannt.
+
+Größte verbliebene Lücke zwischen zwei POIs: 5,52 Kilometer zwischen Kilometer 83,31 am Wirtshaus an der Lahn und Kilometer 88,83 in Braubach. Der Abschnitt führt durch Oberlahnstein an Burg Lahneck vorbei, die bereits in Tag 1 bei Kilometer 5,5 erzählt wird. Zweitgrößte Lücke: 5,47 Kilometer zwischen Klotten und Pommern.

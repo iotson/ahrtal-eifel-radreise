@@ -2556,8 +2556,8 @@
           "kind": "story",
           "routeKm": 3.77,
           "triggerRadius": 350,
-          "accessNote": "200 m Abstecher",
-          "textShort": "Rechts drüben, auf der Halbinsel im Fluss, stehen ein paar Mauerreste im Weinberg. Das war einmal ein Kloster. Augustinerinnen lebten hier ab elfhundertsiebenunddreißig. Berühmt wurde das Haus durch ein Reliquiar aus Konstantinopel, das ein Ritter seiner Schwester schenkte. Heute trägt nur noch eine Weinlage den Namen Kloster Stuben.",
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Rechts der Strecke, auf der Halbinsel im Moselbogen, stehen ein paar Mauerreste im Weinberg. Das war einmal ein Kloster. Augustinerinnen lebten hier ab elfhundertsiebenunddreißig. Berühmt wurde das Haus durch ein Reliquiar aus Konstantinopel, das ein Ritter seiner Schwester schenkte. Heute trägt nur noch eine Weinlage den Namen Kloster Stuben.",
           "textLong": "Elfhundertsiebenunddreißig stiftete ein Adliger seinen Hof samt Kapelle, und daraus wurde ein Kloster für Augustinerinnen. Es lag auf einer Halbinsel, die die Mosel fast vollständig umschließt. Bequemer kann man sich nicht von der Welt abschneiden. Dann kam der Ritter Heinrich von Ulmen zurück aus dem Osten. Er war mit dem Kreuzzug bis Konstantinopel gekommen, und er brachte Beute mit. Darunter war ein goldenes Reliquiar der byzantinischen Kaiser, ein Behälter für Splitter vom Kreuz Christi. Dieses Stück schenkte er seiner Schwester Irmgard, die hier Äbtissin war. Man muss sich das einmal vorstellen. Der kostbarste Kunstschatz, den ein deutscher Ritter aus Byzanz mitgebracht hat, landete in einem kleinen Frauenkloster an der Mosel. Pilger kamen, eine eigene Kreuzkapelle wurde gebaut, und der Ruhm hielt lange. Dann ging es abwärts. Die Franzosen besetzten das Land, das Kloster wurde aufgehoben, und wenig später versteigerte man die Gebäude zum Abbruch. Steine sind Steine. Sie wanderten in Häuser und Mauern der Umgebung. Übrig blieb, was du von hier aus siehst. Das Reliquiar hat überlebt. Es liegt heute im Domschatz von Limburg an der Lahn und gilt als eines der bedeutendsten Werke byzantinischer Goldschmiedekunst. Der Name Kloster Stuben steht inzwischen auf Weinflaschen.",
           "sources": [
             "https://de.wikipedia.org/wiki/Kloster_Stuben",
@@ -2752,6 +2752,23 @@
           ]
         },
         {
+          "id": "tag6-pommern",
+          "day": 6,
+          "name": "Pommern an der Mosel",
+          "lat": 50.1699365,
+          "lon": 7.2740995,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 36.35,
+          "triggerRadius": 250,
+          "accessNote": "100 m Abstecher",
+          "textShort": "Pommern hat vierhunderteins Einwohner und einen römischen Namen. Pomaria hieß der Ort, der Obstgarten. Über dem Dorf liegt der Martberg, wo Kelten und Römer siedelten. Im Ort steht der Stockturm, ein festes Haus der Trierer Erzbischöfe aus dem fünfzehnten Jahrhundert.",
+          "textLong": "Pomaria. Der Obstgarten. So nannten die Römer diesen Flecken, und der Name hat es bis auf das heutige Ortsschild geschafft. Wer einem Ort so einen Namen gibt, sagt damit etwas über das Klima. Hier wächst, was weiter nördlich nicht mehr wächst. Pommern lebt bis heute vom Wein, und die Gemeinde führt vier Lagen: Rosenberg, Sonnenuhr, Goldberg und Zeisel. Die Weinbaugeschichte reicht nach Angaben des Ortes über zweitausend Jahre zurück. Über dem Dorf liegt der Martberg, und dort fängt alles noch früher an. Schon vor der Zeitenwende siedelten Kelten auf der Kuppe. Was du im Tal siehst, ist gewissermaßen das Erdgeschoss einer sehr alten Geschichte. Im Ort selbst steht der Stockturm, ein festes Haus der Trierer Erzbischöfe aus dem fünfzehnten Jahrhundert. Ein Wehrbau mitten im Weindorf, gebaut, als die Kirche hier noch Verwaltung war. Vierhunderteins Menschen leben in Pommern. Sie feiern das Spillesfest zu Pfingsten, im Sommer die Kirmes und dazu ein Freiluftfestival am Ufer. Ein Dorf dieser Größe mit eigenem Rockfestival, unterhalb eines keltischen Heiligtums. Die Mosel bringt seltsame Nachbarschaften hervor.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Pommern_(Mosel)"
+          ]
+        },
+        {
           "id": "tag6-martberg",
           "day": 6,
           "name": "Martberg über Pommern",
@@ -2783,6 +2800,338 @@
           "textLong": "Karden ist heute ein Ortsteil mit ein paar hundert Einwohnern. Früher war Karden eine Adresse. Der Überlieferung nach gründete der heilige Castor hier im vierten Jahrhundert eine christliche Gemeinde. Aus dem Grab wurde ein Wallfahrtsort, aus dem Wallfahrtsort ein Stift, und dieses Stift beherrschte die kirchlichen Verhältnisse an der Untermosel bis in die napoleonische Zeit. Dann war Schluss. Was blieb, ist der Bau. Sankt Castor ist romanisch, wuchtig und im Verhältnis zum Ort schlicht zu groß. Genau deshalb heißt er im Volksmund Dom an der Mosel. Ringsum stehen noch die Häuser der Stiftsherren. Wer durch die Herrenstraße geht, läuft durch ein mittelalterliches Verwaltungsviertel, das nur zufällig ein Dorf geworden ist. Auf der anderen Seite der Mosel liegt Treis, der alte Hauptort des Trechirgaus, mit Burgruinen über dem Hang. Zwei Orte, zwei Geschichten, heute eine Gemeinde. Und mitten hindurch führt der Mosel-Camino, ein Pilgerweg Richtung Santiago de Compostela. Die Frommen kommen also weiterhin vorbei, nur laufen sie jetzt weiter.",
           "sources": [
             "https://de.wikipedia.org/wiki/Treis-Karden"
+          ]
+        },
+        {
+          "id": "tag6-burg-eltz",
+          "day": 6,
+          "name": "Burg Eltz im Elzbachtal",
+          "lat": 50.2050706,
+          "lon": 7.3367715,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 41.43,
+          "triggerRadius": 2350,
+          "accessNote": "2200 m Abstecher",
+          "textShort": "Im Seitental links liegt Burg Eltz, gut zwei Kilometer Luftlinie von hier. Man sieht sie nicht. Das ist ihr Glück, denn genau deshalb steht sie noch. Wer hin will, stellt das Rad in Moselkern ab und geht durch das Elzbachtal. Zu Fuß ist es deutlich weiter als die Luftlinie.",
+          "textLong": "Burg Eltz ist die Burg vom alten Fünfhundertmarkschein. Sie liegt nicht an der Mosel, sondern versteckt in einem Seitental, auf einem Felsen, den der Elzbach von drei Seiten umfließt. Man sieht sie erst, wenn man fast davorsteht. Das hat sie gerettet. Während am Rhein und an der Mosel eine Burg nach der anderen fiel, blieb Eltz stehen. Im Pfälzischen Erbfolgekrieg kam niemand vorbei. Und als der Trierer Erzbischof Balduin sie im vierzehnten Jahrhundert doch belagerte, half auch das nichts. Er ließ oberhalb eine eigene Trutzburg bauen, und trotzdem hielt Eltz stand. Die Familie Eltz sitzt seit über achthundert Jahren auf dieser Burg. Ohne Unterbrechung. Sie ist außerdem eine Ganerbenburg. Mehrere Familienzweige bauten eigene Wohntürme auf denselben Felsen und lebten Tür an Tür. Wer schon einmal mit Verwandten Urlaub gemacht hat, ahnt, was für eine Leistung das war. Von hier aus sind es gut zwei Kilometer Luftlinie. Zu Fuß ist es deutlich weiter, denn der Weg folgt dem Bachtal. Er beginnt in Moselkern, gut drei Kilometer weiter, und führt durch den Wald. Wer die Zeit hat, sollte sie sich nehmen. Von unten heraufkommend sieht man die Burg genauso, wie sie gedacht war.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Eltz"
+          ]
+        },
+        {
+          "id": "tag6-moselkern-aufstieg-eltz",
+          "day": 6,
+          "name": "Moselkern, Aufstieg zur Burg Eltz",
+          "lat": 50.1955652,
+          "lon": 7.3713789,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 44.81,
+          "triggerRadius": 250,
+          "accessNote": "100 m Abstecher",
+          "textShort": "Hier in Moselkern beginnt der Fußweg zur Burg Eltz. Er startet beim Bahnhof und folgt dem Elzbach durch den Wald. Räder lässt man besser unten. Wer nicht laufen will, findet hier trotzdem Schatten und einen Platz zum Sitzen. Danach geht es weiter moselabwärts.",
+          "sources": []
+        },
+        {
+          "id": "tag6-burg-bischofstein",
+          "day": 6,
+          "name": "Burg Bischofstein",
+          "lat": 50.2137931,
+          "lon": 7.3839576,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 47.1,
+          "triggerRadius": 250,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Über dir klebt Burg Bischofstein am Hang. Ihr Bergfried trägt auf halber Höhe einen weißen Ring aus Putz. Das ist der Rest eines mittelalterlichen Anstrichs, und vor Ort erzählt man sich verschiedene Geschichten dazu. Heute ist die Burg Schullandheim eines Gymnasiums aus Krefeld.",
+          "textLong": "Ein Trierer Erzbischof ließ die Burg im dreizehnten Jahrhundert bauen, auf einem Felssporn über der Mosel. Wenige Jahre nach der Fertigstellung schenkte ein Archidiakon sie dem Trierer Domkapitel. Damit war sie kirchlicher Besitz, und das blieb sie lange. Sechzehnhundertneunundachtzig kamen die französischen Truppen, so wie überall an diesem Fluss, und was danach übrig blieb, war eine Ruine. Lange passierte nichts. Dann kaufte in den dreißiger Jahren ein Privatmann die Anlage und begann, sie als Feriensitz wieder aufzubauen. Eine andere Familie führte den Umbau zu Ende. Und seit neunzehnhundertvierundfünfzig ist diese Burg Schullandheim des Fichte-Gymnasiums aus Krefeld, mit Schlafsälen, Speiseraum und allem, was dazugehört. Es gibt also Menschen, deren Erinnerung an die Schulzeit eine Burg über der Mosel enthält. Der Bergfried ist fünfundzwanzig Meter hoch und trägt auf halber Höhe einen weißen Ring aus Putz. Das ist der Rest der mittelalterlichen Außenverputzung, und vor Ort kursieren dazu verschiedene Erklärungen. In der Burgkapelle steht eine barocke Tür, die aus dem Chorgestühl der Mainzer Kartause stammt. Von unten sieht man vor allem den Turm mit dem Ring. Hinauf kommt man nicht, denn das Haus ist in Betrieb.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Bischofstein"
+          ]
+        },
+        {
+          "id": "tag6-brodenbach",
+          "day": 6,
+          "name": "Brodenbach am Ehrbach",
+          "lat": 50.2249672,
+          "lon": 7.4423792,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 51.56,
+          "triggerRadius": 450,
+          "accessNote": "300 m Abstecher",
+          "textShort": "Gut dreihundert Meter abseits liegt Brodenbach, am Ausgang eines Seitentals. Hier mündet der Ehrbach in die Mosel, und von dort steigt ein Wanderweg in die Ehrbachklamm hinauf. Für heute reicht die Zeit dafür nicht. Als Halt vor dem letzten Drittel taugt der Ort trotzdem.",
+          "sources": []
+        },
+        {
+          "id": "tag6-loef",
+          "day": 6,
+          "name": "Löf an der Mosel",
+          "lat": 50.239018,
+          "lon": 7.441783,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 52.98,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Löf ist der letzte größere Ort, bevor die Mosel städtisch wird. Einkaufen, einkehren, Wasser fassen. Ab hier rücken die Orte enger zusammen. Bis Braubach sind es noch gut sechsunddreißig Kilometer, und die laufen fast von allein. Den Rest macht der Fluss.",
+          "sources": []
+        },
+        {
+          "id": "tag6-burg-thurant",
+          "day": 6,
+          "name": "Burg Thurant über Alken",
+          "lat": 50.2483502,
+          "lon": 7.4529485,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 54.01,
+          "triggerRadius": 750,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Über Alken steht Burg Thurant. Sie sieht aus wie eine Burg mit zwei Türmen. In Wahrheit sind es zwei Burgen in einer. Zwei Erzbischöfe teilten sich die Anlage und zogen eine Mauer mitten hindurch. Jeder hatte seinen eigenen Eingang, seinen eigenen Hof und seinen eigenen Turm.",
+          "textLong": "Die Vorgeschichte ist unerfreulich. Von Thurant aus wurde geraubt, jedenfalls sahen es die Erzbischöfe von Trier und Köln so. Also belagerten sie die Burg gemeinsam. Zwei Jahre lang saßen sie davor, von zwölfhundertsechsundvierzig bis zwölfhundertachtundvierzig, dann gab die Burg auf. Und nun das Problem, das jeder kennt, der schon einmal mit jemandem gemeinsam etwas erobert hat. Wem gehört es jetzt? Die Lösung war von grandioser Sturheit. Man teilte die Burg. Nicht die Nutzung, nicht die Erträge, sondern das Bauwerk selbst. Eine Mauer ging mitten durch die Anlage. Auf der einen Seite die Trierer mit dem Trierer Turm, auf der anderen die Kölner mit dem Kölner Turm. Eigene Eingänge, eigene Wohnbauten, eigene Verwaltungen, ein Felsrücken. Der Vertrag darüber gilt als eines der ältesten erhaltenen Schriftstücke seiner Art in Deutschland. Man sieht die Teilung bis heute. Was von unten wie eine einzige Burg wirkt, ist die versteinerte Weigerung der Kirchenfürsten, sich zu einigen. Neunzehnhundertelf kaufte der Industrielle Robert Allmers die Ruine und ließ sie teilweise wieder aufbauen. Die Burg ist bis heute in Privatbesitz und im Sommerhalbjahr für Besucher offen. Von hier unten kommst du allerdings nicht ohne Umweg hinüber.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Burg_Thurant"
+          ]
+        },
+        {
+          "id": "tag6-lehmener-razejunge",
+          "day": 6,
+          "name": "Lavendelterrassen der Lehmener Razejunge",
+          "lat": 50.27241,
+          "lon": 7.45406,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 57.12,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Hier stehen Lavendel und Kräuter auf Felsterrassen mitten im Weinberg. Der Name auf dem Schild lautet Lehmener Razejunge. Eine Raze war ein Tragekorb. Damit schleppten Männer Mist die Steilhänge hinauf, weil kein Wagen und kein Tier dort hinaufkam. Der Spottname ist geblieben. Ein Rastplatz liegt daneben.",
+          "textLong": "Razejunge. So nannte man die jungen Männer aus Lehmen, und gemeint war keine Ehre. Die Raze war ein Tragekorb aus Weiden. Wer im Steilhang Wein anbaut, hat ein grundsätzliches Problem. Alles, was oben gebraucht wird, muss jemand hinauftragen. Auch der Mist. Also stiegen die Razejunge mit vollen Körben in den Hang, düngten und stiegen wieder herunter. Das war die Arbeit, und der Ort bekam davon seinen Spitznamen. Heute steht dieser Name auf Schildern, auf Weinetiketten und auf diesem Rastplatz. Aus einem Spott ist ein Markenzeichen geworden. Die Terrassen hier tragen inzwischen nicht nur Reben. Lavendel wächst darauf, dazu Naturkräuter. Auf trockenen Schieferfelsen ist das nicht abwegig, denn was in der Provence gedeiht, kommt mit der Wärme dieser Südhänge gut zurecht. Lehmen selbst ist ein altes Dorf. Als Liomena steht es schon im neunten Jahrhundert in einer Königsurkunde. Der romanische Glockenturm stammt aus dem zwölften Jahrhundert. Etwa zweiundzwanzig Hektar Rebfläche bewirtschaften die Betriebe im Ort, ganz überwiegend Riesling. Und dieser Rastplatz ist einer der letzten ruhigen Flecken, bevor die Orte an der Mosel dichter zusammenrücken.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Lehmen"
+          ]
+        },
+        {
+          "id": "tag6-schloss-von-der-leyen-gondorf",
+          "day": 6,
+          "name": "Schloss von der Leyen in Gondorf",
+          "lat": 50.2913213,
+          "lon": 7.4583297,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 59.57,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben der Strecke steht das Schloss von der Leyen, der Stammsitz einer Adelsfamilie. Viel ist davon nicht mehr da. Erst nahm die Eisenbahn einen Teil der Anlage weg, dann die Bundesstraße. Was blieb, beherbergt heute ein Weinmuseum und ein Heimatmuseum.",
+          "textLong": "Die Herren von der Leyen waren keine kleine Nummer. Ihr Stammsitz stand hier in Gondorf, gebaut und ausgebaut vom vierzehnten bis ins siebzehnte Jahrhundert, gotisch angefangen und mit Renaissanceformen weitergeführt. Darunter liegt vermutlich noch Älteres, denn der Platz war schon in spätrömischer Zeit befestigt. So weit die stolze Fassung. Die andere Fassung geht so. Achtzehnhunderteinundsiebzig baute man die Moseltalbahn, und dafür brauchte man eine Trasse. Große Teile der Burganlage verschwanden. Knapp hundert Jahre später kam der Ausbau der Bundesstraße, und was noch im Weg stand, verschwand ebenfalls. Zweimal also musste der Adelssitz dem Verkehr weichen, und beide Male gewann der Verkehr. Man kann das barbarisch finden. Man kann es auch als ehrliche Auskunft darüber lesen, was einer Gesellschaft jeweils wichtig ist. Der Rest steht noch, und er wird genutzt. Im Gebäude sind heute das Weinmuseum und das Heimatmuseum des Kultur- und Heimatvereins Gondorf untergebracht. Wer hineingeht, sieht Weinbaugerät und Ortsgeschichte in den Räumen einer Burg, an der eine Bahnlinie vorbeigefahren ist, weil sie durfte.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kobern-Gondorf"
+          ]
+        },
+        {
+          "id": "tag6-matthiaskapelle-kobern",
+          "day": 6,
+          "name": "Matthiaskapelle über Kobern",
+          "lat": 50.3142521,
+          "lon": 7.45367,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 62.03,
+          "triggerRadius": 650,
+          "accessNote": "500 m Abstecher",
+          "textShort": "Oben auf dem Burgberg steht die Matthiaskapelle. Von außen wirkt sie klein. Innen tragen sechs Bündel aus je fünf Säulen ein Gewölbe, das man in einem Dorf an der Mosel nicht erwartet. Gebaut wurde sie als Behälter für eine Reliquie. Der Aufstieg ist steil.",
+          "textLong": "Die Geschichte, die man sich hier erzählt, geht so. Ritter Heinrich von Isenburg zog auf Kreuzfahrt nach Damiette und brachte von dort das Haupt des Apostels Matthias mit. Für diese Reliquie ließ er auf seinem Burgberg eine Kapelle bauen. Belegt ist das nicht, aber die Kapelle steht, und sie ist außergewöhnlich. Sie entstand um zwölfhundertzwanzig bis vierzig und ist sechseckig angelegt. Sechs Gruppen aus je fünf schlanken Säulen tragen den hohen Mittelbau, darüber liegt ein Rippengewölbe. Ein Zentralbau also, kein Langhaus. Fachleute sehen darin einen Verweis auf die Grabeskirche in Jerusalem, vielleicht auch auf Bauten der Templer. Wer aus dem Rheinland kommt und plötzlich in einem Raum steht, der Jerusalem zitiert, versteht, was die Kreuzzüge mit Europa gemacht haben. Die Reliquie ist nicht mehr da. Neunzehnhundertsiebenundzwanzig kam sie nach Trier in die Abtei Sankt Matthias und blieb dort. Die Kapelle gehört zur Oberburg über Kobern. Unten im Ort liegt eine Altstadt mit Fachwerk, und weiter am Hang steht die Niederburg. Burgen, Kapelle und Fachwerk auf engem Raum. Der Weg hinauf kostet Höhenmeter, und er lohnt sich.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Matthiaskapelle_(Kobern-Gondorf)",
+            "https://de.wikipedia.org/wiki/Kobern-Gondorf"
+          ]
+        },
+        {
+          "id": "tag6-bellthal-moselsprudel",
+          "day": 6,
+          "name": "Ehemalige Abfüllanlage Bellthal Moselsprudel",
+          "lat": 50.3224788,
+          "lon": 7.477638,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 63.71,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben der Strecke stehen die Reste einer Abfüllanlage. Hier wurde über hundert Jahre lang Mineralwasser in Flaschen gefüllt, der Bellthal Moselsprudel. Dann war Schluss, und zwar nicht wegen der Quelle und nicht wegen des Marktes. Die beiden Eigentümer konnten sich nicht einigen.",
+          "textLong": "Unter Kobern-Gondorf steigt Kohlensäure aus großer Tiefe auf. Sie wandert durch das Gestein und macht das Wasser sprudelnd. Ein Apotheker aus Winningen namens Arnoldi untersuchte die Quelle im Jahr achtzehnhundertfünfundzwanzig und schrieb ihr Heilwirkung zu, vor allem bei Beschwerden im Unterleib. Das war der Startschuss. Achtzehnhundertsiebzig entstand der Betrieb Bellthal Moselsprudel. Und dann ging es steil bergauf. Wenige Jahre später verließen weit über hunderttausend Flaschen im Jahr das Haus. Um die Jahrhundertwende war es ein Mehrfaches davon, dazu Tausende Tonkrüge. Eine Aktiengesellschaft übernahm die Quelle und steckte frisches Kapital hinein. Neunzehnhundertzwölf baute man Büro, Produktion und Lager direkt an die Moseltalbahn, damit die Kisten kurze Wege hatten. So sieht Erfolg aus. Und dann kommt das Ende, und es ist kein großes. Die Firma schloss neunzehnhundertfünfundsiebzig. Nicht weil die Quelle versiegte. Nicht weil niemand mehr Sprudel trinken wollte. Die Eigentümer konnten sich nicht einigen. Ein Betrieb von über hundert Jahren endete an einem Streit. Die Gebäude verfielen und wurden zum beliebten Ziel für Fotografen. Inzwischen haben sie einen Eigentümer gefunden, der sie erhalten will.",
+          "sources": [
+            "https://www.kuladig.de/Objektansicht/KLD-343136",
+            "https://de.wikipedia.org/wiki/Bellthal_Moselsprudel"
+          ]
+        },
+        {
+          "id": "tag6-winninger-uhlen",
+          "day": 6,
+          "name": "Weinberg Winninger Uhlen",
+          "lat": 50.320211,
+          "lon": 7.488733,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 64.53,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Der Hang neben dir ist der Uhlen. Fünfzig bis siebzig Prozent Steigung, Terrasse über Terrasse, Trockenmauern bis hinauf. Er gilt als die größte zusammenhängende Terrassenlage Deutschlands. Der Boden ist überwiegend Fels. Was hier wächst, wächst gegen jede Vernunft. Und es wird teuer verkauft.",
+          "textLong": "Der Uhlen zieht sich über die Gemarkungen von Kobern-Gondorf und Winningen und gilt als die größte zusammenhängende Terrassenlage Deutschlands. Der Winninger Teil misst rund sieben Hektar und reicht von etwa fünfundsiebzig Metern über dem Meer bis auf zweihundertzehn Meter hinauf. Die Steigung liegt zwischen fünfzig und siebzig Prozent. Damit das überhaupt geht, haben Generationen Terrassen angelegt und Trockenmauern gesetzt. Jede dieser Mauern muss jemand instand halten, und zwar für immer. Der Boden besteht überwiegend aus Gestein. Grauer und blauer Schiefer, dazu eisenhaltiger Sandstein, Kalkbänder und Quarzit. Ein Weinbergsboden, in dem kaum Erde ist. Genau deshalb schmeckt der Riesling von hier so, wie er schmeckt, und deshalb ist er nicht billig. Zweitausendfünf gewann ein Riesling aus dem Uhlen bei einem Wettbewerb in Paris die Auszeichnung für den besten ausländischen Wein. Ein deutscher Steillagenriesling, prämiert in Frankreich. Das muss man sich auf der Zunge zergehen lassen. Etwas weiter liegt der Hamm, eine weitere berühmte Lage von Winningen. Beide zusammen erklären, warum dieser kleine Ort im Weinhandel einen Namen hat, den seine Größe nicht hergibt.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Winninger_Uhlen",
+            "https://de.wikipedia.org/wiki/Winningen"
+          ]
+        },
+        {
+          "id": "tag6-moseltalbruecke",
+          "day": 6,
+          "name": "Moseltalbrücke der Autobahn",
+          "lat": 50.3133587,
+          "lon": 7.4918557,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 65.19,
+          "triggerRadius": 500,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Über dem Tal spannt sich die Moseltalbrücke der Autobahn. Ihre Fahrbahn liegt einhundertsechsunddreißig Meter über dem Grund. Damit ist sie die zweithöchste Autobahnbrücke Deutschlands. Von unten sieht man vor allem die Pfeiler. Der höchste misst einhundertvierundzwanzig Meter.",
+          "textLong": "Man hört sie, bevor man sie sieht. Dann steht sie über dem Tal, und für einen Moment stimmen die Größenverhältnisse nicht mehr. Die Moseltalbrücke führt die Autobahn zwischen Dieblich und Winningen über den Fluss. Gebaut wurde sie am Ende der sechziger und zu Beginn der siebziger Jahre. Ihre Fahrbahn liegt einhundertsechsunddreißig Meter über dem Grund. Nur die Kochertalbrücke in Baden-Württemberg ist höher. Die Brücke ist neunhundertfünfunddreißig Meter lang, und ihr höchster Pfeiler misst einhundertvierundzwanzig Meter. Unten fährst du zwischen Weinbergen an der Mosel entlang, in einer Landschaft, die seit Jahrhunderten von Hand bearbeitet wird. Oben rauscht der Verkehr über eines der größten Bauwerke des Landes. Beides gleichzeitig, im selben Blick. Das ist ein sehr deutsches Bild. Interessant ist noch etwas anderes. Beim Bau stieß man auf die Fundamente einer römischen Villa. Man baut also eine Autobahnbrücke ins Moseltal und findet dabei die Grundmauern von Leuten, die dieselbe Aussicht schätzten. Sie hatten nur weniger Beton dafür gebraucht.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Moseltalbr%C3%BCcke_(A_61)",
+            "https://de.wikipedia.org/wiki/Winningen"
+          ]
+        },
+        {
+          "id": "tag6-winningen",
+          "day": 6,
+          "name": "Winningen und der Hexenhügel",
+          "lat": 50.313384,
+          "lon": 7.517374,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 67.01,
+          "triggerRadius": 80,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Winningen ist ein Weinort, und Winningen hat eine dunkle Geschichte. Im siebzehnten Jahrhundert wurden hier Menschen als Hexen verfolgt. Auf dem Hexenhügel steht ein Denkmal für die Opfer. Es wurde neunzehnhundertfünfundzwanzig errichtet und gilt als das älteste bekannte seiner Art.",
+          "textLong": "Auf dem Weinhof sprudelt der Weinhexbrunnen, umgeben von Fachwerk. Der Name klingt hübsch, und er ist es nicht. Er erinnert an die Hexenverfolgungen, die Winningen im siebzehnten Jahrhundert getroffen haben. Menschen wurden angeklagt, verhört und hingerichtet, weil Nachbarn etwas behaupteten. Das gab es an vielen Orten. Bemerkenswert ist, was Winningen daraus gemacht hat. Neunzehnhundertfünfundzwanzig stellte man auf dem Hexenhügel ein Denkmal für die Opfer auf. Es gilt als das älteste bekannte Denkmal dieser Art überhaupt. Ein Dorf entschuldigt sich bei seinen eigenen Toten, dreihundert Jahre später und lange bevor jemand anderes auf die Idee kam. Ansonsten lebt Winningen vom Wein und lebt gut davon. Die Steillagen Uhlen und Hamm haben internationalen Ruf, dazu Domgarten, Brückstück und Röttgen. Gut zweitausenddreihundert Menschen wohnen hier. Und im Spätsommer feiert der Ort ein Weinfest, das als das älteste an der Mosel gilt. Zehn Tage lang. Wer in der richtigen Woche vorbeikommt, wird nicht so schnell weiterfahren. Der Ortskern ist eng und alt. Roll langsam hindurch.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Winningen"
+          ]
+        },
+        {
+          "id": "tag6-moselstrand-guels",
+          "day": 6,
+          "name": "Moselstrand am Gülser Bootshafen",
+          "lat": 50.331471,
+          "lon": 7.556835,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 71.07,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Gülser Bootshafen liegt ein Moselstrand. Es ist die letzte ruhige Stelle vor Koblenz. Danach wird es städtisch. Gleich hinter Güls überquerst du die Mosel auf einer alten Eisenbahnbrücke, dann kommen Vororte, dann die Stadt. Wenn du eine Pause brauchst, dann hier.",
+          "sources": []
+        },
+        {
+          "id": "tag6-guelser-eisenbahnbruecke",
+          "day": 6,
+          "name": "Gülser Eisenbahnbrücke",
+          "lat": 50.3451168,
+          "lon": 7.5535313,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 72.67,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Du fährst über die Gülser Eisenbahnbrücke. Sie wurde in den siebziger Jahren des neunzehnten Jahrhunderts gebaut und überspannt die Mosel mit drei schmiedeeisernen Bögen. Der Fußweg daneben war lange gesperrt. Seit zweitausendachtzehn darf man ihn wieder benutzen, zu Fuß und mit dem Rad.",
+          "textLong": "Zweihundertsechsundzwanzig Meter über die Mosel, in drei schmiedeeisernen Bögen, und das seit dem neunzehnten Jahrhundert. Die Gülser Eisenbahnbrücke wurde in gut anderthalb Jahren gebaut und war fertig, als die Eisenbahn im Rheinland noch jung war. Sie verbindet Güls und Moselweiß, Stadtteile von Koblenz, und sie steht schräg im Fluss, weil die Bahnlinie es so wollte. Dann kam das Kriegsende. Neunzehnhundertfünfundvierzig sprengten deutsche Truppen auf dem Rückzug die Brücke. Der Bogen auf der Moselweißer Seite ging dabei zu Bruch. Wiederhergestellt wurde sie in den Jahren danach, und seither fährt hier alles weiter, als sei nichts gewesen. Für Radfahrer ist der Fußweg das Entscheidende. Er war lange in schlechtem Zustand. Nach einer Sanierung, die mehr als ein Jahr dauerte, wurde er wieder freigegeben. Seitdem kann man neben den Zügen über die Mosel rollen, mit dem Fluss unter sich und der Stadt vor sich. Die Brücke steht unter Denkmalschutz. Sie gehört zu den wenigen Bauwerken hier, die genau so aussehen, wie sie funktionieren.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/G%C3%BClser_Eisenbahnbr%C3%BCcke"
+          ]
+        },
+        {
+          "id": "tag6-kurfuerstliches-schloss-koblenz",
+          "day": 6,
+          "name": "Kurfürstliches Schloss in Koblenz",
+          "lat": 50.3555434,
+          "lon": 7.6022384,
+          "category": "Architektur",
+          "kind": "story",
+          "routeKm": 76.87,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Links steht das Kurfürstliche Schloss. Der letzte Kurfürst von Trier ließ es bauen und konnte kaum darin wohnen, denn die Französische Revolution holte ihn ein. Gleich danach überquerst du den Rhein. Das Deutsche Eck liegt gut einen Kilometer flussabwärts, aber die Route führt nicht hin.",
+          "textLong": "Clemens Wenzeslaus von Sachsen war der letzte Kurfürst und Erzbischof von Trier. Die alte Residenz auf dem Ehrenbreitstein war ihm zu unbequem und zu wenig repräsentativ. Also baute er neu, unten am Rhein, von siebzehnhundertsiebenundsiebzig bis dreiundneunzig. Ein Pariser Architekt fing an, wurde von der Pariser Akademie zerpflückt, und sein Nachfolger machte es einfacher und besser. Das Ergebnis steht heute noch da. Und dann die Pointe. Kaum war das Schloss fertig, brach in Frankreich die Revolution los, und der Kurfürst musste fliehen. Ein Fürst baut sich ein Schloss und darf es kaum benutzen. Das Bauwerk hat danach viel gesehen. Im Krieg zerstörten Bomben alles bis auf Außenmauern und Keller. Wieder aufgebaut wurde es kurz darauf, außen nach den alten Plänen, innen im Geschmack der Nachkriegszeit. Heute sitzen Bundesbehörden darin, und einige Säle kann man mieten. Gleich hinter dem Schloss überquerst du den Rhein. Das Deutsche Eck liegt gut einen Kilometer flussabwärts. Es ist die berühmteste Ecke der Stadt, und es lag am ersten Tag dieser Tour auf deiner Strecke. Heute nicht. Heute geht es ans andere Ufer und dann nach Süden, zurück Richtung Braubach.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kurf%C3%BCrstliches_Schloss_(Koblenz)"
+          ]
+        },
+        {
+          "id": "tag6-koblenzer-brauerei",
+          "day": 6,
+          "name": "Blick auf die Koblenzer Brauerei",
+          "lat": 50.321505,
+          "lon": 7.590951,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 81.21,
+          "triggerRadius": 300,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Drüben am anderen Rheinufer steht die Koblenzer Brauerei. Gebraut wird in Koblenz seit sechzehnhundertneunundachtzig, damals noch im Alten Brauhaus in der Altstadt. Achtzehnhundertfünfundachtzig zog der Betrieb an den Königsbach südlich der Stadt. Dort steht er bis heute.",
+          "textLong": "Sechzehnhundertneunundachtzig fing es an, im Alten Brauhaus in der Koblenzer Altstadt. Das ist dasselbe Jahr, in dem französische Truppen an Rhein und Mosel eine Burg nach der anderen sprengten. Cochem, Beilstein, Bischofstein, Stolzenfels. Während ringsum alles in Trümmer ging, machte in Koblenz jemand ein Brauhaus auf. Man kann das für Zynismus halten oder für Lebenswillen. Achtzehnhundertfünfundachtzig zog der Betrieb aus der engen Altstadt hinaus an den Königsbach, einen kleinen Bach südlich der Stadt, der zum Rhein läuft. Daher der Name Königsbacher. Platz, Wasser und Bahnanschluss, alles an einem Ort. Die Brauerei wurde groß und war lange das Bier dieser Gegend. Dann kam, was bei vielen Regionalbrauereien kam. Ein Konzern übernahm, und das Bier wurde ein Posten in einer Bilanz. Zweitausendzwölf ging die Braustätte am Königsbach zurück an private Eigentümer aus Koblenz. Seitdem heißt der Betrieb Koblenzer Brauerei. Von hier drüben sieht man vor allem Hallen und einen Schornstein. Das ist kein Motiv für Postkarten. Aber es ist einer der wenigen Orte an diesem Fluss, an dem noch etwas hergestellt wird, das die Leute vor Ort auch trinken.",
+          "sources": [
+            "https://www.regionalgeschichte.net/mittelrhein/koblenz/einzelaspekte/koenigsbacher-brauerei.html"
+          ]
+        },
+        {
+          "id": "tag6-schloss-stolzenfels",
+          "day": 6,
+          "name": "Blick auf Schloss Stolzenfels",
+          "lat": 50.308741,
+          "lon": 7.596789,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 82.75,
+          "triggerRadius": 300,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Drüben auf der anderen Rheinseite leuchtet Schloss Stolzenfels gelb aus dem Hang. Es war einmal eine Zollburg und lag danach fast hundertfünfzig Jahre als Ruine da. Dann schenkte die Stadt Koblenz sie dem preußischen Kronprinzen. Der machte daraus das Vorzeigestück der Rheinromantik.",
+          "textLong": "Angefangen hat es unromantisch. Ein Trierer Erzbischof baute hier im dreizehnten Jahrhundert eine Burg, um Zoll zu kassieren. Sechzehnhundertneunundachtzig zerstörten die Franzosen sie, und danach lag sie lange als Ruine herum. Dann kam achtzehnhundertdreiundzwanzig ein Geschenk, wie man es selten macht. Die Stadt Koblenz schenkte die Ruine dem preußischen Kronprinzen Friedrich Wilhelm. Der Mann war verrückt nach dem romantischen Rhein, und er hatte Geld und Architekten. Karl Friedrich Schinkel und Friedrich August Stüler bauten die Anlage neugotisch aus, den alten Bergfried ließen sie stehen. Peter Joseph Lenné legte die Gärten an. Was dabei herauskam, ist keine mittelalterliche Burg, sondern das gebaute Bild einer mittelalterlichen Burg. Es gilt als das Hauptwerk der Rheinromantik. Der Kronprinz war inzwischen König geworden und zog im Herbst achtzehnhundertzweiundvierzig ein. Drei Jahre später kam Königin Victoria zu Besuch, und Preußen bekam genau die Bilder, die es haben wollte. Seit zweitausendzwei gehört Stolzenfels zum Welterbe im Oberen Mittelrheintal. Hinüber kommst du von hier nicht. Der Rhein liegt dazwischen, und die letzte Brücke hast du längst hinter dir gelassen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Schloss_Stolzenfels"
+          ]
+        },
+        {
+          "id": "tag6-wirtshaus-an-der-lahn",
+          "day": 6,
+          "name": "Wirtshaus an der Lahn",
+          "lat": 50.308834,
+          "lon": 7.6046914,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 83.31,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben der Strecke steht das Wirtshaus an der Lahn. Ja, genau das aus dem Lied. Es sind rund siebenhundertfünfzig Strophen bekannt, und die meisten davon sind nicht jugendfrei. Der Wirt Balthasar Kalkofen baute das Haus sechzehnhundertsiebenundneunzig neben einen alten Zollturm.",
+          "textLong": "Es steht ein Wirtshaus an der Lahn. Wer das je gesungen hat, hat vermutlich nicht gewusst, dass es dieses Wirtshaus wirklich gibt. Hier steht es. Der Kern ist ein Zollturm, den die Trierer Kurfürsten dreizehnhundertachtundvierzig an die Lahnmündung setzten. Man nannte ihn die Landfeste. Daneben baute der Wirt Balthasar Kalkofen sechzehnhundertsiebenundneunzig sein Gasthaus. Das Lied ist älter, als man denkt. Es geht bis ins siebzehnte Jahrhundert zurück und wurde später zum rheinischen Volkslied. Und es hört nicht auf. Inzwischen sind rund siebenhundertfünfzig Strophen bekannt, und es kommen weiter welche dazu. Es gibt also ein Lied, an dem seit Jahrhunderten anonym weitergedichtet wird, meistens im Zustand fortgeschrittener Heiterkeit. Entlang der Lahn kämen mehrere Gasthäuser als das echte in Frage. Für dieses hier spricht der Turm. Er diente als Wachturm, und er kommt in den Strophen vor. Ein Gast ist übrigens namentlich bekannt. Am achtzehnten Juli siebzehnhundertvierundsiebzig legte hier ein Schiff an, auf dem Goethe saß, unterwegs von Ems nach Neuwied. Er aß zu Mittag. Was er dazu gesungen hat, ist nicht überliefert.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Wirtshaus_an_der_Lahn_(Lahnstein)"
+          ]
+        },
+        {
+          "id": "tag6-braubach-philippsburg",
+          "day": 6,
+          "name": "Braubach und Schloss Philippsburg",
+          "lat": 50.2702137,
+          "lon": 7.6481388,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 88.83,
+          "triggerRadius": 450,
+          "accessNote": "300 m Abstecher",
+          "textShort": "Braubach. Hier hat die Tour vor sechs Tagen begonnen, und hier hört sie auf. Über dem Ort steht die Marksburg, die du am ersten Morgen gesehen hast. Unten am Hang liegt Schloss Philippsburg. Wein, Blei und eine Burg, die nie gefallen ist. Das ist Braubach.",
+          "textLong": "Braubach taucht sechshundertzweiundneunzig zum ersten Mal in einer Urkunde auf, und zwar wegen einer Schenkung von Weinbergen. Das gilt als eines der ältesten schriftlichen Zeugnisse für Weinbau auf der rechten Rheinseite. Stadtrechte bekam der Ort von König Rudolf von Habsburg. Reich wurde Braubach aber nicht vom Wein, sondern vom Berg. Unter der Stadt liegen Erzgänge, und die Leute holten Blei und Silber heraus. Später kam eine Hütte dazu, die über Jahrhunderte lief und dem Boden übel mitspielte. Heute steht dort ein Betrieb, der Batterien wiederverwertet. Aus Bleigewinnung ist Bleirückgewinnung geworden. Am Hang steht Schloss Philippsburg. Ein hessischer Landgraf ließ es im sechzehnten Jahrhundert bauen, weil er eine Nebenresidenz wollte. Heute sitzt darin das Europäische Burgeninstitut, was gut passt zu einem Ort, über dem die Marksburg steht. Und damit bist du da. Neunundachtzig Kilometer heute, sechs Tage insgesamt, einmal durch Eifel, Ahrtal und Moseltal und wieder zurück an den Rhein. Die Burg über dir hast du am ersten Morgen von unten gesehen. Jetzt siehst du sie von unten wieder. Dazwischen liegt eine ganze Landschaft.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Braubach"
           ]
         }
       ]
