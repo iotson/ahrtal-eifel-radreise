@@ -2525,6 +2525,267 @@
           ]
         }
       ]
+    },
+    {
+      "day": 6,
+      "briefing": {
+        "text": ""
+      },
+      "pois": [
+        {
+          "id": "tag6-etappenstart-sankt-aldegund",
+          "day": 6,
+          "name": "Etappenstart in Sankt Aldegund",
+          "lat": 50.081692,
+          "lon": 7.130871,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 0,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Letzter Tag. Neunundachtzig Kilometer stehen an, die längste Etappe der Tour. Höhenmeter gibt es kaum, denn es geht fast durchgehend flussabwärts. Erst die Mosel bis Koblenz, dann der Rhein. Und am Ende steht Braubach, wo alles angefangen hat. Heute schließt sich der Kreis.",
+          "sources": []
+        },
+        {
+          "id": "tag6-klosterruine-stuben",
+          "day": 6,
+          "name": "Klosterruine Stuben",
+          "lat": 50.1044691,
+          "lon": 7.1226546,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 3.77,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Rechts drüben, auf der Halbinsel im Fluss, stehen ein paar Mauerreste im Weinberg. Das war einmal ein Kloster. Augustinerinnen lebten hier ab elfhundertsiebenunddreißig. Berühmt wurde das Haus durch ein Reliquiar aus Konstantinopel, das ein Ritter seiner Schwester schenkte. Heute trägt nur noch eine Weinlage den Namen Kloster Stuben.",
+          "textLong": "Elfhundertsiebenunddreißig stiftete ein Adliger seinen Hof samt Kapelle, und daraus wurde ein Kloster für Augustinerinnen. Es lag auf einer Halbinsel, die die Mosel fast vollständig umschließt. Bequemer kann man sich nicht von der Welt abschneiden. Dann kam der Ritter Heinrich von Ulmen zurück aus dem Osten. Er war mit dem Kreuzzug bis Konstantinopel gekommen, und er brachte Beute mit. Darunter war ein goldenes Reliquiar der byzantinischen Kaiser, ein Behälter für Splitter vom Kreuz Christi. Dieses Stück schenkte er seiner Schwester Irmgard, die hier Äbtissin war. Man muss sich das einmal vorstellen. Der kostbarste Kunstschatz, den ein deutscher Ritter aus Byzanz mitgebracht hat, landete in einem kleinen Frauenkloster an der Mosel. Pilger kamen, eine eigene Kreuzkapelle wurde gebaut, und der Ruhm hielt lange. Dann ging es abwärts. Die Franzosen besetzten das Land, das Kloster wurde aufgehoben, und wenig später versteigerte man die Gebäude zum Abbruch. Steine sind Steine. Sie wanderten in Häuser und Mauern der Umgebung. Übrig blieb, was du von hier aus siehst. Das Reliquiar hat überlebt. Es liegt heute im Domschatz von Limburg an der Lahn und gilt als eines der bedeutendsten Werke byzantinischer Goldschmiedekunst. Der Name Kloster Stuben steht inzwischen auf Weinflaschen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kloster_Stuben",
+            "https://de.wikipedia.org/wiki/Limburger_Staurothek"
+          ]
+        },
+        {
+          "id": "tag6-bremmer-calmont",
+          "day": 6,
+          "name": "Blick auf den Bremmer Calmont",
+          "lat": 50.098276,
+          "lon": 7.145214,
+          "category": "Wein",
+          "kind": "story",
+          "routeKm": 5.65,
+          "triggerRadius": 300,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Schau zurück. Die Wand über dem Fluss ist der Calmont. Er gilt als steilster Weinberg Europas, mit Hängen von über fünfundsechzig Grad. Maschinen helfen hier nicht, alles läuft von Hand. Am Ufer liegt ein Moselstrand, falls dir nach kaltem Wasser ist.",
+          "textLong": "Fünfundsechzig Grad. Das ist keine Steigung mehr, das ist eine Wand. Wer hier Wein macht, klettert zur Arbeit. Es gibt keine Maschine, die diesen Hang bewältigt, also wird jeder Rebstock von Hand bearbeitet und jede Traube von Hand geholt. Die Trauben kommen in Butten, und die Butten muss jemand tragen. Vieles am Calmont läuft bis heute so, weil es gar nicht anders geht. Der Berg selbst ist gut dreihundertachtzig Meter hoch und liegt zwischen Bremm und Ediger-Eller. Der Schiefer speichert die Wärme des Tages und gibt sie nachts an die Reben zurück. Deshalb wächst hier Riesling, der andernorts nicht reifen würde. Dass Menschen diesen Hang schätzten, ist übrigens nicht neu. Oben auf der Kuppe haben Archäologen einen gallo-römischen Tempel ausgegraben. Er stand vom zweiten bis ins vierte Jahrhundert. Später wurde er wieder aufgebaut und neu geweiht. Wer den Calmont von Nahem sehen will, kann den Klettersteig gehen. Er führt mit Leitern und Stahlseilen quer durch die Weinberge und ist kein Spaziergang. Von unten reicht es aber völlig. Kaum irgendwo sonst sieht man so deutlich, was Steillagenweinbau bedeutet.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Calmont",
+            "https://de.wikipedia.org/wiki/Ediger-Eller"
+          ]
+        },
+        {
+          "id": "tag6-christus-in-der-kelter-ediger",
+          "day": 6,
+          "name": "Christus in der Kelter in Ediger",
+          "lat": 50.0978674,
+          "lon": 7.1574628,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 6.38,
+          "triggerRadius": 450,
+          "accessNote": "300 m Abstecher",
+          "textShort": "Über den Dächern von Ediger steht die Kirche Sankt Martin. Drinnen hängt ein Steinrelief, das anderswo kaum jemand wagen würde. Es zeigt Christus in der Weinkelter, gepresst wie eine Traube. In einem Winzerdorf an der Mosel ist dieses Bild von einer Konsequenz, die einem den Atem nimmt.",
+          "textLong": "Das Motiv heißt Christus in der Kelter, und es ist selten. Der Bildhauer Hans Ruprecht Hoffmann hat es in der zweiten Hälfte des sechzehnten Jahrhunderts in Stein gehauen. Man sieht Christus unter dem Balken einer Weinpresse. Sein Blut läuft in den Trog wie Most. Die Idee stammt aus dem Alten Testament und aus mittelalterlicher Frömmigkeit, aber sie trifft an der Mosel besonders hart. Hier lebt jeder vom Wein. Jeder weiß, was in einer Kelter passiert. Wer dieses Relief in einem Weinort aufhängt, sagt seinen Nachbarn etwas sehr Direktes über Opfer und Ertrag. Ursprünglich stand das Werk in der Kreuzkapelle oben am Hang, über den Weinbergen. Dort hängt heute eine farbig gefasste Kopie. Das Original steht seit einigen Jahren unten in der Pfarrkirche Sankt Martin. Bei der Restaurierung nahm man die alte Farbschicht ab, und darunter kam der weiße Kalkstein zum Vorschein. Ediger und Eller sind zwei Dörfer mit zusammen knapp neunhundert Einwohnern. Sie haben enge Gassen, alte Torbogen und Weinberge bis dicht an die Häuser. Das Relief ist über die Region hinaus bekannt. Wer anhält, sollte den Weg hinauf zur Kreuzkapelle in Kauf nehmen. Die Aussicht auf den Calmont bekommt man dazu.",
+          "sources": [
+            "https://www.kuladig.de/Objektansicht/KLD-352613",
+            "https://de.wikipedia.org/wiki/Ediger-Eller"
+          ]
+        },
+        {
+          "id": "tag6-stellplatz-ediger",
+          "day": 6,
+          "name": "Wohnmobilstellplatz Ediger",
+          "lat": 50.092853,
+          "lon": 7.160114,
+          "category": "Service",
+          "kind": "service",
+          "routeKm": 6.89,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Ufer liegt der Wohnmobilstellplatz von Ediger. Es gibt Trinkwasser, und das ist heute nicht selbstverständlich. Vor dir liegen noch gut achtzig Kilometer. Bis Cochem sind es zwanzig, und die Mosel macht dorthin einen ausgesprochen großzügigen Umweg. Füll die Flaschen auf.",
+          "sources": []
+        },
+        {
+          "id": "tag6-nehren",
+          "day": 6,
+          "name": "Nehren mit den römischen Grabkammern",
+          "lat": 50.0817448,
+          "lon": 7.1949961,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 9.8,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Nehren hat einhundertvierzehn Einwohner. Und es hat spätrömische Grabkammern, die unter rekonstruierten Schutzbauten wieder zu sehen sind. Auf dem Dorfplatz liegt außerdem ein römischer Kelterstein. Für einen Ort dieser Größe ist das eine erstaunliche Dichte an Vergangenheit.",
+          "textLong": "Einhundertvierzehn Menschen leben in Nehren. Der Ort ist keinen Quadratkilometer groß. Trotzdem steht hier etwas, wofür andere Gemeinden ein Museum bauen würden. Am Hang liegen spätrömische Grabkammern. Sie gehörten zu einem römischen Gut, und sie sind heute unter rekonstruierten Schutzbauten zu sehen. Wer hineingeht, steht in einem Raum, in dem vor rund siebzehnhundert Jahren jemand seine Toten bestattet hat. Der römische Ursprung steckt sogar im Namen. Villa Nogeria hieß der Hof, aus dem das Dorf wurde. Urkundlich taucht Nehren schon im siebten Jahrhundert auf, und das ist für einen Moselort früh. Auf dem Dorfplatz liegt ein römischer Kelterstein. Er ist genau das, wonach er aussieht. Man presste darauf Trauben. An denselben Hängen wächst heute wieder Wein. Dazu kommt die spätgotische Kirche Sankt Agatha mit barocker Ausstattung. Ein Dorf mit dreistelliger Einwohnerzahl, das römische Gräber, einen römischen Kelterstein und eine spätgotische Kirche in seiner Gemarkung hat. Man fährt hier in zwei Minuten durch und sieht davon nichts, wenn man nicht anhält.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Nehren_(Mosel)"
+          ]
+        },
+        {
+          "id": "tag6-senheim-senhals",
+          "day": 6,
+          "name": "Senheim und Senhals",
+          "lat": 50.0826131,
+          "lon": 7.2041391,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 10.33,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Die Brücke verbindet zwei Hälften eines Dorfes. Du fährst auf der Eifelseite durch Senhals, drüben auf der Hunsrückseite liegt Senheim. Bis neunzehnhundertsiebenundsechzig gab es hier keine Brücke. Und Senheim sieht heute so aus, wie es aussieht, weil im Jahr achtzehnhundertneununddreißig fast alles abgebrannt ist.",
+          "textLong": "Am dreizehnten August achtzehnhundertneununddreißig brannte Senheim. Als das Feuer aus war, standen einhundertsechs Wohnhäuser nicht mehr, dazu zweiundzwanzig Kelterhäuser und sieben Scheunen. Das mittelalterliche Dorf war weg. Was danach entstand, ist der Grund, warum Senheim heute breitere Straßen hat als seine Nachbarn. Man baute nicht wieder eng, man baute großzügig. Ein Teil der Familien konnte gar nicht bleiben. Sie zogen hinauf auf den Hunsrück und gründeten dort einen neuen Ort namens Moritzheim. Ein Dorf, das aus einem Brand entstanden ist. Die Kirche Sankt Katharina hat das Feuer überstanden. In ihr steht ein Barockaltar von Januarius Zick. Senheim liegt auf der Hunsrückseite, Senhals gegenüber auf der Eifelseite, und sie gehören seit jeher zusammen. Einen festen Weg dazwischen gab es aber lange nicht. Erst seit neunzehnhundertsiebenundsechzig steht die Brücke. Davor musste man übersetzen. Dieser Übergang hatte übrigens Gewicht. Im Mittelalter führte hier eine Handelsstraße durch, von den Niederlanden nach Frankfurt und weiter nach Augsburg. Wer heute darüber schaut, sieht ein stilles Weindorf. Es war einmal eine Stelle, an der Waren aus dem halben Kontinent vorbeikamen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Senheim"
+          ]
+        },
+        {
+          "id": "tag6-briedern",
+          "day": 6,
+          "name": "Briedern im Cochemer Krampen",
+          "lat": 50.1072305,
+          "lon": 7.2153208,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 15.62,
+          "triggerRadius": 350,
+          "accessNote": "200 m Abstecher",
+          "textShort": "Briedern liegt mitten im Cochemer Krampen, der großen Moselschleife zwischen Cochem und Zell. Der Ort hat dreihundertachtunddreißig Einwohner. Sein Wappen zeigt Weinranken und einen goldenen Kahn, und damit ist eigentlich alles gesagt, was Briedern jemals ernährt hat.",
+          "textLong": "Zwölfhundertfünfundsiebzig wird Briedern zum ersten Mal urkundlich genannt. Die Servatiuskirche und der Servatiusbrunnen waren im Mittelalter Ziel von Wallfahrten. Man kam hierher, weil man sich vom Wasser etwas versprach. Interessanter ist eine Geschichte aus dem Jahr fünfzehnhundertfünfundneunzig. Beim Kirchweihfest, also an dem Tag, an dem das halbe Dorf feiert und niemand mit etwas rechnet, überfiel ein Mann namens Anton Langhaar den Ort. Es ging schief. Die Bewohner wehrten sich, und der Überfall scheiterte. Ein Dorf, das seinen eigenen Kirmestag verteidigt und gewinnt. Solche Geschichten schafft es selten in die großen Bücher, aber sie halten sich vor Ort über Jahrhunderte. Briedern hat heute dreihundertachtunddreißig Einwohner. Die bekannte Weinlage gegenüber heißt Rüberberger Domherrenberg und zieht sich über den steilen Hang auf der anderen Moselseite. Im Wappen stehen grüne Weinranken und ein goldener Kahn auf silbernen Wellen. Wein und Schifffahrt. Mehr brauchte ein Ort an dieser Stelle nicht, und mehr hatte er auch nicht.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Briedern"
+          ]
+        },
+        {
+          "id": "tag6-beilstein",
+          "day": 6,
+          "name": "Blick auf Beilstein und Burg Metternich",
+          "lat": 50.11064,
+          "lon": 7.236442,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 17.23,
+          "triggerRadius": 300,
+          "accessNote": "nur Blickkontakt",
+          "textShort": "Drüben am anderen Ufer liegt Beilstein. Einhundertzweiunddreißig Menschen wohnen dort, und der Ort hat seit dreizehnhundertneun Stadtrechte. Über den Dächern steht die Ruine der Burg Metternich. Französische Truppen haben sie sechzehnhundertneunundachtzig gesprengt. Wer hinüber will, nimmt die Fähre.",
+          "textLong": "Beilstein hat einhundertzweiunddreißig Einwohner. Das ist keine Übertreibung, das ist der amtliche Stand. Und dieser Ort trägt seit dreizehnhundertneun Stadtrechte, verliehen von König Heinrich dem Siebten. Man nennt Beilstein das Dornröschen der Mosel, und ausnahmsweise ist so ein Beiname verdient. Der Ortskern ist fast vollständig erhalten, Fachwerk an Fachwerk, Gassen so eng, dass man sich beim Begegnen drücken muss. Deutsche Filmleute haben das früh entdeckt und immer wieder hier gedreht. Über allem steht die Burg Metternich. Sie gehörte den Herren von Winneburg, und als deren Linie erlosch, kam sie an die Familie Metternich. Daher der Name. Sechzehnhundertneunundachtzig sprengten französische Truppen die Anlage. Sie blieb Ruine. In der barocken Karmeliterkirche steht eine Schwarze Madonna aus Spanien. Sie kam vermutlich mit spanischen Truppen im Dreißigjährigen Krieg hierher und ist bis heute Ziel von Wallfahrten. Oberhalb der Burg liegt der jüdische Friedhof. Eine jüdische Gemeinde ist in Beilstein seit der Verleihung der Stadtrechte belegt. Hinüber kommst du nur mit der Fähre nach Ellenz. Das ist ein Umweg, aber es ist einer, den man selten bereut.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Beilstein_(Mosel)",
+            "https://de.wikipedia.org/wiki/Burg_Metternich"
+          ]
+        },
+        {
+          "id": "tag6-ernst-sankt-salvator",
+          "day": 6,
+          "name": "Sankt Salvator in Ernst",
+          "lat": 50.1449065,
+          "lon": 7.2250703,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 22.24,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben der Strecke steht die Pfarrkirche Sankt Salvator. Zwei Türme, unverputztes Bruchsteinmauerwerk, rote und weiße Bänder aus Sandstein. Für ein Dorf mit gut fünfhundert Einwohnern ist das ein ziemlich großer Auftritt. Der Architekt hieß Johann Claudius von Lassaulx.",
+          "textLong": "Ernst ist ein Weindorf mit etwa fünfhundertsechzig Einwohnern, und es hat eine Kirche, die man eher in einer Kleinstadt vermuten würde. Sankt Salvator wurde achtzehnhundertfünfundvierzig fertig. Zwei Türme, neuromanische Formen, unverputztes Bruchsteinmauerwerk mit roten und weißen Bändern aus Sandstein. Der Bau ist bunt, und er ist gewollt bunt. Entworfen hat ihn Johann Claudius von Lassaulx, der im Rheinland viele Kirchen gebaut hat. Warum leistet sich ein Dorf so etwas? Weil Moselwein im neunzehnten Jahrhundert Mode wurde. Die Preise stiegen, das Geld kam ins Dorf, und die Winzer bauten sich stattliche Häuser aus Stein an die Moselstraße. Wer heute durch Ernst fährt, sieht die Fassaden dieser guten Jahre noch stehen. Der Ort ist aus zwei Kernen zusammengewachsen, aus Oberernst und dem flussabwärts gelegenen Niederernst. Und Ernst nimmt sich selbst ernst, im besten Sinne. Bei einem Bundeswettbewerb für Dörfer holte die Gemeinde Silber. Für einen Ort dieser Größe ist das eine Ansage. Wer anhält, sollte in die Kirche gehen. Von außen ahnt man nicht, wie hell es drinnen ist.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Ernst_(Mosel)"
+          ]
+        },
+        {
+          "id": "tag6-reichsburg-cochem",
+          "day": 6,
+          "name": "Reichsburg Cochem",
+          "lat": 50.1422279,
+          "lon": 7.167087,
+          "category": "Burg",
+          "kind": "story",
+          "routeKm": 26.65,
+          "triggerRadius": 250,
+          "accessNote": "100 m Abstecher",
+          "textShort": "Über dir steht die Reichsburg Cochem. Was du siehst, ist allerdings keine mittelalterliche Burg, sondern ein Traum aus dem neunzehnten Jahrhundert. Ein Berliner Kaufmann kaufte die Ruine und ließ sie neu bauen, so wie man sich damals eine Burg vorstellte. Der Weg hinauf ist kurz und steil.",
+          "textLong": "Um elfhundert stand hier eine Burg, die Zölle von der Mosel eintrieb. Sie war Reichsburg, dann kam sie an den Erzbischof von Trier. So weit die normale Laufbahn einer Moselburg. Dann kam der neunzehnte Mai sechzehnhundertneunundachtzig. Französische Truppen legten die Anlage in Schutt, und dabei blieb es fast zweihundert Jahre. Und jetzt wird es interessant. Achtzehnhundertachtundsechzig kaufte der Berliner Kaufmann Louis Ravené die Ruine. Er wollte keine Ruine. Er wollte eine Burg, und zwar genau die Burg, die man sich im Kaiserreich unter einer Burg vorstellte. Sein Architekt Hermann Ende baute neugotisch auf, was noch stand, und ergänzte großzügig alles Übrige. Was heute so mittelalterlich über Cochem thront, ist zu großen Teilen eine Kulisse aus der Zeit der Eisenbahn. Alt sind der achteckige Turm und der Hexenturm. An der Fassade sitzt ein Mosaik des heiligen Christophorus von dem italienischen Künstler Antonio Salviati. Die Nationalsozialisten zerstörten das Original. Später kam ein Ersatz an dieselbe Stelle. Heute gehört die Burg der Stadt Cochem und ist Museum. Zu Fuß bist du in wenigen Minuten oben, aber du kletterst dabei durch den Hang.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Reichsburg_Cochem"
+          ]
+        },
+        {
+          "id": "tag6-kaiser-wilhelm-tunnel",
+          "day": 6,
+          "name": "Kaiser-Wilhelm-Tunnel am Bahnhof Cochem",
+          "lat": 50.1530517,
+          "lon": 7.1672217,
+          "category": "Technik",
+          "kind": "story",
+          "routeKm": 27.81,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Am Bahnhof Cochem verschwindet die Bahnstrecke im Berg. Der Kaiser-Wilhelm-Tunnel ist gut vier Kilometer lang und kommt drüben bei Ediger-Eller wieder heraus. Genau da warst du heute Morgen. Der Zug schafft in vier Kilometern, wofür du zwanzig gebraucht hast.",
+          "textLong": "Die Mosel hat hier keine Lust auf eine gerade Linie. Zwischen Ediger-Eller und Cochem legt sie eine Schleife hin, die man den Cochemer Krampen nennt. Du hast sie gerade abgefahren, jeden Meter davon. Die Eisenbahn wollte das nicht mitmachen. Ab achtzehnhundertvierundsiebzig trieben Arbeiter einen Tunnel durch den Berg. Als er fertig war, maß er viertausendzweihundertfünf Meter, und lange Zeit war er der längste Eisenbahntunnel Deutschlands. Rechne kurz nach. Für dieselbe Strecke hast du rund zwanzig Kilometer gebraucht. Der Zug braucht gut vier. Der Tunnel hatte ein Problem, das beim Bau niemand ernst genug nahm. Dampfloks machen Rauch, und Rauch muss weg. Erst kamen Ventilatoren, dann bessere Ventilatoren, dann noch mehr Ventilatoren. Gelöst hat sich das erst, als die Dampfloks verschwanden. Inzwischen liegt eine zweite Röhre daneben. Sie ging zweitausendvierzehn in Betrieb, danach wurde die alte Röhre saniert und später wieder geöffnet. Heute fährt in jeder Röhre ein Gleis. Der Berg über dir ist also gründlicher durchlöchert, als er von außen aussieht. Und die Schleife, die du eben gefahren bist, war trotzdem die schönere Strecke.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Kaiser-Wilhelm-Tunnel"
+          ]
+        },
+        {
+          "id": "tag6-klotten",
+          "day": 6,
+          "name": "Klotten und die Königin Richeza",
+          "lat": 50.163243,
+          "lon": 7.201275,
+          "category": "Ort",
+          "kind": "story",
+          "routeKm": 30.88,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Klotten sieht aus wie viele Weindörfer an der Mosel. Aber hier hat eine polnische Königin gelebt. Richeza zog sich nach dem Verlust ihres Throns hierher zurück. Über dem Ort steht die Burg Coraidelstein. In der Pfarrkirche liegt seit zweitausendzwei eine Reliquie der Königin.",
+          "textLong": "Richeza war Königin von Polen. Sie stammte aus dem rheinischen Hochadel, heiratete den polnischen Herrscher und verlor nach dessen Sturz alles, was eine Königin verlieren kann. Dann kam sie zurück ins Rheinland. Und von allen Orten der Welt lebte sie ausgerechnet in Klotten, für einige Jahre um die Mitte des elften Jahrhunderts. Sie ließ sich hier eine Kapelle und einen Wohnturm bauen, verbunden durch eine Brücke. Eine abgesetzte Königin richtet sich in einem Moseldorf ein und legt sich einen eigenen Übergang zwischen Wohnung und Gebet an. Begraben wurde sie später im Kölner Dom. Seit zweitausendzwei liegt eine Reliquie von ihr in der spätgotischen Pfarrkirche Sankt Maximin, gewissermaßen als späte Rückkehr. Der Ortsname ist noch älter als die Königin. Sechshundertachtundneunzig taucht er als Monte Clothariensis in einer Urkunde auf. Über den Weinbergen steht die Burg Coraidelstein. Der Wein ist geblieben, gewachsen auf steilem Schiefer im Talgrund und an den Hängen. Und oben auf der Höhe liegt ein Wild- und Freizeitpark. Königinnenreliquie, Burgruine und Freizeitpark auf demselben Gemeindegebiet. Das muss man erst einmal zusammenbringen.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Klotten"
+          ]
+        },
+        {
+          "id": "tag6-martberg",
+          "day": 6,
+          "name": "Martberg über Pommern",
+          "lat": 50.1787593,
+          "lon": 7.2864085,
+          "category": "Historie",
+          "kind": "story",
+          "routeKm": 37.55,
+          "triggerRadius": 950,
+          "accessNote": "800 m Abstecher",
+          "textShort": "Links über dir liegt der Martberg. Auf der Kuppe stand einmal eine Keltenstadt der Treverer, später ein römischer Tempelbezirk. Ausgräber haben dort über zehntausend Münzen gefunden. Ein Teil der Tempel ist wieder aufgebaut. Der Aufstieg lohnt, kostet aber Zeit und Höhenmeter.",
+          "textLong": "Der Martberg ist ein Plateau über der Mosel, und er war einmal ein Zentrum. Die Treverer, ein keltischer Stamm, legten hier eine befestigte Siedlung an. Die Mauer, die sie darum zogen, war mehr als drei Kilometer lang. Später kamen die Römer, und aus dem Ort wurde ein Heiligtum. Im dritten Jahrhundert nach Christus erreichte der Tempelbezirk seinen größten Umfang. In der Mitte stand ein monumentaler gallo-römischer Tempel, ringsum kleinere Tempel und eine lange Säulenhalle. Verehrt wurde Lenus Mars, ein keltischer Heilgott, den die Römer mit ihrem Kriegsgott gleichsetzten. Was Archäologen dort ausgegraben haben, sagt mehr über die Menschen als jede Mauer. Über zehntausend Münzen. Tausende von Gewandspangen. Und Unmengen winziger Tongefäße, die nur einen Zweck hatten. Man brachte sie als Opfer mit. Das ist die antike Fassung der Kerze in der Kirche. Wer krank war oder Angst hatte, stieg auf diesen Berg und ließ etwas da. Seit zweitausendvier steht ein Teil der Anlage wieder. Der Archäologiepark Martberg zeigt den rekonstruierten Tempelbezirk. Von unten ahnt man nichts davon. Man sieht einen bewaldeten Berg und fährt vorbei.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Martberg"
+          ]
+        },
+        {
+          "id": "tag6-sankt-castor-karden",
+          "day": 6,
+          "name": "Sankt Castor in Karden",
+          "lat": 50.183406,
+          "lon": 7.3012131,
+          "category": "Kirche",
+          "kind": "story",
+          "routeKm": 39.08,
+          "triggerRadius": 150,
+          "accessNote": "direkt an der Strecke",
+          "textShort": "Neben der Strecke steht Sankt Castor. Die Leute nennen die Kirche den Dom an der Mosel, und wenn man davor steht, versteht man warum. Für ein Dorf ist der Bau absurd groß. Der Grund liegt tausend Jahre zurück. Karden war Sitz eines Stifts, und dieses Stift hatte Macht.",
+          "textLong": "Karden ist heute ein Ortsteil mit ein paar hundert Einwohnern. Früher war Karden eine Adresse. Der Überlieferung nach gründete der heilige Castor hier im vierten Jahrhundert eine christliche Gemeinde. Aus dem Grab wurde ein Wallfahrtsort, aus dem Wallfahrtsort ein Stift, und dieses Stift beherrschte die kirchlichen Verhältnisse an der Untermosel bis in die napoleonische Zeit. Dann war Schluss. Was blieb, ist der Bau. Sankt Castor ist romanisch, wuchtig und im Verhältnis zum Ort schlicht zu groß. Genau deshalb heißt er im Volksmund Dom an der Mosel. Ringsum stehen noch die Häuser der Stiftsherren. Wer durch die Herrenstraße geht, läuft durch ein mittelalterliches Verwaltungsviertel, das nur zufällig ein Dorf geworden ist. Auf der anderen Seite der Mosel liegt Treis, der alte Hauptort des Trechirgaus, mit Burgruinen über dem Hang. Zwei Orte, zwei Geschichten, heute eine Gemeinde. Und mitten hindurch führt der Mosel-Camino, ein Pilgerweg Richtung Santiago de Compostela. Die Frommen kommen also weiterhin vorbei, nur laufen sie jetzt weiter.",
+          "sources": [
+            "https://de.wikipedia.org/wiki/Treis-Karden"
+          ]
+        }
+      ]
     }
   ]
 }

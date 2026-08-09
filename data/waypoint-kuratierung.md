@@ -227,13 +227,13 @@ Größte verbliebene Lücke zwischen zwei POIs: 5,88 Kilometer zwischen Kilomete
 
 | km | Name | Symbol | Vorschlag | Entscheidung | Begründung |
 |---|---|---|---|---|---|
-| 5.6 | Strand | Flag, Blue | story | | |
-| 6.9 | Wohnmobilsplatz Ediger | Drinking Water | service | | |
-| 7.2 | Strand | Flag, Blue | story | | |
-| 17.2 | Blick auf Beilstein und Burg Metternich | Flag, Blue | story | | |
-| 25.6 | Blick auf die Reichsburg Cochem | Flag, Blue | story | | |
-| 26.3 | Blick auf die Reichsburg Cochem | Flag, Blue | story | | |
-| 30.9 | Weindorf Klotten | Shopping Center | story | | |
+| 5.6 | Strand | Flag, Blue | story | story | Die Stelle liegt am Fuß des Calmont. Als POI „Blick auf den Bremmer Calmont“ übernommen, denn von hier sieht man die ganze Wand. Der Moselstrand steht im Text.
+| 6.9 | Wohnmobilsplatz Ediger | Drinking Water | service | service | Trinkwasser am Ufer. Praktisch nützlich, ohne Erzählstoff.
+| 7.2 | Strand | Flag, Blue | story | verworfen | Dublette. Der Punkt liegt 260 Meter hinter dem Stellplatz und teilt sich mit ihm das Geofence-Fenster.
+| 17.2 | Blick auf Beilstein und Burg Metternich | Flag, Blue | story | story | Beilstein liegt am anderen Ufer, die Burgruine 277 Meter entfernt. Daher `accessNote` „nur Blickkontakt“. Stadtrechte von 1309, Zerstörung 1689 und die Schwarze Madonna sind belegt.
+| 25.6 | Blick auf die Reichsburg Cochem | Flag, Blue | story | verworfen | Dublette zum zweiten Waypoint desselben Namens 750 Meter weiter. Beide zeigen dieselbe Burg.
+| 26.3 | Blick auf die Reichsburg Cochem | Flag, Blue | story | story | Als POI an den Koordinaten der Burg geführt, Kilometer 26,65 und 112 Meter Abstand. Wiederaufbau durch Louis Ravené ab 1868 ist belegt.
+| 30.9 | Weindorf Klotten | Shopping Center | story | story | Die polnische Königin Richeza lebte hier um die Mitte des elften Jahrhunderts. Reliquie in Sankt Maximin seit 2002, Ersterwähnung 698, Burg Coraidelstein. Alles über Wikipedia belegt.
 | 53.0 | Löf an der Mosel | Shopping Center | story | | |
 | 56.0 | Moselradweg bei Alken | Flag, Blue | story | | |
 | 57.1 | Lehmer Razejunge Rastplatz | Picnic Area | service | | |
