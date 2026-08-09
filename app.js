@@ -1,208 +1,87 @@
-const tourDays = [
-  {
-    title: 'Koblenz nach Findling',
-    start: 'Koblenz',
-    end: 'Findling',
-    route: 'Tag 1',
-    day: 1,
-    filename: '2026-08-08_2725810240_Ahrtal und Eifel - Tag 1 - von Koblenz nach Findling.gpx',
-    location: 'Rheintal / Ahrtal',
-    summary: 'Koblenz, Rhein, Ahr und die ersten Eifel-Etappen. Historische Orte und die Tätigkeit am Fluss bestimmen die Ausfahrt.',
-    todayHeadline: 'Heute erwartet dich die erste Etappe am Rhein und im Ahrtal.',
-    todayText: 'Du erlebst Koblenz mit der Rhein-Mosel-Mündung, historische Uferorte und die erste ruhige Ahr-Route in die Eifel hinein.',
-    lengthKm: 43,
-    elevationMeters: 490,
-    ascents: ['Ahr-Radweg zwischen Remagen und Sinzig', 'Sanfter Anstieg zur Eifel-Höhenlage']
-  },
-  {
-    title: 'Findling nach Waldkönigen',
-    start: 'Findling',
-    end: 'Waldkönigen',
-    route: 'Tag 2',
-    day: 2,
-    filename: '2026-08-08_2725810243_Ahrtal und Eifel - Tag 2 - von Findling nach Waldkönigen.gpx',
-    location: 'Ahrtal / Eifel',
-    summary: 'Rund um die Ahr und die Eifel: Vulkanlandschaft, Tunnels, stille Wasserflächen und Fernsicht über die Kulisse.',
-    todayHeadline: 'Heute erwartet dich die Ahr in ihrer sanften, aber wechselreichen Kulisse.',
-    todayText: 'Du erlebst kleine Ahr-Dörfer, Waldstücke, steilere Eifel-Passagen und ein ruhiges, grünes Landschaftsbild.',
-    lengthKm: 52,
-    elevationMeters: 720,
-    ascents: ['Ahrsteigung bei Bad Neuenahr', 'Eifelaufstieg über Waldkönigen']
-  },
-  {
-    title: 'Waldkönigen nach Pittenbach',
-    start: 'Waldkönigen',
-    end: 'Pittenbach',
-    route: 'Tag 3',
-    day: 3,
-    filename: '2026-08-08_2725810245_Ahrtal und Eifel - Tag 3 - von Waldkönigen nach Pittenbach.gpx',
-    location: 'Gerolstein / Kylltal / Eifel',
-    summary: 'Von der Kyll durch Gerolstein bis in die hohe, grüne Eifel werden Natur, Technik und Kirchenorte sichtbar.',
-    todayHeadline: 'Heute erwartet dich die zentrale Eifel mit ihren Flusstälern und kleinen Städten.',
-    todayText: 'Du erlebst den Kylltal-Abschnitt, Gerolstein mit seinen alten Strukturen und eine grüne, hohe Landschaft.',
-    lengthKm: 58,
-    elevationMeters: 820,
-    ascents: ['Kylltal-Wechsel am Fluss', 'Eifel-Höhenweg zur Kuppe bei Pittenbach']
-  },
-  {
-    title: 'Pittenbach nach Bergweiler',
-    start: 'Pittenbach',
-    end: 'Bergweiler',
-    route: 'Tag 4',
-    day: 4,
-    filename: '2026-08-08_2725810247_Ahrtal und Eifel - Tag 4 - von Pittenbach nach Bergweiler.gpx',
-    location: 'Hohe Eifel / Hohes Venn',
-    summary: 'Die Hocheifel macht den größten Eindruck: Wälder, Schlösser, Höhendifferenzen und stille Aussichten.',
-    todayHeadline: 'Heute erwartet dich die Hocheifel mit ihren langen Fernsichten und der hohen Kulisse.',
-    todayText: 'Du erlebst bewaldete Hügel, Schlösser, kleine Dörfer und die ruhige, offene Eifel-Landschaft.',
-    lengthKm: 68,
-    elevationMeters: 980,
-    ascents: ['Hoch-Eifel-Aufstieg von Pittenbach', 'Bergweiler-Querung über die Hochlage']
-  },
-  {
-    title: 'Bergweiler nach Nehren',
-    start: 'Bergweiler',
-    end: 'Nehren',
-    route: 'Tag 5',
-    day: 5,
-    filename: '2026-08-08_2725810248_Ahrtal und Eifel - Tag 5 - von Bergweiler nach Nehren.gpx',
-    location: 'Wittlich / Mosel / Ahr',
-    summary: 'Die Mosel verbindet sich mit der Ahr: historische Orte, Weinberge, Dörfer und Brückenpoesie.',
-    todayHeadline: 'Heute erwartet dich die Mosel- und Ahr-Kulisse mit Weinstraßen und Flusstälern.',
-    todayText: 'Du erlebst Wittlich, Weinberge, Moselorte und die ersten ruhigen Übergänge in das Ahrtal zurück.',
-    lengthKm: 61,
-    elevationMeters: 640,
-    ascents: ['Moselflanke bei Wittlich', 'Ahr-Rückweg mit leichter Steigung']
-  },
-  {
-    title: 'Nehren nach Koblenz',
-    start: 'Nehren',
-    end: 'Koblenz',
-    route: 'Tag 6',
-    day: 6,
-    filename: '2026-08-08_2725810250_Ahrtal und Eifel - Tag 6 - von Nehren nach Koblenz.gpx',
-    location: 'Ahr / Mosel / Koblenz',
-    summary: 'Der letzte Rückweg führt über Weinlagen, Moseltäler, Brücken und die alte Stadt Koblenz.',
-    todayHeadline: 'Heute erwartet dich den letzten Abschnitt mit Fluss, Stadt und Rheinlandschaft.',
-    todayText: 'Du erlebst die Ahr- und Mosel-Region in ihrer Bandbreite, mit Weinlagen, Brücken und dem Abschluss in Koblenz.',
-    lengthKm: 47,
-    elevationMeters: 430,
-    ascents: ['Ahr-Tal-Rückweg', 'Zielanpassung zum Koblenzer Rheinufer']
-  }
-];
+/** Ab dieser Entfernung zur nächsten Station gilt man als nicht auf der Etappe. */
+const AUF_DER_ETAPPE_KM = 5;
 
-const poiLibrary = {
-  'Deutsches Eck': {
-    type: 'Historischer Ort',
-    tags: ['Koblenz', 'Rhein-Mosel-Mündung', 'Historie'],
-    story: 'Das Deutsche Eck ist die symbolische Stelle an der Rhein-Mosel-Mündung, wo die Stadt Koblenz ihre Erinnerung an die deutsche Kaiserzeit und ihre Stellung am Wasser verbindet. Der Platz gilt seit langem als markanter Treffpunkt der Region.'
-  },
-  'Schloss Engers': {
-    type: 'Architektur',
-    tags: ['Schloss', 'Rhein', 'Adel'],
-    story: 'Das Schloss Engers ist ein beeindruckender Bau an der Innenfront des Rheintals. Es zeigt die lange Verbindung der Region mit Burg- und Verwaltungsbauten, die über Jahrhunderte das Landschaftsbild prägten.'
-  },
-  'Schloss Arenfels': {
-    type: 'Burg',
-    tags: ['Burg', 'Landschaft', 'Rhein'],
-    story: 'Schloss Arenfels ist eine der bedeutenden Burganlagen am Mittelrhein. Die Lage über dem Fluss macht die Burg zu einem Blickpunkt auf die historische Rheinschifffahrts- und Uferkultur.'
-  },
-  'Sinziger Mineralbrunnen': {
-    type: 'Kultur / Natur',
-    tags: ['Mineralwasser', 'Kultur', 'Ahr'],
-    story: 'Der Sinziger Mineralbrunnen ist ein Hinweis auf die Wasserkultur der Ahrregion. Mineralwasser und Kurtradition haben in den Ahrorten eine lange Bedeutung, besonders als Teil von Ausflügen und regionaler Lebensweise.'
-  },
-  'Alte Kapelle am Ahr-Radweg': {
-    type: 'Kulturlandschaft',
-    tags: ['Kapelle', 'Ahr', 'Pilgerweg'],
-    story: 'Die Alte Kapelle unmittelbar am Ahr-Radweg ist ein kleines Zeugnis der religiösen und dörflichen Geschichte der Ahrregion. Solche Kapellen markieren die Wege und boten Wegmarken zwischen Ort und Tal.'
-  },
-  'Abtei Himmerod': {
-    type: 'Historische Klosteranlage',
-    tags: ['Kloster', 'Kirchenbau', 'Eifel'],
-    story: 'Die Abtei Himmerod liegt in der Eifel und berichtet von einer klösterlichen Geschichte, die sich mit Landnutzung, Wirtschaft und religiösem Leben in dieser Region verbindet. Diese Monasterien prägten die Eifel über viele Jahrhunderte.'
-  },
-  'Landschaft bei Wittlich': {
-    type: 'Natur',
-    tags: ['Eifel', 'Wein', 'Mosel'],
-    story: 'Die Wege um Wittlich wechseln zwischen sanftem Mittelgebirge, Weinbergen und Flusstälern. Diese Landschaft bildet den Übergang zwischen der Mosel und der Eifel, mit Blicken auf Wasser, Schiefer und bewaldete Höhen.'
-  },
-  'Hochmoselübergang': {
-    type: 'Technik',
-    tags: ['Brücke', 'Mosel', 'Technik'],
-    story: 'Der Hochmoselübergang ist ein herausragendes technisches Bauwerk der Region. Die Brücke zeigt, wie die Moselregion sowohl von Natur als auch von Infrastruktur durchzogen ist, denn die Moseltäler sind seit Jahrhunderten mit Brücken und Wegen verbunden.'
-  },
-  'Traben-Trarbach': {
-    type: 'Altstadt / Wein',
-    tags: ['Mosel', 'Altstadt', 'Wein'],
-    story: 'Traben-Trarbach ist ein typisches Mosel-Dorf mit historischer Architektur und enger Beziehung zur Weinwirtschaft. Die Moselregion ist nicht nur eine Landschaft, sondern auch eine Kultur der Weinberge, Keller und Dörfer.'
-  },
-  'Kobern-Gondorf': {
-    type: 'Historische Altstadt',
-    tags: ['Mosel', 'Altstadt', 'Geschichte'],
-    story: 'Kobern-Gondorf gehört zur Mosel-Altstadtlandschaft, mit enger Bebauung, Mittelrhein-typischer Architektur und der Beziehung zu Ufer, Fluss und Wein. Die Orte markieren die Lebensader der Mosel seit frühester Zeit.'
-  },
-  'Burg Metternich': {
-    type: 'Burgenland',
-    tags: ['Burg', 'Ahr', 'Aussicht'],
-    story: 'Burg Metternich schaut auf das Ahrtal und erinnert an die lange Verteidigungs- und Herrschaftskultur am Rheinsystem. Suchende finden an diesem Punkt eine klar sichtbare Verbindung von Landschaft und Geschichte.'
-  },
-  'Reichsburg Cochem': {
-    type: 'Burg / Weinanbau',
-    tags: ['Burg', 'Cochem', 'Mosel'],
-    story: 'Die Reichsburg Cochem ist eine der auffälligsten Burgen an der Mosel und gehört zur kulturellen Identität der Region. Die Nähe zur Mosel macht sie zugleich zu einem Sinnbild für Wein, Fluss und historische Marktwirtschaft.'
-  },
-  'Blick auf die Eifellandschaft': {
-    type: 'Natur',
-    tags: ['Eifel', 'Panorama', 'Landschaft'],
-    story: 'Die Eifel zeigt sich hier als eine hohe, grüne Landschaft mit Mooren, Wäldern, Vulkanbildern und Wasser. Die stille Ruhe dieser Region ist besonders im Radfahren spürbar.'
-  }
-};
+/** 'station', 'tour' oder null — welcher Knopf gerade als Stoppknopf dient. */
+let aktiveAusgabe = null;
 
+let tourDays = [];
 let allStops = [];
 let currentDay = 0;
 let currentStop = 0;
 
-function parseGpx(xmlText) {
-  const parser = new DOMParser();
-  const xml = parser.parseFromString(xmlText, 'text/xml');
-  const points = Array.from(xml.querySelectorAll('wpt'));
+function zahl(wert, stellen = 1) {
+  return Number(wert).toFixed(stellen).replace('.', ',');
+}
 
-  return points.map((wpt, index) => {
-    const name = wpt.querySelector('name')?.textContent || `Wegpunkt ${index + 1}`;
-    const lat = Number(wpt.getAttribute('lat'));
-    const lon = Number(wpt.getAttribute('lon'));
-    const meta = poiLibrary[name] || {
-      type: 'Wegpunkt',
-      tags: ['Radweg', 'Reise'],
-      story: `Der Wegpunkt ${name} ist Teil der Fahrradtour durch die Ahr-Eifel-Region. Er verbindet die Route mit der Landschaft, den Dörfern und den regionalen Erzählungen.`
-    };
+function fahrzeitText(minuten) {
+  if (!minuten) return '—';
+  const stunden = Math.floor(minuten / 60);
+  const rest = minuten % 60;
+  return stunden > 0 ? `${stunden} h ${String(rest).padStart(2, '0')} min` : `${rest} min`;
+}
+
+function anstiegText(climb) {
+  return `ab Kilometer ${zahl(climb.startKm)} · ${zahl(climb.lengthKm)} km · ${climb.gainM} Höhenmeter · ${zahl(climb.avgGradientPct)} Prozent`;
+}
+
+function ladeJson(pfad) {
+  return fetch(pfad).then((response) => {
+    if (!response.ok) {
+      throw new Error(`${pfad} lieferte ${response.status}`);
+    }
+    return response.json();
+  });
+}
+
+/** Führt tour.json und pois.json zu den Tagesobjekten zusammen, die die Oberfläche braucht. */
+function baueTourDays(tour, pois) {
+  const poisJeTag = new Map();
+  (pois?.days ?? []).forEach((eintrag) => poisJeTag.set(eintrag.day, eintrag));
+
+  return tour.days.map((tag) => {
+    const eintrag = poisJeTag.get(tag.day);
+    const stops = [...(eintrag?.pois ?? [])].sort((a, b) => a.routeKm - b.routeKm);
 
     return {
-      name,
-      lat,
-      lon,
-      type: meta.type,
-      tags: meta.tags,
-      story: meta.story
+      day: tag.day,
+      route: `Tag ${tag.day}`,
+      title: tag.title,
+      start: tag.startOrt,
+      end: tag.zielOrt,
+      location: `${tag.startOrt} nach ${tag.zielOrt}`,
+      lengthKm: tag.lengthKm,
+      elevationGainM: tag.elevationGainM,
+      climbs: tag.climbs ?? [],
+      ridingTimeMin: tag.estimatedRidingTimeMin,
+      hinweis: tag.hinweis ?? null,
+      briefing: eintrag?.briefing?.text?.trim() || '',
+      stops
     };
   });
 }
 
-function fetchGpxDay(fileName) {
-  const url = encodeURI(fileName);
-  return fetch(url)
-    .then(response => response.text())
-    .then(text => parseGpx(text));
+/**
+ * Werte aus den JSON-Dateien gehören über `textContent` in die Seite, nicht in einen
+ * Template-String: Der erste POI-Name mit einem Kaufmannsund oder einem spitzen Klammerzeichen
+ * würde als Markup gelesen und die Darstellung zerlegen.
+ */
+function spanMitText(klasse, text) {
+  const span = document.createElement('span');
+  span.className = klasse;
+  span.textContent = text;
+  return span;
 }
 
 function renderDayList() {
   const list = document.getElementById('day-list');
+  list.innerHTML = '';
+
   tourDays.forEach((day, index) => {
     const li = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    button.innerHTML = `<span class="route-day">${day.route}</span><span class="route-title">${day.title}</span>`;
+    button.appendChild(spanMitText('route-day', day.route));
+    button.appendChild(spanMitText('route-title', day.title));
     button.addEventListener('click', () => loadDay(index));
     li.appendChild(button);
     list.appendChild(li);
@@ -215,62 +94,96 @@ function renderDayOverview(day) {
     return;
   }
 
+  // Das Briefing ist ein ganzer Absatz und gehört deshalb in den Fließtext, nicht in die
+  // Überschrift. Die Überschrift trägt die Etappe — die ist kurz genug, um eine zu sein.
+  const kopf = `<h4 class="today-title"></h4>
+       <p class="today-text today-briefing"></p>`;
+
+  const anstiege = day.climbs.length
+    ? `<ul>${day.climbs.map((c) => `<li>${anstiegText(c)}</li>`).join('')}</ul>`
+    : '<p class="today-text">Keine nennenswerten Anstiege.</p>';
+
+  // Der Hinweis steckt bereits im Briefing-Text. Doppelt gezeigt wirkt er wie ein Fehler,
+  // deshalb erscheint er nur, solange noch kein Briefing geschrieben ist.
+  const hinweis = day.hinweis && !day.briefing ? '<p class="today-text today-hinweis"></p>' : '';
+
   summary.innerHTML = `
     <article class="today-overview">
       <div class="section-kicker">Heute erwartet dich</div>
-      <h4 class="today-title">${day.todayHeadline}</h4>
-      <p class="today-text">Du erlebst ${day.todayText}</p>
+      ${kopf}
+      ${hinweis}
       <div class="today-metrics">
         <div class="metric-card">
-          <span class="metric-value">${day.lengthKm} km</span>
+          <span class="metric-value">${zahl(day.lengthKm)} km</span>
           <span class="metric-label">Strecke</span>
         </div>
         <div class="metric-card">
-          <span class="metric-value">${day.elevationMeters} m</span>
+          <span class="metric-value">${day.elevationGainM} m</span>
           <span class="metric-label">Höhenmeter</span>
         </div>
         <div class="metric-card">
-          <span class="metric-value">${day.ascents.length}</span>
-          <span class="metric-label">Anstiege</span>
+          <span class="metric-value">${fahrzeitText(day.ridingTimeMin)}</span>
+          <span class="metric-label">Fahrzeit</span>
         </div>
       </div>
       <div class="ascent-list">
         <span class="ascent-title">Anstiege</span>
-        <ul>
-          ${day.ascents.map(asc => `<li>${asc}</li>`).join('')}
-        </ul>
+        ${anstiege}
       </div>
     </article>
   `;
+
+  // Briefing und Hinweis kommen aus den JSON-Dateien und werden erst hier als Text gesetzt.
+  summary.querySelector('.today-title').textContent = `${day.start} nach ${day.end}`;
+  summary.querySelector('.today-briefing').textContent =
+    day.briefing || 'Der Briefing-Text für diese Etappe ist noch nicht geschrieben.';
+
+  const hinweisAbsatz = summary.querySelector('.today-hinweis');
+  if (hinweisAbsatz) {
+    hinweisAbsatz.textContent = day.hinweis;
+  }
 }
 
 function loadDay(index) {
   const day = tourDays[index];
   currentDay = index;
   currentStop = 0;
+  allStops = day.stops;
+
+  // Sonst liefe der Text der vorigen Etappe weiter, während schon die neue zu sehen ist.
+  stoppeVorlesen();
 
   document.getElementById('route-code').textContent = `Tour 2026 · ${day.route}`;
   document.getElementById('route-title').textContent = day.title;
-  document.getElementById('route-summary').textContent = day.summary;
+  document.getElementById('route-summary').textContent = day.briefing
+    || `${zahl(day.lengthKm)} Kilometer, ${day.elevationGainM} Höhenmeter, ${day.stops.length} Stationen.`;
   document.getElementById('route-location').textContent = day.location;
   document.getElementById('day-number').textContent = `Tag ${day.day}`;
+  document.getElementById('stop-count').textContent = String(day.stops.length);
+  document.getElementById('distance-label').textContent = `${zahl(day.lengthKm)} km`;
+
   renderDayOverview(day);
+  renderStops(day.stops);
 
-  fetchGpxDay(day.filename)
-    .then(stops => {
-      allStops = stops;
-      document.getElementById('stop-count').textContent = String(stops.length);
-      renderStops(stops);
-      renderStop(stops[0], 1);
+  if (day.stops.length) {
+    renderStop(day.stops[0], 1);
+  } else {
+    renderLeererTag(day);
+  }
 
-      document.querySelectorAll('#day-list button').forEach((btn, btnIndex) => {
-        btn.classList.toggle('active', btnIndex === currentDay);
-      });
-    })
-    .catch(error => {
-      console.error(error);
-      showToast('Tourdaten konnten nicht geladen werden');
-    });
+  document.querySelectorAll('#day-list button').forEach((btn, btnIndex) => {
+    btn.classList.toggle('active', btnIndex === currentDay);
+  });
+}
+
+function renderLeererTag(day) {
+  document.getElementById('active-stop-title').textContent = `${day.route} · noch keine Stationen`;
+  document.getElementById('poi-name').textContent = 'Recherche ausstehend';
+  document.getElementById('poi-type').textContent = 'In Arbeit';
+  document.getElementById('poi-distance').textContent = '—';
+  document.getElementById('poi-story').textContent =
+    `Für ${day.title} sind die Inhalte noch nicht recherchiert. Strecke und Höhenprofil stehen bereits fest.`;
+  document.getElementById('poi-tags').innerHTML = '';
 }
 
 function renderStops(stops) {
@@ -281,7 +194,8 @@ function renderStops(stops) {
     const item = document.createElement('button');
     item.type = 'button';
     item.className = 'stop-item';
-    item.innerHTML = `<span class="stop-name">${stop.name}</span><span class="stop-meta">Station ${index + 1}</span>`;
+    item.appendChild(spanMitText('stop-name', stop.name));
+    item.appendChild(spanMitText('stop-meta', `Kilometer ${zahl(stop.routeKm)}`));
     item.addEventListener('click', () => {
       currentStop = index;
       renderStop(stop, index + 1);
@@ -294,16 +208,21 @@ function renderStops(stops) {
 function renderStop(stop, stopNumber) {
   document.getElementById('active-stop-title').textContent = `${tourDays[currentDay].route} · Station ${stopNumber}`;
   document.getElementById('poi-name').textContent = stop.name;
-  document.getElementById('poi-type').textContent = stop.type;
-  document.getElementById('poi-distance').textContent = `Station ${stopNumber}`;
-  document.getElementById('poi-story').textContent = stop.story;
+  document.getElementById('poi-type').textContent = stop.category;
+  document.getElementById('poi-distance').textContent = `Kilometer ${zahl(stop.routeKm)}`;
+  document.getElementById('poi-story').textContent = stop.textLong || stop.textShort || stop.accessNote || '';
 
   const tags = document.getElementById('poi-tags');
   tags.innerHTML = '';
-  stop.tags.forEach(tag => {
+
+  const marken = [stop.category];
+  if (stop.accessNote) marken.push(stop.accessNote);
+  if (stop.kind === 'service') marken.push('Service');
+
+  marken.forEach((marke) => {
     const t = document.createElement('span');
     t.className = 'tag';
-    t.textContent = tag;
+    t.textContent = marke;
     tags.appendChild(t);
   });
 }
@@ -315,31 +234,137 @@ function updateStopListSelection() {
   });
 }
 
+/** Im Fahren wird der Kurztext gesprochen, nicht der lange Text aus der Detailansicht. */
 function buildCurrentNarration(stop) {
-  return `${stop.name}. ${stop.story}`;
+  const text = stop.textShort || stop.textLong;
+  return text ? `${stop.name}. ${text}` : stop.name;
 }
 
-function speak(text) {
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'de-DE';
-    utterance.rate = 0.88;
-    utterance.pitch = 1;
-    window.speechSynthesis.speak(utterance);
-    showToast('Vorlesen gestartet');
-  } else {
-    showToast('Sprachsynthese nicht verfügbar');
+function beschrifte(id, icon, text) {
+  const button = document.getElementById(id);
+  if (button) {
+    button.innerHTML = `<span aria-hidden="true">${icon}</span> ${text}`;
   }
 }
 
-function startWholeTour() {
-  if (allStops.length === 0) {
+function beschriftungenZuruecksetzen() {
+  beschrifte('read-stop', '🔊', 'Vorlesen');
+  beschrifte('play-whole-tour', '▶', 'Ganze Tour vorlesen');
+}
+
+/**
+ * Zählt jeden Start und jeden Stopp hoch. Eine laufende Vorlese-Kette vergleicht ihren beim
+ * Start gemerkten Wert mit diesem hier und bricht ab, sobald er sich geändert hat. Nötig, weil
+ * `speechSynthesis.cancel()` je nach Browser noch ein `onend` nachwirft — ohne diese Marke
+ * würde der Stoppknopf die Kette anhalten und ihr eigenes `onend` sie sofort fortsetzen.
+ */
+let ausgabeLauf = 0;
+
+function neueAusgabe() {
+  ausgabeLauf += 1;
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+  }
+  return ausgabeLauf;
+}
+
+function setzeStoppKnopf(quelle) {
+  if (quelle === 'tour') {
+    beschrifte('play-whole-tour', '⏹', 'Vorlesen stoppen');
+  } else {
+    beschrifte('read-stop', '⏹', 'Stopp');
+  }
+}
+
+function stoppeVorlesen() {
+  neueAusgabe();
+  aktiveAusgabe = null;
+  beschriftungenZuruecksetzen();
+}
+
+/**
+ * Spricht genau eine Äußerung. `lauf` ist die beim Start gemerkte Marke; `beiEnde` setzt die
+ * Kette fort. Ohne `beiEnde` ist nach dieser Äußerung Schluss.
+ */
+function sprichAus(text, lauf, beiEnde) {
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'de-DE';
+  utterance.rate = 0.88;
+  utterance.pitch = 1;
+
+  const beenden = () => {
+    if (lauf !== ausgabeLauf) {
+      return;
+    }
+    if (beiEnde) {
+      beiEnde();
+      return;
+    }
+    aktiveAusgabe = null;
+    beschriftungenZuruecksetzen();
+  };
+  utterance.onend = beenden;
+  utterance.onerror = beenden;
+
+  window.speechSynthesis.speak(utterance);
+}
+
+/** `quelle` ist 'station' oder 'tour' — daran hängt, welcher Knopf zum Stoppknopf wird. */
+function speak(text, quelle) {
+  if (!('speechSynthesis' in window)) {
+    showToast('Sprachsynthese nicht verfügbar');
     return;
   }
 
-  const fullText = allStops.map((stop, index) => `${index + 1}. ${stop.name}. ${stop.story}`).join(' ');
-  speak(fullText);
+  const lauf = neueAusgabe();
+
+  // Sonst behielte der Tour-Knopf sein „Vorlesen stoppen“, wenn man mitten in der Tour
+  // die Stationsausgabe startet.
+  beschriftungenZuruecksetzen();
+  aktiveAusgabe = quelle;
+  setzeStoppKnopf(quelle);
+
+  sprichAus(text, lauf, null);
+  showToast('Vorlesen gestartet');
+}
+
+/**
+ * Eine Äußerung je Station statt einer einzigen für den ganzen Tag. Chrome bricht lange
+ * Äußerungen nach rund fünfzehn Sekunden ab — Tag 2 wären elf Minuten am Stück gewesen. Die
+ * nächste Station startet im `onend` der vorigen; der Stoppknopf greift dadurch sofort.
+ */
+function startWholeTour() {
+  if (!('speechSynthesis' in window)) {
+    showToast('Sprachsynthese nicht verfügbar');
+    return;
+  }
+
+  if (allStops.length === 0) {
+    showToast('Für diesen Tag gibt es noch keine Stationen');
+    return;
+  }
+
+  const lauf = neueAusgabe();
+  const stationen = allStops;
+
+  beschriftungenZuruecksetzen();
+  aktiveAusgabe = 'tour';
+  setzeStoppKnopf('tour');
+
+  const naechste = (index) => {
+    if (lauf !== ausgabeLauf) {
+      return;
+    }
+    if (index >= stationen.length) {
+      aktiveAusgabe = null;
+      beschriftungenZuruecksetzen();
+      return;
+    }
+    sprichAus(buildCurrentNarration(stationen[index]), lauf, () => naechste(index + 1));
+  };
+
+  naechste(0);
+  showToast('Vorlesen gestartet');
 }
 
 function initControls() {
@@ -358,12 +383,21 @@ function initControls() {
   });
 
   document.getElementById('read-stop').addEventListener('click', () => {
+    if (aktiveAusgabe === 'station') {
+      stoppeVorlesen();
+      showToast('Vorlesen beendet');
+      return;
+    }
     if (!allStops.length) return;
-    const stop = allStops[currentStop];
-    speak(buildCurrentNarration(stop));
+    speak(buildCurrentNarration(allStops[currentStop]), 'station');
   });
 
   document.getElementById('play-whole-tour').addEventListener('click', () => {
+    if (aktiveAusgabe === 'tour') {
+      stoppeVorlesen();
+      showToast('Vorlesen beendet');
+      return;
+    }
     startWholeTour();
   });
 }
@@ -391,7 +425,9 @@ function useGeolocation() {
     const { latitude, longitude } = position.coords;
     const nearest = findNearestStop(latitude, longitude);
 
-    if (!nearest) {
+    // Wer nicht auf der Etappe ist, soll nicht auf eine Station geworfen bekommen,
+    // die hundert Kilometer entfernt liegt.
+    if (!nearest || nearest.distanceKm > AUF_DER_ETAPPE_KM) {
       return;
     }
 
@@ -401,9 +437,9 @@ function useGeolocation() {
       updateStopListSelection();
     }
 
-    const distanceKm = nearest.distanceKm;
-    const locationLabel = document.getElementById('route-location');
-    locationLabel.textContent = `${tourDays[currentDay].location} · ${Math.round(distanceKm * 1000)} m bis ${nearest.stop.name}`;
+    const meter = Math.round(nearest.distanceKm * 1000);
+    document.getElementById('route-location').textContent =
+      `${tourDays[currentDay].location} · ${meter} m bis ${nearest.stop.name}`;
   }, (error) => {
     console.warn(error);
     showToast('Standortzugriff nicht möglich');
@@ -452,11 +488,20 @@ function initPwa() {
 }
 
 function init() {
-  renderDayList();
   initControls();
   initPwa();
-  loadDay(0);
-  useGeolocation();
+
+  Promise.all([ladeJson('data/tour.json'), ladeJson('data/pois.json')])
+    .then(([tour, pois]) => {
+      tourDays = baueTourDays(tour, pois);
+      renderDayList();
+      loadDay(0);
+      useGeolocation();
+    })
+    .catch((error) => {
+      console.error(error);
+      showToast('Tourdaten konnten nicht geladen werden');
+    });
 }
 
 init();
