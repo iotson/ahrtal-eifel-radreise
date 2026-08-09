@@ -4,7 +4,7 @@ import { parseGpx } from './lib/gpx.js';
 import { kumulierteDistanzen, gesamtDistanzKm, naechsterRoutenpunkt } from './lib/geo.js';
 import { gesamtAnstiegM } from './lib/elevation.js';
 import { erkenneAnstiege } from './lib/climbs.js';
-import { duenneAus, boundingBox } from './lib/route.js';
+import { duenneAus, boundingBox, pruefeRundtour } from './lib/route.js';
 
 const WURZEL = path.resolve(import.meta.dirname, '..');
 
@@ -81,6 +81,7 @@ async function main() {
   }
 
   const days = [];
+  const etappen = [];
   for (const datei of dateien) {
     const { day, startOrt, zielOrt } = leseTagInfo(datei);
     const gpx = parseGpx(await fs.readFile(path.join(WURZEL, datei), 'utf8'));
@@ -96,7 +97,10 @@ async function main() {
     const tagesEintrag = {
       day,
       title: `${startOrt} nach ${zielOrt}`,
-      file: datei,
+      // readdir liefert die Bytes des Dateisystems: macOS zerlegt Umlaute, andere Systeme
+      // setzen sie zusammen. Ohne Normalisierung erzeugt ein Neulauf auf einem anderen
+      // Rechner optisch identische, aber byteverschiedene Diff-Zeilen.
+      file: datei.normalize('NFC'),
       startOrt,
       zielOrt,
       lengthKm: Number(gesamtDistanzKm(punkte).toFixed(1)),
@@ -118,9 +122,18 @@ async function main() {
     }
 
     days.push(tagesEintrag);
+    etappen.push({
+      day,
+      start: { lat: punkte[0].lat, lon: punkte[0].lon },
+      ende: { lat: punkte[punkte.length - 1].lat, lon: punkte[punkte.length - 1].lon }
+    });
   }
 
   days.sort((a, b) => a.day - b.day);
+  etappen.sort((a, b) => a.day - b.day);
+
+  // Die Etappennamen in ETAPPENORTE stehen und fallen mit dieser Zusicherung.
+  pruefeRundtour(etappen);
 
   const ausgabe = { generatedAt: new Date().toISOString(), days };
   const ziel = path.join(WURZEL, 'data', 'tour.json');
