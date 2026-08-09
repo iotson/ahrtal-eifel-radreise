@@ -33,6 +33,12 @@ gültigen Ortsnamen stehen in der Tabelle `ETAPPENORTE` in `scripts/build-tour.j
 durch Rückwärtsgeokodierung von Start- und Endpunkt jedes Tracks ermittelt. Aus dem Dateinamen
 wird nur noch die Tagesnummer gelesen.
 
+Damit diese Tabelle nicht stillschweigend falsch wird, prüft `build-tour.js` nach dem Einlesen
+die Zusicherung, auf der sie beruht: Jedes Etappenende liegt auf dem Startpunkt des Folgetags,
+und Tag 6 endet am Startpunkt von Tag 1 — jeweils auf 100 Meter genau (`pruefeRundtour` in
+`scripts/lib/route.js`). Wird eine GPX-Datei ausgetauscht, bricht der Lauf mit Tagesnummern und
+gemessenem Abstand ab, statt einen falschen Ortsnamen zu erzeugen, der später vorgelesen wird.
+
 ### Wie die Höhenmeter berechnet werden
 
 `gesamtAnstiegM` (in `scripts/lib/elevation.js`) summiert standardmäßig **jede positive
@@ -56,7 +62,8 @@ herzustellen.
   - `geo.js` — Distanzen und nächstgelegener Routenpunkt
   - `elevation.js` — Höhenmeter-Berechnung und Glättung
   - `climbs.js` — erkennt und segmentiert Anstiege
-  - `route.js` — dünnt Routen für die Kartendarstellung aus, berechnet die Bounding Box
+  - `route.js` — dünnt Routen für die Kartendarstellung aus, berechnet die Bounding Box und
+    prüft, dass die sechs Etappen tatsächlich eine geschlossene Rundtour bilden
   - `poiSchema.js` — validiert einzelne POI-Objekte gegen das Schema
   - `briefing.js` — baut die vorlesbaren Tages-Briefingtexte
 - `scripts/build-tour.js` — erzeugt `data/tour.json` aus den sechs GPX-Dateien
@@ -64,7 +71,7 @@ herzustellen.
   `data/pois.json`
 - `scripts/validate-pois.js` — prüft `data/pois.json` gegen das Schema
 - `scripts/classify-waypoints.js` — **nicht ausführen, siehe Warnung unten**
-- `test/` — 78 Tests für alle Bibliotheksmodule (`node --test`)
+- `test/` — 83 Tests für alle Bibliotheksmodule (`node --test`)
 
 ## Pipeline ausführen
 
@@ -117,7 +124,8 @@ Vorschlag, tatsächliche Entscheidung, Begründung). Von Hand gepflegt, siehe Wa
 Im Wurzelverzeichnis liegt die eigentliche Anwendung — `index.html`, `app.js`, `sw.js` (Service
 Worker), `styles.css`, `manifest.json` —, die `data/tour.json` und `data/pois.json` zur Laufzeit
 per `fetch` lädt und daraus die Tagesansicht zusammensetzt. Sie ist als installierbare PWA
-angelegt (Service Worker mit Netz-zuerst-Strategie, App-Manifest) und wird über GitHub Pages
+angelegt (Service Worker mit Netz-zuerst-Strategie und 2,5-Sekunden-Zeitlimit, danach Cache;
+App-Manifest) und wird über GitHub Pages
 veröffentlicht unter:
 
 <https://iotson.github.io/ahrtal-eifel-radreise/>
@@ -133,8 +141,13 @@ Bewusst ausgelagert in einen zweiten Plan, der auf den beiden Datendateien aufba
   `ffmpeg`, inkrementelles Rendern nur geänderter Texte)
 - Umbau der PWA (Datenmodul, Audio-Player mit MediaSession, GPS-Auslösung, Kartenansicht,
   Oberfläche)
-- Service Worker mit Versionierung und Vorab-Download
+- Vorab-Download der Tourdaten im Service Worker (die Cache-Versionierung samt Aufräumen
+  alter Caches steckt bereits in `sw.js`)
 - Deployment über die vorhandenen Docker- und k8s-Dateien
+
+Zwei Anforderungen an diesen zweiten Plan sind bereits festgehalten — eine Warteschlange mit
+Mindestabstand zwischen zwei Ansagen und die Beschränkung der Vertonung auf `textShort`:
+[`docs/superpowers/anforderungen-audio-plan.md`](docs/superpowers/anforderungen-audio-plan.md).
 
 Felder für Audiodateien (z. B. `audioShort`, `audioLong`, `briefing.audio`) sind im aktuellen
 Schema noch **nicht angelegt** — sie werden erst mit dem zweiten Plan eingeführt, wenn die
