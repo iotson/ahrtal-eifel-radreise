@@ -1,7 +1,7 @@
 /** Ab dieser Entfernung zur nächsten Station gilt man als nicht auf der Etappe. */
 const AUF_DER_ETAPPE_KM = 5;
 
-/** 'station', 'tour' oder null — welcher Knopf gerade als Stoppknopf dient. */
+/** 'station' oder null — ob die Stationsausgabe gerade läuft. */
 let aktiveAusgabe = null;
 
 let tourDays = [];
@@ -249,7 +249,6 @@ function beschrifte(id, icon, text) {
 
 function beschriftungenZuruecksetzen() {
   beschrifte('read-stop', '🔊', 'Vorlesen');
-  beschrifte('play-whole-tour', '▶', 'Ganze Tour vorlesen');
 }
 
 /**
@@ -268,12 +267,8 @@ function neueAusgabe() {
   return ausgabeLauf;
 }
 
-function setzeStoppKnopf(quelle) {
-  if (quelle === 'tour') {
-    beschrifte('play-whole-tour', '⏹', 'Vorlesen stoppen');
-  } else {
-    beschrifte('read-stop', '⏹', 'Stopp');
-  }
+function setzeStoppKnopf() {
+  beschrifte('read-stop', '⏹', 'Stopp');
 }
 
 function stoppeVorlesen() {
@@ -309,8 +304,7 @@ function sprichAus(text, lauf, beiEnde) {
   window.speechSynthesis.speak(utterance);
 }
 
-/** `quelle` ist 'station' oder 'tour' — daran hängt, welcher Knopf zum Stoppknopf wird. */
-function speak(text, quelle) {
+function speak(text) {
   if (!('speechSynthesis' in window)) {
     showToast('Sprachsynthese nicht verfügbar');
     return;
@@ -318,52 +312,11 @@ function speak(text, quelle) {
 
   const lauf = neueAusgabe();
 
-  // Sonst behielte der Tour-Knopf sein „Vorlesen stoppen“, wenn man mitten in der Tour
-  // die Stationsausgabe startet.
   beschriftungenZuruecksetzen();
-  aktiveAusgabe = quelle;
-  setzeStoppKnopf(quelle);
+  aktiveAusgabe = 'station';
+  setzeStoppKnopf();
 
   sprichAus(text, lauf, null);
-  showToast('Vorlesen gestartet');
-}
-
-/**
- * Eine Äußerung je Station statt einer einzigen für den ganzen Tag. Chrome bricht lange
- * Äußerungen nach rund fünfzehn Sekunden ab — Tag 2 wären elf Minuten am Stück gewesen. Die
- * nächste Station startet im `onend` der vorigen; der Stoppknopf greift dadurch sofort.
- */
-function startWholeTour() {
-  if (!('speechSynthesis' in window)) {
-    showToast('Sprachsynthese nicht verfügbar');
-    return;
-  }
-
-  if (allStops.length === 0) {
-    showToast('Für diesen Tag gibt es noch keine Stationen');
-    return;
-  }
-
-  const lauf = neueAusgabe();
-  const stationen = allStops;
-
-  beschriftungenZuruecksetzen();
-  aktiveAusgabe = 'tour';
-  setzeStoppKnopf('tour');
-
-  const naechste = (index) => {
-    if (lauf !== ausgabeLauf) {
-      return;
-    }
-    if (index >= stationen.length) {
-      aktiveAusgabe = null;
-      beschriftungenZuruecksetzen();
-      return;
-    }
-    sprichAus(buildCurrentNarration(stationen[index]), lauf, () => naechste(index + 1));
-  };
-
-  naechste(0);
   showToast('Vorlesen gestartet');
 }
 
@@ -389,16 +342,7 @@ function initControls() {
       return;
     }
     if (!allStops.length) return;
-    speak(buildCurrentNarration(allStops[currentStop]), 'station');
-  });
-
-  document.getElementById('play-whole-tour').addEventListener('click', () => {
-    if (aktiveAusgabe === 'tour') {
-      stoppeVorlesen();
-      showToast('Vorlesen beendet');
-      return;
-    }
-    startWholeTour();
+    speak(buildCurrentNarration(allStops[currentStop]));
   });
 }
 
